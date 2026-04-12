@@ -14,3 +14,27 @@ This project demonstrates a data pipeline from various sources into DuckDB, migr
 2. **Migrate**: Transfer and transform data into a production-ready PostgreSQL/PostGIS database.
 3. **Serve**: Expose data through a RESTful API.
 4. **Visualize**: Display geospatial data on an interactive map.
+
+## Data Resources
+Below are the sources that I have discovered thus far to try to integrate into my final project. I'm planning on starting with the location data and if time allows for it, I'll extend the project into hiking trail and campsite data.
+
+### Location Data
+- https://ridb.recreation.gov/download
+- https://www.nps.gov/subjects/developer/api-documentation.htm
+- https://gisdata.mn.gov/dataset/bdry-dnr-lrs-prk
+- https://gisdata.mn.gov/dataset/struc-dnr-wld-mgmt-areas-pub
+- https://gisdata.mn.gov/dataset/bdry-dnr-managed-areas
+- https://files.dnr.state.mn.us/destinations/state_parks/publications/pat_guide/2025.pdf - Manual Map that provides MN State Park Activity information. May need to collect lat/lon information from Google or OpenStreetMaps
+- https://www.tpl.org/park-data-downloads -- shapefile
+- Google Places (New) API
+
+### Hiking Trail Data
+- https://www.fws.gov/service/national-wildlife-refuge-system-gis-data-and-mapping-tools
+- https://gisdata.mn.gov/dataset/trans-state-trails-minnesota
+- https://gisdata.mn.gov/dataset/trans-state-park-trails-roads
+
+### Campsite Data
+- https://ridb.recreation.gov/download
+- https://www.nps.gov/subjects/developer/api-documentation.htm
+- https://gisdata.mn.gov/dataset/struc-state-forest-campgrounds
+- https://gisdata.mn.gov/dataset/struc-parks-and-trails-campsites
