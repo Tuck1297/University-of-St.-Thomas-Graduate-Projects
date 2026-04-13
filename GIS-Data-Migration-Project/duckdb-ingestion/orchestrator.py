@@ -1,4 +1,6 @@
 import typer
+import duckdb
+import os
 """
 Orchestrator module for running various GIS data ingestion jobs.
 This module provides a command-line interface (CLI) using Typer to execute
@@ -37,6 +39,19 @@ import ridb_rec
 import mn_gis
 import mn_dnr
 
+DUCKDB_NAME = 'project_data.duckdb'
+
+def get_connect_duckdb():
+    db_exists = os.path.exists(DUCKDB_NAME)
+
+    if db_exists:
+        print(f"Connecting to existing DuckDB database: {DUCKDB_NAME}")
+    else:
+        print(f"Creating new DuckDB database: {DUCKDB_NAME}")
+
+    conn = duckdb.connect(DUCKDB_NAME)
+    return conn, db_exists
+
 app = typer.Typer()
 
 def run_nps():
@@ -51,27 +66,29 @@ def run(
     run_mn_dnr_flag: bool = typer.Option(False, "--run-mn-dnr", help="Run Minnesota DNR job"),
     all_flag: bool = typer.Option(False, "--all", help="Run all jobs")
 ):
+    conn, existed = get_connect_duckdb()
+
     if run_nps_flag:
-        nps.run()
+        nps.run(conn, existed)
 
     if run_google_flag:
-        google.run()
+        google.run(conn, existed)
 
     if run_ridb_rec_flag:
-        ridb_rec.run()
+        ridb_rec.run(conn, existed)
 
     if run_mn_gis_flag:
-        mn_gis.run()
+        mn_gis.run(conn, existed)
 
     if run_mn_dnr_flag:
-        mn_dnr.run()
+        mn_dnr.run(conn, existed)
 
     if all_flag:
-        nps.run()
-        google.run()
-        ridb_rec.run()
-        mn_gis.run()
-        mn_dnr.run()
+        nps.run(conn, existed)
+        google.run(conn, existed)
+        ridb_rec.run(conn, existed)
+        mn_gis.run(conn, existed)
+        mn_dnr.run(conn, existed)
 
     if not any([run_nps_flag, run_google_flag, run_ridb_rec_flag, run_mn_gis_flag, run_mn_dnr_flag, all_flag]):
         print("No scripts selected")
