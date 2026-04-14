@@ -1,6 +1,7 @@
 import typer
 import duckdb
 import os
+import sys
 """
 Orchestrator module for running various GIS data ingestion jobs.
 This module provides a command-line interface (CLI) using Typer to execute
