@@ -524,7 +524,11 @@ def run(conn, existed):
                 for phone in phone_numbers:
                     conn.execute("""
                         INSERT INTO contact_phone_numbers (
-                            parkId, campgroundId, phoneNumber, description, type
+                            parkId, 
+                            campgroundId, 
+                            phoneNumber, 
+                            description, 
+                            type
                         ) VALUES (?, ?, ?, ?, ?);
                     """, (
                         None,
@@ -539,7 +543,10 @@ def run(conn, existed):
                 for email in email_addresses:
                     conn.execute("""
                         INSERT INTO contact_email_addresses (
-                            parkId, campgroundId, emailAddress, description
+                            parkId, 
+                            campgroundId, 
+                            emailAddress, 
+                            description
                         ) VALUES (?, ?, ?, ?);
                     """, (
                         None,
@@ -553,7 +560,11 @@ def run(conn, existed):
                 for fee in fees:
                     conn.execute("""
                         INSERT INTO fees (
-                            parkId, campgroundId, cost, description, title
+                            parkId, 
+                            campgroundId, 
+                            cost, 
+                            description, 
+                            title
                         ) VALUES (?, ?, ?, ?, ?);
                     """, (
                         None,
@@ -594,9 +605,17 @@ def run(conn, existed):
                         exception_hours = exception.get('exceptionHours', {})
                         conn.execute("""
                             INSERT INTO operating_hours_exceptions (
-                                operatingHoursId, name, startDate, endDate,
-                                monday, tuesday, wednesday, thursday,
-                                friday, saturday, sunday
+                                operatingHoursId, 
+                                name, 
+                                startDate, 
+                                endDate,
+                                monday, 
+                                tuesday, 
+                                wednesday, 
+                                thursday,
+                                friday, 
+                                saturday, 
+                                sunday
                             ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
                         """, (
                             operating_hours_id,
@@ -619,7 +638,12 @@ def run(conn, existed):
                 for image in images:
                     conn.execute("""
                         INSERT INTO images (
-                            campgroundId, credit, title, altText, caption, url
+                            campgroundId, 
+                            credit, 
+                            title, 
+                            altText, 
+                            caption, 
+                            url
                         ) VALUES (?, ?, ?, ?, ?, ?);
                     """, (
                         campground_id,
@@ -635,7 +659,11 @@ def run(conn, existed):
                 for media in multimedia:
                     conn.execute("""
                         INSERT INTO multimedia (
-                            campgroundId, npsId, title, type, url
+                            campgroundId, 
+                            npsId, 
+                            title, 
+                            type, 
+                            url
                         ) VALUES (?, ?, ?, ?, ?);
                     """, (
                         campground_id,
@@ -673,8 +701,17 @@ def run(conn, existed):
 
                 conn.execute("""
                     INSERT INTO parks (
-                        id, npsId, url, fullName, parkCode, description,
-                        latitude, longitude, directionsInfo, directionsUrl, states
+                        id, 
+                        npsId, 
+                        url, 
+                        fullName, 
+                        parkCode, 
+                        description,
+                        latitude, 
+                        longitude, 
+                        directionsInfo, 
+                        directionsUrl, 
+                        states
                     ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
                 """, (
                     park_id,
@@ -739,7 +776,10 @@ def run(conn, existed):
                 for fee in entrance_fees:
                     conn.execute("""
                         INSERT INTO entrance_fees (
-                            parkId, cost, description, title
+                            parkId, 
+                            cost, 
+                            description, 
+                            title
                         ) VALUES (?, ?, ?, ?);
                     """, (
                         park_id,
@@ -753,7 +793,10 @@ def run(conn, existed):
                 for pass_item in entrance_passes:
                     conn.execute("""
                         INSERT INTO entrance_passes (
-                            parkId, cost, description, title
+                            parkId, 
+                            cost, 
+                            description, 
+                            title
                         ) VALUES (?, ?, ?, ?);
                     """, (
                         park_id,
@@ -768,8 +811,17 @@ def run(conn, existed):
                     standard_hours = op_hours.get('standardHours', {})
                     conn.execute("""
                         INSERT INTO operating_hours (
-                            id, parkId, description, monday, tuesday,
-                            wednesday, thursday, friday, saturday, sunday, name
+                            id, 
+                            parkId, 
+                            description, 
+                            monday, 
+                            tuesday,
+                            wednesday, 
+                            thursday, 
+                            friday, 
+                            saturday, 
+                            sunday, 
+                            name
                         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
                     """, (
                         operating_hours_id,
@@ -791,9 +843,17 @@ def run(conn, existed):
                         exception_hours = exception.get('exceptionHours', {})
                         conn.execute("""
                             INSERT INTO operating_hours_exceptions (
-                                operatingHoursId, name, startDate, endDate,
-                                monday, tuesday, wednesday, thursday,
-                                friday, saturday, sunday
+                                operatingHoursId, 
+                                name, 
+                                startDate, 
+                                endDate,
+                                monday, 
+                                tuesday, 
+                                wednesday, 
+                                thursday,
+                                friday, 
+                                saturday, 
+                                sunday
                             ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
                         """, (
                             operating_hours_id,
@@ -816,7 +876,12 @@ def run(conn, existed):
                 for image in images:
                     conn.execute("""
                         INSERT INTO images (
-                            parkId, credit, title, altText, caption, url
+                            parkId, 
+                            credit, 
+                            title, 
+                            altText, 
+                            caption, 
+                            url
                         ) VALUES (?, ?, ?, ?, ?, ?);
                     """, (
                         park_id,
