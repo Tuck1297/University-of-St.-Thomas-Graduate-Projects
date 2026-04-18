@@ -1,3 +1,9 @@
+from db_utils import handle_existing_data
+
 def run(conn, existed):
-    input_data = "Sample input data for Minnesota GIS job"
-    print(f"Running Minnesota GIS job with input: {input_data}")
+    if existed:
+        if not handle_existing_data(conn, "mn_gis.data", "Minnesota GIS", schema_name="mn_gis"):
+            return
+
+    print("Running Minnesota GIS job")
+    # TODO: Implement Minnesota GIS ingestion logic

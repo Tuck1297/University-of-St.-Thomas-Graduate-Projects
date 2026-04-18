@@ -1,3 +1,9 @@
+from db_utils import handle_existing_data
+
 def run(conn, existed):
-    input_data = "Sample input data for RIDB Recreation job"
-    print(f"Running RIDB Recreation job with input: {input_data}")
+    if existed:
+        if not handle_existing_data(conn, "ridb.facilities", "RIDB Recreation", schema_name="ridb"):
+            return
+
+    print("Running RIDB Recreation job")
+    # TODO: Implement RIDB Recreation ingestion logic

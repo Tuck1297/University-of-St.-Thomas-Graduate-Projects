@@ -1,3 +1,20 @@
+# DuckDB Data Ingestion Notes
+
+## Common DuckDB CMD Commands
+
+- Show all Tables
+
+```
+pragma show_tables;
+```
+
+- 
+
+
+
+
+
+
 # DuckDB Ingestion Guide: Zip & CSV Workflow
 
 This guide explains how to use Python to download a zipped archive from a URL, extract its contents, and ingest the CSV data into DuckDB.
