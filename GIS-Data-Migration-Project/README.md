@@ -38,3 +38,8 @@ Below are the sources that I have discovered thus far to try to integrate into m
 - https://www.nps.gov/subjects/developer/api-documentation.htm
 - https://gisdata.mn.gov/dataset/struc-state-forest-campgrounds
 - https://gisdata.mn.gov/dataset/struc-parks-and-trails-campsites
+
+
+### Used Resources for Documentation and Citing purposes
+- https://duckdb.org/docs/current/
+- 
