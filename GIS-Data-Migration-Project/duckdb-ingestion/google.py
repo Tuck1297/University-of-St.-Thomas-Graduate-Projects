@@ -23,6 +23,9 @@ def run(conn, existed):
     run_state_forests_places = True
     run_state_waysides_places = True
     run_national_forests_places = True
+    run_county_park_places = True
+    run_natural_wildlife_places = True
+    run_city_park_places = True
 
     if existed:
 
@@ -34,8 +37,15 @@ def run(conn, existed):
         ]
 
         run_state_park_places = handle_existing_data(conn, "google.places", "Google Places", truncate_commands=truncate_commands)
+        # Assuming the single prompt handles all Google Places categories
+        run_state_forests_places = run_state_park_places
+        run_state_waysides_places = run_state_park_places
+        run_national_forests_places = run_state_park_places
+        run_county_park_places = run_state_park_places
+        run_natural_wildlife_places = run_state_park_places
+        run_city_park_places = run_state_park_places
 
-    if not any([run_state_park_places, run_state_forests_places, run_state_waysides_places, run_national_forests_places]):
+    if not any([run_state_park_places, run_state_forests_places, run_state_waysides_places, run_national_forests_places, run_county_park_places, run_natural_wildlife_places, run_city_park_places]):
         print("Skipping Google Places job.")
         return
 
@@ -46,49 +56,51 @@ def run(conn, existed):
     # Google Place Entities
 
     conn.execute("""
-        CREATE TABLE IF NOT EXISTS google.places (
-            id INTEGER PRIMARY KEY,
-            googleName TEXT,
-            primaryDisplayName TEXT,
-            googlePlaceId TEXT,
-            nationalPhoneNumber TEXT,
-            internationalPhoneNumber TEXT,
-            latitude FLOAT,
-            longitude FLOAT,
-            websiteUri TEXT,
-            googleMapsUri TEXT,
-            businessStatus TEXT,
-            primaryType TEXT,
-            goodForChildren BOOLEAN,
-            allowDogs BOOLEAN,
-            acceptCreditCards BOOLEAN,
-            acceptDebitCards BOOLEAN,
-            acceptCashOnly BOOLEAN,
-            freeParkingLot BOOLEAN,
-            paidParkingLot BOOLEAN,
-            freeStreetParking BOOLEAN,
-            wheelchairAccessibleParking BOOLEAN,
-            wheelchairAccessibleSeating BOOLEAN,
-            geminiGenerativeSummary TEXT,
-            editorialSummary TEXT,
-            regionCode TEXT,
-            languageCode TEXT,
-            postalCode TEXT,
-            administrativeArea TEXT,
-            locality TEXT,
-            addressLines TEXT[],
-            state TEXT,
-            formattedAddress TEXT,
-            shortFormattedAddress TEXT,
-            statePark BOOLEAN,
-            stateForest BOOLEAN,
-            stateWayside BOOLEAN,
-            nationalForest BOOLEAN,
-            regularWeekdayDescriptions TEXT[],
-            currentWeekdayDescriptions TEXT[]
-        );
+    CREATE TABLE IF NOT EXISTS google.places (
+        id INTEGER PRIMARY KEY,
+        googleName TEXT,
+        primaryDisplayName TEXT,
+        googlePlaceId TEXT,
+        nationalPhoneNumber TEXT,
+        internationalPhoneNumber TEXT,
+        latitude FLOAT,
+        longitude FLOAT,
+        websiteUri TEXT,
+        googleMapsUri TEXT,
+        businessStatus TEXT,
+        primaryType TEXT,
+        goodForChildren BOOLEAN,
+        allowDogs BOOLEAN,
+        acceptCreditCards BOOLEAN,
+        acceptDebitCards BOOLEAN,
+        acceptCashOnly BOOLEAN,
+        freeParkingLot BOOLEAN,
+        paidParkingLot BOOLEAN,
+        freeStreetParking BOOLEAN,
+        wheelchairAccessibleParking BOOLEAN,
+        wheelchairAccessibleSeating BOOLEAN,
+        geminiGenerativeSummary TEXT,
+        editorialSummary TEXT,
+        regionCode TEXT,
+        languageCode TEXT,
+        postalCode TEXT,
+        administrativeArea TEXT,
+        locality TEXT,
+        addressLines TEXT[],
+        state TEXT,
+        formattedAddress TEXT,
+        shortFormattedAddress TEXT,
+        statePark BOOLEAN,
+        stateForest BOOLEAN,
+        stateWayside BOOLEAN,
+        nationalForest BOOLEAN,
+        countyPark BOOLEAN,
+        naturalWildlifeArea BOOLEAN,
+        cityPark BOOLEAN,
+        regularWeekdayDescriptions TEXT[],
+        currentWeekdayDescriptions TEXT[]
+    );
     """)
-
     conn.execute("""
         CREATE TABLE IF NOT EXISTS google.operating_hours (
             id INTEGER PRIMARY KEY,
@@ -134,22 +146,30 @@ def run(conn, existed):
     """)
 
     def fetch_and_insert(query, park_flags):
-        is_state_park, is_state_forest, is_state_wayside, is_national_forest = park_flags
+        is_state_park, is_state_forest, is_state_wayside, is_national_forest, is_county_park, is_natural_wildlife, is_city_park = park_flags
         print(f"Fetch and insert Google Places data for: {query}")
 
-        # Minnesota Grid: Divided into 4 quadrants to bypass the 60-result limit
-        # Approximate bounds: Lat 43.5 to 49.4, Lon -97.2 to -89.5
-        quadrants = [
-            {"name": "Southwest", "low": {"latitude": 43.49, "longitude": -97.24}, "high": {"latitude": 46.5, "longitude": -94.5}},
-            {"name": "Southeast", "low": {"latitude": 43.49, "longitude": -94.5}, "high": {"latitude": 46.5, "longitude": -89.49}},
-            {"name": "Northwest", "low": {"latitude": 46.5, "longitude": -97.24}, "high": {"latitude": 49.38, "longitude": -94.5}},
-            {"name": "Northeast", "low": {"latitude": 46.5, "longitude": -94.5}, "high": {"latitude": 49.38, "longitude": -89.49}},
-        ]
+        # Minnesota High-Resolution Grid (8x8 = 64 tiles)
+        # Bounds: Lat 43.49 to 49.38, Lon -97.24 to -89.49
+        min_lat, max_lat = 43.49, 49.38
+        min_lon, max_lon = -97.24, -89.49
+        steps = 8
+        
+        lat_step = (max_lat - min_lat) / steps
+        lon_step = (max_lon - min_lon) / steps
+        
+        tiles = []
+        for i in range(steps):
+            for j in range(steps):
+                tiles.append({
+                    "low": {"latitude": min_lat + (i * lat_step), "longitude": min_lon + (j * lon_step)},
+                    "high": {"latitude": min_lat + ((i + 1) * lat_step), "longitude": min_lon + ((j + 1) * lon_step)}
+                })
 
         endpoint = f"{GOOGLE_BASE_URL}?key={GOOGLE_API_KEY}"
         total_fetched = 0
         
-        # Track seen IDs across quadrants to avoid duplicates
+        # Track seen IDs across tiles to avoid duplicates
         seen_google_ids = set()
         
         # Fetch existing IDs from DB to avoid duplicates if resuming (though we usually truncate)
@@ -159,9 +179,7 @@ def run(conn, existed):
         except:
             pass
 
-        # Global counters (fetched at start of job in run() or fetch_and_insert())
-        # We need to ensure these are passed or accessible. In this script they are local.
-        # Let's pull them inside the function scope to be safe.
+        # Global counters
         try:
             p_id = (conn.execute("SELECT MAX(id) FROM google.places").fetchone()[0] or 0) + 1
             oh_id = (conn.execute("SELECT MAX(id) FROM google.operating_hours").fetchone()[0] or 0) + 1
@@ -170,8 +188,10 @@ def run(conn, existed):
         except:
             p_id, oh_id, ph_id, ad_id = 1, 1, 1, 1
 
-        for quad in quadrants:
-            print(f"  Searching quadrant: {quad['name']}...")
+        for idx, tile in enumerate(tiles):
+            if (idx + 1) % 8 == 0 or idx == 0: # Print progress every row of the grid
+                print(f"  Searching grid tile {idx + 1} of {len(tiles)}...")
+            
             next_page_token = None
             
             while True:
@@ -182,8 +202,8 @@ def run(conn, existed):
                     "maxResultCount": 20,
                     "locationRestriction": {
                         "rectangle": {
-                            "low": quad["low"],
-                            "high": quad["high"]
+                            "low": tile["low"],
+                            "high": tile["high"]
                         }
                     }
                 }
@@ -227,7 +247,7 @@ def run(conn, existed):
                             regularWeekdayDescriptions = place.get("regularOpeningHours", {}).get("weekdayDescriptions", [])
                             currentWeekdayDescriptions = place.get("currentOpeningHours", {}).get("weekdayDescriptions", [])
 
-                            # Insert into google.places
+                            # Insert into google.places (41 columns)
                             try:
                                 conn.execute("""
                                     INSERT INTO google.places (
@@ -241,8 +261,9 @@ def run(conn, existed):
                                         languageCode, postalCode, administrativeArea, locality,
                                         addressLines, state, formattedAddress, shortFormattedAddress,
                                         statePark, stateForest, stateWayside, nationalForest,
+                                        countyPark, naturalWildlifeArea, cityPark,
                                         regularWeekdayDescriptions, currentWeekdayDescriptions
-                                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+                                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
                                 """, (
                                     p_id, place.get("name", ""), displayName.get("text", ""), googlePlaceId,
                                     place.get("nationalPhoneNumber", ""), place.get("internationalPhoneNumber", ""),
@@ -266,6 +287,7 @@ def run(conn, existed):
                                     postalAddress.get("administrativeArea", ""), place.get("formattedAddress", ""),
                                     place.get("shortFormattedAddress", ""),
                                     is_state_park, is_state_forest, is_state_wayside, is_national_forest,
+                                    is_county_park, is_natural_wildlife, is_city_park,
                                     regularWeekdayDescriptions, currentWeekdayDescriptions
                                 ))
                             except Exception as e:
@@ -355,13 +377,22 @@ def run(conn, existed):
                     break
 
     if run_state_park_places:
-        fetch_and_insert("Minnesota state parks", (True, False, False, False))
+        fetch_and_insert("Minnesota state parks", (True, False, False, False, False, False, False))
 
     if run_state_forests_places:
-        fetch_and_insert("Minnesota state forests", (False, True, False, False))
+        fetch_and_insert("Minnesota state forests", (False, True, False, False, False, False, False))
 
     if run_state_waysides_places:
-        fetch_and_insert("Minnesota state waysides", (False, False, True, False))
+        fetch_and_insert("Minnesota state waysides", (False, False, True, False, False, False, False))
 
     if run_national_forests_places:
-        fetch_and_insert("National forests in Minnesota", (False, False, False, True))
+        fetch_and_insert("National forests in Minnesota", (False, False, False, True, False, False, False))
+
+    if run_county_park_places:
+        fetch_and_insert("Minnesota county parks", (False, False, False, False, True, False, False))
+
+    if run_natural_wildlife_places:
+        fetch_and_insert("Minnesota scientific and natural areas", (False, False, False, False, False, True, False))
+
+    if run_city_park_places:
+        fetch_and_insert("Minnesota city parks", (False, False, False, False, False, False, True))
