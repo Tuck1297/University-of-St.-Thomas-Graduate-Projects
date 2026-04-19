@@ -2,6 +2,8 @@ COPY google.address_descriptors FROM 'project_data_export/google_address_descrip
 COPY google.operating_hours FROM 'project_data_export/google_operating_hours.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"', force_not_null 'id');
 COPY google.photos FROM 'project_data_export/google_photos.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"', force_not_null 'id');
 COPY google.places FROM 'project_data_export/google_places.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"', force_not_null 'id');
+COPY mn_dnr.extracted_table_0 FROM 'project_data_export/mn_dnr_extracted_table__.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"');
+COPY mn_dnr.extracted_table_1 FROM 'project_data_export/mn_dnr_extracted_table___1.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"');
 COPY mn_gis.dnr_management_units_prk FROM 'project_data_export/mn_gis_dnr_management_units_prk.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"');
 COPY mn_gis.dnr_management_units_prk_ref_pts FROM 'project_data_export/mn_gis_dnr_management_units_prk_ref_pts.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"');
 COPY mn_gis.dnr_stat_plan_areas_prk FROM 'project_data_export/mn_gis_dnr_stat_plan_areas_prk.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"');
