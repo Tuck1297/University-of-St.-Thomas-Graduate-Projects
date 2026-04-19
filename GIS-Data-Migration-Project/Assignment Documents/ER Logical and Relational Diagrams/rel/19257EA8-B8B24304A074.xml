@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="19257EA8-93D9-ECE5-A988-B8B24304A074" mainViewID="AC58952F-F483-6282-ACBA-1D4E98FA6113">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-19 22:33:22 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

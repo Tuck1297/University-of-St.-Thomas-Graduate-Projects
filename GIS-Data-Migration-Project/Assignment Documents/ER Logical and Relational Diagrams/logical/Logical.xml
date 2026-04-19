@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B8B42295-C1EA-9AA7-BE9D-4DD0294F83F5" mainViewID="5704EE17-9711-9536-4298-10A81E40F622">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-19 22:33:19 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

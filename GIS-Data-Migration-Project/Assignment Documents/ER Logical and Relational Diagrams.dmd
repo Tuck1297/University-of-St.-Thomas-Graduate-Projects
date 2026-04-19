@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER Logical and Relational Diagrams" id="D3C20C12-CD59-80D0-3757-AC44A8A390ED" version="3.5">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-19 22:33:19 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D3C20C12-CD59-80D0-3757-AC44A8A390ED</designId>
+</OSDM_Design>

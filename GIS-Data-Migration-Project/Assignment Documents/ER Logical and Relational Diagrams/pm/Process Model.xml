@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="0601CE01-FF02-32C9-1727-912FF9D2508C">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-19 22:33:19 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
