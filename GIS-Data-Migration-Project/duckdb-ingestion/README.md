@@ -1,5 +1,35 @@
 # DuckDB Data Ingestion Notes
 
+## Install Dependencies
+
+- To run this script you first will need to start up a python virtual environment and install script dependencies. The steps are outlined below:
+
+1. Create and Start Virtual Environment
+
+### For Windows
+
+```
+python -m venv venv # Create Virtual Environment -- You will only need to do this once.
+
+./venv/Scripts/activate # Activate the Virtual Environment
+```
+
+### For macOS / Linux
+
+```
+python3 -m venv venv # Create Virtual Environment -- You will only need to do this once.
+
+source venv/bin/activate # Activate the Virtual Environment
+```
+
+2. Install Script dependencies
+
+```
+pip install -r requirements.txt
+```
+
+3. Run script -- Review the **Invoke Script** section below to learn how to run the script in different modes.
+
 ## Invoke Script
 
 Orchestrator module for running various GIS data ingestion jobs. This module provides a command-line interface (CLI) using Typer to execute different data migration jobs independently or all together. The data is ingested and imported into a single DuckDB database for further analysis, querying and ingestion.
@@ -37,12 +67,18 @@ Orchestrator module for running various GIS data ingestion jobs. This module pro
 - Run multiple jobs: python orchestrator.py --run-nps --run-google
 - Run all jobs: python orchestrator.py --all
 
-### Export Database
+## Export Database
 
 To export the database into CSV files that are easier to commit to a GitHub repository run the following script:
 
 ```
 python db_export.py
+```
+
+## Freeze requirements.txt after dependencies updates
+
+```
+pip freeze > requirements.txt
 ```
 
 ## Common DuckDB CMD Commands
