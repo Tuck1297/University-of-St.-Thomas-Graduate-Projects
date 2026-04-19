@@ -1,0 +1,665 @@
+id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,cellPhoneReception,laundry,amphitheater,dumpStation,campStore,staffOrVolunteerHostOnsite,potableWater,iceAvailableForSale,firewoodForSale,foodStorageLockers
+1,1,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+2,2,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+3,3,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+4,4,Yes - seasonal,[Composting Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+5,5,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+6,6,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+7,7,Yes - year round,[Flush Toilets - year round],false,"[Hot - Year Round, Free - Year Round]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+8,8,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+9,9,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+10,10,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,Yes - year round
+11,11,Yes - year round,[Flush Toilets - year round],false,"[Hot - Year Round, Free - Year Round]",false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+12,12,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+13,13,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[Free - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+14,14,Yes - year round,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+15,15,Yes - year round,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+16,16,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+17,17,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+18,18,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+19,19,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+20,20,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+21,21,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+22,22,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+23,23,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+24,24,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+25,25,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+26,26,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+27,27,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+28,28,Yes - year round,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+29,29,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+30,30,No,[No Toilets],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+31,31,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+32,32,No,[No Toilets],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+33,33,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[No water],false,false,No
+34,34,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+35,35,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+36,36,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,Yes - year round
+37,37,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,Yes - year round
+38,38,No,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,Yes - year round
+39,39,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+40,40,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+41,41,Yes - year round,[Vault Toilets - year round],false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+42,42,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+43,43,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+44,44,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+45,45,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+46,46,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+47,47,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+48,48,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+49,49,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,"[Water, ' but not potable']",false,false,Yes - year round
+50,50,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+51,51,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+52,52,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+53,53,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+54,54,No,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+55,55,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+56,56,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+57,57,Yes - year round,[Flush Toilets - year round],false,"[Free - Year Round, Hot - Year Round]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+58,58,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+59,59,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+60,60,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+61,61,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+62,62,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,Yes - year round
+63,63,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,No
+64,64,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+65,65,No,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+66,66,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+67,67,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+68,68,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+69,69,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+70,70,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+71,71,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+72,72,No,[Flush Toilets - year round],false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+73,73,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+74,74,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+75,75,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+76,76,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+77,77,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+78,78,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+79,79,Yes - year round,[No Toilets],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
+80,80,No,[No Toilets],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+81,81,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+82,82,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+83,83,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+84,84,Yes - year round,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+85,85,Yes - seasonal,[Vault Toilets - year round],false,[Coin-Operated - Seasonal],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+86,86,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+87,87,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Year Round],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+88,88,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+89,89,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - seasonal,false,false,Yes - year round,[Yes - year round],false,false,No
+90,90,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - seasonal,false,false,Yes - year round,[Yes - year round],false,false,No
+91,91,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+92,92,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+93,93,Yes - year round,[Flush Toilets - year round],false,"[Hot - Year Round, Coin-Operated - Year Round]",false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
+94,94,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+95,95,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,No
+96,96,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+97,97,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+98,98,Yes - seasonal,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,Yes - seasonal
+99,99,Yes - seasonal,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,Yes - seasonal
+100,100,Yes - seasonal,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,Yes - seasonal
+101,101,Yes - seasonal,[Flush Toilets - seasonal],false,"[Hot - Seasonal, Free - Seasonal]",false,false,Yes - year round,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+102,102,Yes - seasonal,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,Yes - seasonal
+103,103,Yes - seasonal,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,No,[Yes - year round],false,false,Yes - seasonal
+104,104,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+105,105,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+106,106,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - year round,[Yes - year round],false,false,Yes - year round
+107,107,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+108,108,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+109,109,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+110,110,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+111,111,Yes - year round,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,No,[Yes - year round],false,false,No
+112,112,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+113,113,No,[Flush Toilets - seasonal],false,"[Cold- Seasonal, Hot - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+114,114,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - year round,false,false,No,[Yes - year round],false,false,No
+115,115,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+116,116,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+117,117,No,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+118,118,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+119,119,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+120,120,Yes - seasonal,[Flush Toilets - seasonal],false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,No,[Yes - seasonal],false,false,No
+121,121,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+122,122,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+123,123,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+124,124,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+125,125,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,No
+126,126,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+127,127,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,"[Hot - Seasonal, Coin-Operated - Seasonal]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
+128,128,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+129,129,No,"[Flush Toilets - seasonal, Portable Toilets - seasonal]",false,[None],false,false,No,false,false,No,[No water],false,false,No
+130,130,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+131,131,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+132,132,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+133,133,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+134,134,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+135,135,Yes - year round,"[Flush Toilets - year round, Portable Toilets - seasonal]",false,[None],false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,Yes - year round
+136,136,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+137,137,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+138,138,No,[Flush Toilets - seasonal],false,[Cold- Seasonal],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+139,139,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,No
+140,140,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+141,141,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+142,142,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+143,143,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+144,144,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+145,145,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,Yes - year round
+146,146,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+147,147,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+148,148,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+149,149,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+150,150,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+151,151,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - seasonal
+152,152,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+153,153,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+154,154,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+155,155,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+156,156,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,No,[Yes - year round],false,false,No
+157,157,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+158,158,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+159,159,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+160,160,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+161,161,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+162,162,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+163,163,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+164,164,Yes - seasonal,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+165,165,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+166,166,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+167,167,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+168,168,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+169,169,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+170,170,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+171,171,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+172,172,No,[Vault Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,"[Water, ' but not potable']",false,false,Yes - year round
+173,173,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
+174,174,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+175,175,Yes - seasonal,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+176,176,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+177,177,Yes - seasonal,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+178,178,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,Yes - seasonal
+179,179,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+180,180,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+181,181,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+182,182,Yes - year round,"[Flush Toilets - year round, Vault Toilets - year round]",false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[No water],false,false,No
+183,183,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+184,184,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+185,185,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
+186,186,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+187,187,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+188,188,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+189,189,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+190,190,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+191,191,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+192,192,Yes - seasonal,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+193,193,No,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+194,194,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+195,195,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+196,196,Yes - seasonal,[Flush Toilets - seasonal],false,"[Hot - Seasonal, Cold- Seasonal, Free - Seasonal]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+197,197,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,Yes - seasonal
+198,198,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+199,199,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+200,200,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - year round
+201,201,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+202,202,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+203,203,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+204,204,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - year round
+205,205,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - seasonal],false,false,No
+206,206,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+207,207,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+208,208,Yes - seasonal,[Flush Toilets - year round],false,"[Hot - Year Round, Free - Year Round]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+209,209,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+210,210,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+211,211,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+212,212,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,No
+213,213,No,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+214,214,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+215,215,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+216,216,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+217,217,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+218,218,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+219,219,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - year round
+220,220,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+221,221,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+222,222,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+223,223,No,"[Vault Toilets - year round, Portable Toilets - year round]",false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+224,224,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+225,225,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+226,226,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+227,227,Yes - year round,[Flush Toilets - year round],false,"[Free - Year Round, Hot - Year Round]",false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,No
+228,228,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+229,229,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+230,230,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+231,231,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,No
+232,232,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+233,233,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+234,234,Yes - seasonal,[Flush Toilets - seasonal],false,"[Hot - Seasonal, Free - Seasonal]",false,false,No,false,false,No,[Yes - seasonal],false,false,No
+235,235,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,No
+236,236,Yes - seasonal,[Flush Toilets - seasonal],false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+237,237,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - seasonal,false,false,No,[Yes - year round],false,false,No
+238,238,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
+239,239,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
+240,240,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+241,241,No,[Composting Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,No
+242,242,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+243,243,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+244,244,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,Yes - seasonal
+245,245,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+246,246,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+247,247,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+248,248,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+249,249,Yes - year round,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+250,250,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,Yes - year round
+251,251,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+252,252,Yes - year round,[Flush Toilets - year round],false,"[Hot - Year Round, Free - Year Round]",false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+253,253,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - year round
+254,254,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+255,255,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+256,256,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - year round,false,false,No,[Yes - year round],false,false,No
+257,257,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+258,258,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+259,259,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+260,260,Yes - year round,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+261,261,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+262,262,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+263,263,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+264,264,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,Yes - seasonal
+265,265,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+266,266,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+267,267,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+268,268,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+269,269,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+270,270,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+271,271,Yes - year round,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+272,272,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+273,273,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+274,274,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+275,275,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,No
+276,276,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+277,277,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+278,278,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+279,279,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+280,280,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+281,281,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+282,282,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+283,283,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+284,284,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+285,285,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+286,286,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+287,287,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+288,288,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+289,289,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+290,290,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+291,291,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - seasonal
+292,292,No,[No Toilets],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+293,293,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+294,294,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+295,295,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+296,296,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
+297,297,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+298,298,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,Yes - year round
+299,299,Yes - year round,[Vault Toilets - seasonal],false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+300,300,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+301,301,Yes - year round,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+302,302,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+303,303,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,No
+304,304,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,No
+305,305,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+306,306,No,[Vault Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+307,307,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+308,308,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+309,309,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+310,310,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+311,311,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+312,312,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+313,313,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[No water],false,false,No
+314,314,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+315,315,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+316,316,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
+317,317,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+318,318,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+319,319,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+320,320,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+321,321,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - year round,false,false,No,[No water],false,false,No
+322,322,Yes - seasonal,[Flush Toilets - year round],false,[Coin-Operated - Year Round],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+323,323,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
+324,324,Yes - seasonal,[Flush Toilets - seasonal],false,"[Coin-Operated - Seasonal, None]",false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+325,325,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+326,326,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+327,327,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+328,328,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+329,329,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - year round,false,false,No,[No water],false,false,No
+330,330,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+331,331,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+332,332,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+333,333,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+334,334,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+335,335,Yes - year round,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+336,336,No,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+337,337,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+338,338,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+339,339,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+340,340,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+341,341,No,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,No,[No water],false,false,No
+342,342,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+343,343,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+344,344,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+345,345,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+346,346,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+347,347,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+348,348,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+349,349,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+350,350,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+351,351,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+352,352,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+353,353,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+354,354,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+355,355,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - year round
+356,356,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+357,357,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+358,358,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,No,[Yes - seasonal],false,false,Yes - year round
+359,359,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,Yes - seasonal
+360,360,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
+361,361,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+362,362,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+363,363,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+364,364,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+365,365,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+366,366,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+367,367,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+368,368,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+369,369,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+370,370,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+371,371,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+372,372,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+373,373,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+374,374,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+375,375,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+376,376,Yes - year round,[Flush Toilets - year round],false,"[Free - Year Round, Hot - Year Round]",false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+377,377,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+378,378,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,Yes - seasonal
+379,379,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+380,380,Yes - seasonal,[Portable Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+381,381,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+382,382,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+383,383,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+384,384,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+385,385,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
+386,386,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+387,387,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+388,388,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+389,389,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+390,390,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+391,391,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+392,392,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+393,393,Yes - year round,[Flush Toilets - year round],false,"[Cold - Year Round, Free - Year Round]",false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+394,394,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+395,395,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+396,396,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+397,397,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+398,398,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+399,399,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,"[Hot - Seasonal, Coin-Operated - Seasonal]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+400,400,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+401,401,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+402,402,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+403,403,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+404,404,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+405,405,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+406,406,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+407,407,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+408,408,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+409,409,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+410,410,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+411,411,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+412,412,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+413,413,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+414,414,Yes - year round,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+415,415,No,[No Toilets],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+416,416,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+417,417,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
+418,418,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+419,419,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+420,420,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
+421,421,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+422,422,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+423,423,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,No
+424,424,Yes - seasonal,[Flush Toilets - seasonal],false,"[Hot - Seasonal, Coin-Operated - Seasonal]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+425,425,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+426,426,Yes - year round,"[Portable Toilets - year round, Flush Toilets - year round]",false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+427,427,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+428,428,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+429,429,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+430,430,Yes - year round,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+431,431,Yes - seasonal,"[Flush Toilets - seasonal, Portable Toilets - seasonal]",false,"[Hot - Seasonal, Free - Seasonal]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+432,432,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+433,433,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+434,434,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+435,435,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+436,436,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+437,437,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+438,438,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,No,[No water],false,false,No
+439,439,Yes - year round,[Flush Toilets - year round],false,[Hot - Seasonal],false,false,No,false,false,No,[Yes - year round],false,false,No
+440,440,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+441,441,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+442,442,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+443,443,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+444,444,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+445,445,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+446,446,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+447,447,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+448,448,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+449,449,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - year round
+450,450,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,No
+451,451,Yes - year round,[Flush Toilets - year round],false,"[Hot - Year Round, Free - Year Round]",false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+452,452,Yes - year round,[Vault Toilets - year round],false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+453,453,Yes - year round,[Vault Toilets - year round],false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+454,454,Yes - year round,[Vault Toilets - seasonal],false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+455,455,Yes - year round,[Flush Toilets - year round],false,"[Cold - Year Round, Free - Year Round]",false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+456,456,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+457,457,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+458,458,Yes - year round,[Flush Toilets - year round],false,"[Hot - Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+459,459,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+460,460,Yes - seasonal,[Flush Toilets - seasonal],false,"[Hot - Seasonal, Free - Seasonal]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+461,461,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+462,462,Yes - year round,"[Vault Toilets - year round, Flush Toilets - seasonal]",false,[None],false,false,No,false,false,No,[No water],false,false,No
+463,463,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+464,464,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+465,465,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+466,466,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+467,467,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+468,468,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+469,469,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+470,470,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+471,471,Yes - year round,"[Flush Toilets - year round, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
+472,472,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+473,473,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+474,474,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,Yes - seasonal
+475,475,Yes - year round,"[Flush Toilets - year round, Composting Toilets - year round, Portable Toilets - year round]",false,"[Hot - Year Round, Coin-Operated - Year Round]",false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,Yes - year round
+476,476,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+477,477,Yes - year round,"[Flush Toilets - year round, Vault Toilets - year round]",false,"[Hot - Year Round, Free - Year Round]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - seasonal
+478,478,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+479,479,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+480,480,No,[Flush Toilets - seasonal],false,"[Hot - Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+481,481,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+482,482,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+483,483,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+484,484,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+485,485,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+486,486,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+487,487,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+488,488,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+489,489,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+490,490,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+491,491,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+492,492,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+493,493,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+494,494,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+495,495,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+496,496,Yes - year round,[Flush Toilets - year round],false,"[Free - Seasonal, Hot - Year Round]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+497,497,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - year round
+498,498,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+499,499,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+500,500,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+501,501,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+502,502,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+503,503,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+504,504,Yes - year round,[Flush Toilets - year round],false,[Coin-Operated - Year Round],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+505,505,Yes - year round,[Flush Toilets - year round],false,[Coin-Operated - Year Round],false,false,Yes - seasonal,false,false,Yes - year round,[Yes - year round],false,false,No
+506,506,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+507,507,No,"[Vault Toilets - seasonal, Portable Toilets - seasonal, Composting Toilets - seasonal]",false,[None],false,false,No,false,false,No,[No water],false,false,No
+508,508,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+509,509,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+510,510,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,Yes - year round
+511,511,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+512,512,Yes - seasonal,"[Flush Toilets - seasonal, Composting Toilets - seasonal]",false,"[Hot - Seasonal, Coin-Operated - Seasonal]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+513,513,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+514,514,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+515,515,Yes - year round,[Flush Toilets - seasonal],false,[None],false,false,Yes - year round,false,false,No,"[Water, ' but not potable']",false,false,No
+516,516,Yes - year round,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+517,517,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+518,518,Yes - year round,"[Flush Toilets - year round, Vault Toilets - year round]",false,"[Hot - Year Round, Free - Year Round]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+519,519,Yes - seasonal,"[Vault Toilets - year round, Vault Toilets - seasonal]",false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+520,520,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+521,521,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+522,522,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+523,523,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
+524,524,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+525,525,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+526,526,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,Yes - year round
+527,527,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+528,528,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+529,529,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+530,530,No,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+531,531,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+532,532,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,Yes - year round
+533,533,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,Yes - year round
+534,534,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,Yes - year round
+535,535,No,[No Toilets],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+536,536,No,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,Yes - year round
+537,537,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+538,538,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+539,539,No,[Flush Toilets - year round],false,[Cold - Year Round],false,false,No,false,false,No,[Yes - year round],false,false,Yes - year round
+540,540,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+541,541,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+542,542,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+543,543,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+544,544,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+545,545,No,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+546,546,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+547,547,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+548,548,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+549,549,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+550,550,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+551,551,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+552,552,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+553,553,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,Yes - year round
+554,554,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+555,555,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+556,556,Yes - year round,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+557,557,No,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[Hot - Seasonal],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+558,558,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+559,559,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+560,560,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+561,561,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+562,562,Yes - seasonal,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+563,563,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+564,564,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+565,565,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+566,566,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+567,567,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+568,568,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - year round],false,false,Yes - seasonal
+569,569,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - year round],false,false,No
+570,570,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+571,571,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+572,572,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+573,573,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+574,574,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+575,575,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+576,576,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+577,577,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+578,578,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+579,579,No,[Flush Toilets - year round],false,[Cold - Year Round],false,false,No,false,false,No,[Yes - year round],false,false,Yes - year round
+580,580,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+581,581,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+582,582,No,[No Toilets],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+583,583,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+584,584,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+585,585,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+586,586,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+587,587,Yes - year round,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+588,588,Yes - year round,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+589,589,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+590,590,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+591,591,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+592,592,Yes - seasonal,[Portable Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+593,593,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+594,594,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - year round],false,false,No
+595,595,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+596,596,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
+597,597,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+598,598,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+599,599,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+600,600,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+601,601,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+602,602,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+603,603,Yes - year round,"[Flush Toilets - year round, Portable Toilets - year round]",false,"[Hot - Year Round, Free - Year Round]",false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+604,604,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+605,605,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
+606,606,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - seasonal,false,false,Yes - year round,[Yes - year round],false,false,No
+607,607,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+608,608,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+609,609,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+610,610,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+611,611,No,"[Vault Toilets - year round, No Toilets]",false,[None],false,false,No,false,false,No,[No water],false,false,No
+612,612,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+613,613,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+614,614,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+615,615,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
+616,616,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+617,617,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
+618,618,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+619,619,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+620,620,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,No,[Yes - year round],false,false,No
+621,621,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+622,622,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+623,623,Yes - year round,[Flush Toilets - year round],false,[Free - Year Round],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
+624,624,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+625,625,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,"[Hot - Seasonal, Free - Seasonal]",false,false,No,false,false,No,[Yes - seasonal],false,false,No
+626,626,Yes - seasonal,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
+627,627,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
+628,628,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,No,[No water],false,false,No
+629,629,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+630,630,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
+631,631,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
+632,632,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+633,633,Yes - year round,[Flush Toilets - year round],false,"[Hot - Year Round, Coin-Operated - Year Round]",false,false,Yes - seasonal,false,false,Yes - year round,[Yes - year round],false,false,No
+634,634,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+635,635,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+636,636,Yes - seasonal,"[Flush Toilets - seasonal, Composting Toilets - seasonal]",false,"[Hot - Seasonal, Coin-Operated - Seasonal]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
+637,637,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+638,638,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+639,639,Yes - seasonal,[Flush Toilets - seasonal],false,"[Hot - Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
+640,640,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - year round,[Yes - year round],false,false,No
+641,641,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
+642,642,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
+643,643,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+644,644,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+645,645,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
+646,646,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+647,647,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+648,648,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+649,649,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+650,650,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+651,651,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,Yes - year round
+652,652,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+653,653,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
+654,654,No,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
+655,655,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+656,656,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+657,657,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+658,658,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+659,659,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
+660,660,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
+661,661,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
+662,662,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+663,663,No,[No Toilets],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
+664,664,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal

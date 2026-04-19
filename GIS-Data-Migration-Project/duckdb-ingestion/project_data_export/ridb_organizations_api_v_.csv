@@ -1,0 +1,32 @@
+OrgID,OrgType,OrgName,OrgImageURL,OrgURLText,OrgURLAddress,OrgAbbrevName,OrgJurisdictionType,OrgParentID,LastUpdatedDate
+126,Federal Agency,Bureau of Land Management,blm.gif,,http://www.blm.gov,BLM,Federal,139,2018-06-26
+127,Federal Agency,Fish and Wildlife Service,fws.gif,,http://www.fws.gov,FWS,Federal,139,2018-06-26
+128,Federal Agency,National Park Service,nps.gif,,http://www.nps.gov,NPS,Federal,139,2018-06-26
+129,Federal Agency,Bureau of Reclamation,bor.gif,,http://www.usbr.gov,BOR,Federal,139,2018-06-26
+130,Federal Agency,US Army Corps of Engineers,uasce.gif,,http://www.usace.army.mil,USACE,Federal,162,2018-06-26
+131,Federal Agency,USDA Forest Service,fs.jpg,,http://www.fs.fed.us,FS,Federal,163,2018-06-26
+132,Federal Agency,Tennessee Valley Authority,tva.gif,,http://www.tva.gov,TVA,Federal,157,2018-08-26
+133,Federal Department,Department of Transportation,dot.gif,,http://www.dot.gov,DOT,Federal,157,2019-02-14
+135,Federal Agency,Smithsonian Institution,si.gif,,http://www.si.edu,SI,Federal,157,2018-06-26
+137,Federal Agency,National Oceanic and Atmospheric Administration,NOS.gif,,http://www.noaa.gov,NOAA,Federal,161,2018-08-26
+138,Federal Agency,Smithsonian Institution Affiliations Program,SIAP.gif,,http://affiliations.si.edu/,SIAP,Federal,135,2018-08-26
+139,Federal Department,Department of the Interior,doi.gif,,http://www.doi.gov/museum/interiormuseum/mission.htm,DOI,Federal,157,2018-06-26
+143,Federal Agency,National Register of Historic Places,NRHP.gif,,http://www.cr.nps.gov/nr/,NRHP,Federal,238,2018-06-26
+159,Federal Agency,US Air Force,,,http://www.af.mil/,USAF,Federal,162,2019-02-14
+161,Federal Department,Department of Commerce,,,,DOC,Federal,157,2018-06-26
+162,Federal Department,Department of Defense,,,,DOD,Federal,157,2018-06-26
+163,Federal Department,Department of Agriculture,,,http://www.usda.gov,USDA,Federal,157,2018-06-26
+192,Federal Agency,National Archives and Records Administration,,,http://www.archives.gov,NARA,Federal,157,2019-02-14
+206,Federal Agency,American Battle Monuments Commission,,,http://www.abmc.gov/home.php,ABMC,Federal,0,2019-02-14
+234,Federal Department,Department of the Treasury,,,http://www.treasury.gov/,Treasury,Federal,157,2018-06-26
+236,Federal Agency,Bureau of Engraving and Printing,,,http://www.moneyfactory.gov/,BEP,Federal,234,2018-06-26
+238,Federal Agency,Historic Hotels of America,,,http://www.historichotels.org/,,Federal,128,2018-06-26
+239,Federal Agency,National Historic Landmark,,,http://www.nps.gov/nhl/,NHL,Federal,238,2019-02-14
+241,State,Maryland,,,,MD,State,240,2018-08-26
+243,State,Texas,,,,TX,State,240,2018-08-26
+244,State,Utah,,,,UT,State,240,2018-08-26
+245,State,New Mexico,,,,NM,State,240,2018-08-26
+250,Federal Agency,Presidio Trust,,,https://www.presidio.gov,Presidio,Federal,157,2022-02-04
+260,Federal Agency,"Commander, Navy Installation Command (CNIC)",,,http://www.navy.mil/,NAVY,Federal,162,2022-06-03
+5000,Federal Agency,United States Geological Survey,,,https://www.usgs.gov/,USGS,Federal,139,2018-06-26
+5001,State,Virginia,,,http://www.dcr.virginia.gov/state-parks/,VA,State,240,2019-02-14

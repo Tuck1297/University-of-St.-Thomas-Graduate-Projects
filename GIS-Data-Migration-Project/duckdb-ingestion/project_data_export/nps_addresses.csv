@@ -1,0 +1,1853 @@
+id,parkId,campgroundId,postalCode,city,stateCode,countryCode,provinceTerritoryCode,line1,line2,line3,type
+1,,2,37878,Tallassee,TN,US,"",6537 Abrams Creek Road,"","",Physical
+2,,2,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Mailing
+3,,3,21788,Thurmont,MD,US,"",6602 Foxville Road,"","",Mailing
+4,,4,59035,Fort Smith,MT,US,"",Afterbay Campground,Rte 200,"",Physical
+5,,4,59035,Fort Smith,MT,US,"",PO Box 7458,"","",Mailing
+6,,5,65466,Eminence,MO,US,"",5170 Akers Campground RD,"","",Physical
+7,,5,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+8,,6,85321,Ajo,AZ,US,"",Alamo Canyon Road,"","",Physical
+9,,6,85321,Ajo,AZ,US,"",10 Organ Pipe Drive,"","",Mailing
+10,,7,65466,Eminence,MO,US,"",11544 Alley Spring Residence Road,"","",Physical
+11,,7,63965,Van Buren,MO,US,"",P. O. Box 490,"","",Mailing
+12,,8,42653,Whitley City,KY,US,"",State Hwy 700,"","",Physical
+13,,8,37841,Oneida,TN,US,"",4564 Leatherwood Road,"","",Mailing
+14,,9,96950,Saipan,MP,US,"","","","",Physical
+15,,10,93001,Anacapa Island,CA,US,"",Anacapa Island Campground,"","",Physical
+16,,10,93001,Ventura,CA,US,"",1901 Spinnaker Drive,"","",Mailing
+17,,11,86040,Page,AZ,US,"",537 Marina Parkway HWY N22 B,"","",Physical
+18,,11,86040,Page,AZ,US,"",PO Box 880,"","",Mailing
+19,,13,59936,West Glacier,MT,US,"",PO Box 128,Attn: Apgar Campgrounds,"",Mailing
+20,,14,25907,Prince,WV,US,"",Army Camp Campground,"","",Physical
+21,,14,25846,Glen Jean,WV,US,"","PO Box 246, 104 Main Street","","",Mailing
+22,,15,80517,Estes Park,CO,US,"",Aspenglen Campground,Rocky Mountain National Park,"",Physical
+23,,15,80517,Estes Park,CO,US,"",Aspenglen Campground,1000 US Highway 36,"",Mailing
+24,,16,93271,Sequoia National Park,CA,US,"","Mile 19.1, Mineral King Road","","",Physical
+25,,16,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+26,,19,59936,West Glacier,MT,US,"",Avalanche Campground,"","",Physical
+27,,19,59936,West Glacier,MT,US,"",PO Box 128,Attn: Avalanche Campground,"",Mailing
+28,,20,93633,Grant Grove,CA,US,"",Azalea Drive,"","",Physical
+29,,20,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+30,,21,65548,Mountain View,MO,US,"",County Road 493B,"","",Physical
+31,,21,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+32,,22,21811,Berlin,MD,US,"",Ranger Station/Campground Office - Maryland District,6633 Bayberry Drive,"",Physical
+33,,22,21811,Berlin,MD,US,"",Business Offices - Maryland District,7206 National Seashore Lane,"",Mailing
+34,,24,21811,Berlin,MD,US,"",Ranger Station/Campground Office - Maryland District,6633 Bayberry Drive,"",Physical
+35,,24,21811,Berlin,MD,US,"",Business Offices - Maryland District,7206 National Seashore Lane,"",Mailing
+36,,25,21811,Berlin,MD,US,"",Ranger Station/Campground Office - Maryland District,6633 Bayberry Drive,"",Physical
+37,,25,21811,Berlin,MD,US,"",Business Offices - Maryland District,7206 National Seashore Lane,"",Mailing
+38,,27,21811,Berlin,MD,US,"",Ranger Station/Campground Office - Maryland District 6633 Bayberry Drive,6633 Bayberry Drive,"",Physical
+39,,27,21811,Berlin,MD,US,"",Business Offices - Maryland District,7206 National Seashore Lane,"",Mailing
+40,,28,88310,Alamogordo,NM,US,"",19955 Highway 70 West,"","",Physical
+41,,29,84775,Torrey,UT,US,"","","","",Physical
+42,,30,96063,Mineral,CA,US,"",38050 Highway 36 East,Lassen Volcanic National Park,Park Headquarters,Physical
+43,,30,96063,Mineral,CA,US,"",PO Box 100,Lassen Volcanic National Park,"",Mailing
+44,,32,81146,Mosca,CO,US,"",11999 State Highway 150,Visitor Center,"",Physical
+45,,32,81146,Mosca,CO,US,"",11999 State Highway 150,Visitor Center,"",Mailing
+46,,34,20176,Lander,MD,US,"","","","",Physical
+47,,35,37738,Gatlinburg,TN,US,"","","","",Physical
+48,,36,37841,Oneida,TN,US,"",145 Campground Road,"","",Physical
+49,,36,37841,Oneida,TN,US,"",4564 Leatherwood Road,"","",Mailing
+50,,37,82413,Lovell,WY,US,"",20 Highway 14A East,"","",Physical
+51,,38,99826,Bartlett Cove,AK,US,"",Along the shoreline of Bartlett Cove,"","",Physical
+52,,38,99826,Gustavus,AK,US,"",PO Box 140,"","",Mailing
+53,,39,49630,Empire,MI,US,"",9922 Front Street,"","",Physical
+54,,39,49630,Empire,MI,US,"",9922 Front Street,"","",Mailing
+55,,40,65571,Summersville,MO,US,"",County Road 106-425,"","",Physical
+56,,40,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+57,,41,21811,Berlin,MD,US,"",Ranger Station/Campground Office - Maryland District,6633 Bayberry Drive,"",Physical
+58,,41,21811,Berlin,MD,US,"",Business Offices - Maryland District,7206 National Seashore Lane,"",Mailing
+59,,42,42649,Strunk,KY,US,"",Lee Hollow Road,"","",Physical
+60,,42,37841,Oneida,TN,US,"",4564 Leatherwood Road,"","",Mailing
+61,,43,34141,Ochopee,FL,US,"",33100 Tamiami Trail East,"","",Mailing
+62,,45,49931,Houghton,MI,US,"",800 E. Lakeshore Dr.,"","",Physical
+63,,45,49931,Houghton,MI,US,"",800 E. Lakeshore Dr.,"","",Mailing
+64,,46,86040,Page,AZ,US,"",Ferry Swale Rd,Off Hwy 89,"",Physical
+65,,46,86040,page,AZ,US,"",Glen Canyon National Recreation Area,PO Box 1507,"",Mailing
+66,,47,92277,Twentynine Palms,CA,US,"",Pinto Basin Road,"","",Physical
+67,,47,92277,Twentynine Palms,CA,US,"",74485 National Park Drive,"","",Mailing
+68,,48,82714,Devils Tower,WY,US,"",Hwy 110 Bldg 170,"","",Physical
+69,,48,82714,Devils Tower,WY,US,"",Po Box 10,"","",Mailing
+70,,49,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+71,,49,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+72,,51,94965,Sausalito,CA,US,"",Bicentennial Campground,Conzelman Road,Marin Headlands,Physical
+73,,51,94123-0022,San Francisco,CA,US,"",Golden Gate National Recreation Area,Building 201,Fort Mason,Mailing
+74,,52,37821,Newport,TN,US,"",236 Big Creek Park Road,"","",Physical
+75,,52,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Mailing
+76,,53,22851,Robertson,VA,US,"",304 Big Meadows Access Road,"","",Physical
+77,,53,22835,Luray,VA,US,"",Shenandoah National Park,Attn: Big Meadows Campground,3655 Hwy 211 E,Mailing
+78,,56,04765,Patten,ME,US,"",PO Box 446,"","",Mailing
+79,,57,63965,Van Buren,MO,US,"",State Highway 103,"","",Physical
+80,,57,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+81,,58,63965,Kelly Township,MO,US,"",NPS Road 219,"","",Physical
+82,,58,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+83,,59,21782,Mercersville,MD,US,"","","","",Physical
+84,,60,49931,Houghton,MN,US,"",800 E. Lakeshore Drive,"","",Physical
+85,,60,49931,Houghton,MN,US,"",800 E. Lakeshore Drive,"","",Mailing
+86,,61,78418,Corpus Christi,TX,US,"",Padre Island National Seashore,20420 Park Road 22,"",Physical
+87,,61,78480,Corpus Christi,TX,US,"",Padre Island National Seashore,P.O. Box 181300,"",Mailing
+88,,62,59035,Fort Smith,MT,US,"",Bighorn Lake at dayboard 5,"","",Physical
+89,,62,59035,Fort Smith,MT,US,"",P.O. Box 7458,"","",Mailing
+90,,63,92332,Essex,CA,US,"",Black Canyon Road,"","",Physical
+91,,63,92332,Barstow,CA,US,"",2701 Barstow Road,"","",Mailing
+92,,64,92284,Yucca Valley,CA,US,"",9800 Black Rock Cyn,"","",Physical
+93,,64,92277,Twentynine Palms,CA,US,"",74485 National Park Drive,"","",Mailing
+94,,65,04660,Otter Creek,ME,US,"",155 Blackwoods Drive,"","",Physical
+95,,65,04609,Bar Harbor,ME,US,"",PO Box 177,"","",Mailing
+96,,66,79036,Fritch,TX,US,"",419 E. Broadway,"","",Physical
+97,,66,79036,Fritch,TX,US,"",P.O. Box 1460,"","",Mailing
+98,,67,42649,Strunk,KY,US,"",5238 Mine 18 Road,"","",Physical
+99,,67,37841,Oneida,TN,US,"",4564 Leatherwood Road,"","",Mailing
+100,,69,65548,Mountain View,MO,US,"",County Road OO-493,"","",Physical
+101,,69,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+102,,72,33033,Homestead,FL,US,"",Boca Chita Key,"","",Physical
+103,,72,33033,Homestead,FL,US,"",9700 SW 328th Street,"","",Mailing
+104,,74,89005,Boulder City,NV,US,"",601 Nevada Way,"","",Physical
+105,,74,89005,Boulder City,NV,US,"",601 Nevada Way,"","",Mailing
+106,,75,89005,Boulder City,NV,US,"",601 Nevada Way,"","",Physical
+107,,75,89005,Boulder City,NV,US,"",601 Nevada Way,"","",Mailing
+108,,77,59936,West Glacier,MT,US,"","","","",Physical
+109,,77,59936,West Glacier,MT,US,"",PO Box 128,Attn: Bowman Campground,"",Mailing
+110,,78,96095,Whiskeytown,CA,US,"","","","",Physical
+111,,79,96095,Whiskeytown,CA,US,"","","","",Physical
+112,,82,82190,Yellowstone National Park,WY,US,"",GPS Coordinates: N 44 32.070 W 110 26.218,"","",Physical
+113,,82,82190,Yellowstone National Park,WY,US,"",PO Box 165,"","",Mailing
+114,,83,65466,Eminence Township,MO,US,"",NPS Road 108,"","",Physical
+115,,83,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+116,,84,25830,Cunard,WV,US,"",Brooklyn Campground,"","",Physical
+117,,84,25846,Glen Jean,WV,US,"","PO Box 246, 104 Main Street","","",Mailing
+118,,85,99613,King Salmon,AK,US,"",Brook Camp,Katmai National Park,"",Physical
+119,,85,99613,King Salmon,AK,US,"",PO Box 7,"","",Mailing
+120,,86,93271,Sequoia National Park,CA,US,"","Mile 6, Generals Highway","","",Physical
+121,,86,93271,Three Rivers,CA,US,"",47050 Generals Hwy,"","",Mailing
+122,,91,72687,Yellville,AR,US,"",HWY 14 S,"","",Physical
+123,,91,72687,Yellville,AR,US,"",HWY 14 S,"","",Mailing
+124,,92,79036,Fritch,TX,US,"",419 E. Broadway,"","",Physical
+125,,92,79036,Fritch,TX,US,"",P.O. Box 1460,"","",Mailing
+126,,93,84533,Lake Powell,UT,US,"",Bullfrog RV & Campground,Lake Powell Resorts & Marinas,Hwy 276,Physical
+127,,93,86040,Page,AZ,US,"",Lake Powell Resorts & Marinas,Bullfrog RV & Campground,PO Box 1926,Mailing
+128,,94,34141,ochopee,FL,US,"",18495 Burns Road,"","",Physical
+129,,94,34141,ochopee,FL,US,"",33100 Tamiami Trail East,"","",Mailing
+130,,95,25862,Lansing,WV,US,"",83 Burnwood Campground Road,"","",Physical
+131,,95,25846,Glen Jean,WV,US,"","PO Box 246, 104 Main Street","","",Mailing
+132,,97,96071,Old Station,CA,US,"",Butte Lake Campground,"","",Physical
+133,,97,96063,Mineral,CA,US,"",PO Box 100,"","",Mailing
+134,,98,22025,Dumfries,VA,US,"","16450 Pleasant Road, Dumfries, VA 22025","","",Physical
+135,,98,22172,Triangle,VA,US,"",18100 Park Headquarters Road,"","",Mailing
+136,,100,55347,Triangle,VA,US,"",5000 Scenic Drive,"","",Physical
+137,,100,22172,Triangle,VA,US,"",18100 Park Headquarters Road,"","",Mailing
+138,,101,22172,Triangle,VA,US,"",4990 Scenic Drive,"","",Physical
+139,,101,22172,Triangle,VA,US,"",18100 Park Headquarters Road,"","",Mailing
+140,,102,22025,Dumfries,VA,US,"",16675 Pleasant Road,"","",Physical
+141,,102,22172,Triangle,VA,US,"",18100 Park Headquarters Road,"","",Mailing
+142,,103,22172,Triangle,VA,US,"",17425 Mawavi Road,"","",Physical
+143,,103,22172,Triangle,VA,US,"",18100 Park Headquarters Road,"","",Mailing
+144,,104,21750,Woodmont,MD,US,"","","","",Physical
+145,,105,37882,Townsend,TN,US,"",10042 Campground Drive,"","",Physical
+146,,105,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Mailing
+147,,106,37882,Townsend,TN,US,"",10042 Campground Drive,"","",Physical
+148,,106,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Mailing
+149,,107,21777,Point of Rocks,MD,US,"","","","",Physical
+150,,109,89040,Overton,NV,US,"",100 Callville Bay Rd,"","",Physical
+151,,109,89040,Overton,NV,US,"",100 Callville Bay Rd,"","",Mailing
+152,,111,21788,Thurmont,MD,US,"",15001 Park Central Road,"","",Physical
+153,,111,21788,Thurmont,MD,US,"",6602 Foxville Road,"","",Mailing
+154,,112,21788,Thurmont,MD,US,"",14764 Park Central Road,"","",Physical
+155,,112,21788,Thurmont,MD,US,"",6602 Foxville Road,"","",Mailing
+156,,113,99129,Fruitland,WA,US,"",6699 Speckled Bird Way,"","",Physical
+157,,113,99203,Spokane,WA,US,"",PO Box 8743,"","",Mailing
+158,,114,21780,Sabillasville,MD,US,"",14840 Manahan Road,"","",Physical
+159,,114,21788,Thurmont,MD,US,"",6602 Foxville Road,"","",Mailing
+160,,115,32169,New Smyrna Beach,FL,US,"",7611 S Atlantic Ave,"","",Physical
+161,,115,32169,New Smyrna Beach,FL,US,"",7611 S Atlantic Ave,"","",Mailing
+162,,116,82190,Yellowstone National Park,WY,US,"",GPS Coordinates: N 44 44.118 W110 29 17,"","",Physical
+163,,116,82190,Yellowstone National Park,WY,US,"",PO Box 165,"","",Mailing
+164,,117,99840,Skagway,AK,US,"","","","",Physical
+165,,118,86054,Shonto,AZ,US,"",Navajo National Monument - Canyon View Campground,End of AZ Highway 564,"",Physical
+166,,118,86054,Shonto,AZ,US,"",Navajo National Monument,P.O. BOX 7717,"",Mailing
+167,,119,93633,Kings Canyon National Park,CA,US,"",Mile 32.4 CA-180,"","",Physical
+168,,119,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+169,,120,27920,Buxton,NC,US,"",46700 Lighthouse Road,"","",Physical
+170,,120,27954,Manteo,NC,US,"",Cape Hatteras National Seashore,1401 National Park Drive,"",Mailing
+171,,121,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+172,,121,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+173,,122,72641,Jasper,AR,US,"",none,"","",Physical
+174,,122,72641,Jasper,AR,US,"",none,"","",Mailing
+175,,123,37876,Waynesville,NC,US,"",3576 Ranger Station Road,"","",Physical
+176,,123,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Mailing
+177,,124,97523,Cave Junction,OR,US,"",Oregon Caves NM and Preserve,19000 Caves Hwy,"",Physical
+178,,124,97523,Cave Junction,OR,US,"",Oregon Caves NM and Preserve,19000 Caves Hwy,"",Mailing
+179,,125,79036,Fritch,TX,US,"",419 E. Broadway,"","",Physical
+180,,125,79036,Fritch,TX,US,"",P.O. Box 1460,"","",Mailing
+181,,126,65501,Current Township,MO,US,"",NPS Road 154,"","",Physical
+182,,126,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+183,,127,57750,Interior,SD,US,"",20681 South Dakota Highway 240,"","",Physical
+184,,127,57750,Interior,SD,US,"",20681 South Dakota Highway 240,"","",Mailing
+185,,128,63965,Kelly Township,MO,US,"",NPS Road 103,"","",Physical
+186,,128,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+187,,129,46360,Michigan City,IN,US,"",Central Avenue Beach Parking Lot,151 Central Ave,"",Physical
+188,,129,46304,Porter,IN,US,"",1100 North Mineral Springs Road,"","",Mailing
+189,,132,79036,Fritch,TX,US,"","","","",Physical
+190,,133,49931,Houghton,MI,US,"","","","",Physical
+191,,134,20837,Poolesville,MD,US,"","","","",Physical
+192,,135,79834,Big Bend National Park,TX,US,"",Chisos Basin Campground,"","",Physical
+193,,135,79834,Big Bend National Park,TX,US,"",Big Bend National Park,PO Box 129,"",Mailing
+194,,136,22172,Triangle,VA,US,"",18170 Park Entrance Road,"","",Physical
+195,,136,22172,Triangle,VA,US,"",18100 Park Headquarters Road,"","",Mailing
+196,,139,90265,Malibu,CA,US,"",12896 Yerba Buena Rd,"","",Physical
+197,,139,90265,Malibu,CA,US,"",12896 Yerba Buena Rd,"","",Mailing
+198,,140,83312,Almo,ID,US,"",City of Rocks National Reserve Visitor Center,3035 Elba-Almo Road,"",Physical
+199,,140,83312,Almo,ID,US,"",City of Rocks National Reserve,PO Box 169,"",Mailing
+200,,143,99131,Gifford,WA,US,"",Along WA 25,"","",Physical
+201,,143,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+202,,144,63965,Kelly Township,MO,US,"",NPS Road 107,"","",Physical
+203,,144,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+204,,145,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Physical
+205,,145,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Mailing
+206,,146,93271,Sequoia National Park,CA,US,"","Mile 23.4, Mineral King Road","","",Physical
+207,,146,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+208,,148,98284,Sedro-Woolley,WA,US,"",Colonial Creek Campground,c/o North Cascades National Park Service Complex,Milepost 130 SR 20,Physical
+209,,148,98284,Sedro-Woolley,WA,US,"",810 SR 20,"","",Mailing
+210,,149,98284,Sedro-Woolley,WA,US,"",Colonial Creek Campground,c/o North Cascades National Park Service Complex,Milepost 130 SR 20,Physical
+211,,149,98284,Sedro-Woolley,WA,US,"",Colonial Creek Campground,c/o North Cascades National Park Service Complex,810 State Route 20,Mailing
+212,,150,86040,Page,AZ,US,"",Colorado River upstream of Lees Ferry,"","",Physical
+213,,150,86040,Page,AZ,US,"",PO Box 1507,"","",Mailing
+214,,151,83013,Moran,WY,US,"",100 Colter Bay Campground Road,Colter Bay Campground,"",Physical
+215,,151,83013,Moran,WY,US,"",P.O. Box 250,"","",Mailing
+216,,152,83013,Moran,WY,US,"",100 Colter Bay Campground Road,Colter Bay RV Park,"",Physical
+217,,152,83013,Moran,WY,US,"",PO Box 250,"","",Mailing
+218,,153,83013,Moran,WY,US,"",100 Cabin Road,Colter Bay Village,"",Physical
+219,,153,83013,Moran,WY,US,"",P.O. Box 250,"","",Mailing
+220,,154,37722,Cosby,TN,US,"",471 Cosby Park Road,"","",Physical
+221,,154,37738,Gatlinburg,TN,US,"",107 Park Headquarters Rd.,"","",Mailing
+222,,156,92277,Cottonwood Springs,CA,US,"",Cottonwood Campground,Pinto Basin Road,"",Physical
+223,,156,92277,Twentynine Palms,CA,US,"",Joshua Tree National Park,74485 National Park Drive,"",Mailing
+224,,157,79834,Big Bend National Park,TX,US,"",Cottonwood Campground,"","",Physical
+225,,157,79834,Big Bend National Park,TX,US,"",Big Bend National Park,PO Box 129,"",Mailing
+226,,160,98304,Ashford,WA,US,"",Mount Rainier National Park,"","",Physical
+227,,160,98304,Ashford,WA,US,"",55210 238th Avenue East,"","",Mailing
+228,,163,28777,Spruce Pine,NC,US,"",Crabtree Falls Campground,Blue Ridge Parkway,Milepost 339.5,Physical
+229,,163,28777,Spruce Pine,NC,US,"",Blue Ridge Parkway,Crabtree Falls Campground,214 Parkway Maintenance Road,Mailing
+230,,165,96095,Whiskeytown,CA,US,"","","","",Physical
+231,,166,93633,Grant Grove,CA,US,"",Crystal Springs Road,"","",Physical
+232,,166,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+233,,167,93633,Grant Grove,CA,US,"",Crystal Springs Road,"","",Physical
+234,,167,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+235,,168,21795,Williamsport,MD,US,"","","","",Physical
+236,,169,59936,"",MT,US,"","","","",Physical
+237,,169,59936,West Glacier,MT,US,"",PO Box 128,Attn: East side campgrounds,"",Mailing
+238,,170,49636,Glen Arbor,MI,US,"",8010 West Harbor Highway  (M-109),"","",Physical
+239,,170,49630,Empire,MI,US,"",9922 Front Street,"","",Mailing
+240,,171,49636,Glen Arbor,MI,US,"",8010 West Harbor Highway (M-109),"","",Physical
+241,,171,49630,Empire,MI,US,"",9922 Front Street,"","",Mailing
+242,,172,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+243,,172,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+244,,173,39564,Ocean Springs,MS,US,"",3500 Park Road,"","",Physical
+245,,173,39564,Ocean Springs,MS,US,"",3500 Park Road,"","",Mailing
+246,,175,59035,Fort Smith,MT,US,"",Dayboard 9,Bighorn Lake,"",Physical
+247,,175,82435,Lovell,WY,US,"",20 US Hwy 14A,"","",Mailing
+248,,176,65501,Current Township,MO,US,"",NPS Road 109,"","",Physical
+249,,176,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+250,,177,28713,Bryson City,NC,US,"",1912 East Deep Creek Road,"","",Physical
+251,,177,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Mailing
+252,,179,81610,Dinosaur,CO,US,"",4545 HWY 40,"","",Physical
+253,,179,84035,Jensen,UT,US,"",PO Box 128,"","",Mailing
+254,,180,86023,Grand Canyon,AZ,US,"","","","",Physical
+255,,180,86023,Grand Canyon,AZ,US,"",Desert View Campground,Grand Canyon National Park,P.O. Box 129,Mailing
+256,,181,21766,Little Orleans,MD,US,"","","","",Physical
+257,,182,84532,Moab,UT,US,"",18 miles inside park entrance,"","",Physical
+258,,182,84532,Moab,UT,US,"",2282 Resource Blvd.,"","",Mailing
+259,,183,18328,Dingmans Ferry,PA,US,"",Dingmans Campground,1006 Route 209,"",Physical
+260,,183,18328,Dingmans Ferry,PA,US,"",Dingmans Campground,1006 Route 209,"",Mailing
+261,,184,86040,Page,AZ,US,"",PO Box 1507,Glen Canyon National Recreation Area,"",Physical
+262,,184,86040,Page,AZ,US,"",PO Box 1507,Glen Canyon National Recreation Area,"",Mailing
+263,,185,79847,Salt Flat,TX,US,"","","","",Physical
+264,,186,93262,Sequoia National Park,CA,US,"",Mile 29 Generals Highway,"","",Physical
+265,,186,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+266,,187,28644,Laurel Springs,NC,US,"",Doughton Park Campground,Blue Ridge Parkway,Milepost 239,Physical
+267,,187,28644,Laurel Springs,NC,US,"",Blue Ridge Parkway,Doughton Park Campground,49800 Blue Ridge Parkway,Mailing
+268,,188,85730,Tucson,AZ,US,"","","","",Physical
+269,,191,04609,Bar Harbor,ME,US,"","Acadia National Park, Attn: Duck Harbor Campground, PO Box 177","","",Physical
+270,,191,04609,Bar Harbor,ME,US,"","Acadia National Park, Attn: Duck Harbor Campground, PO Box 177","","",Mailing
+271,,193,46304,Beverly Shores,IN,US,"",Lake Front Drive,"","",Physical
+272,,193,46304,Porter,IN,US,"",1100 North Mineral Springs Rd,"","",Mailing
+273,,194,49931,Houghton,MI,US,"","","","",Physical
+274,,195,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+275,,195,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+276,,196,46360,Beverly Shores,IN,US,"",1 Golf Wood Road,"","",Physical
+277,,196,46304,Porter,IN,US,"",1100 North Mineral Springs Road,"","",Mailing
+278,,198,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+279,,198,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+280,,201,81401,Montrose,CO,US,"","East Portal Road, Black Canyon National Park","","",Physical
+281,,201,81230,Gunnison,CO,US,"",102 Elk Creek,"","",Mailing
+282,,202,89005,Boulder City,NV,US,"",601 Nevada Way,"","",Physical
+283,,202,89005,Boulder City,NV,US,"",601 Nevada Way,"","",Mailing
+284,,204,81610,Dinosaur,CO,US,"",4545 US HWY 40,"","",Physical
+285,,204,84035,Jensen,UT,US,"",PO Box 128,"","",Mailing
+286,,205,87321,Ramah,NM,US,"","Hwy 53, Mile marker 44.6","","",Physical
+287,,205,87321,Ramah,NM,US,"",HC 61 Box 43,"","",Mailing
+288,,206,81230,Gunnison,CO,US,"",102 Elk Creek,"","",Mailing
+289,,207,57747,Hot Springs,SD,US,"",26611 Hwy 385,"","",Physical
+290,,207,57747,Hot Springs,SD,US,"",26611 Hwy 385,"","",Mailing
+291,,208,95531,Crescent City,CA,US,"","","","",Physical
+292,,208,95555,.,CA,US,"",.,"","",Mailing
+293,,209,37738,Gatlinburg,TN,US,"",434 Elkmont Road,"","",Physical
+294,,209,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Mailing
+295,,210,37738,Gatlinburg,TN,US,"",434 Elkmont Road,"","",Physical
+296,,210,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Mailing
+297,,212,92328,Death Valley,CA,US,"",Emigrant Campground,"","",Physical
+298,,212,92328,Death Valley,CA,US,"",PO Box 579,"","",Mailing
+299,,213,72641,Jasper,AR,US,"",none,"","",Physical
+300,,213,72641,Jasper,AR,US,"",none,"","",Mailing
+301,,214,04765,Patten,ME,US,"",PO Box 446,"","",Mailing
+302,,215,92328,Death Valley,CA,US,"",PO Box 579,"","",Physical
+303,,215,92328,Death Valley,CA,US,"",PO Box 579,"","",Mailing
+304,,216,99126,Evans,WA,US,"",Along WA 25,"","",Physical
+305,,216,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+306,,217,99126,Evans,WA,US,"",Along WA 25,"","",Physical
+307,,217,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+308,,218,21740,Hagerstown,MD,US,"","","","",Physical
+309,,219,99664,Seward,AK,US,"",Kenai Fjords National Park,P.O. Box 1727,"",Physical
+310,,219,99664,Seward,AK,US,"",Kenai Fjords National Park,PO Box 1727,"",Mailing
+311,,220,98363,Port Angeles,WA,US,"","","","",Physical
+312,,221,86040,Page,AZ,US,"",PO Box 1507,"","",Physical
+313,,221,86040,Page,AZ,US,"",PO Box 1507,"","",Mailing
+314,,222,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+315,,222,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+316,,224,99840,Skagway,AK,US,"","","","",Physical
+317,,225,59936,West Glacier,MT,US,"",PO Box 128,Attn: Fish Creek Campgrounf,"",Mailing
+318,,226,82190,Yellowstone National Park,WY,US,"",GPS Coordinates: N 44 33.820 W 110 22.167,"","",Physical
+319,,226,82190,Yellowstone National Park,WY,US,"",PO Box 165,"","",Mailing
+320,,227,33034,Flamingo,FL,US,"","1 Flamingo Lodge Highway, Lot #","","",Physical
+321,,227,33034,Flamingo,FL,US,"","1 Flamingo Lodge Highway, Lot #","","",Mailing
+322,,228,98239,Coupeville,WA,US,"","","","",Physical
+323,,229,55605,Grand Portage,MN,US,"",Grand Portage National Monument,170 Mile Creek Road,"",Physical
+324,,229,55605,Grand Portage,MN,US,"",Grand Portage National Monument,P.O. Box 426,"",Mailing
+325,,230,98239,Coupeville,WA,US,"","","","",Physical
+326,,231,32561,Pensacola Beach,FL,US,"",1400 Fort Pickens Road,"","",Physical
+327,,231,32563,Gulf Breeze,FL,US,"",1801 Gulf Breeze Parkway,"","",Mailing
+328,,233,99122,Davenport,WA,US,"",Along WA 25,Across from Fort Spokane Visitor Center,"",Physical
+329,,233,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+330,,236,27920,Frisco,NC,US,"",53414 Billy Mitchell Road,"","",Physical
+331,,236,27954,Manteo,NC,US,"",Cape Hatteras National Seashore,1401 National Park Drive,"",Mailing
+332,,237,79036,Fritch,TX,US,"","","","",Physical
+333,,238,84775,Torrey,UT,US,"","","","",Physical
+334,,239,92328,Death Valley,CA,US,"",Furnace Creek Campground,"","",Physical
+335,,239,92328,Death Valley,CA,US,"",PO Box 579,"","",Mailing
+336,,241,33034,Homestead,FL,US,"","","","",Physical
+337,,242,81640,Maybell,CO,US,"",8810 Co Rd 34,"","",Physical
+338,,242,81610,Dinosaur,CO,US,"",4545 Hwy 40,"","",Mailing
+339,,244,34141,Ochopee,FL,US,"",33100 Tamiami Trail East,"","",Mailing
+340,,246,99131,Gifford,WA,US,"",Along WA 25,"","",Physical
+341,,246,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+342,,247,99131,Gifford,WA,US,"",Along WA 25,South end of Gifford Campground,"",Physical
+343,,247,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+344,,248,80517,Estes Park,CO,US,"",Bear Lake Road,Rocky Mountain National Park,"",Physical
+345,,248,80517,Estes Park,CO,US,"",Glacier Basin Campground,1000 US Hwy 36,"",Mailing
+346,,249,25907,Prince,WV,US,"",Glade Creek Campground,Glade Creek Road,"",Physical
+347,,249,25846,Glen Jean,WV,US,"","PO Box 246, 104 Main Street","","",Mailing
+348,,250,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Physical
+349,,250,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Mailing
+350,,251,68792,Cedar County,NE,US,"",Missouri River,"","",Physical
+351,,251,68792,Cedar County,NE,US,"",Missouri River,"","",Mailing
+352,,252,95555,Orick,CA,US,"",.,"","",Physical
+353,,252,95555,Orick,CA,US,"",.,"","",Mailing
+354,,253,98284,Sedro-Woolley,WA,US,"",Goodell Creek Campground,c/o North Cascades National Park Service Complex,Milepost 119 State Route 20,Physical
+355,,253,98284,Sedro-Woolley,WA,US,"",810 SR 20,"","",Mailing
+356,,254,63965,Kelley Township,MO,US,"",NPS Road 106,"","",Physical
+357,,254,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+358,,257,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+359,,257,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+360,,260,25907,Prince,WV,US,"",Grandview Sandbar Campground,Glade Creek Road,"",Physical
+361,,260,25846,Glen Jean,WV,US,"","PO Box 246, 104 Main Street","","",Mailing
+362,,261,82190,Yellowstone National Park,WY,US,"",GPS Coordinates-- N 44 23.610 W 110 33.769,"","",Physical
+363,,261,82190,Yellowstone National Park,WY,US,"",PO Box 165,"","",Mailing
+364,,263,85730,Tucson,AZ,US,"","","","",Physical
+365,,264,98362,Port Angeles,WA,US,"","","","",Physical
+366,,265,28524,Core Banks,NC,US,"",Great Island,"","",Physical
+367,,265,28531,Harkers Island,NC,US,"",131 Charles St,"","",Mailing
+368,,267,84035,Jensen,UT,US,"",11625 E 1500 S,"","",Physical
+369,,267,84035,Jensen,UT,US,"",PO Box 128,"","",Mailing
+370,,268,20770,Greenbelt,MD,US,"",6565 Greenbelt Road,"","",Physical
+371,,268,20770,Greenbelt,MD,US,"",6565 Greenbelt Road,"","",Mailing
+372,,270,83011,Kelly,WY,US,"",100 Gros Ventre Campground Road,"","",Physical
+373,,270,83013,Moran,WY,US,"",PO Box 250,"","",Mailing
+374,,271,84775,Torrey,UT,US,"","","","",Physical
+375,,273,63965,Kelly Township,MO,US,"",NPS Road 223,"","",Physical
+376,,273,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+377,,275,71901,Hot Springs,AR,US,"",305 Gulpha Gorge Road,"","",Physical
+378,,275,71901,Hot Springs,AR,US,"",101 Reserve Steet,"","",Mailing
+379,,278,99141,Kettle Falls,WA,US,"",Along Inchelium Highway,"","",Physical
+380,,278,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+381,,279,84533,Lake Powell,UT,US,"",Halls Crossing Campground,"","",Physical
+382,,279,86040,Page,AZ,US,"",Lake Powell Resorts & Marinas,PO Box 1926,"",Mailing
+383,,280,85730,Tucson,AZ,US,"","","","",Physical
+384,,284,04765,Patten,ME,US,"",PO Box 446,"","",Mailing
+385,,285,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+386,,285,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+387,,286,94965,Sausalito,CA,US,"",Hawk Campground,Marin Headlands,Golden Gate National Recreation Area,Physical
+388,,286,94123-0022,San Francisco,CA,US,"",Golden Gate National Recreation Area,Building 201,Fort Mason,Mailing
+389,,287,99117,Creston,WA,US,"",Along Miles Creston Road,"","",Physical
+390,,287,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+391,,288,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+392,,288,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+393,,289,94965,Sausalito,CA,US,"",Haypress Campground,Marin Headlands,Golden Gate National Recreation Area,Physical
+394,,289,94123-0022,San Francisco,CA,US,"",Golden Gate National Recreation Area,Building 201,Fort Mason,Mailing
+395,,290,83013,Moran,WY,US,"",101 Grassy Lake Road,Headwaters Campground and RV Park,"",Physical
+396,,290,83013,Moran,WY,US,"",P.O. Box 250,"","",Mailing
+397,,291,98362,Port Angeles,WA,US,"",Hurricane Ridge Road,"","",Physical
+398,,295,98331,Forks,WA,US,"",Hoh Campground,"","",Physical
+399,,295,98331,Forks,WA,US,"",Hoh Campground,"","",Mailing
+400,,296,92332,Essex,CA,US,"",Black Canyon Road,"","",Physical
+401,,296,92311,Barstow,CA,US,"",2701 Barstow Rd,"","",Mailing
+402,,297,92328,Death Valley,CA,US,"",PO Box 579,"","",Physical
+403,,297,92328,Death Valley,CA,US,"",PO Box 579,"","",Mailing
+404,,298,96095,Whiskeytown,CA,US,"","","","",Physical
+405,,299,21811,Berlin,MD,US,"",Ranger Station/Campground Office - Maryland District,6633 Bayberry Drive,"",Physical
+406,,299,21811,Berlin,MD,US,"",Business Offices - Maryland District,7206 National Seashore Lane,"",Mailing
+407,,300,20837,Poolesville,MD,US,"","","","",Physical
+408,,301,82431,Lovell,WY,US,"",Horseshoe Bend Campground,Horseshoe Bend Marina,"",Physical
+409,,301,82431,Lovell,WY,US,"",20 Hwy 14A E,"","",Mailing
+410,,302,21782,Mercersville,MD,US,"","","","",Physical
+411,,303,96790,Kula,HI,US,"",Haleakalā National Park,"30,000 Haleakalā Hwy.","",Physical
+412,,303,96768,Makawao,HI,US,"",Haleakalā National Park,PO Box 369,"",Mailing
+413,,304,42210,Brownsville,KY,US,"",Houchin Ferry Campground,Mammoth Cave National Park,Houchins Ferry Road,Physical
+414,,304,42259,Mammoth Cave,KY,US,"",Mammoth Cave National Park,P.O. Box 7,"",Mailing
+415,,305,81321,Cortez,CO,US,"",Along the border between southeast Utah and southwest Colorado,"Just north and west of Cortez, CO","",Physical
+416,,305,81321,Cortez,CO,US,"",McElmo Route,"","",Mailing
+417,,307,21740,Hagerstown,MD,US,"","","","",Physical
+418,,308,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+419,,308,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+420,,309,99137,Hunters,WA,US,"",Hunters Campground Road / WA 25,"","",Physical
+421,,309,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+422,,310,99137,Hunters,WA,US,"",Hunters Campground Road / WA 25,"","",Physical
+423,,310,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+424,,311,49839,Grand Marais,MI,US,"",11.2 miles west of Grand Marais on H-58,"","",Physical
+425,,311,49839,Grand Marais,MI,US,"",11.2 miles west of Grand Marais on H-58,"","",Mailing
+426,,312,99755,Denali Park,AK,US,"","Mile 35, Denali Park Road","","",Physical
+427,,312,99755,Denali Park,AK,US,"",P.O. Box 9,"","",Mailing
+428,,313,92277,Twentynine Palms,CA,US,"",Indian Cove Campground,Indian Cove Mountain Road,"",Physical
+429,,313,92277,Twentynine Palms,CA,US,"",Joshua Tree National Park,74485 National Park Drive,"",Mailing
+430,,314,82190,Yellowstone National Park,WY,US,"",GPS Coordinates--N: 44  53.22138 W: 110 44.16414,"","",Physical
+431,,314,82190,Yellowstone National Park,WY,US,"",PO Box 168,"","",Mailing
+432,,315,20842,Dickerson,MD,US,"","","","",Physical
+433,,316,96134,Tulelake,CA,US,"",1 Indian Well HQ,"","",Physical
+434,,316,96134,Tulelake,CA,US,"",P.O. Box 1240,"","",Mailing
+435,,317,21766,Little Orleans,MD,US,"","","","",Physical
+436,,318,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+437,,318,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+438,,319,21740,Hagerstown,MD,US,"","","","",Physical
+439,,320,49931,Houghton,MN,US,"",800 E. Lakeshore Drive,"","",Physical
+440,,320,49931,Houghton,MN,US,"",800 E. Lakeshore Drive,"","",Mailing
+441,,321,84532,Moab,UT,US,"",Approximately 22 miles west on UT 313,"","",Physical
+442,,321,84532,Moab,UT,US,"",2282 Resource Blvd.,"","",Mailing
+443,,322,95531,Crescent City,CA,US,"","","","",Physical
+444,,323,39735,Ackerman,MS,US,"",Milepost 193.1 Natchez Trace Parkway / Bright Road & Prewitt Road,"","",Physical
+445,,323,38804,Tupelo,MS,US,"",2680 Natchez Trace Parkway,"","",Mailing
+446,,324,83012,Moose,WY,US,"",Teton Park Road,Jenny Lake Campground,"",Physical
+447,,324,83013,Moran,WY,US,"",PO Box 250,"","",Mailing
+448,,325,65466,Eminence Township,MO,US,"",County Road 224,"","",Physical
+449,,325,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+450,,326,99185,Wilbur,WA,US,"",Jones Bay Road,"","",Physical
+451,,326,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+452,,327,21795,Williamsport,MD,US,"","","","",Physical
+453,,328,28605,Blowing Rock,NC,US,"",Julian Price Campground,Blue Ridge Parkway,Milepost 297,Physical
+454,,328,28605,Blowing Rock,NC,US,"",Blue Ridge Parkway,Julian Price Campground,5580 Shulls Mill Road,Mailing
+455,,329,92277,Twentynine Palms,CA,US,"",Jumbo Rocks Campground,Park Boulevard,"",Physical
+456,,329,92277,Twentynine Palms,CA,US,"",Joshua Tree National Park,74485 National Park Drive,"",Mailing
+457,,330,85730,Tucson,AZ,US,"","","","",Physical
+458,,332,87544,Los Alamos,NM,US,"",Juniper Campground,15 Entrance RD,"",Physical
+459,,332,87544,Los Alamos,NM,US,"",Juniper Campground,15 Entrance RD,"",Mailing
+460,,333,96020,Chester,CA,US,"",Juniper Lake Campground,Chester Juniper Lake Road,"",Physical
+461,,333,96063,Mineral,CA,US,"",PO Box 100,"","",Mailing
+462,,335,99141,Kettle Falls,WA,US,"",Along Northport Flat Creek Road,"","",Physical
+463,,335,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+464,,339,99185,Wilbur,WA,US,"",45751 WA-21,"","",Physical
+465,,339,99185,Wilbur,WA,US,"",45751 WA-21,"","",Mailing
+466,,341,99586,Nabesna,AK,US,"",Mile Post 27.8 Nabesna Road,"","",Physical
+467,,341,99573,Copper Center,AK,US,"",Wrangell-St. Elias National Park & Preserve,PO Box 439,Mile 106.8 Richardson Highway,Mailing
+468,,342,99141,Kettle Falls,WA,US,"",1368 Kettle Park Road,"","",Physical
+469,,342,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+470,,343,99107,Boyds,WA,US,"",Along US 395,"","",Physical
+471,,343,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+472,,344,21782,Sharpsburg,MD,US,"","","","",Physical
+473,,345,59936,West Glacier,MT,US,"","","","",Physical
+474,,345,59936,West Glacier,MT,US,"",PO Box 128,Attn: West side campgrounds,"",Mailing
+475,,346,94965,Sausalito,CA,US,"",Kirby Cove Campground,Conzelman Road,Marin Headlands,Physical
+476,,346,94123-0022,San Francisco,CA,US,"",Golden Gate National Recreation Area,Building 201,Fort Mason,Mailing
+477,,347,96718,Hawaii National Park,HI,US,"",1 Crater Rim Drive,"","",Physical
+478,,347,96718,Hawaii National Park,HI,US,"",P.O. Box 52,"","",Mailing
+479,,348,72641,Jasper,AR,US,"",none,"","",Physical
+480,,348,72641,Jasper,AR,US,"",none,"","",Mailing
+481,,349,93713,Hāna,HI,US,"",Haleakalā National Park,Mile Marker 41 Hāna Hwy.,"",Physical
+482,,349,96768,Makawao,HI,US,"",Haleakalā National Park,PO Box 369,"",Mailing
+483,,352,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+484,,352,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+485,,353,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+486,,353,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+487,,354,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+488,,354,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+489,,356,49931,Houghton,MI,US,"","","","",Physical
+490,,357,89005,Boulder City,NV,US,"",601 Nevada Way,"","",Physical
+491,,358,83213,Arco,ID,US,"",Craters of the Moon National Monument,Lava Flow Campground,1266 Craters Loop Road,Physical
+492,,358,83213,Arco,ID,US,"",Craters of the Moon National Monument,P.O. Box 29,"",Mailing
+493,,359,84767,Springdale,UT,US,"",Lava Point Rd,"","",Physical
+494,,359,84767,Springdale,UT,US,"",1 Zion Park Blvd,"","",Mailing
+495,,360,86036,Marble Canyon,AZ,US,"",Lees Ferry road,"","",Physical
+496,,360,86040,Page,AZ,US,"",PO Box 1507,Glen Canyon National Recreation Area,"",Mailing
+497,,361,21750,Hancock,MD,US,"","","","",Physical
+498,,362,82190,Yellowstone National Park,WY,US,"","GPS Coordinates-- N 44.2822056, W -110.6279873","","",Physical
+499,,362,82190,Yellowstone National Park,WY,US,"",PO Box 168,"","",Mailing
+500,,363,22827,Shenandoah,VA,US,"",361 Lewis Mountain Entrance Road,"","",Physical
+501,,363,22835,Luray,VA,US,"",Shenandoah National Park,Attn: Lewis Mountain Campground,3655 Hwy 211 E,Mailing
+502,,364,21711,Pool,MD,US,"","","","",Physical
+503,,365,28752,Linville Falls,NC,US,"",Linville Falls Campground,Blue Ridge Parkway,Milepost 316.3,Physical
+504,,365,28777,Spruce Pine,NC,US,"",Blue Ridge Parkway,Linville Falls Campground,214 Parkway Maintenance Road,Mailing
+505,,366,49884,Melstrand,MI,US,"",Little Beaver Lake Road,"","",Physical
+506,,366,49884,Melstrand,MI,US,"",Little Beaver Lake Road,"","",Mailing
+507,,367,21750,Hancock,MD,US,"","","","",Physical
+508,,368,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+509,,368,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+510,,369,83013,Moran,WY,US,"",Lizard Creek Rd,"","",Physical
+511,,369,83013,Moran,WY,US,"",P.O. Box 50,"","",Mailing
+512,,370,99141,Kettle Falls,WA,US,"",1368 Kettle Park Road,"","",Physical
+513,,370,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+514,,371,93262,Lodgepole,CA,US,"","Mile 0.5, Lodgepole Rd.","","",Physical
+515,,371,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+516,,372,22932,Crozet,VA,US,"",Loft Mountain Road,"","",Physical
+517,,372,22835,Luray,VA,US,"",Shenandoah National Park,Attn: Loft Mountain Campground,3655 Hwy 211 E,Mailing
+518,,373,63638,Winona Township,MO,US,"",County Road 555,"","",Physical
+519,,373,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+520,,374,59936,West Glacier,MT,US,"","","","",Physical
+521,,374,59936,West Glacier,MT,US,"",PO Box 128,Attn: West side campgrounds,"",Mailing
+522,,375,86040,Greenehaven,AZ,US,"",Off Hwy 89 at Arizona/Utah state line,"","",Physical
+523,,375,86040,Page,AZ,US,"",PO Box 1507,"","",Mailing
+524,,376,33034,Homestead,FL,US,"",40001 State Road 9336,"","",Physical
+525,,376,33034,Homestead,FL,US,"",40001 State Road 9336,"","",Mailing
+526,,378,80517,Estes Park,CO,US,"",1000 U.S. Hwy 36,"","",Mailing
+527,,379,37878,Walland,TN,US,"",7040 Flats Road,"","",Physical
+528,,379,37882,Townsend,TN,US,"",10042 Campground Drive,"","",Mailing
+529,,380,97604,Crater Lake,OR,US,"",Crater Lake National Park,no physical address is available,"",Physical
+530,,380,97604,Crater Lake,OR,US,"",Crater Lake National Park,PO Box 7,"",Mailing
+531,,381,96088,Shingletown,CA,US,"",Lost Creek Group Campground,Lassen Volcanic National Park Highway,"",Physical
+532,,381,96063,Mineral,CA,US,"",PO Box 100,"","",Mailing
+533,,382,98284,Sedro-Woolley,WA,US,"",810 SR 20,"","",Mailing
+534,,384,95389,Yosemite,CA,US,"",9024 Southside Drive,"","",Physical
+535,,384,95389,Yosemite,CA,US,"",P.O. Box 577,"","",Mailing
+536,,389,04765,Patten,ME,US,"",PO Box 446,"","",Mailing
+537,,391,82190,Yellowstone National Park,WY,US,"",N 44 38.725 W 110 51.687,"","",Physical
+538,,391,82190,Yellowstone National Park,WY,US,"",PO Box 165,"","",Mailing
+539,,392,92328,Death Valley,CA,US,"",PO Box 579,"","",Physical
+540,,392,92328,Death Valley,CA,US,"",PO Box 579,"","",Mailing
+541,,393,78418,Corpus Christi,TX,US,"",Park Road 22,"","",Physical
+542,,393,78480,Corpus Christi,TX,US,"",Padre Island National Seashore,PO Box 181300,"",Mailing
+543,,394,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+544,,394,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+545,,395,82190,Yellowstone National Park,WY,US,"",GPS Coordinates N 44 58.4166 W 110.41.59392,"","",Physical
+546,,395,82190,Yellowstone National Park,WY,US,"",PO Box 168,"","",Mailing
+547,,396,42259,Mammoth Cave,KY,US,"",Mammoth Cave Campground,Mammoth Cave National Park,2811 Mammoth Cave Parkway,Physical
+548,,396,42259,Mammoth Cave,KY,US,"",Mammoth Cave National Park Campground,Mammoth Cave National Park,P.O. Box 7,Mailing
+549,,397,85730,Tucson,AZ,US,"","","","",Physical
+550,,398,59936,West Glacier,MT,US,"",PO Box 128,Attn: Many Glacier Campground,"",Mailing
+551,,399,96088,Shingletown,CA,US,"",Manzanita Lake Campground,"","",Physical
+552,,399,96063,Mineral,CA,US,"",PO Box 100,"","",Mailing
+553,,400,42259,Mammoth Cave,KY,US,"",Maple Springs Loop Road,Mammoth Cave National Park,"",Physical
+554,,400,42259,Mammoth Cave,KY,US,"",Maple Springs Group Campground,Mammoth Cave National Park,P.O. Box 7,Mailing
+555,,401,20837,Poolesville,MD,US,"","","","",Physical
+556,,402,99151,Marcus,WA,US,"",Along WA 25,"","",Physical
+557,,402,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+558,,407,86023,Grand Canyon Village,AZ,US,"",1 Mather Campground Road,"","",Physical
+559,,407,86023,Grand Canyon,AZ,US,"",P.O. Box 129,Att: Mather Campground,"",Mailing
+560,,408,22835,Luray,VA,US,"",801 Mathews Arm Entrance Road,"","",Physical
+561,,408,22835,Luray,VA,US,"",Shenandoah National Park,Attn: Mathews Arm Campground,3655 U.S. Hwy 211 E,Mailing
+562,,409,97604,Crater Lake,OR,US,"",Mazama Village,"","",Physical
+563,,409,97604,not applicable,OR,US,"",no mailing address available,"","",Mailing
+564,,411,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+565,,411,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+566,,414,25977,Sandstone,WV,US,"",774 South Riverside Road,"","",Physical
+567,,414,25846,Glen Jean,WV,US,"",104 Main Street,"","",Mailing
+568,,416,82431,Lovell,WY,US,"",Barry's Landing Road,Dayboard 32 - boating,Barry's Island Trail - hiking,Physical
+569,,416,82431,Lovell,WY,US,"",20 US Hwy 14A East,"","",Mailing
+570,,417,38462,Hohenwald,TN,US,"",190 Meriwether Lewis Park,"","",Physical
+571,,417,38804,Tupelo,MS,US,"",2680 Natchez Trace Parkway,"","",Mailing
+572,,418,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+573,,418,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+574,,420,92328,Death Valley,CA,US,"",PO Box 337,"","",Physical
+575,,420,92328,Death Valley,CA,US,"",PO Box 337,"","",Mailing
+576,,421,92332,Essex,CA,US,"",Black Canyon Road,"","",Physical
+577,,421,92311,Barstow,CA,US,"",2701 Barstow Road,"","",Mailing
+578,,423,34141,Ochopee,FL,US,"",52870 Tamiami Trail East,"","",Physical
+579,,423,34141,Ochopee,FL,US,"",33100 Tamiami Trail East,"","",Mailing
+580,,424,95531,Crescent City,CA,US,"","","","",Physical
+581,,425,34141,Ochopee,FL,US,"",52105 Tamiami Trail East,"","",Physical
+582,,425,34141,Ochopee,FL,US,"",33100 Tamiami Trail East,"","",Mailing
+583,,426,07825,Blairstown,NJ,US,"",50 Camp Road,"","",Physical
+584,,426,07825,Blairstown,NJ,US,"",50 Camp Road,"","",Mailing
+585,,427,34141,Ochopee,FL,US,"",33100 Tamiami Trail East,"","",Mailing
+586,,428,98331,Forks,WA,US,"","","","",Physical
+587,,429,93633,Kings Canyon National Park,CA,US,"",Mile 33.1  CA-180,"","",Physical
+588,,429,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+589,,430,80517,Estes Park,CO,US,"",Moraine Park Road,"","",Physical
+590,,430,80517,Estes Park,CO,US,"",Moraine Park Campground,1000 US Hwy 36,"",Mailing
+591,,431,81330,Mesa Verde National Park,CO,US,"","Mile 4, Main Park Road","","",Physical
+592,,431,81328,Mancos,CO,US,"",Aramark Offices for Mesa Verde National Park,34879 Highway 160,"",Mailing
+593,,432,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+594,,432,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+595,,435,28803,Asheville,NC,US,"",Mount Pisgah Campground,Blue Ridge Parkway,Milepost 408.6,Physical
+596,,435,28803,Asheville,NC,US,"",Blue Ridge Parkway,Mount Pisgah Campground,199 Hemphill Knob Road,Mailing
+597,,438,84511,Blanding,UT,US,"",Hwy 275 End of Road,"","",Physical
+598,,438,84533,Lake Powell,UT,US,"",HC-60 Box 1,"","",Mailing
+599,,439,32563,Gulf Breeze,FL,US,"",1801 Gulf Breeze Parkway,"","",Physical
+600,,439,32563,Gulf Breeze,FL,US,"",1801 Gulf Breeze Parkway,"","",Mailing
+601,,440,98284,Sedro-Woolley,WA,US,"",Newhalem Creek Campground`,c/o North Cascades National Park Service Complex,Milepost 120 SR 20,Physical
+602,,440,98284,Sedro-Woolley,WA,US,"",Newhalem Creek Campground,c/o North Cascades National Park Service Complex,"",Mailing
+603,,441,82190,Yellowstone National Park,WY,US,"",GPS Coordinates: N 44  44.27088 W 110  41.6169,"","",Physical
+604,,441,82190,Yellowstone National Park,WY,US,"",PO Box 168,"","",Mailing
+605,,442,84764,Bryce,UT,US,"",Highway 63,"","",Physical
+606,,442,84764,Bryce,UT,US,"",P.O. Box 640201,"","",Mailing
+607,,444,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+608,,444,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+609,,445,98362,Port Angeles,WA,US,"","","","",Physical
+610,,446,99126,Evans,WA,US,"",Along WA-25,"","",Physical
+611,,446,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+612,,447,21722,Clear Spring,MD,US,"","","","",Physical
+613,,448,95389,Yosemite,CA,US,"",9024 Southside Drive,"","",Physical
+614,,448,95389,Yosemite,CA,US,"",P.O. Box 577,"","",Mailing
+615,,449,81415,Crawford,CO,US,"","North Rim, Black Canyon National Park","","",Physical
+616,,449,81230,Gunnison,CO,US,"",102 Elk Creek,"","",Mailing
+617,,450,96718,Hawaii National Park,HI,US,"",1 Crater Rim Drive,Attn: Volcano House,"",Physical
+618,,450,96718,Hawaii National Park,HI,US,"",P.O. Box 53,Attn: Volcano House,"",Mailing
+619,,451,22172,Triangle,VA,US,"",18100 Park Headquarters Road,"","",Physical
+620,,451,22172,Triangle,VA,US,"",18100 Park Headquarters Road,"","",Mailing
+621,,452,21811,Berlin,MD,US,"",Ranger Station/Campground Office - Maryland District,6633 Bayberry Drive,"",Physical
+622,,452,21811,Berlin,MD,US,"",Business Offices - Maryland District,7206 National Seashore Lane,"",Mailing
+623,,453,21811,Berlin,MD,US,"",Ranger Station/Campground Office - Maryland District,6633 Bayberry Drive,"",Physical
+624,,453,21811,Berlin,MD,US,"",Business Offices - Maryland District,7206 National Seashore Lane,"",Mailing
+625,,454,21811,Berlin,MD,US,"",Ranger Station/Campground Office - Maryland District,6633 Bayberry Drive,"",Physical
+626,,454,21811,Berlin,MD,US,"",Business Offices - Maryland District,7206 National Seashore Lane,"",Mailing
+627,,455,27960,Ocracoke,NC,US,"",4352 Irvin Garrish Hwy,"","",Physical
+628,,455,27954,Manteo,NC,US,"",Cape Hatteras National Seashore,1401 National Park Drive,"",Mailing
+629,,456,98304,Ashford,WA,US,"",Mount Rainier National Park,"","",Physical
+630,,456,98304,Ashford,WA,US,"",55210 238th Avenue East,"","",Mailing
+631,,457,21795,Williamsport,MD,US,"","","","",Physical
+632,,458,27959,Nags Head,NC,US,"",12001 NC-12 Highway,"","",Physical
+633,,458,27954,Manteo,NC,US,"",Cape Hatteras National Seashore,1401 National Park Drive,"",Mailing
+634,,459,24526,Big Island,VA,US,"",Otter Creek Campground,Blue Ridge Parkway,Milepost 60.9,Physical
+635,,459,24526,Big Island,VA,US,"",Blue Ridge Parkway,Otter Creek Campground,1184 Bellamy Creek Lane,Mailing
+636,,460,21780,Sabillasville,MD,US,"",15882 Foxville Deerfield Road,"","",Physical
+637,,460,21788,Thurmont,MD,US,"",6602 Foxville Road,"","",Mailing
+638,,461,72641,Jasper,AR,US,"",none,"","",Physical
+639,,461,72641,Jasper,AR,US,"",none,"","",Mailing
+640,,462,98362,Port Angeles,WA,US,"","","","",Physical
+641,,465,24523,Bedford,VA,US,"",Peaks of Otter Campground,Blue Ridge Parkway,Milepost 85.9,Physical
+642,,465,24523,Bedford,VA,US,"",Blue Ridge Parkway,Peaks of Otter Campground,85919 Blue Ridge Parkway,Mailing
+643,,466,82190,Yellowstone National Park,WY,US,"",GPS Coordinates -- N 44  55.01886 W 110  6.82848,"","",Physical
+644,,466,82190,Yellowstone National Park,WY,US,"",PO Box 168,"","",Mailing
+645,,467,96095,Whiskeytown,CA,US,"","","","",Physical
+646,,468,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+647,,468,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+648,,469,21740,Hagerstown,MD,US,"","","","",Physical
+649,,471,79847,Salt Flat,TX,US,"",400 Pine Canyon Rd.,"","",Physical
+650,,471,79847,Salt Flat,TX,US,"",400 Pine Canyon Rd.,"","",Mailing
+651,,473,34141,Ochopee,FL,US,"",33100 Tamiami Trail East,"","",Mailing
+652,,474,34101,Ochopee,FL,US,"",33100 Tamiami Trail East,"","",Mailing
+653,,475,95043,Paicines,CA,US,"",2400 HWY 146,"","",Physical
+654,,475,95043,Paicines,CA,US,"",2400 hwy  146,"","",Mailing
+655,,476,81146,Mosca,CO,US,"",11999 State Highway 150,Visitor Center,"",Physical
+656,,476,81146,Mosca,CO,US,"",11999 State Highway 150,Visitor Center,"",Mailing
+657,,477,49640,Honor,MI,US,"",5685 Lake Michigan Road,"","",Physical
+658,,477,49630,Empire,MI,US,"",9922 Front Street,"","",Mailing
+659,,478,99840,Skagway,AK,US,"","","","",Physical
+660,,479,79036,Fritch,TX,US,"",419 E. Broadway,"","",Physical
+661,,479,79036,Fritch,TX,US,"",P.O. Box 1460,"","",Mailing
+662,,483,87544,Los Alamos,NM,US,"",Ponderosa Group Campsite,15 entrance RD,"",Physical
+663,,483,87544,Los Alamos,NM,US,"",Ponderosa Group Campsite,15 entrance RD,"",Mailing
+664,,485,49630,Empire,MI,US,"",9922 Front Street,"","",Physical
+665,,485,49630,Empire,MI,US,"",9922 Front Street,"","",Mailing
+666,,486,99122,Davenport,WA,US,"",Porcupine Bay Rd,"","",Physical
+667,,486,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+668,,489,21740,Hagerstown,MD,US,"","","","",Physical
+669,,490,93271,Sequoia National Park,CA,US,"","Mile 3.7, Generals Highway","","",Physical
+670,,490,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+671,,491,63638,Eminence Township,MO,US,"",NPS Road 509,"","",Physical
+672,,491,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+673,,493,84775,Torrey,UT,US,"","","","",Physical
+674,,494,84775,Torrey,UT,US,"","","","",Physical
+675,,495,22025,Dumfries,VA,US,"",16058 Dumfries Road,"","",Physical
+676,,495,22172,Triangle,VA,US,"",18100 Park Headquarter Road,"","",Mailing
+677,,496,65466,Eminence,MO,US,"",9373 Pulltite RD,"","",Physical
+678,,496,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+679,,498,21740,Hagerstown,MD,US,"","","","",Physical
+680,,499,59936,West Glacier,MT,US,"","","","",Physical
+681,,499,59936,West Glacier,MT,US,"",PO Box 128,Attn: West side campgrounds,"",Mailing
+682,,500,98362,Port Angeles,WA,US,"","","","",Physical
+683,,501,84035,Jensen,UT,US,"",11625 E 1500 S,"","",Physical
+684,,501,84035,Jensen,UT,US,"",PO Box 128,"","",Mailing
+685,,503,99755,Denali Park,AK,US,"","Mile 0.25, Denali Park Road","","",Physical
+686,,503,99755,Denali Park,AK,US,"",PO Box 9,"","",Mailing
+687,,504,79834,Big Bend National Park,TX,US,"",Rio Grande Village Campground,"","",Physical
+688,,504,79834,Big Bend National Park,TX,US,"",Big Bend National Park,PO Box 129,"",Mailing
+689,,505,79834,Big Bend National Park,TX,US,"",Chisos Mountains Lodge - Aramark,1 Basin Rural Station,"",Physical
+690,,505,79834,Big Bend National Park,TX,US,"",Chisos Mountains Lodge - Aramark,1 Basin Rural Station,"",Mailing
+691,,506,59936,West Glacier,MT,US,"","","","",Physical
+692,,506,59936,West Glacier,MT,US,"",PO Box 128,Attn: East side campgrounds,"",Mailing
+693,,508,07881,Walpack Township,NJ,US,"",Rivers Bend Group Campground,State Route 615 (Old Mine Road),"",Physical
+694,,508,18324,Bushkill,PA,US,"",Delaware Water Gap National Recreation Area,P.O. Box 2,"",Mailing
+695,,512,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+696,,512,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+697,,513,78840,Del Rio,TX,US,"",No Physical Address. This is the address for park headquarters.,10477 Highway 90 West,"",Physical
+698,,513,78840,Del Rio,TX,US,"",10477 Highway 90 West,"","",Mailing
+699,,514,24091,Floyd,VA,US,"",Rocky Knob Campground,Blue Ridge Parkway,Milepost 167.1,Physical
+700,,514,24091,Floyd,VA,US,"",Blue Ridge Parkway,Rocky Knob Campground,1670 Blue Ridge Parkway,Mailing
+701,,515,39086,Hermanville,MS,US,"",Milepost 54.8 Natchez Trace Parkway,"","",Physical
+702,,515,38804-9517,Tupelo,MS,US,"",2680 Natchez Trace Parkway,"","",Mailing
+703,,518,65466,Eminence,MO,US,"",13209 Round Spring Campground Rd,"","",Physical
+704,,518,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+705,,520,72687,Yellville,AR,US,"",Marion County 6035,"","",Physical
+706,,520,72687,Yellville,AR,US,"",Marion County 6035,"","",Mailing
+707,,521,92277,Twentynine Palms,CA,US,"",Ryan Campground,Park Boulevard,"",Physical
+708,,521,92277,Twentynine Palms,CA,US,"",Joshua Tree National Park,74485 National Park Drive,"",Mailing
+709,,522,65438,Birch Tree,MO,US,"",County Road M-471,"","",Physical
+710,,522,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+711,,523,81521,Fruita,CO,US,"",Saddlehorn Loop Road,"","",Physical
+712,,523,81521,Fruita,CO,US,"",1750 Rim Rock Drive,"","",Mailing
+713,,524,57790,Wall,SD,US,"",Sage Creek Campground,"","",Physical
+714,,524,57750,Interior,SD,US,"",25216 Ben Reifel Road,"","",Mailing
+715,,526,93001,San Miguel Island,CA,US,"",San Miguel Island Campground,"","",Physical
+716,,526,93001,Ventura,CA,US,"",1901 Spinnaker Drive,"","",Mailing
+717,,528,99755,Denali Park,AK,US,"","Mile 22, Denali Park Road","","",Physical
+718,,528,99755,Denali Park,AK,US,"",PO Box 9,"","",Mailing
+719,,529,04765,Patten,ME,US,"",PO Box 446,"","",Mailing
+720,,532,93001,Santa Barbara Island,CA,US,"",Santa Barbara Island Campground,"","",Physical
+721,,532,93001,Ventura,CA,US,"",1901 Spinnaker Drive,"","",Mailing
+722,,533,93001,Santa Cruz Island,CA,US,"",Santa Cruz Island Del Norte Backcountry Campground,"","",Physical
+723,,533,93001,Ventura,CA,US,"",1901 Spinnaker Drive,"","",Mailing
+724,,534,93001,Santa Cruz Island,CA,US,"",Santa Cruz Island Scorpion Canyon Campground,"","",Physical
+725,,534,93001,Ventura,CA,US,"",1901 Spinnaker Drive,"","",Mailing
+726,,535,93001,Santa Rosa Island,CA,US,"",Santa Rosa Island Backcountry Beach Camping,"","",Physical
+727,,535,93001,Ventura,CA,US,"",1901 Spinnaker Drive,"","",Mailing
+728,,536,93001,Santa Rosa Island,CA,US,"",Santa Rosa Island Campground,"","",Physical
+729,,536,93001,Ventura,CA,US,"",1901 Spinnaker Drive,"","",Mailing
+730,,537,99755,Denali Park,AK,US,"",Mile 14 Denali Park Rd.,"","",Physical
+731,,537,99755,Denali Park,AK,US,"",PO Box 9,"","",Mailing
+732,,538,04693,Winter Harbor,ME,US,"",54 Farview Dr,"","",Physical
+733,,538,04693,Winter Harbor,ME,US,"",PO Box 370,"","",Mailing
+734,,540,04679,Southwest Harbor,ME,US,"",664 Seawall Rd,"","",Physical
+735,,540,04609,Bar Harbor,ME,US,"",PO Box 177,"","",Mailing
+736,,541,93633,Kings Canyon National Park,CA,US,"",North Side Drive,"","",Physical
+737,,541,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+738,,544,65466,Eminence,MO,US,"",County Road 106-211,"","",Physical
+739,,544,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+740,,545,99840,Skagway,AK,US,"","","","",Physical
+741,,546,96095,Whiskeytown,CA,US,"","","","",Physical
+742,,547,93633,Kings Canyon National Park,CA,US,"",Mile 31.4 CA-180,"","",Physical
+743,,547,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+744,,548,92277,Twentynine Palms,CA,US,"",Sheep Pass Group Campground,Park Boulevard,"",Physical
+745,,548,92277,Twentynine Palms,CA,US,"",Joshua Tree National Park,74485 National Park Drive,"",Mailing
+746,,550,83013,Moran,WY,US,"",1 Inner Park Rd,"","",Physical
+747,,550,83013,Moran,WY,US,"",PO Box 50,"","",Mailing
+748,,551,65466,Eminence,MO,US,"",NPS Road 145,"","",Physical
+749,,551,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+750,,552,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+751,,552,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+752,,553,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Physical
+753,,553,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Mailing
+754,,554,82190,Yellowstone National Park,WY,US,"",GPS Coordinates -- N: 44.9488466 W:-110.3068792,"","",Physical
+755,,554,82190,Yellowstone National Park,WY,US,"",PO Box 168,"","",Mailing
+756,,555,28719,Cherokee,NC,US,"",253 Smokemont Campground Road,"","",Physical
+757,,555,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Mailing
+758,,556,37738,Gatlinburg,TN,US,"","","","",Physical
+759,,557,83312,Almo,ID,US,"",City of Rocks National Reserve Visitor Center,3035 Elba-Almo Road,"",Physical
+760,,557,83312,Almo,ID,US,"",City of Rocks National Reserve/Castle Rocks State Park,PO Box 169,"",Mailing
+761,,558,99141,Kettle Falls,WA,US,"",Along Northport Flat Creek Road,"","",Physical
+762,,558,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+763,,560,21740,Hagerstown,MD,US,"","","","",Physical
+764,,561,98362,Port Angeles,WA,US,"","","","",Physical
+765,,562,84767,Springdale,UT,US,"",Zion-Mt. Carmel Highway,"","",Physical
+766,,562,84767,Springdale,UT,US,"",1 Zion Park Blvd,"","",Mailing
+767,,563,28524,Great Island,NC,US,"",South Core Banks,"","",Physical
+768,,563,28531,Harkers Island,NC,US,"",131 Charles St,"","",Mailing
+769,,564,93271,Sequoia National Park,CA,US,"","Mile 12.3, South Fork Road","","",Physical
+770,,564,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+771,,565,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+772,,565,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+773,,566,72650,Marshall,AR,US,"",Searcy HWY 52,"","",Physical
+774,,566,72650,Marshall,AR,US,"",Searcy HWY 52,"","",Mailing
+775,,567,81401,Montrose,CO,US,"","South Rim, Black Canyon of the Gunnison National Park","","",Physical
+776,,567,81230,Gunnison,CO,US,"",102 Elk Creek,"","",Mailing
+777,,568,96063,Mineral,CA,US,"",21820 Lassen National Park Highway,"","",Physical
+778,,568,96063,Mineral,CA,US,"",PO Box 100,"","",Mailing
+779,,569,96063,Mineral,CA,US,"",21820 Lassen National Park Highway,"","",Physical
+780,,569,96063,Mineral,CA,US,"",PO Box 100,"","",Mailing
+781,,570,84035,Jensen,UT,US,"",11625 E 1500 S,"","",Physical
+782,,570,84035,Jensen,UT,US,"",PO Box 128,"","",Mailing
+783,,571,59936,West Glacier,MT,US,"","","","",Physical
+784,,571,59936,West Glacier,MT,US,"",PO Box 128,Attn: West side campgrounds,"",Mailing
+785,,572,99133,Grand Coulee,WA,US,"",Spring Canyon Campground Road,"","",Physical
+786,,572,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+787,,573,99133,Grand Coulee,WA,US,"",Spring Canyon Campground Road,"","",Physical
+788,,573,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+789,,574,72639,Harriet,AR,US,"",Searcy County Road 99,"","",Physical
+790,,574,72639,Harriet,AR,US,"",Searcy County Road 99,"","",Mailing
+791,,576,85730,Tucson,AZ,US,"","","","",Physical
+792,,578,59936,West Glacier,MT,US,"",PO Box 128,Attn: St Mary Campground,"",Mailing
+793,,581,98548,Hoodsport,WA,US,"","","","",Physical
+794,,582,84533,Lake Powell,UT,US,"",Stanton Creek,Dirt Road off UT Hwy 276,"",Physical
+795,,582,86040,Page,AZ,US,"",PO Box 1507,"","",Mailing
+796,,583,37841,Oneida,TN,US,"",4504 Station Camp Rd,"","",Physical
+797,,583,37841,Oneida,TN,US,"",4564 Leatherwood Road,"","",Mailing
+798,,584,72742,Ponca,AR,US,"",n/a,"","",Physical
+799,,584,72742,Ponca,AR,US,"",n/a,"","",Mailing
+800,,586,21766,Little Orleans,MD,US,"","","","",Physical
+801,,587,25963,Thurmond,WV,US,"",Stone Cliff Campground,"","",Physical
+802,,587,25846,Glen Jean,WV,US,"","PO Box 246, 104 Main Street","","",Mailing
+803,,588,92328,Stovepipe Wells,CA,US,"",Stovepipe Wells,"","",Physical
+804,,588,92328,Death Valley,CA,US,"",PO Box 579,"","",Mailing
+805,,589,96063,Mineral,CA,US,"",Summit Lake North Campground,Lassen Peak Highway,"",Physical
+806,,589,96063,Mineral,CA,US,"",PO Box 100,"","",Mailing
+807,,590,96063,Mineral,CA,US,"",Summit Lake South Campground,Lassen Peak Highway,"",Physical
+808,,590,96063,Mineral,CA,US,"",PO Box 100,"","",Mailing
+809,,591,93633,Grant Grove,CA,US,"",NM525a Road,"","",Physical
+810,,591,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+811,,592,84764-0201,Bryce,UT,US,"",Highway 63,"","",Physical
+812,,592,84764-0201,Bryce,UT,US,"",PO Box 640201,"","",Mailing
+813,,593,92328,Furnace Creek,CA,US,"",Furnace Creek,"","",Physical
+814,,593,92328,Furnace Creek,CA,US,"",PO Box 579,"","",Mailing
+815,,594,86054,Shonto,AZ,US,"","","","",Physical
+816,,595,20854,Potomac,MD,US,"","","","",Physical
+817,,598,99755,Denali Park,AK,US,"","Mile 29, Denali Park Road","","",Physical
+818,,598,99755,Denali Park,AK,US,"",PO Box 9,"","",Mailing
+819,,599,89005,Boulder City,NV,US,"",601 Nevada Way,"","",Physical
+820,,599,89005,Boulder City,NV,US,"",601 Nevada Way,"","",Mailing
+821,,601,92328,Furnace Creek,CA,US,"",Furnace Creek,"","",Physical
+822,,601,92328,Death Valley,CA,US,"",PO Box 579,"","",Mailing
+823,,602,25936,Thurmond,WV,US,"",Thayer Campground,"","",Physical
+824,,602,25846,Glen Jean,WV,US,"","PO Box 246, 104 Main Street","","",Mailing
+825,,603,23651,Fort Monroe,VA,US,"",501 Fenwick Road,"","",Physical
+826,,603,23651,Fort Monroe,VA,US,"",501 Fenwick Road,"","",Mailing
+827,,604,84532,Moab,UT,US,"",At the end of UT 211 in The Needles district,"","",Physical
+828,,604,84532,Moab,UT,US,"",2282 Resource Blvd,"","",Mailing
+829,,605,84532,Moab,UT,US,"",At the end of UT 211 in The Needles district,"","",Physical
+830,,605,84532,Moab,UT,US,"",2282 Resource Blvd,"","",Mailing
+831,,607,92328,Death Valley,CA,US,"",PO Box 579,"","",Mailing
+832,,608,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+833,,608,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+834,,609,80447,Grand Lake,CO,US,"",US Hwy 34,"","",Physical
+835,,609,80447,Grand Lake,CO,US,"",16018 US Hwy 34,"","",Mailing
+836,,610,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+837,,610,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+838,,611,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Physical
+839,,611,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Mailing
+840,,612,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+841,,612,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+842,,613,82190,Yellowstone National Park,WY,US,"",GPS Coordinates N: 44 53.373 W 110 23.36856,"","",Physical
+843,,613,82190,Yellowstone National Park,WY,US,"",PO Box 168,"","",Mailing
+844,,614,21740,Hagerstown,MD,US,"","","","",Physical
+845,,615,86023,Grand Canyon,AZ,US,"",100 Trailer Village Rd,"","",Physical
+846,,615,86023,Grand Canyon,AZ,US,"",Delaware North at Grand Canyon,PO Box 159,"",Mailing
+847,,620,22172,Triangle,VA,US,"",5475 Turkey Run Road,"","",Physical
+848,,620,22172,Triangle,VA,US,"",18100 Park Headquarters Rd,"","",Mailing
+849,,621,20837,Poolesville,MD,US,"","","","",Physical
+850,,622,49839,Grand Marais,MI,US,"",18 miles west of Grand Marais on H-58,"","",Physical
+851,,622,49839,Grand Marais,MI,US,"",18 miles west of Grand Marais on H-58,"","",Mailing
+852,,623,85321,Ajo,AZ,US,"",10 Organ Pipe Drive,"","",Physical
+853,,623,85321,Ajo,AZ,US,"",10 Organ Pipe Drive,"","",Mailing
+854,,624,59936,West Glacier,MT,US,"","","","",Physical
+855,,624,59936,West Glacier,MT,US,"",PO Box 128,Attn: East side campgrounds,"",Mailing
+856,,625,65466,Eminence,MO,US,"",21575 State Route V,"","",Physical
+857,,625,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+858,,626,72675,St. Joe,AR,US,"",170 Ranger Road,"","",Physical
+859,,626,72675,St. Joe,AR,US,"",170 Ranger Road,"","",Mailing
+860,,627,04765,Patten,ME,US,"",PO Box 446,"","",Mailing
+861,,629,95389,Yosemite,CA,US,"",9024 Southside Drive,"","",Physical
+862,,629,95389,Yosemite,CA,US,"",P.O. Box 577,"","",Mailing
+863,,631,18324,Bushkill,PA,US,"","","","",Physical
+864,,631,18324,Bushkill,PA,US,"",1987 River Road,"","",Mailing
+865,,632,49630,Empire,MI,US,"",9922 Front Street,"","",Physical
+866,,632,49630,Empire,MI,US,"",9922 Front Street,"","",Mailing
+867,,633,86040,Page,AZ,US,"",Lake Powell Resorts & Marinas,100 Lakeshore Dr,"",Physical
+868,,633,86040,Page,AZ,US,"",Lake Powell Resorts & Marinas,PO Box 1926,"",Mailing
+869,,634,25907,Prince,WV,US,"",War Ridge Campground,"","",Physical
+870,,634,25846,Glen Jean,WV,US,"","PO Box 246, 104 Main Street","","",Mailing
+871,,635,96020,Chester,CA,US,"",Warner Valley Campground,Chester Warner Valley Rd,"",Physical
+872,,635,96063,Mineral,CA,US,"",PO Box 100,"","",Mailing
+873,,636,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+874,,636,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+875,,640,84767,Springdale,UT,US,"",UT-9,"","",Physical
+876,,640,84767,Springdale,UT,US,"",1 Zion Park Blvd,"","",Mailing
+877,,641,95389,Yosemite,CA,US,"",P.O. Box 577,"","",Mailing
+878,,643,49630,Empire,MI,US,"",9922 Front Street,"","",Physical
+879,,643,49630,Empire,MI,US,"",9922 Front Street,"","",Mailing
+880,,644,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+881,,644,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+882,,646,49640,Honor,MI,US,"",5685 Lake Michigan Road,"","",Physical
+883,,646,49630,Empire,MI,US,"",9922 Front Street,"","",Mailing
+884,,647,98304,Ashford,WA,US,"",Mount Rainier National Park,"","",Physical
+885,,647,98304,Ashford,WA,US,"",55210 238th Avenue East,"","",Mailing
+886,,648,21750,Hancock,MD,US,"","","","",Physical
+887,,649,92277,Twentynine Palms,CA,US,"",White Tank Campground,Pinto Basin Road,"",Physical
+888,,649,92277,Twentynine,CA,US,"",Joshua Tree National Park,74485 National Park Drive,"",Mailing
+889,,651,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Physical
+890,,651,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Mailing
+891,,652,96790,Kula,HI,US,"",Haleakalā National Park,"30,000 Haleakalā Hwy","",Physical
+892,,652,96768,Makawao,HI,US,"",Haleakalā National Park,PO Box 369,"",Mailing
+893,,654,24248,Ewing,VA,US,"",854 National Park Road,"","",Physical
+894,,654,40965,Middlesboro,KY,US,"",91 Bartlett Park Road,"","",Mailing
+895,,655,96790,Kula,HI,US,"",Haleakalā National Park,"30,000 Haleakalā Hwy","",Physical
+896,,655,96768,Makawao,HI,US,"",Haleakalā National Park,PO Box 369,"",Mailing
+897,,656,92328,Death Valley,CA,US,"",Wildrose Campground,"","",Physical
+898,,656,92328,Death Valley,CA,US,"",PO Box 579,"","",Mailing
+899,,659,99755,Denali Park,AK,US,"","Mile 85, Denali Park Road","","",Physical
+900,,659,99755,Denali Park,AK,US,"",PO Box 9,"","",Mailing
+901,,660,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Physical
+902,,660,49931,Houghton,MI,US,"",800 E. Lakeshore Drive,"","",Mailing
+903,,661,72675,St. Joe,AR,US,"",n/a,"","",Physical
+904,,661,72675,n/a,AR,US,"",n/a,"","",Mailing
+905,,662,07832,Columbia,NJ,US,"",2 Old Mine Road,"","",Physical
+906,,662,07832,Columbia,NJ,US,"","HC 62, Box 2","","",Mailing
+907,1,,42748,Hodgenville,KY,US,"",2995 Lincoln Farm Road,"","",Physical
+908,1,,42748,Hodgenville,KY,US,"",2995 Lincoln Farm Road,"","",Mailing
+909,2,,04609,Bar Harbor,ME,US,"",25 Visitor Center Road,Hulls Cove Visitor Center,"",Physical
+910,2,,04609,Bar Harbor,ME,US,"",PO Box 177,"","",Mailing
+911,3,,02169,Quincy,MA,US,"",1250 Hancock St.,"","",Physical
+912,3,,02169,Quincy,MA,US,"",135 Adams Street,"","",Mailing
+913,4,,20001,Washington,DC,US,"",1925 Vermont Avenue Northwest,"","",Physical
+914,4,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+915,5,,10007,New York,NY,US,"",African Burial Ground National Monument,290 Broadway,1st Floor,Physical
+916,5,,10005,New York,NY,US,"",African Burial Ground NM,C/O Federal Hall National Memorial,26 Wall St,Mailing
+917,6,,69346,Harrison,NE,US,"",301 River Road,"","",Physical
+918,6,,69346,Harrison,NE,US,"",301 River Road,"","",Mailing
+919,7,,96740,Kailua-Kona,HI,US,"",Superintendent,Ala Kahakai National Historic Trail,"73-4786 Kanalani Street, #14",Physical
+920,7,,96740,Kailua-Kona,HI,US,"",Superintendent,Ala Kahakai National Historic Trail,"73-4786 Kanalani Street, #14",Mailing
+921,8,,99613,King Salmon,AK,US,"","1000 Silver St., Bldg. 603",PO Box 7,"",Physical
+922,8,,99613,King Salmon,AK,US,"",PO Box 245,"","",Mailing
+923,9,,99501,Anchorage,AK,US,"",605 West 4th Avenue,Suite 105,"",Physical
+924,9,,99501,Anchorage,AK,US,"",605 West 4th Avenue,Suite 105,"",Mailing
+925,10,,94133,San Francisco Bay,CA,US,"",Alcatraz Island,"","",Physical
+926,10,,94123,San Francisco,CA,US,"",Alcatraz Island,Golden Gate National Recreation Area,201 Fort Mason,Mailing
+927,11,,99692,Unalaska,AK,US,"",Aleutian Islands WWII Visitor Center,"",2716 Airport Beach Road,Physical
+928,11,,99692,Unalaska,AK,US,"",Aleutian Islands WWII Visitor Center,"",2716 Airport Beach Road,Mailing
+929,12,,79036,Potter County,TX,US,"",37084 Alibates Rd.,"","",Physical
+930,12,,79036,Fritch,TX,US,"",P.O. Box 1460,"","",Mailing
+931,13,,16641,Gallitzin,PA,US,"",110 Federal Park Road,"","",Physical
+932,13,,16641,Gallitzin,PA,US,"",110 Federal Park Road,"","",Mailing
+933,14,,81041,Granada,CO,US,"",County Rd 23 5/10,"","",Physical
+934,14,,81041,Granada,CO,US,"",Amache National Historic Site,PO Box 44,"",Mailing
+935,15,,96950,Saipan,MP,US,"",Beach Road,"","",Physical
+936,15,,96950,Saipan,MP,US,"",P.O. Box 5198,"",Garapan,Mailing
+937,16,,78840,Del Rio,TX,US,"",10477 Highway 90 West,"","",Physical
+938,16,,78840,Del Rio,TX,US,"",10477 Highway 90 West,"","",Mailing
+939,17,,20020,Washington,DC,US,"",1900 Anacostia Drive SE,"","",Physical
+940,17,,20020,Washington,DC,US,"",1900 Anacostia Drive SE,"","",Mailing
+941,18,,31711,Andersonville,GA,US,"",National Prisoner of War Museum,"",760 POW Road,Physical
+942,18,,31711,Andersonville,GA,US,"",Andersonville National Historic Site,"",496 Cemetery Road,Mailing
+943,19,,37743,Greeneville,TN,US,"",Andrew Johnson NHS,"","",Physical
+944,19,,37743,Greeneville,TN,US,"",Andrew Johnson National Historic Site,121 Monument Ave.,"",Mailing
+945,20,,99613,KIng Salmon,AK,US,"","1000 Silver St., Bldg. 603",PO Box 7,"",Physical
+946,20,,99613,KIng Salmon,AK,US,"",PO Box 245,"","",Mailing
+947,21,,21782,Sharpsburg,MD,US,"",5831 Dunker Church Rd.,"","",Physical
+948,21,,21782,Sharpsburg,MD,US,"",P.O. Box 158,"","",Mailing
+949,22,,54814,Bayfield,WI,US,"",415 Washington Avenue,"","",Physical
+950,22,,54814,Bayfield,WI,US,"",415 Washington Avenue,"","",Mailing
+951,23,,25425,Harpers Ferry,WV,US,"",Appalachian Trail Park Office,P.O. Box 50,"",Physical
+952,23,,25425,Harpers Ferry,WV,US,"",Appalachian Trail Park Office,P.O. Box 50,"",Mailing
+953,24,,24522,Appomattox,VA,US,"",Appomattox Court House National Historical Park,239 George Peers Drive,"",Physical
+954,24,,24522,Appomattox,VA,US,"",Appomattox Court House National Historical Park,P.O. Box 218,"",Mailing
+955,25,,84532,Moab,UT,US,"","5 miles north of Moab, Utah, on US 191","","",Physical
+956,25,,84532,Moab,UT,US,"",PO Box 907,"","",Mailing
+957,26,,72055,Gillett,AR,US,"",1741 Old Post Road,"","",Physical
+958,26,,72055,Gillett,AR,US,"",1741 Old Post Road,"","",Mailing
+959,27,,22211,Arlington,VA,US,"","Arlington House, The Robert E. Lee Memorial",Arlington National Cemetery,"",Physical
+960,27,,22101,McLean,VA,US,"","Arlington House, The Robert E. Lee Memorial",700 George Washington Memorial Parkway,c/o Turkey Run Park,Mailing
+961,28,,21811,Berlin,MD,US,"",7206 National Seashore Lane,"","",Physical
+962,28,,21811,Berlin,MD,US,"",7206 National Seashore Lane,"","",Mailing
+963,29,,87410,Aztec,NM,US,"",725 Ruins Road,"","",Physical
+964,29,,87410,Aztec,NM,US,"",725 Ruins Road,"","",Mailing
+965,30,,57750,Interior,SD,US,"",25216 Ben Reifel Road,"","",Physical
+966,30,,57750,Interior,SD,US,"",25216 Ben Reifel Road,"","",Mailing
+967,31,,20770,Greenbelt,MD,US,"",Baltimore Washington Parkway,"","",Physical
+968,31,,20770,Greenbelt,MD,US,"",6565 Greenbelt Road,"","",Mailing
+969,32,,87544,Los Alamos,NM,US,"",Bandelier National Monument,15 Entrance Road,"",Physical
+970,32,,87544,Los Alamos,NM,US,"",Bandelier National Monument,15 Entrance Road,"",Mailing
+971,33,,20002,Washington,DC,US,"",144 Constitution Ave NE,"","",Physical
+972,33,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+973,34,,81050,La Junta,CO,US,"",35110 State Highway 194,"","",Physical
+974,34,,81050,La Junta,CO,US,"",35110 State Highway 194,"","",Mailing
+975,35,,99762,Nome,AK,US,"",214 Front St.,Sitnasuak Building,"",Physical
+976,35,,99762,Nome,AK,US,"",P.O. Box 220,"","",Mailing
+977,36,,79834,Big Bend National Park,TX,US,"",1 Panther Junction,"","",Physical
+978,36,,79834-0129,Big Bend National Park,TX,US,"",PO Box 129,"","",Mailing
+979,37,,34141,Ochopee,FL,US,"",33100 Tamiami Trail East,"","",Physical
+980,37,,34141,Ochopee,FL,US,"",33100 Tamiami Trail East,"","",Mailing
+981,38,,59761,Wisdom,MT,US,"",16425 Highway 43 West,"","",Physical
+982,38,,59761,Wisdom,MT,US,"",P.O. Box 237,"","",Mailing
+983,39,,37841,Oneida,TN,US,"",4564 Leatherwood Road,"","",Physical
+984,39,,37841,Oneida,TN,US,"",4564 Leatherwood Road,"","",Mailing
+985,40,,77625,Kountze,TX,US,"",6102 FM 420,"","",Physical
+986,40,,77625,Kountze,TX,US,"",6044 FM 420,"","",Mailing
+987,41,,82431,Lovell,WY,US,"",Bighorn Canyon National Recreation Area South District Visitor Center,20 US Hwy 14A,"",Physical
+988,41,,82431,Lovell,WY,US,"",Bighorn Canyon National Recreation Area South District Visitor Center,20 US Hwy 14A,"",Mailing
+989,42,,35203,Birmingham,AL,US,"",A.G. Gaston Motel,1510 5th Avenue North,"",Physical
+990,42,,35203,Birmingham,AL,US,"",Birmingham Civil Rights National Monument,1914 4th Ave North,Suite 440,Mailing
+991,43,,33033,Homestead,FL,US,"",9700 SW 328th Street,Sir Lancelot Jones Way,"",Physical
+992,43,,33033,Homestead,FL,US,"",9700 SW 328th Street,Sir Lancelot Jones Way,"",Mailing
+993,44,,81401,Montrose,CO,US,"",South Rim Visitor Center,9800 Highway 347,"",Physical
+994,44,,81230,Gunnison,CO,US,"",102 Elk Creek,"(GPS/physical address = 9800 Highway 347, Montrose, CO)","",Mailing
+995,45,,02860,Pawtucket,RI,US,"",67 Roosevelt Ave,"","",Physical
+996,45,,02860,Pawtucket,RI,US,"",67 Roosevelt Ave,"","",Mailing
+997,46,,79843,Marfa,TX,US,"",501 South Abbott Street,"","",Physical
+998,46,,79734,Fort Davis,TX,US,"",Blackwell School NHS,c/o Fort Davis NHS Superintendent,P.O. Box 1379,Mailing
+999,47,,28803,Asheville,NC,US,"",Milepost 384,"","",Physical
+1000,47,,28803,Asheville,NC,US,"",199 Hemphill Knob Rd,"","",Mailing
+1001,48,,25979,Pipestem,WV,US,"",3405 Pipestem Drive,"","",Physical
+1002,48,,25846,Glen Jean,WV,US,"",P.O. Box 246,"","",Mailing
+1003,49,,24101,Hardy,VA,US,"",12130 Booker T. Washington Highway,"","",Physical
+1004,49,,24101,Hardy,VA,US,"",12130 Booker T. Washington Highway,"","",Mailing
+1005,50,,02129,Charlestown,MA,US,"",21 Second Avenue,Boston African American National Historical Site,"",Physical
+1006,50,,02129,Charlestown,MA,US,"",21 Second Avenue,Boston African American National Historical Site,"",Mailing
+1007,51,,02129,Charlestown,MA,US,"",Boston Harbor Islands National and State Park,21 Second Ave,"",Physical
+1008,51,,02129,Charlestown,MA,US,"",Boston Harbor Islands National and State Park,21 Second Ave,"",Mailing
+1009,52,,02129,Charlestown,MA,US,"",Boston National Historical Park,21 Second Ave,"",Physical
+1010,52,,02129,Charlestown,MA,US,"",Boston National Historical Park,21 Second Ave,"",Mailing
+1011,53,,38849,Guntown,MS,US,"",260 Bethany Rd,"","",Physical
+1012,53,,38804,Tupelo,MS,US,"",2680 Natchez Trace Parkway,"","",Mailing
+1013,54,,66612-1143,Topeka,KS,US,"",1515 SE Monroe Street,"","",Physical
+1014,54,,66612-1143,Topeka,KS,US,"",1515 SE Monroe Street,"","",Mailing
+1015,55,,84764,Bryce,UT,US,"",Highway 63,Bryce Canyon National Park,"",Physical
+1016,55,,84764,Bryce,UT,US,"",P.O Box 640201,"","",Mailing
+1017,56,,00820,"Christiansted, St. Croix",VI,US,"","2100 Church St. #100","","",Physical
+1018,56,,00820,"Christiansted, St. Croix",VI,US,"","2100 Church St. #100","","",Mailing
+1019,57,,72675,St. Joe,AR,US,"",170 Ranger Road,"","",Physical
+1020,57,,72601,Harrison,AR,US,"",402 N. Walnut Street,Suite 136,"",Mailing
+1021,58,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7 & 8",Butterfield Overland National Historic Trail,1100 Old Santa Fe Trail,Physical
+1022,58,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",Butterfield Overland National Historic Trail,1100 Old Santa Fe Trail,Mailing
+1023,59,,92106,San Diego,CA,US,"",1800 Cabrillo Memorial Drive,"","",Physical
+1024,59,,92106,San Diego,CA,US,"",1800 Cabrillo Memorial Drive,"","",Mailing
+1025,60,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",California National Historic Trail,1100 Old Santa Fe Trail,Physical
+1026,60,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",California National Historic Trail,1100 Old Santa Fe Trail,Mailing
+1027,61,,40356,Nicholasville,KY,US,"",6614 Old Danville Loop 2 Road,"","",Physical
+1028,61,,40356,Nicholasville,KY,US,"",6614 Old Danville Loop 2 Road,"","",Mailing
+1029,62,,32169,New Smyrna Beach,FL,US,"","Apollo Visitor Center,",7611 S Atlantic Ave,"",Physical
+1030,62,,32796,Titusville,FL,US,"","Canaveral National Seashore, Headquarters",212 S. Washington Ave.,"",Mailing
+1031,63,,71457,Natchitoches Parish,LA,US,"","4386 Highway 494, Natchez, LA 71456 (Oakland )","5549 Highway 119, Cloutierville, LA  71416 (Magnolia)","1927 Remembrance Way, Natchitoches, LA 71457 (Texas & Pacific Railway Depot)",Physical
+1032,63,,71457,Natchitoches,LA,US,"",1927 Remembrance Way,"","",Mailing
+1033,64,,86503,Chinle,AZ,US,"",3 miles E of Highway 191 on Indian Route 7,"","",Physical
+1034,64,,86503,Chinle,AZ,US,"",P.O. Box 588,"","",Mailing
+1035,65,,84532,Moab,UT,US,"",Island in the Sky - 33 miles from Moab on UT 313,The Needles - 49 miles from Monticello on UT 211,The Maze - 68 miles from Hanksville off UT 24 - unpaved roads,Physical
+1036,65,,84532,Moab,UT,US,"",2282 Resource Blvd.,"","",Mailing
+1037,66,,02642,Eastham,MA,US,"",50 Nauset Road,"","",Physical
+1038,66,,02667,Wellfleet,MA,US,"",99 Marconi Site Road,"","",Mailing
+1039,67,,27920,Buxton,NC,US,"",46375 Lighthouse Road,Cape Hatteras Light Station,"",Physical
+1040,67,,27954,Manteo,NC,US,"",Cape Hatteras National Seashore,1401 National Park Drive,"",Mailing
+1041,68,,23459,Fort Story,VA,US,"",Atlantic Ave,"","",Physical
+1042,68,,23690,Yorktown,VA,US,"",Colonial National Historical Park P.O. Box 210,"","",Mailing
+1043,69,,99752,Kotzebue,AK,US,"",171 3rd Ave,"","",Physical
+1044,69,,99752,Kotzebue,AK,US,"",PO Box 1029,"","",Mailing
+1045,70,,28531,Harkers Island,NC,US,"",1800 Island Rd,"","",Physical
+1046,70,,28531,Harkers Island,NC,US,"",131 Charles St,"","",Mailing
+1047,71,,20003,Washington,DC,US,"",Capitol Hill Parks are spread out in various locations on Capitol Hill,"","",Physical
+1048,71,,20020,Washington,DC,US,"",National Capital Parks — East,Attn: Capitol Hill Parks,1900 Anacostia Drive SE,Mailing
+1049,72,,84775,Torrey,UT,US,"",52 West Headquarters Drive,"","",Physical
+1050,72,,84775,Torrey,UT,US,"","HC 70, Box 15","","",Mailing
+1051,73,,23081,Jamestown,VA,US,"",1368 Colonial Parkway,"","",Physical
+1052,73,,23690,Yorktown,VA,US,"",P.O. Box 210,"","",Mailing
+1053,74,,88414,Capulin,NM,US,"",46 Volcano Highway,"","",Physical
+1054,74,,88414,Capulin,NM,US,"",46 Volcano Highway,"","",Mailing
+1055,75,,28731,Flat Rock,NC,US,"",81 Carl Sandburg Lane,"","",Physical
+1056,75,,28731,Flat Rock,NC,US,"",81 Carl Sandburg Lane,"","",Mailing
+1057,76,,17325,Gettysburg,PA,US,"",1195 Baltimore Pike,"","",Physical
+1058,76,,17325,Gettysburg,PA,US,"",1195 Baltimore Pike,"","",Mailing
+1059,77,,88220,Carlsbad,NM,US,"",727 Carlsbad Caverns Highway,"","",Physical
+1060,77,,88220,Carlsbad,NM,US,"",3225 National Parks Highway,"","",Mailing
+1061,78,,20001,Washington,DC,US,"",1538 Ninth Street NW,"","",Physical
+1062,78,,20020,Washington,DC,US,"",National Capital Parks — East,Attn: Carter G. Woodson Home NHS,1900 Anacostia Drive SE,Mailing
+1063,79,,85128,Coolidge,AZ,US,"",1100 W. Ruins Drive,"","",Physical
+1064,79,,85128,Coolidge,AZ,US,"",1100 W. Ruins Drive,"","",Mailing
+1065,80,,32084,Saint Augustine,FL,US,"",11 South Castillo Drive,"","",Physical
+1066,80,,32084,Saint Augustine,FL,US,"",1 South Castillo Drive,"","",Mailing
+1067,81,,10004,New York,NY,US,"",Battery Park,"","",Physical
+1068,81,,10005,New York,NY,US,"",26 Wall St,"","",Mailing
+1069,82,,92311,Barstow,CA,US,"",Castle Mountains National Monument,2701 Barstow Road,"",Physical
+1070,82,,92311,Barstow,CA,US,"",Castle Mountains National Monument,2701 Barstow Road,"",Mailing
+1071,83,,21788,Thurmont,MD,US,"",14707 Park Central Road,"","",Physical
+1072,83,,21788,Thurmont,MD,US,"",6602 Foxville Road,"","",Mailing
+1073,84,,84719,Brian Head,UT,US,"",Cedar Breaks National Monument,4730 South Highway 148,"",Physical
+1074,84,,84720,Cedar City,UT,US,"",Cedar Breaks National Monument: Administrative Office,"2460 West Highway 56 Suite #6","",Mailing
+1075,85,,22645,Middletown,VA,US,"",7712 Main Street,"","",Physical
+1076,85,,22645,Middletown,VA,US,"",P.O. Box 700,"","",Mailing
+1077,86,,87037,Nageezi,NM,US,"",1808 CR 7950,"","",Physical
+1078,86,,87037,Nageezi,NM,US,"",PO Box 220,"","",Mailing
+1079,87,,79905,El Paso,TX,US,"",800 South San Marcial Street,"","",Physical
+1080,87,,79905,El Paso,TX,US,"",800 South San Marcial Street,"","",Mailing
+1081,88,,93001,Ventura,CA,US,"",1901 Spinnaker Drive,"","",Physical
+1082,88,,93001,Ventura,CA,US,"",1901 Spinnaker Drive,"","",Mailing
+1083,89,,29464,Mount Pleasant,SC,US,"",1254 Long Point Road,"","",Physical
+1084,89,,29482,Sullivan's Island,SC,US,"",1214 Middle Street,"","",Mailing
+1085,90,,45384,Wilberforce,OH,US,"",1120 U.S. Route 42 E,"","",Physical
+1086,90,,45384,Wilberforce,OH,US,"",P.O. Box 428,"","",Mailing
+1087,91,,30350,Sandy Springs,GA,US,"",8800 Roberts Drive,"","",Physical
+1088,91,,30350,Sandy Springs,GA,US,"",1978 Island Ford Parkway,"","",Mailing
+1089,92,,21795,Williamsport,MD,US,"",142 W. Potomac St.,"","",Physical
+1090,92,,21795,Williamsport,MD,US,"",142 W. Potomac St.,"","",Mailing
+1091,93,,21401,Annapolis,MD,US,"",1750 Forest Drive,Suite 140,"",Physical
+1092,93,,21401,Annapolis,MD,US,"",1750 Forest Drive,Suite 140,"",Mailing
+1093,94,,30742,Fort Oglethorpe,GA,US,"",3370 LaFayette Road,"","",Physical
+1094,94,,30742,Fort Oglethorpe,GA,US,"",3370 LaFayette Road,"","",Mailing
+1095,95,,73086,Sulphur,OK,US,"",901 W. 1st Street,"","",Physical
+1096,95,,73086,Sulphur,OK,US,"",901 W. 1st Street,"","",Mailing
+1097,96,,85643,Willcox,AZ,US,"",13063 E Bonita Canyon Rd,"","",Physical
+1098,96,,85643,Willcox,AZ,US,"",12856 E Rhyolite Creek Rd,"","",Mailing
+1099,97,,00820,Christiansted,VI,US,"","2100 Church St. #100","","",Physical
+1100,97,,00820,Christiansted,VI,US,"","2100 Church St. #100","","",Mailing
+1101,98,,83312,Almo,ID,US,"",City of Rocks National Reserve,3035 Elba-Almo Road,"",Physical
+1102,98,,83312,Almo,ID,US,"",City of Rocks National Reserve,P.O. Box 169,"",Mailing
+1103,99,,20012,Washington,DC,US,"",Civil War Defenses of Washington,6625 Georgia Ave NW,"",Physical
+1104,99,,20008,Washington,DC,US,"",Civil War Defenses of Washington,3545 Williamsburg Lane NW,"",Mailing
+1105,100,,20812,Glen Echo,MD,US,"",5801 Oxford Road,"","",Physical
+1106,100,,22101,McLean,VA,US,"",700 George Washington Memorial Parkway Headquarters,"","",Mailing
+1107,101,,23690,Yorktown,VA,US,"",1000 Colonial Parkway,"","",Physical
+1108,101,,23690,Yorktown,VA,US,"",P.O. Box 210,"","",Mailing
+1109,102,,81521,Fruita,CO,US,"",1750 Rim Rock Drive,"","",Physical
+1110,102,,81521,Fruita,CO,US,"",1750 Rim Rock Drive,"","",Mailing
+1111,103,,06106,Hartford,CT,US,"",120 Huyshope Ave,"","",Physical
+1112,103,,01105,Springfield,MA,US,"",Coltsville National Historical Park,c/o Springfield Armory National Historic Site,"One Armory Square, Suite 2",Mailing
+1113,104,,29061,Hopkins,SC,US,"",100 National Park Road,"","",Physical
+1114,104,,29061,Hopkins,SC,US,"",100 National Park Road,"","",Mailing
+1115,105,,20002,Washington,DC,US,"",1850 Constitution Ave. NW,"","",Physical
+1116,105,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1117,106,,85615,Hereford,AZ,US,"",4101 E Montezuma Canyon Road,"","",Physical
+1118,106,,85615,Hereford,AZ,US,"",4101 E Montezuma Canyon Road,"","",Mailing
+1119,107,,29341,Gaffney,SC,US,"",Cowpens National Battlefield,4001 Chesnee Hwy,"",Physical
+1120,107,,29341,Gaffney,SC,US,"",Cowpens National Battlefield,338 New Pleasant Road,"",Mailing
+1121,108,,97604,Crater Lake,OR,US,"",Crater Lake National Park,1 Sager Building,"",Physical
+1122,108,,97604,Crater Lake,OR,US,"",Crater Lake National Park,PO Box 7,"",Mailing
+1123,109,,83213,Arco,ID,US,"",Craters of the Moon National Monument,1266 Craters Loop Road,"",Physical
+1124,109,,83213,Arco,ID,US,"",Craters of the Moon National Monument and Preserve,1266 Craters Loop Road,P.O. Box 29,Mailing
+1125,110,,40965,Middlesboro,KY,US,"",100 Pinnacle View Rd.,"","",Physical
+1126,110,,40965,Middlesboro,KY,US,"",91 Bartlett Park Rd.,"","",Mailing
+1127,111,,31558,St. Marys,GA,US,"",113 St. Marys St W,"","",Physical
+1128,111,,31558,St. Marys,GA,US,"",101 Wheeler St,"","",Mailing
+1129,112,,81230,Gunnison,CO,US,"",102 Elk Creek,"","",Physical
+1130,112,,81230,Gunnison,CO,US,"",102 Elk Creek,"","",Mailing
+1131,113,,44264,Peninsula,OH,US,"",Boston Mill Visitor Center,6947 Riverview Road,"",Physical
+1132,113,,44141,Brecksville,OH,US,"",15610 Vaughn Road,"","",Mailing
+1133,114,,93531,Keene,CA,US,"",29700 Woodford-Tehachapi Road,"","",Physical
+1134,114,,93531,Keene,CA,US,"",PO Box 201,"","",Mailing
+1135,115,,45402,Dayton,OH,US,"",16 South Williams Street,"","",Physical
+1136,115,,45402,Dayton,OH,US,"",16 South Williams Street,"","",Mailing
+1137,116,,34209,Bradenton,FL,US,"",8300 De Soto Memorial Hwy,"","",Physical
+1138,116,,34209,Bradenton,FL,US,"",8300 De Soto Memorial Hwy,"","",Mailing
+1139,117,,92328,Death Valley,CA,US,"",PO Box 579,"","",Physical
+1140,117,,92328,Death Valley,CA,US,"",PO Box 579,"","",Mailing
+1141,118,,18324,Bushkill,PA,US,"",1978 River Road,"","",Physical
+1142,118,,18324,Bushkill,PA,US,"",Delaware Water Gap National Recreation Area,P.O. Box 2,"",Mailing
+1143,119,,99755,Denali Park,AK,US,"",Mile 237 Highway 3,"","",Physical
+1144,119,,99755,Denali Park,AK,US,"",PO Box 9,"","",Mailing
+1145,120,,93546,Mammoth Lakes,CA,US,"",Devils Postpile Access Road,"","",Physical
+1146,120,,93546,Mammoth Lakes,CA,US,"",PO Box 3999,"","",Mailing
+1147,121,,82714,Devils Tower,WY,US,"",149 State Highway 110,"","",Physical
+1148,121,,82714,Devils Tower,WY,US,"",PO Box 10,"","",Mailing
+1149,122,,84035,Jensen,UT,US,"",11625 E 1500 S,"","",Physical
+1150,122,,81610,Dinosaur,CO,US,"",4545 Hwy 40,"","",Mailing
+1151,123,,33034,Homestead,FL,US,"",40001 SR-9336,"","",Physical
+1152,123,,33034,Homestead,FL,US,"",40001 SR-9336,"","",Mailing
+1153,124,,20202,Washington,DC,US,"",540 Independence Avenue SW,"","",Physical
+1154,124,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1155,125,,98239,Coupeville,WA,US,"",162 Cemetery Road,"","",Physical
+1156,125,,98239,Coupeville,WA,US,"",PO Box 774,"","",Mailing
+1157,126,,19123,Philadelphia,PA,US,"",532 N. 7th Street,"","",Physical
+1158,126,,19106,Philadelphia,PA,US,"",c/o Independence National Historical Park,143 S. 3rd Street,"",Mailing
+1159,127,,52146,Harpers Ferry,IA,US,"",151 Hwy 76,"","",Physical
+1160,127,,52146,Harpers Ferry,IA,US,"",151 Hwy 76,"","",Mailing
+1161,128,,17325,Gettysburg,PA,US,"",250 Eisenhower Farm Road,"","",Physical
+1162,128,,17325,Gettysburg,PA,US,"",1195 Baltimore Pike,"","",Mailing
+1163,129,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",El Camino Real de Tierra Adentro National Historic Trail,1100 Old Santa Fe Trail,Physical
+1164,129,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",El Camino Real de Tierra Adentro National Historic Trail,1100 Old Santa Fe Trail,Mailing
+1165,130,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",El Camino Real de los Tejas National Historic Trail,1100 Old Santa Fe Trail,Physical
+1166,130,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",El Camino Real de los Tejas National Historic Trail,1100 Old Santa Fe Trail,Mailing
+1167,131,,87020,Grants,NM,US,"",1900 E. Santa Fe Ave.,"","",Physical
+1168,131,,87020,Grants,NM,US,"",1900 E. Santa Fe Ave.,"","",Mailing
+1169,132,,87321,Ramah,NM,US,"",Mile Marker 44.6 Hwy 53,"","",Physical
+1170,132,,87321,Ramah,NM,US,"",HC 61 Box 43,"","",Mailing
+1171,133,,12538,Hyde Park,NY,US,"",54 Valkill Park Road,"","",Physical
+1172,133,,12538,Hyde Park,NY,US,"",4097 Albany Post Road,"","",Mailing
+1173,134,,10004,New York,NY,US,"",Ellis Island National Museum of Immigration,Statue of Liberty National Monument,"",Physical
+1174,134,,07305,Jersey City,NJ,US,"",Receiving Office,1 Ellis Island,"",Mailing
+1175,135,,38957,Sumner,MS,US,"",Emmett Till Interpretive Center,158 N. Court St.,"",Physical
+1176,135,,38957,Sumner,MS,US,"",Emmett Till and Mamie Till-Mobley National Monument Headquarters,P.O. Box 361,"",Mailing
+1177,136,,94526,Danville,CA,US,"",205 Railroad Avenue,"","",Physical
+1178,136,,94526,Danville,CA,US,"",Eugene O'Neill NHS,P.O. Box 280,"",Mailing
+1179,137,,33034,Homestead,FL,US,"",40001 State Road 9336,"","",Physical
+1180,137,,33034-6733,Homestead,FL,US,"",40001 State Road 9336,"","",Mailing
+1181,138,,10005,New York,NY,US,"",15 Pine Street,"","",Physical
+1182,138,,10005,New York,NY,US,"",26 Wall Street,"","",Mailing
+1183,139,,11772,Patchogue,NY,US,"",120 Laurel Street,"","",Physical
+1184,139,,11772,Patchogue,NY,US,"",120 Laurel Street,"","",Mailing
+1185,140,,44702-2107,Canton,OH,US,"",205 Market Avenue South,"","",Physical
+1186,140,,44702-2107,Canton,OH,US,"",205 Market Avenue South,"","",Mailing
+1187,141,,19720,New Castle,DE,US,"",First State National Historical Park,"",10 Market Street,Physical
+1188,141,,19720,New Castle,DE,US,"",First State National Historical Park,"",10 Market Street,Mailing
+1189,142,,15563,Stoystown,PA,US,"",6424 Lincoln Highway,"","",Physical
+1190,142,,15560,Shanksville,PA,US,"",P.O. Box 911,"","",Mailing
+1191,143,,80816,Florissant,CO,US,"",15807 Teller County Road 1,"","",Physical
+1192,143,,80816,Florissant,CO,US,"",P.O. Box 185,"","",Mailing
+1193,144,,20004,Washington,DC,US,"",511 10th Street NW,"","",Physical
+1194,144,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1195,145,,85605,Bowie,AZ,US,"",3500 South Apache Pass Road,"","",Physical
+1196,145,,85605,Bowie,AZ,US,"",P.O. Box 158,"","",Mailing
+1197,146,,79734,Fort Davis,TX,US,"","101 Lt. Flipper Dr. #1379",P.O. Box 1379,"",Physical
+1198,146,,79734,Fort Davis,TX,US,"",P.O. Box 1379,"101 Lt. Flipper Dr. #1379","",Mailing
+1199,147,,37058,Dover,TN,US,"",174 National Cemetery Drive,PO Box 434,"",Physical
+1200,147,,37058,Dover,TN,US,"",174 National Cemetery Drive,PO Box 434,"",Mailing
+1201,148,,20019,Washington,DC,US,"",3600 F Street SE,"","",Physical
+1202,148,,20019,Washington,DC,US,"",Kenilworth Park & Aquatic Gardens,Attn: Fort Dupont Park,1550 Anacostia Avenue NE,Mailing
+1203,149,,20745,Oxon Hill,MD,US,"",8915 Fort Foote Road,"","",Physical
+1204,149,,20744,Fort Washington,MD,US,"",Fort Washington Park,Attn: Fort Foote Park,13551 Fort Washington Road,Mailing
+1205,150,,31522,St. Simons Island,GA,US,"",Fort Frederica National Monument,6515 Frederica Rd.,"",Physical
+1206,150,,31522,St. Simons Island,GA,US,"",Fort Frederica National Monument,6515 Frederica Rd.,"",Mailing
+1207,151,,82212,Fort Laramie,WY,US,"",965 Gray Rocks Road,"","",Physical
+1208,151,,82212,Fort Laramie,WY,US,"",965 Gray Rocks Road,"","",Mailing
+1209,152,,67550,Larned,KS,US,"",1767 KS Hwy 156,"","",Physical
+1210,152,,67550,Larned,KS,US,"",1767 KS Hwy 156,"","",Mailing
+1211,153,,32080,Saint Augustine,FL,US,"",8635 A1A South,"","",Physical
+1212,153,,32080,Saint Augustine,FL,US,"",8635 A1A South,"","",Mailing
+1213,154,,21230,Baltimore,MD,US,"",2400 East Fort Avenue,"","",Physical
+1214,154,,21230,Baltimore,MD,US,"",2400 East Fort Avenue,"","",Mailing
+1215,155,,23651-1001,Fort Monroe,VA,US,"",30 Ingalls Road,"","",Physical
+1216,155,,23651-1001,Fort Monroe,VA,US,"",41 Bernard Road,"Building #17","",Mailing
+1217,156,,15437,Farmington,PA,US,"",3 Washington Parkway,"","",Physical
+1218,156,,15437,Farmington,PA,US,"",1 Washington Parkway,"","",Mailing
+1219,157,,94129,San Francisco,CA,US,"",Fort Point National Historic Site,"Building 999, Marine Drive","",Physical
+1220,157,,94123,San Francisco,CA,US,"",Fort Point National Historic Site,201 Fort Mason,"",Mailing
+1221,158,,31410,Savannah,GA,US,"",101 Fort Pulaski Road,Fort Pulaski Visitor Center,"",Physical
+1222,158,,31410,Savannah,GA,US,"",41 Cockspur Island Road,"","",Mailing
+1223,159,,27954,Manteo,NC,US,"",1500 Fort Raleigh Road,"","",Physical
+1224,159,,27954,Manteo,NC,US,"",Fort Raleigh National Historic Site,1401 National Park Drive,"",Mailing
+1225,160,,66701,Fort Scott,KS,US,"",1 Old Fort Blvd.,"","",Physical
+1226,160,,66701,Fort Scott,KS,US,"",PO Box 918,"","",Mailing
+1227,161,,72901,Fort Smith,AR,US,"",301 Parker Ave,"","",Physical
+1228,161,,72901,Fort Smith,AR,US,"",301 Parker Ave,"","",Mailing
+1229,162,,13440,Rome,NY,US,"",100 North James St.,"","",Physical
+1230,162,,13440,Rome,NY,US,"",112 East Park St.,"","",Mailing
+1231,163,,29401,Charleston,SC,US,"",340 Concord Street,"","",Physical
+1232,163,,29482,Sullivan's Island,SC,US,"",1214 Middle Street,"","",Mailing
+1233,164,,87753,Watrous,NM,US,"",3115 NM Highway 161,"","",Physical
+1234,164,,87753,Watrous,NM,US,"",PO Box 127,"","",Mailing
+1235,165,,58801,Williston,ND,US,"",15550 Highway 1804,"","",Physical
+1236,165,,58801,Williston,ND,US,"",15550 Highway 1804,"","",Mailing
+1237,166,,98661,Vancouver,WA,US,"",1501 E Evergreen Blvd.,"","",Physical
+1238,166,,98661,Vancouver,WA,US,"","800 Hatheway Road, Bldg 722","","",Mailing
+1239,167,,20744,Fort Washington,MD,US,"",13551 Fort Washington Road,"","",Physical
+1240,167,,20744,Fort Washington,MD,US,"",13551 Fort Washington Road,"","",Mailing
+1241,168,,83101,Kemmerer,WY,US,"",864 Chicken Creek Road,"","",Physical
+1242,168,,83101,Kemmerer,WY,US,"",P.O. Box 592,"","",Mailing
+1243,169,,04553,Newcastle,ME,US,"",478 River Road,"","",Physical
+1244,169,,04553,Newcastle,ME,US,"",478 River Road,"","",Mailing
+1245,170,,20002,Washington,DC,US,"",400 West Basin Drive SW,"","",Physical
+1246,170,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1247,171,,20020,Washington,DC,US,"",1411 W Street SE,"","",Physical
+1248,171,,20020,Washington,DC,US,"",1411 W Street SE,"","",Mailing
+1249,172,,02445,Brookline,MA,US,"",99 Warren Street,"","",Physical
+1250,172,,02445,Brookline,MA,US,"",99 Warren Street,"","",Mailing
+1251,173,,22405,Fredericksburg,VA,US,"",120 Chatham Ln,"","",Physical
+1252,173,,22405,Fredericksburg,VA,US,"",120 Chatham Ln,"","",Mailing
+1253,174,,36201,Anniston,AL,US,"",Freedom Riders National Monument,1031 Gurnee Ave,"",Physical
+1254,174,,36201,Anniston,AL,US,"",1302 Noble St.,STE 3G,"",Mailing
+1255,175,,15470,Point Marion,PA,US,"",223 New Geneva Rd.,"","",Physical
+1256,175,,15437,Farmington,PA,US,"",c/o Fort Necessity NB,1 Washington Parkway,"",Mailing
+1257,176,,99701,Fairbanks,AK,US,"",101 Dunkel St,"","",Physical
+1258,176,,99701,Fairbanks,AK,US,"",101 Dunkel St.,Suite 110,"",Mailing
+1259,177,,63102,St. Louis,MO,US,"",11 North 4th Street,"","",Physical
+1260,177,,63102,St. Louis,MO,US,"",11 North 4th Street,"","",Mailing
+1261,178,,10305,Staten Island,NY,US,"",210 New York Avenue,"","",Physical
+1262,178,,10305,Staten Island,NY,US,"",210 New York Avenue,"","",Mailing
+1263,179,,25846-0246,Glen Jean,WV,US,"",Gauley River National Recreation Area,104 Main Street,"",Physical
+1264,179,,25846-0246,Glen Jean,WV,US,"",Gauley River National Recreation Area,P.O. Box 246,"",Mailing
+1265,180,,10027,New York,NY,US,"",Riverside Drive and W. 122nd Street,"","",Physical
+1266,180,,10005,New York,NY,US,"",26 Wall Street,C/O General Grant National Memorial,"",Mailing
+1267,181,,47591,Vincennes,IN,US,"",401 S. 2nd Street,"","",Physical
+1268,181,,47591,Vincennes,IN,US,"",401 S. 2nd Street,"","",Mailing
+1269,182,,22443,Colonial Beach,VA,US,"",1732 Popes Creek Road,"","",Physical
+1270,182,,22443,Colonial Beach,VA,US,"",1732 Popes Creek Road,"","",Mailing
+1271,183,,64840,Diamond,MO,US,"",5646 Carver Road,"","",Physical
+1272,183,,64840,Diamond,MO,US,"",5646 Carver Road,"","",Mailing
+1273,184,,22101,McLean,VA,US,"",George Washington Memorial Parkway Headquarters,700 George Washington Memorial Parkway,"",Physical
+1274,184,,22101,McLean,VA,US,"",George Washington Memorial Parkway Headquarters,700 George Washington Memorial Parkway,"",Mailing
+1275,185,,17325,Gettysburg,PA,US,"",1195 Baltimore Pike,"","",Physical
+1276,185,,17325,Gettysburg,PA,US,"",1195 Baltimore Pike,"","",Mailing
+1277,186,,88049,Mimbres,NM,US,"",26 Jim Bradford Trail,"","",Physical
+1278,186,,88049,Mimbres,NM,US,"",26 Jim Bradford Trail,"","",Mailing
+1279,187,,99826,Gustavus,AK,US,"",1 Park Road,"","",Physical
+1280,187,,99826,Gustavus,AK,US,"",Glacier Bay National Park & Preserve,PO Box 140,"",Mailing
+1281,188,,59936,West Glacier,MT,US,"",64 Grinnell Drive,Glacier National Park Headquarters,"",Physical
+1282,188,,59936,West Glacier,MT,US,"",PO Box 128,"","",Mailing
+1283,189,,86040,Page,AZ,US,"",691 Scenic View Rd.,Park Headquarters,"",Physical
+1284,189,,86040,Page,AZ,US,"",PO Box 1507,"","",Mailing
+1285,190,,20812,Glen Echo,MD,US,"",7300 MacArthur Boulevard,"","",Physical
+1286,190,,20812,Glen Echo,MD,US,"",7300 MacArthur Boulevard,"","",Mailing
+1287,191,,19147,Philadelphia,PA,US,"",916 S. Swanson Street,"","",Physical
+1288,191,,19106,Philadelphia,PA,US,"",c/o Independence National Historical Park,143 S. Third Street,"",Mailing
+1289,192,,94123,San Francisco,CA,US,"",Golden Gate National Recreation Area,201 Fort Mason,"",Physical
+1290,192,,94123,San Francisco,CA,US,"",Golden Gate National Recreation Area,201 Fort Mason,"",Mailing
+1291,193,,84307,"Promontory, Utah",UT,US,"",6200 North 22300 West,"","",Physical
+1292,193,,84302,Brigham City,UT,US,"",P. O. Box 897,"","",Mailing
+1293,194,,10004-1921,New York,NY,US,"",Governors Island,New York Harbor,"",Physical
+1294,194,,10004-1921,New York,NY,US,"",10 South Street,"","",Mailing
+1295,195,,86023,Grand Canyon,AZ,US,"",20 South Entrance Road,Grand Canyon National Park Headquarters,"",Physical
+1296,195,,86023,Grand Canyon,AZ,US,"",PO Box 129,"","",Mailing
+1297,196,,84790,Saint George,UT,US,"",Public Lands Visitor Center,4001 E. Aviator Drive,"",Physical
+1298,196,,84790,Saint George,UT,US,"",Public Lands Visitor Center,4001 E. Aviator Drive,"",Mailing
+1299,197,,55605,Grand Portage,MN,US,"",170 Mile Creek Road,"","",Physical
+1300,197,,55605,Grand Portage,MN,US,"",P.O. Box 426,"","",Mailing
+1301,198,,83012,Moose,WY,US,"",103 Headquarters Loop,"","",Physical
+1302,198,,83012,Moose,WY,US,"",P.O. Box 170,"","",Mailing
+1303,199,,59722,Deer Lodge,MT,US,"",251 Grant Circle,"","",Physical
+1304,199,,59722,Deer Lodge,MT,US,"",266 Warren Lane,"","",Mailing
+1305,200,,89311,Baker,NV,US,"",Lehman Caves Visitor Center,Nevada 488,"",Physical
+1306,200,,89311,Baker,NV,US,"",100 Great Basin National Park,"","",Mailing
+1307,201,,08330,Estell Manor,NJ,US,"",Route 50,"","",Physical
+1308,201,,19107,Philadelphia,PA,US,"",Great Egg Harbor National Scenic and Recreational River,c/o National Park Service Northeast Region Office,"1234 Market Street, 20th floor",Mailing
+1309,202,,22102,McLean,VA,US,"",9200 Old Dominion Dr.,"","",Physical
+1310,202,,22101,McLean,VA,US,"",Great Falls Park,c/o Turkey Run Park,George Washington Memorial Parkway,Mailing
+1311,203,,81146,Mosca,CO,US,"",Visitor Center,11999 State Highway 150,"",Physical
+1312,203,,81146,Mosca,CO,US,"",Visitor Center,11999 State Highway 150,"",Mailing
+1313,204,,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Physical
+1314,204,,37738,Gatlinburg,TN,US,"",107 Park Headquarters Road,"","",Mailing
+1315,205,,23093,Multiple Privately Owned Properties,VA,US,"",Western Louisa County,"","",Physical
+1316,205,,19107,Philadelphia,PA,US,"",National Park Service,"Interior Region 1, North Atlantic - Appalachian","1234 Market Street, 20th Floor",Mailing
+1317,206,,20770,Greenbelt,MD,US,"",6565 Greenbelt Road,"","",Physical
+1318,206,,20770,Greenbelt,MD,US,"",6565 Greenbelt Road,"","",Mailing
+1319,207,,79847,Salt Flat,TX,US,"",400 Pine Canyon,"","",Physical
+1320,207,,79847,Salt Flat,TX,US,"",400 Pine Canyon,"","",Mailing
+1321,208,,27410,Greensboro,NC,US,"",2332 New Garden Road,"","",Physical
+1322,208,,27410,Greensboro,NC,US,"",2332 New Garden Road,"","",Mailing
+1323,209,,32563,Gulf Breeze,FL,US,"",1801 Gulf Breeze Parkway,"","",Physical
+1324,209,,32563,Gulf Breeze,FL,US,"",1801 Gulf Breeze Parkway,"","",Mailing
+1325,210,,83332,Hagerman,ID,US,"",17970 U.S. Hwy 30,"","",Physical
+1326,210,,83332,Hagerman,ID,US,"",775 East 2830 South,"","",Mailing
+1327,211,,96790,Kula,HI,US,"",Haleakalā National Park,Route 378,"",Physical
+1328,211,,96768,Makawao,HI,US,"",Haleakalā National Park,PO Box 369,"",Mailing
+1329,212,,10031,New York,NY,US,"",414 West 141st Street,"","",Physical
+1330,212,,10031,New York,NY,US,"",414 West 141st Street,"","",Mailing
+1331,213,,21286,Towson,MD,US,"",535 Hampton Lane,"","",Physical
+1332,213,,21286,Towson,MD,US,"",535 Hampton Lane,"","",Mailing
+1333,214,,20744,Fort Washington,MD,US,"",10702 Livingston Road,"","",Physical
+1334,214,,20744,Fort Washington,MD,US,"",Fort Washington Park,Attn: Harmony Hall,13551 Fort Washington Road,Mailing
+1335,215,,25425,Harpers Ferry,WV,US,"",Harpers Ferry National Historical Park,171 Shoreline Drive,"",Physical
+1336,215,,25425,Harpers Ferry,WV,US,"",Harpers Ferry National Historical Park,National Park Service,PO Box 65,Mailing
+1337,216,,13021,Auburn,NY,US,"",47 Parker Street,"","",Physical
+1338,216,,13021-0769,Auburn,NY,US,"",Harriet Tubman National Historical Park,P.O. Box 769,"",Mailing
+1339,217,,21622,Church Creek,MD,US,"",4068 Golden Hill Road,"","",Physical
+1340,217,,21622,Church Creek,MD,US,"",4068 Golden Hill Road,"","",Mailing
+1341,218,,64050,Independence,MO,US,"",219 North Delaware Street (Truman Home),223 North Main Street (Visitor Center)---Ticketing Location,"",Physical
+1342,218,,64050,Independence,MO,US,"",223 North Main Street (Visitor Center/ Truman Home Ticketing Station),"","",Mailing
+1343,219,,96718,Hawaii National Park,HI,US,"",1 Crater Rim Drive,"","",Physical
+1344,219,,96718,Hawaii National Park,HI,US,"",P.O. Box 52,"","",Mailing
+1345,220,,52358,West Branch,IA,US,"",110 Parkside Drive,"","",Physical
+1346,220,,52358,West Branch,IA,US,"",P.O. Box 607,"","",Mailing
+1347,221,,23081,Jamestown,VA,US,"",1368 Colonial Parkway,"","",Physical
+1348,221,,23690,Yorktown,VA,US,"",P.O. Box 210,"","",Mailing
+1349,222,,12538,Hyde Park,NY,US,"",114 Estates Lane,"","",Physical
+1350,222,,12538,Hyde Park,NY,US,"",4097 Albany Post Rd,"","",Mailing
+1351,223,,68310,Beatrice,NE,US,"",8523 West State Highway 4,"","",Physical
+1352,223,,68310,Beatrice,NE,US,"",8523 West State Highway 4,"","",Mailing
+1353,224,,96818,Honolulu,HI,US,"",National Park Service,Honouliuli National Historic Site,1 Arizona Memorial Place,Physical
+1354,224,,96818,Honolulu,HI,US,"",National Park Service,Honouliuli National Historic Site,1 Arizona Memorial Place,Mailing
+1355,225,,45601,Chillicothe,OH,US,"",16062 State Route 104,"","",Physical
+1356,225,,45601,Chillicothe,OH,US,"",16062 State Route 104,"","",Mailing
+1357,226,,19520,Elverson,PA,US,"",2 Mark Bird Lane,"","",Physical
+1358,226,,19520,Elverson,PA,US,"",2 Mark Bird Lane,"","",Mailing
+1359,227,,36256,Daviston,AL,US,"",11288 Horseshoe Bend Road,"","",Physical
+1360,227,,36256,Daviston,AL,US,"",11288 Horseshoe Bend Road,"","",Mailing
+1361,228,,71901,Hot Springs,AR,US,"",369 Central Avenue,"","",Physical
+1362,228,,71901,Hot Springs,AR,US,"",101 Reserve Street,"","",Mailing
+1363,229,,81321,Cortez,CO,US,"",Along the border between southeast Utah and southwest Colorado,"Just north and west of Cortez, CO","",Physical
+1364,229,,81321,Cortez,CO,US,"",McElmo Route,"","",Mailing
+1365,230,,86505-0150,Ganado,AZ,US,"",1/2 mile west of Hwy 191/264,"","",Physical
+1366,230,,86505-0150,Ganado,AZ,US,"",Hubbell Trading Post National Historic Site,P.O. Box 150,"",Mailing
+1367,231,,99116,Coulee Dam,WA,US,"",Program Manager,Ice Age Floods National Geologic Trail,1008 Crest Drive,Physical
+1368,231,,99116,Coulee Dam,WA,US,"",Program Manager,Ice Age Floods National Geologic Trail,1008 Crest Drive,Mailing
+1369,232,,53528,Cross Plains,WI,US,"",8075 Old Sauk Pass Road,"","",Physical
+1370,232,,53528,Cross Plains,WI,US,"",8075 Old Sauk Pass Road,"","",Mailing
+1371,233,,19106,Philadelphia,PA,US,"",599 Market Street,"","",Physical
+1372,233,,19106,Philadelphia,PA,US,"",143 S. 3rd Street,"","",Mailing
+1373,234,,46304,Porter,IN,US,"",1215 IN-49,"","",Physical
+1374,234,,46304,Porter,IN,US,"",1100 North Mineral Springs Road,"","",Mailing
+1375,235,,49931,Houghton,MI,US,"",800 East Lakeshore Drive,"","",Physical
+1376,235,,49931,Houghton,MI,US,"",800 East Lakeshore Drive,"","",Mailing
+1377,236,,99723,Barrow,AK,US,"",5421 North Star Street,"","",Physical
+1378,236,,99723,Barrow,AK,US,"",P.O Box 69,"","",Mailing
+1379,237,,44060,Mentor,OH,US,"",8095 Mentor Avenue,"","",Physical
+1380,237,,44060,Mentor,OH,US,"",8095 Mentor Avenue,"","",Mailing
+1381,238,,70130,New Orleans,LA,US,"",419 Decatur St,"","",Physical
+1382,238,,70130,New Orleans,LA,US,"",419 Decatur St,"","",Mailing
+1383,239,,57730,Custer,SD,US,"",11149 U.S. Hwy. 16,Building B12,"",Physical
+1384,239,,57730,Custer,SD,US,"",11149 U.S. Hwy. 16,Building B12,"",Mailing
+1385,240,,31780,Plains,GA,US,"",300 North Bond Street,"","",Physical
+1386,240,,31780,Plains,GA,US,"",300 North Bond Street,"","",Mailing
+1387,241,,97848,Kimberly,OR,US,"",32651 Highway 19,"","",Physical
+1388,241,,97848,Kimberly,OR,US,"",32651 Highway 19,"","",Mailing
+1389,242,,02446,Brookline,MA,US,"",83 Beals Street,"","",Physical
+1390,242,,02446,Brookline,MA,US,"",83 Beals Street,"","",Mailing
+1391,243,,94553,Martinez,CA,US,"",4202 Alhambra Ave,"","",Physical
+1392,243,,94553,Martinez,CA,US,"",4202 Alhambra Ave,"","",Mailing
+1393,244,,15956,South Fork,PA,US,"",733 Lake Road,"","",Physical
+1394,244,,15956,South Fork,PA,US,"",733 Lake Road,"","",Mailing
+1395,245,,92277-3597,Twentynine Palms,CA,US,"",74485 National Park Drive,"","",Physical
+1396,245,,92277-3597,Twentynine Palms,CA,US,"",74485 National Park Drive,"","",Mailing
+1397,246,,94804,Richmond,CA,US,"","440 Civic Center Plaza, Suite 300","","",Physical
+1398,246,,94804,Richmond,CA,US,"","440 Civic Center Plaza, Suite 300","","",Mailing
+1399,247,,96742,Kalaupapa,HI,US,"",7 Puahi Street,"","",Physical
+1400,247,,96742,Kalaupapa,HI,US,"",P.O. Box 2222,7 Puahi Street,"",Mailing
+1401,248,,96740,Kailua-Kona,HI,US,"","Visitor Center, Queen Ka'ahumanu Highway, south of 97 mile marker",74-4968 Queen Ka'ahumanu Hwy,"",Physical
+1402,248,,96740,Kailua-Kona,HI,US,"","73-4786 Kanalani St. #14","","",Mailing
+1403,249,,04765,Patten,ME,US,"",Route 11,"","",Physical
+1404,249,,04765,Patten,ME,US,"",PO Box 446,"","",Mailing
+1405,250,,99613,King Salmon,AK,US,"",1000 Silver Street,Building 603,"",Physical
+1406,250,,99613,King Salmon,AK,US,"",PO Box 7,"1000 Silver Street, Building 603","",Mailing
+1407,251,,99664,Seward,AK,US,"",411 Washington Street,"","",Physical
+1408,251,,99664,Seward,AK,US,"",PO Box 1727,"","",Mailing
+1409,252,,20019,Washington,DC,US,"",1550 Anacostia Ave. NE,"","",Physical
+1410,252,,20019,Washington,DC,US,"",1550 Anacostia Ave. NE,"","",Mailing
+1411,253,,30152,Kennesaw,GA,US,"",900 Kennesaw Mountain Dr,"","",Physical
+1412,253,,30152,Kennesaw,GA,US,"",900 Kennesaw Mountain Dr,"","",Mailing
+1413,254,,49913,Calumet,MI,US,"",25970 Red Jacket Road,"","",Physical
+1414,254,,49913,Calumet,MI,US,"",25970 Red Jacket Road,"","",Mailing
+1415,255,,29702,Blacksburg,SC,US,"",2300 Park Road,"","",Physical
+1416,255,,29702,Blacksburg,SC,US,"",2625 Park Road,"","",Mailing
+1417,256,,98104,Seattle,WA,US,"",319 Second Ave S.,"","",Physical
+1418,256,,98104,Seattle,WA,US,"",319 Second Ave S.,"","",Mailing
+1419,257,,99840,Skagway,AK,US,"",Klondike Gold Rush National Historical Park,291 Broadway,"",Physical
+1420,257,,99840,Skagway,AK,US,"",Klondike Gold Rush National Historical Park,P.O. Box 517,"",Mailing
+1421,258,,58571,Stanton,ND,US,"",564 County Road 37,"","",Physical
+1422,258,,58571,Stanton,ND,US,"",P.O. Box 9,"","",Mailing
+1423,259,,99752,Kotzebue,AK,US,"",171 3rd Ave,"","",Physical
+1424,259,,99752,Kotzebue,AK,US,"",PO Box 1029,"","",Mailing
+1425,260,,20002,Washington,DC,US,"","10 Daniel French Dr, SW","","",Physical
+1426,260,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1427,261,,"",Washington,DC,US,"",Lyndon Baines Johnson Memorial Grove,"","",Physical
+1428,261,,22101,McLean,VA,US,"",Lyndon Baines Johnson Memorial Grove,c/o Turkey Run Park,George Washington Memorial Parkway,Mailing
+1429,262,,99653,Port Alsworth,AK,US,"",1 Park Place,"","",Physical
+1430,262,,99501,Anchorage,AK,US,"",240 West 5th Ave,"","",Mailing
+1431,263,,89005,Boulder City,NV,US,"",Lake Mead Visitor Center,10 Lakeshore Rd,"",Physical
+1432,263,,89005,Boulder City,NV,US,"",601 Nevada Way,"","",Mailing
+1433,264,,79036,Fritch,TX,US,"",419 E. Broadway,"","",Physical
+1434,264,,79036,Fritch,TX,US,"",Lake Meredith National Recreation Area,P.O. Box 1460,"",Mailing
+1435,265,,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Physical
+1436,265,,99116,Coulee Dam,WA,US,"",Lake Roosevelt National Recreation Area,1008 Crest Drive,"",Mailing
+1437,266,,96063,Mineral,CA,US,"",38050 Highway 36 East,Park Headquarters,"",Physical
+1438,266,,96063,Mineral,CA,US,"",PO Box 100,"","",Mailing
+1439,267,,96134,Tulelake,CA,US,"",1 Indian Well HQ,"","",Physical
+1440,267,,96134,Tulelake,CA,US,"",P.O. Box 1240,"","",Mailing
+1441,268,,68102,Omaha,NE,US,"",601 Riverfront Dr.,"","",Physical
+1442,268,,68102,Omaha,NE,US,"",601 Riverfront Dr.,"","",Mailing
+1443,269,,97103,Astoria,OR,US,"",Lewis and Clark National Historical Park,92343 Fort Clatsop Road,"",Physical
+1444,269,,97103,Astoria,OR,US,"",Lewis and Clark National Historical Park,92343 Fort Clatsop Road,"",Mailing
+1445,270,,47552,Lincoln City,IN,US,"",3027 East South Street,"","",Physical
+1446,270,,47552,Lincoln City,IN,US,"",3027 East South Street,PO Box 1816,"",Mailing
+1447,271,,62701,Springfield,IL,US,"",426 S. 7th Street,"","",Physical
+1448,271,,62701,Springfield,IL,US,"",413 S. 8th Street,"","",Mailing
+1449,272,,20002,Washington,DC,US,"","2 Lincoln Memorial Circle, NW","","",Physical
+1450,272,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1451,273,,59022,Crow Agency,MT,US,"",756 Battlefield Tour Road,"","",Physical
+1452,273,,59022-0039,Crow Agency,MT,US,"",Little Bighorn Battlefield National Monument,P.O. Box 39,"",Mailing
+1453,274,,35967,Fort Payne,AL,US,"",4322 Little River Trail NE Ste 100,"","",Physical
+1454,274,,35967,Fort Payne,AL,US,"",4322 Little River Trail NE Ste 100,"","",Mailing
+1455,275,,72202-5212,Little Rock,AR,US,"",Little Rock Central High School NHS,2120 W. Daisy L. Gatson Bates Drive,"",Physical
+1456,275,,72202-5212,Little Rock,AR,US,"",Little Rock Central High School NHS,2120 W. Daisy L. Gatson Bates Drive,"",Mailing
+1457,276,,02138,Cambridge,MA,US,"",105 Brattle Street,"","",Physical
+1458,276,,02138,Cambridge,MA,US,"",105 Brattle Street,"","",Mailing
+1459,277,,01852,Lowell,MA,US,"",115 John Street,"","",Physical
+1460,277,,01852,Lowell,MA,US,"",67 Kirk Street,"","",Mailing
+1461,278,,19107,Philadelphia,PA,US,"",NPS Wild & Scenic Rivers,1234 Market Street,"",Physical
+1462,278,,19107,Philadelphia,PA,US,"",NPS Wild & Scenic Rivers,1234 Market Street,"",Mailing
+1463,279,,10002,New York,NY,US,"",103 Orchard Street,"","",Physical
+1464,279,,10002,New York,NY,US,"",103 Orchard Street,"","",Mailing
+1465,280,,78636,Johnson City,TX,US,"",100 Ladybird Lane,"","",Physical
+1466,280,,78636,Johnson City,TX,US,"",P.O. Box 329,"","",Mailing
+1467,281,,23219,Richmond,VA,US,"",600 N. 2nd Street,"","",Physical
+1468,281,,23223,Richmond,VA,US,"",3215 E Broad Street,"","",Mailing
+1469,282,,04756,Madawaska,ME,US,"",PO Box 88,"","",Physical
+1470,282,,04756,Madawaska,ME,US,"",PO Box 88,"","",Mailing
+1471,283,,42259-0007,Mammoth Cave,KY,US,"",1 Visitor Center Parkway,"","",Physical
+1472,283,,42259-0007,Mammoth Cave,KY,US,"",P.O. Box 7,"","",Mailing
+1473,284,,20109,Manassas,VA,US,"",6511 Sudley Road,"","",Physical
+1474,284,,20109,Manassas,VA,US,"",12521 Lee Highway,"","",Mailing
+1475,285,,80225-0287,Denver,CO,US,"","National Park Service, Manhattan Project National Historical Park",c/o NPS Intermountain Regional Office,"One Denver Federal Center, Building 50",Physical
+1476,285,,80225-0287,Denver,CO,US,"","National Park Service, Manhattan Project National Historical Park",c/o NPS Intermountain Regional Office,"One Denver Federal Center, Building 50",Mailing
+1477,286,,93526,Independence,CA,US,"",Manzanar National Historic Site,"",5001 Highway 395,Physical
+1478,286,,93526,Independence,CA,US,"",Manzanar National Historic Site,P.O. Box 426,5001 Highway 395,Mailing
+1479,287,,05091,Woodstock,VT,US,"",Shared Billings Farm & Museum Parking Lot,69 Old River Rd,"",Physical
+1480,287,,05091,Woodstock,VT,US,"",54 Elm Street,"","",Mailing
+1481,288,,20024,Washington,DC,US,"",1850 West Basin Drive SW,"","",Physical
+1482,288,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1483,289,,30312,Atlanta,GA,US,"","450 Auburn Avenue, NE","","",Physical
+1484,289,,30312,Atlanta,GA,US,"","450 Auburn Avenue, NE","","",Mailing
+1485,290,,12106-3605,Kinderhook,NY,US,"",Martin Van Buren NHS,1013 Old Post Road,"",Physical
+1486,290,,12106-3605,Kinderhook,NY,US,"",Martin Van Buren NHS,1013 Old Post Road,"",Mailing
+1487,291,,20005,Washington,DC,US,"",1318 Vermont Avenue NW,"","",Physical
+1488,291,,20005,Washington,DC,US,"",Mary McLeod Bethune Council House National Historic Site,1318 Vermont Avenue NW,"",Mailing
+1489,292,,39213,Jackson,MS,US,"",2332 Margaret Walker Alexander Drive,"","",Physical
+1490,292,,39216,Jackson,MS,US,"",1425 Lelia Dr,Ste A,Medgar and Myrlie Evers Home National Monument,Mailing
+1491,293,,81328,Mancos,CO,US,"",34840 Hwy 160,"","",Physical
+1492,293,,81330,Mesa Verde National Park,CO,US,"",PO Box 8,"","",Mailing
+1493,294,,42544,Nancy,KY,US,"",Mill Springs Battlefield National Monument,9020 West Highway 80,"",Physical
+1494,294,,42544,Nancy,KY,US,"",Mill Springs Battlefield National Monument,9020 West Highway 80,"",Mailing
+1495,295,,83338,Jerome,ID,US,"",1428 Hunt Road,"","",Physical
+1496,295,,83338,Jerome,ID,US,"",1428 Hunt Road,"","",Mailing
+1497,296,,01773,Lincoln,MA,US,"",Minute Man Visitor Center,210 North Great Road,"",Physical
+1498,296,,01742,Concord,MA,US,"",North Bridge / Park Headquarters,174 Liberty St.,"",Mailing
+1499,297,,57567,Philip,SD,US,"",24545 Cottonwood Road,"","",Physical
+1500,297,,57567,Philip,SD,US,"",24545 Cottonwood Road,"","",Mailing
+1501,298,,55102,Saint Paul,MN,US,"",Mississippi River Visitor Center,120 Kellogg Blvd West,"",Physical
+1502,298,,55101,Saint Paul,MN,US,"","111 E. Kellogg Blvd., Suite 105","","",Mailing
+1503,299,,57078,Yankton,SD,US,"",508 East 2nd Street,"","",Physical
+1504,299,,57078,Yankton,SD,US,"",508 East 2nd Street,"","",Mailing
+1505,300,,92309,Kelso,CA,US,"",90942 Kelso Cima Road,"","",Physical
+1506,300,,92311,Barstow,CA,US,"",2701 Barstow Road,"","",Mailing
+1507,301,,21704,Frederick,MD,US,"",5201 Urbana Pike,"","",Physical
+1508,301,,21704,Frederick,MD,US,"",4632 Araby Church Road,"","",Mailing
+1509,302,,86322,Camp Verde,AZ,US,"",2800 Montezuma Castle Road,"","",Physical
+1510,302,,86322,Camp Verde,AZ,US,"",P. O. Box 219,"","",Mailing
+1511,303,,28435,Currie,NC,US,"",40 Patriots Hall Dr.,"","",Physical
+1512,303,,28435,Currie,NC,US,"",40 Patriots Hall Dr.,"","",Mailing
+1513,304,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",Mormon Pioneer National Historic Trail,1100 Old Santa Fe Trail,Physical
+1514,304,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",Mormon Pioneer National Historic Trail,1100 Old Santa Fe Trail,Mailing
+1515,305,,07960,Morristown,NJ,US,"",30 Washington Place,"","",Physical
+1516,305,,07960,Morristown,NJ,US,"",30 Washington Place,"","",Mailing
+1517,306,,98304,Ashford,WA,US,"",55210 238th Avenue East,"","",Physical
+1518,306,,98304,Ashford,WA,US,"",55210 238th Avenue East,"","",Mailing
+1519,307,,57751,Keystone,SD,US,"",13000 Highway 244,"Building 31, Suite 1","",Physical
+1520,307,,57751,Keystone,SD,US,"",13000 Highway 244,"Building 31, Suite 1","",Mailing
+1521,308,,94941,Mill Valley,CA,US,"",Muir Woods National Monument,1 Muir Woods Rd,"",Physical
+1522,308,,94941,Mill Valley,CA,US,"",Muir Woods National Monument,1 Muir Woods Rd,"",Mailing
+1523,309,,39120,Natchez,MS,US,"",640 South Canal Street,"","",Physical
+1524,309,,39120,Natchez,MS,US,"",640 South Canal Street,Suite E,"",Mailing
+1525,310,,38804,Tupelo,MS,US,"",2680 Natchez Trace Parkway,"","",Physical
+1526,310,,38804,Tupelo,MS,US,"",2680 Natchez Trace Parkway,"","",Mailing
+1527,311,,38804,Tupelo,MS,US,"",2680 Natchez Trace Parkway,"","",Physical
+1528,311,,38804,Tupelo,MS,US,"",2680 Natchez Trace Parkway,"","",Mailing
+1529,312,,20020,Washington,DC,US,"",1900 Anacostia Drive SE,"","",Physical
+1530,312,,20020,Washington,DC,US,"",1900 Anacostia Drive SE,"","",Mailing
+1531,313,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Physical
+1532,313,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1533,314,,96799,Pago Pago,AS,US,"",National Park of American Samoa,"MHJ Building, 2nd Floor","",Physical
+1534,314,,96799,Pago Pago,AS,US,"",National Park of American Samoa,"MHJ Building, 2nd Floor","",Mailing
+1535,315,,10005,New York,NY,US,"",26 Wall Street,"","",Physical
+1536,315,,10005,New York,NY,US,"",26 Wall Street,"","",Mailing
+1537,316,,84533,Lake Powell,UT,US,"",At the end of UT-275,"Approximately 45 minutes' drive west of Blanding, Utah","",Physical
+1538,316,,84533-0001,Lake Powell,UT,US,"",HC-60 Box 1,"","",Mailing
+1539,317,,86054,Shonto,AZ,US,"",End of AZ Highway 564,"","",Physical
+1540,317,,86054,Shonto,AZ,US,"",P.O. Box 7717,"","",Mailing
+1541,318,,02740,New Bedford,MA,US,"",33 William Street,"","",Physical
+1542,318,,02740,New Bedford,MA,US,"",33 William Street,"","",Mailing
+1543,319,,01105,Springfield,MA,US,"",New England Trail,c/o Springfield Armory National Historic Site,"One Armory Square, Suite 2",Physical
+1544,319,,01105,Springfield,MA,US,"",New England Trail,c/o Springfield Armory National Historic Site,"One Armory Square, Suite 2",Mailing
+1545,320,,08064,New Lisbon,NJ,US,"",15 Springfield Road,"","",Physical
+1546,320,,08064,New Lisbon,NJ,US,"",New Jersey Pinelands Commission,15 Springfield Road,PO Box 359,Mailing
+1547,321,,70130,New Orleans,LA,US,"",419 Decatur St,"","",Physical
+1548,321,,70130,New Orleans,LA,US,"",419 Decatur St,"","",Mailing
+1549,322,,62312,Barry,IL,US,"",New Philadelphia National Historic Site,29782 306 Lane,"",Physical
+1550,322,,62701,Springfield,IL,US,"",New Philadelphia National Historic Site,413 S. 8th Street,"",Mailing
+1551,323,,25846,Glen Jean,WV,US,"",104 Main Street,"","",Physical
+1552,323,,25846,Glen Jean,WV,US,"","P.O. Box 246, 104 Main Street","","",Mailing
+1553,324,,83540-9715,Lapwai,ID,US,"",Nez Perce National Historical Park,39063 US Hwy 95,"",Physical
+1554,324,,83540-9715,Lapwai,ID,US,"",Nez Perce National Historical Park,39063 US Hwy 95,"",Mailing
+1555,325,,67625-3015,Nicodemus,KS,US,"",304 Washington Ave.,"","",Physical
+1556,325,,67625-3015,Nicodemus,KS,US,"",304 Washington Ave.,"","",Mailing
+1557,326,,29666,Ninety Six,SC,US,"",Ninety Six National Historic Site,1103 Hwy 248,"",Physical
+1558,326,,29666,Ninety Six,SC,US,"",Ninety Six National Historic Site,1103 Hwy 248,"",Mailing
+1559,327,,69201,Valentine,NE,US,"",214 W US Highway 20,"","",Physical
+1560,327,,69201,Valentine,NE,US,"",214 W US Highway 20,"","",Mailing
+1561,328,,99752,Kotzebue,AK,US,"",171 3rd Ave,"","",Physical
+1562,328,,99752,Kotzebue,AK,US,"",PO Box 1029,"","",Mailing
+1563,329,,98284,Sedro-Woolley,WA,US,"",810 State Route 20,"","",Physical
+1564,329,,98284,Sedro-Woolley,WA,US,"",810 State Route 20,"","",Mailing
+1565,330,,49331,Lowell,MI,US,"","318 East Main Street, Suite K","","",Physical
+1566,330,,49331,Lowell,MI,US,"","318 East Main Street, Suite K","","",Mailing
+1567,331,,37887,Wartburg,TN,US,"",208 N. Maiden Street,"","",Physical
+1568,331,,37887,Wartburg,TN,US,"",P.O. Box 429,"","",Mailing
+1569,332,,31217,Macon,GA,US,"",1207 Emery Hwy,"","",Physical
+1570,332,,31217,Macon,GA,US,"",1207 Emery Hwy,"","",Mailing
+1571,333,,73102,Oklahoma City,OK,US,"",Oklahoma City National Memorial,620 N. Harvey Ave.,"",Physical
+1572,333,,73102-0676,Oklahoma City,OK,US,"",Oklahoma City National Memorial NPS Office,"301 NW 6th Street, Suite 305","",Mailing
+1573,334,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",Old Spanish National Historic Trail,1100 Old Santa Fe Trail,Physical
+1574,334,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",Old Spanish National Historic Trail,1100 Old Santa Fe Trail,Mailing
+1575,335,,98362,Port Angeles,WA,US,"",Olympic National Park Visitor Center,3002 Mount Angeles Road,"",Physical
+1576,335,,98362,Port Angeles,WA,US,"",600 E. Park Avenue,"","",Mailing
+1577,336,,97523,Cave Junction,OR,US,"",21000 Caves Hwy,"","",Physical
+1578,336,,97523,Cave Junction,OR,US,"",19000 Caves Hwy,"","",Mailing
+1579,337,,87505,Santa Fe,NM,US,"","National Trails Office - Regions 6, 7, 8",Oregon National Historic Trail,1100 Old Santa Fe Trail,Physical
+1580,337,,87505,Santa Fe,NM,US,"","National Trails Office - Regions 6, 7, 8",Oregon National Historic Trail,1100 Old Santa Fe Trail,Mailing
+1581,338,,85321,Ajo,AZ,US,"",10 Organ Pipe Drive,"","",Physical
+1582,338,,85321,Ajo,AZ,US,"",10 Organ Pipe Drive,"","",Mailing
+1583,339,,29341,Gaffney,SC,US,"",4001 Chesnee Hwy,"","",Physical
+1584,339,,29341,Gaffney,SC,US,"",338 New Pleasant Road,"","",Mailing
+1585,340,,20745,Oxon Hill,MD,US,"",1967 Bald Eagle Road,"","",Physical
+1586,340,,20745,Oxon Hill,MD,US,"",6411 Oxon Hill Road,"","",Mailing
+1587,341,,63965,Van Buren,MO,US,"","Multiple locations - Alley Spring Visitor Center: 12185 Alley Hollow Road, Eminence, MO 65466","Big Spring Entrance Station: Hwy 103, Van Buren, MO 63965","Administrative Headquarters: 404 Watercress Drive, Van Buren MO 63965",Physical
+1588,341,,63965,Van Buren,MO,US,"",P.O. Box 490,"","",Mailing
+1589,342,,78418,Corpus Christi,TX,US,"",20420 Park Road 22,"","",Physical
+1590,342,,78480,Corpus Christi,TX,US,"",P.O. Box 181300,"","",Mailing
+1591,343,,78526,Brownsville,TX,US,"",7200 Paredes Line Road,"","",Physical
+1592,343,,78520,Brownsville,TX,US,"",600 E. Harrison Street,Room 1006,"",Mailing
+1593,344,,07501,Paterson,NJ,US,"",72 McBride Avenue Extension,"","",Physical
+1594,344,,07501,Paterson,NJ,US,"",72 McBride Avenue Extension,"","",Mailing
+1595,345,,72732,Garfield,AR,US,"",15930 National Park Drive,"","",Physical
+1596,345,,72732,Garfield,AR,US,"",15930 National Park Drive,"","",Mailing
+1597,346,,96818,Honolulu,HI,US,"",National Park Service,Pearl Harbor National Memorial,1 Arizona Memorial Place,Physical
+1598,346,,96818,Honolulu,HI,US,"",National Park Service,Pearl Harbor National Memorial,1 Arizona Memorial Place,Mailing
+1599,347,,87552,Pecos,NM,US,"",Pecos National Historical Park,1 Peach Drive,"",Physical
+1600,347,,87552,Pecos,NM,US,"",Pecos National Historical Park,P.O. Box 418,"",Mailing
+1601,348,,20002,Washington,DC,US,"","1 Pennsylvania Ave, NW","","",Physical
+1602,348,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1603,349,,43456,Put-in-Bay,OH,US,"",93 Delaware Avenue,"","",Physical
+1604,349,,43456,Put-in-Bay,OH,US,"",PO Box 549,"","",Mailing
+1605,350,,23803,Petersburg,VA,US,"",Petersburg National Battlefield,Eastern Front Unit Visitor Center,5001 Siege Road,Physical
+1606,350,,23803,Petersburg,VA,US,"",Petersburg National Battlefield Administration Office,1539 Hickory Hill Road,"",Mailing
+1607,351,,86028,Petrified Forest,AZ,US,"",Exit 311,Interstate 40,"",Physical
+1608,351,,86028-2217,Petrified Forest,AZ,US,"",Petrified Forest National Park,P.O. Box 2217,Attn.:,Mailing
+1609,352,,87120,Albuquerque,NM,US,"",Visitor Information Center,Unser Blvd. NW at Western Trail,GPS Lat: 35.139   GPS Long: -106.711,Physical
+1610,352,,87120,Albuquerque,NM,US,"",Headquarters Administration Offices,6001 Unser Blvd. NW,"",Mailing
+1611,353,,49862,Munising,MI,US,"",1505 Sand Point Road,"","",Physical
+1612,353,,49862,Munising,MI,US,"",P.O. Box 40,"","",Mailing
+1613,354,,95043,Paicines,CA,US,"",5000 East Entrance Road,"","",Physical
+1614,354,,95043,Paicines,CA,US,"",5000 East Entrance Road,"","",Mailing
+1615,355,,86022,Fredonia,AZ,US,"",Pipe Spring National Monument,"",406 Pipe Springs Road,Physical
+1616,355,,86022,Fredonia,AZ,US,"",Pipe Spring National Monument,HC 65 Box 5,406 Pipe Springs Road,Mailing
+1617,356,,56164,Pipestone,MN,US,"",36 Reservation Ave,"","",Physical
+1618,356,,56164,Pipestone,MN,US,"",36 Reservation Ave,"","",Mailing
+1619,357,,20607,Accokeek,MD,US,"",3400 Bryan Point Road,"","",Physical
+1620,357,,20616,Fort Washington,MD,US,"",Fort Washington Park,Attn: Piscataway Park,13551 Fort Washington Road,Mailing
+1621,358,,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Physical
+1622,358,,94956,Point Reyes Station,CA,US,"",1 Bear Valley Road,"","",Mailing
+1623,359,,87505,Santa Fe,NM,US,"","National Trails Regions Office, Regions 6, 7, & 8",Pony Express National Historic Trail,1100 Old Santa Fe Trail,Physical
+1624,359,,87505,Santa Fe,NM,US,"","National Trails Regions Office, Regions 6, 7, & 8",Pony Express National Historic Trail,1100 Old Santa Fe Trail,Mailing
+1625,360,,94553,Martinez,CA,US,"",4202 Alhambra Ave,"","",Physical
+1626,360,,94553,Martinez,CA,US,"",4202 Alhambra Ave,"","",Mailing
+1627,361,,21795,Williamsport,MD,US,"",Potomac Heritage National Scenic Trail,c/o Chesapeake and Ohio Canal National Historical Park,142 W. Potomac St.,Physical
+1628,361,,21795,Williamsport,MD,US,"",Potomac Heritage National Scenic Trail,c/o Chesapeake and Ohio Canal National Historical Park,142 W. Potomac St.,Mailing
+1629,362,,71266,Pioneer,LA,US,"",6859 Hwy. 577,"","",Physical
+1630,362,,71266,Pioneer,LA,US,"",6859 Hwy. 577,"","",Mailing
+1631,363,,71801,Hope,AR,US,"",117 South Hervey Street,"","",Physical
+1632,363,,71802,Hope,AR,US,"",P.O. Box 550,"","",Mailing
+1633,364,,94129,San Francisco,CA,US,"",Presidio of San Francisco,210 Lincoln Boulevard,"",Physical
+1634,364,,94123,San Francisco,CA,US,"",201 Fort Mason,"","",Mailing
+1635,365,,22172,Triangle,VA,US,"",18170 Park Entrance Road,"","",Physical
+1636,365,,22172,Triangle,VA,US,"",18100 Park Headquarters Road,"","",Mailing
+1637,366,,60628,Chicago,IL,US,"",610 E. 111th Street,"","",Physical
+1638,366,,60628,Chicago,IL,US,"",610 E. 111th Street,"","",Mailing
+1639,367,,96726,Hōnaunau,HI,US,"",84-5559 Keala o Keawe Rd.,HWY 160,"",Physical
+1640,367,,96726,Hōnaunau,HI,US,"",PO BOX 129,"","",Mailing
+1641,368,,96743,Kawaihae,HI,US,"",Pu'ukohola Heiau National Historic Site,62-3601 Kawaihae Road,"",Physical
+1642,368,,96743,Kawaihae,HI,US,"",Pu'ukohola Heiau National Historic Site,62-3601 Kawaihae Road,"",Mailing
+1643,369,,86040,Page,AZ,US,"",c/o Glen Canyon National Recreation Area,PO Box 1507,691 Scenic View Dr,Physical
+1644,369,,86040,Page,AZ,US,"",c/o Glen Canyon National Recreation Area,PO Box 1507,691 Scenic View Dr,Mailing
+1645,370,,29902,Beaufort,SC,US,"",706 Craven Street,"","",Physical
+1646,370,,29902,Beaufort,SC,US,"",706 Craven Street,"","",Mailing
+1647,371,,95531,Crescent City,CA,US,"",1111 Second Street,"","",Physical
+1648,371,,95531,Crescent City,CA,US,"",1111 Second Street,"","",Mailing
+1649,372,,23223,Richmond,VA,US,"",3215 E. Broad Street,"","",Physical
+1650,372,,23223,Richmond,VA,US,"",3215 E. Broad Street,"","",Mailing
+1651,373,,79834,Big Bend National Park,TX,US,"",Rio Grande Wild & Scenic River,1 Panther Junction,"",Physical
+1652,373,,79834,Big Bend National Park,TX,US,"",Rio Grande Wild & Scenic River,c/o Big Bend National Park,PO Box 129,Mailing
+1653,374,,48162,Monroe,MI,US,"",333 N. Dixie Hwy.,"","",Physical
+1654,374,,48162,Monroe,MI,US,"",333 N. Dixie Hwy.,"","",Mailing
+1655,375,,20015,Washington,DC,US,"","5200 Glover Rd, NW","","",Physical
+1656,375,,20015,Washington,DC,US,"","5200 Glover Rd, NW","","",Mailing
+1657,376,,80517,Estes Park,CO,US,"",1000 US Hwy 36,"","",Physical
+1658,376,,80517,Estes Park,CO,US,"",1000 US Hwy 36,"","",Mailing
+1659,377,,02903,Providence,RI,US,"",282 North Main Street,"","",Physical
+1660,377,,02903,Providence,RI,US,"",282 North Main Street,"","",Mailing
+1661,378,,E5E 1A4,Welshpool,"",CA,NB,459 Route 774,"","",Physical
+1662,378,,E5E 1A4,Welshpool,"",CA,NB,459 Route 774,"","",Mailing
+1663,379,,94804,Richmond,CA,US,"","1414 Harbour Way South, Suite 3000","","",Physical
+1664,379,,94804,Richmond,CA,US,"","1414 Harbour Way South, Suite 3000","","",Mailing
+1665,380,,35740,Bridgeport,AL,US,"",3729 County Road 98,"","",Physical
+1666,380,,35740,Bridgeport,AL,US,"",3729 County Road 98,"","",Mailing
+1667,381,,11771,Oyster Bay,NY,US,"",20 Sagamore Hill Road,"","",Physical
+1668,381,,11771,Oyster Bay,NY,US,"",20 Sagamore Hill Road,"","",Mailing
+1669,382,,85730,Tucson,AZ,US,"",3693 S Old Spanish Trail,"","",Physical
+1670,382,,85730,Tucson,AZ,US,"",3693 S Old Spanish Trail,"","",Mailing
+1671,383,,04619,Calais,ME,US,"",84 Saint Croix Drive,"","",Physical
+1672,383,,04619,Calais,ME,US,"",84 Saint Croix Drive,"","",Mailing
+1673,384,,54024,St. Croix Falls,WI,US,"",401 North Hamilton Street,"","",Physical
+1674,384,,54024,St. Croix Falls,WI,US,"",401 North Hamilton Street,"","",Mailing
+1675,385,,10550,Mount Vernon,NY,US,"",897 South Columbus Avenue,"","",Physical
+1676,385,,10550,Mount Vernon,NY,US,"",897 South Columbus Avenue,"","",Mailing
+1677,386,,03745,Cornish,NH,US,"",139 Saint Gaudens Road,"","",Physical
+1678,386,,03745,Cornish,NH,US,"",139 Saint Gaudens Road,"","",Mailing
+1679,387,,01970,Salem,MA,US,"",Salem Armory Visitor Center,2 New Liberty Street,"",Physical
+1680,387,,01970,Salem,MA,US,"",160 Derby Street,"","",Mailing
+1681,388,,87036-0517,Mountainair,NM,US,"",Salinas Pueblo Missions National Monument,105 South Ripley Avenue,"",Physical
+1682,388,,87036-0517,Mountainair,NM,US,"",Salinas Pueblo Missions National Monument,PO Box 517,105 South Ripley Avenue,Mailing
+1683,389,,00820,Christiansted,VI,US,"",Route 75 Salt River Bay,"","",Physical
+1684,389,,00820,Christiansted,VI,US,"","2100 Church St. #100","","",Mailing
+1685,390,,78214,San Antonio,TX,US,"",Visitor Center at Mission San José,6701 San Jose Drive,"",Physical
+1686,390,,78210,San Antonio,TX,US,"",Headquarters,2202 Roosevelt Avenue,"",Mailing
+1687,391,,94109,San Francisco,CA,US,"",2905 Hyde Street,"","",Physical
+1688,391,,94123,San Francisco,CA,US,"","2 Marina Boulevard,","Building E, 2nd Floor","",Mailing
+1689,392,,98250,Friday Harbor,WA,US,"",4668 Cattle Point Rd.,"","",Physical
+1690,392,,98250,Friday Harbor,WA,US,"",P.O. Box 429,"","",Mailing
+1691,393,,00901,San Juan,PR,US,"",501 Norzagaray Street,Castillo San Cristobal,"",Physical
+1692,393,,00901,San Juan,PR,US,"",501 Norzagaray Street,"","",Mailing
+1693,394,,81036,Chivington,CO,US,"",55411 County Rd W,"","",Physical
+1694,394,,81036-0249,Eads,CO,US,"",1301 Maine Street,P.O. Box 249,"",Mailing
+1695,395,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",Santa Fe National Historic Trail,1100 Old Santa Fe Trail,Physical
+1696,395,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",Santa Fe National Historic Trail,1100 Old Santa Fe Trail,Mailing
+1697,396,,91302,Calabasas,CA,US,"",26876 Mulholland Highway,"","",Physical
+1698,396,,91302,Calabasas,CA,US,"",26876 Mulholland Highway,"","",Mailing
+1699,397,,12170,Stillwater,NY,US,"",648 Route 32,"","",Physical
+1700,397,,12170,Stillwater,NY,US,"",648 Route 32,"","",Mailing
+1701,398,,01906,Saugus,MA,US,"",244 Central St,"","",Physical
+1702,398,,01906,Saugus,MA,US,"",244 Central St,"","",Mailing
+1703,399,,69341,Gering,NE,US,"",190276 Old Oregon Trail,"","",Physical
+1704,399,,69341,Gering,NE,US,"",P.O. Box 27,"","",Mailing
+1705,400,,36040,White Hall,AL,US,"",7002 U.S. Highway 80 West,"","",Physical
+1706,400,,36040,Hayneville,AL,US,"",7002 U.S. Highway 80 West,P.O. Box 595,"",Mailing
+1707,401,,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Physical
+1708,401,,93271,Three Rivers,CA,US,"",47050 Generals Highway,"","",Mailing
+1709,402,,22835,Luray,VA,US,"",Shenandoah National Park,3655 U.S. Highway 211 East,"",Physical
+1710,402,,22835,Luray,VA,US,"",Shenandoah National Park,3655 U.S. Highway 211 East,"",Mailing
+1711,403,,38376,Shiloh,TN,US,"",1055 Pittsburg Landing Road,"","",Physical
+1712,403,,38376,Shiloh,TN,US,"",1055 Pittsburg Landing Road,"","",Mailing
+1713,404,,99835,Sitka,AK,US,"",106 Metlakatla Street,"","",Physical
+1714,404,,99835,Sitka,AK,US,"",103 Monastery St.,"","",Mailing
+1715,405,,49630,Empire,MI,US,"",9922 Front Street,"","",Physical
+1716,405,,49630,Empire,MI,US,"",9922 Front Street,"","",Mailing
+1717,406,,62702,Springfield,IL,US,"",400 N. 9th Street,"","",Physical
+1718,406,,62701,Springfield,IL,US,"",Springfield 1908 Race Riot National Monument,413 S. 8th Street,"",Mailing
+1719,407,,01105,Springfield,MA,US,"",Springfield Armory National Historic Site,One Armory Square,Suite 2,Physical
+1720,407,,01105,Springfield,MA,US,"",Springfield Armory National Historic Site,One Armory Square,Suite 2,Mailing
+1721,408,,21230,Baltimore,MD,US,"",2400 East Fort Avenue,"","",Physical
+1722,408,,21230,Baltimore,MD,US,"",2400 East Fort Avenue,"","",Mailing
+1723,409,,10004,New York,NY,US,"",Liberty Island,"","",Physical
+1724,409,,07305,Jersey City,NJ,US,"",Receiving Office,1 Ellis Island,"",Mailing
+1725,410,,63670,Ste. Genevieve,MO,US,"",Ste. Genevieve National Historical Park,339 St. Marys Road,"",Physical
+1726,410,,63670,Ste. Genevieve,MO,US,"",Ste. Genevieve National Historical Park,339 St. Marys Road,"",Mailing
+1727,411,,18503,Scranton,PA,US,"",350 Cliff Street,"","",Physical
+1728,411,,18503-2018,Scranton,PA,US,"",150 South Washington Avenue,"","",Mailing
+1729,412,,37129,Murfreesboro,TN,US,"",1563 North Thompson Lane,"","",Physical
+1730,412,,37129,Murfreesboro,TN,US,"",3501 Old Nashville Highway,"","",Mailing
+1731,413,,10014,New York,NY,US,"","Intersection of Christopher, Grove, and Fourth Streets.","","",Physical
+1732,413,,10005,New York,NY,US,"",26 Wall Street,Federal Hall National Monument c/o Stonewall National Monument,"",Mailing
+1733,414,,86004,Flagstaff,AZ,US,"",6082 Sunset Crater Road,"","",Physical
+1734,414,,86004,Flagstaff,AZ,US,"",6400 U.S. 89,"","",Mailing
+1735,415,,66869,Strong City,KS,US,"",2480B KS Hwy 177,"","",Physical
+1736,415,,66869,Strong City,KS,US,"",2480B KS Hwy 177,"","",Mailing
+1737,416,,19106,Philadelphia,PA,US,"",3rd and Pine Streets,"","",Physical
+1738,416,,19106,Philadelphia,PA,US,"",c/o Independence National Historical Park,143 S. 3rd Street,"",Mailing
+1739,417,,20230,Washington,DC,US,"","1450 Pennsylvania Ave., NW","","",Physical
+1740,417,,20240,Washington,DC,US,"",1849 C Street NW,Room 1426,"",Mailing
+1741,418,,10003,New York,NY,US,"",28 East 20th Street,"","",Physical
+1742,418,,10003,New York,NY,US,"",28 East 20th Street,"","",Mailing
+1743,419,,14202,Buffalo,NY,US,"",Theodore Roosevelt Inaugural Site,641 Delaware Avenue,"",Physical
+1744,419,,14202,Buffalo,NY,US,"",Theodore Roosevelt Inaugural Site,641 Delaware Avenue,"",Mailing
+1745,420,,22209,Arlington,VA,US,"",George Washington Memorial Parkway,northbound lanes between Roosevelt Bridge and Key Bridge,"",Physical
+1746,420,,22101,McLean,VA,US,"",700 George Washington Memorial Parkway,"","",Mailing
+1747,421,,58645,Medora,ND,US,"",PO Box 7,"","",Physical
+1748,421,,58645,Medora,ND,US,"",PO Box 7,"","",Mailing
+1749,422,,12414,Catskill,NY,US,"",218 Spring Street,"","",Physical
+1750,422,,12414,Catskill,NY,US,"",PO Box 426,218 Spring Street,"",Mailing
+1751,423,,07052,West Orange,NJ,US,"",211 Main Street,"","",Physical
+1752,423,,07052,West Orange,NJ,US,"",211 Main Street,"","",Mailing
+1753,424,,20242,Washington,DC,US,"","16 East Basin Drive, SW","","",Physical
+1754,424,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1755,425,,20677,Port Tobacco,MD,US,"",6655 Rose Hill Road,"","",Physical
+1756,425,,20677,Port Tobacco,MD,US,"",6655 Rose Hill Road,"","",Mailing
+1757,426,,84003,American Fork,UT,US,"",2038 W. Alpine Loop Road,"","",Physical
+1758,426,,84003,American Fork,UT,US,"",2038 W. Alpine Loop Road,"","",Mailing
+1759,427,,32225,Jacksonville,FL,US,"",12713 Fort Caroline Road,"","",Physical
+1760,427,,32225,Jacksonville,FL,US,"",12713 Fort Caroline Road,"","",Mailing
+1761,428,,85545,Roosevelt,AZ,US,"",26260 N AZ Hwy 188 Lot 2,"","",Physical
+1762,428,,85545,Roosevelt,AZ,US,"",26260 N AZ Hwy 188 Lot 2,"","",Mailing
+1763,429,,02840,Newport,RI,US,"",85 Touro Street,"","",Physical
+1764,429,,02840,Newport,RI,US,"",85 Touro Street,"","",Mailing
+1765,430,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",Trail of Tears National Historic Trail,1100 Old Santa Fe Trail,Physical
+1766,430,,87505,Santa Fe,NM,US,"","National Trails Office Regions 6, 7, & 8",Trail of Tears National Historic Trail,1100 Old Santa Fe Trail,Mailing
+1767,431,,96134,Tuelake,CA,US,"",44340 Hwy 139,"","",Physical
+1768,431,,96134,Tulelake,CA,US,"",P.O. Box 1240,"","",Mailing
+1769,432,,89143,Las Vegas,NV,US,"",Tule Springs Fossil Beds National Monument,Durango & Moccasin Parking Area,Durango Drive & Moccasin Road,Physical
+1770,432,,89005,Boulder City,NV,US,"",Not to be used for navigation purposes,Tule Springs Fossil Beds National Monument,601 Nevada Way,Mailing
+1771,433,,85640,Tumacacori,AZ,US,"",1895 E Frontage Road,"","",Physical
+1772,433,,85640,Tumacacori,AZ,US,"",P.O. Box 8067,"","",Mailing
+1773,434,,38801,Tupelo,MS,US,"",2083 Main St,"","",Physical
+1774,434,,38804,Tupelo,MS,US,"",2680 Natchez Trace Parkway,"","",Mailing
+1775,435,,36083,Tuskegee,AL,US,"",1616 Chappie James Ave.,"","",Physical
+1776,435,,36083,Tuskegee,AL,US,"",1616 Chappie James Ave.,"","",Mailing
+1777,436,,36088,Tuskegee Institute,AL,US,"",1212 West Montgomery Road,"","",Physical
+1778,436,,36088,Tuskegee Institute,AL,US,"",1212 West Montgomery Road,"","",Mailing
+1779,437,,86324,Clarkdale,AZ,US,"",25 Tuzigoot Rd,"","",Physical
+1780,437,,86322,Camp Verde,AZ,US,"",P.O. Box 219,"","",Mailing
+1781,438,,63123,St. Louis,MO,US,"",7400 Grant Road,"","",Physical
+1782,438,,63123,St. Louis,MO,US,"",7400 Grant Road,"","",Mailing
+1783,439,,18405,Beach Lake,PA,US,"",274 River Road,"","",Physical
+1784,439,,18405,Beach Lake,PA,US,"",274 River Road,"","",Mailing
+1785,440,,87025,Jemez Springs,NM,US,"",39201 New Mexico Highway 4,"","",Physical
+1786,440,,87025,Jemez Springs,NM,US,"",090 Villa Louis Martin Dr.,"","",Mailing
+1787,441,,19406,King of Prussia,PA,US,"",1400 North Outer Line Drive,"","",Physical
+1788,441,,19406,King of Prussia,PA,US,"",1400 North Outer Line Drive,"","",Mailing
+1789,442,,12538,Hyde Park,NY,US,"",81 Vanderbilt Park Road,"","",Physical
+1790,442,,12538,Hyde Park,NY,US,"",4097 Albany Post Road,"","",Mailing
+1791,443,,39183,Vicksburg,MS,US,"",3201 Clay Street,"","",Physical
+1792,443,,39183,Vicksburg,MS,US,"",3201 Clay Street,"","",Mailing
+1793,444,,20002,Washington,DC,US,"",5 Henry Bacon Drive NW,"","",Physical
+1794,444,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1795,445,,00830,St. John,VI,US,"",Hurrican Hole,"","",Physical
+1796,445,,00830,St. John,VI,US,"",1300 Cruz Bay Creek,"","",Mailing
+1797,446,,00830,St. John,VI,US,"",1300 Cruz Bay Creek,"","",Physical
+1798,446,,00830,St. John,VI,US,"",1300 Cruz Bay Creek,"","",Mailing
+1799,447,,56649,International Falls,MN,US,"",Voyageurs National Park,Rainy Lake Visitor Center,1797 Township Rd 342,Physical
+1800,447,,56649,International Falls,MN,US,"",Voyageurs National Park Headquarters,360 Hwy 11 East,"",Mailing
+1801,448,,76708,Waco,TX,US,"",6220 Steinbeck Bend Drive,"","",Physical
+1802,448,,76708,Waco,TX,US,"",6220 Steinbeck Bend Drive,"","",Mailing
+1803,449,,86004,Flagstaff,AZ,US,"",3 Walnut Canyon Road,"","",Physical
+1804,449,,86004,Flagstaff,AZ,US,"",6400 U.S. 89,"","",Mailing
+1805,450,,96910,Hagatna,GU,US,"",135 Murray Blvd.,Ste. 100,"",Physical
+1806,450,,96910,Hagatna,GU,US,"",135 Murray Blvd.,Ste. 100,"",Mailing
+1807,451,,20024,Washington,DC,US,"",2 15th St. NW,"","",Physical
+1808,451,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1809,452,,19406,King of Prussia,PA,US,"",Washington-Rochambeau National Historic Trail,Make requests of Trail Administrator at Johnny_Carawan@NPS.gov,1400 North Outer Line Drive,Physical
+1810,452,,19406,King of Prussia,PA,US,"",Washington-Rochambeau National Historic Trail,"",1400 North Outer Line Drive,Mailing
+1811,453,,73628,Cheyenne,OK,US,"","18555 Hwy 47A, Ste. A","","",Physical
+1812,453,,73628,Cheyenne,OK,US,"","18555 Hwy 47A, Ste. A","","",Mailing
+1813,454,,06897,Wilton,CT,US,"",735 Nod Hill Road,"","",Physical
+1814,454,,06897,Wilton,CT,US,"",735 Nod Hill Road,"","",Mailing
+1815,455,,96095,Whiskeytown,CA,US,"",14412 Kennedy Memorial Drive,"","",Physical
+1816,455,,96095,Whiskeytown,CA,US,"",P.O. Box 188,"","",Mailing
+1817,456,,88310,Alamogordo,NM,US,"",19955 Hwy 70 W,"","",Physical
+1818,456,,88330,Holloman AFB,NM,US,"",PO Box 1086,"","",Mailing
+1819,457,,99362,Walla Walla,WA,US,"",328 Whitman Mission Road,"","",Physical
+1820,457,,99362,Walla Walla,WA,US,"",328 Whitman Mission Road,"","",Mailing
+1821,458,,45219,Cincinnati,OH,US,"",2038 Auburn Avenue,"","",Physical
+1822,458,,45219,Cincinnati,OH,US,"",2038 Auburn Avenue,"","",Mailing
+1823,459,,65738,Republic,MO,US,"",6424 W. Farm Road 182,"","",Physical
+1824,459,,65738,Republic,MO,US,"",5242 S. State Hwy ZZ,"","",Mailing
+1825,460,,57747,Hot Springs,SD,US,"",26611 US Highway 385,"","",Physical
+1826,460,,57747,Hot Springs,SD,US,"",26611 US Highway 385,"","",Mailing
+1827,461,,98104,Seattle,WA,US,"",719 South King Street,"","",Physical
+1828,461,,98104,Seattle,WA,US,"",719 South King Street,"","",Mailing
+1829,462,,22182-1643,Vienna,VA,US,"",1551 Trap Road,"","",Physical
+1830,462,,22182-1643,Vienna,VA,US,"",1551 Trap Road,"","",Mailing
+1831,463,,13148,Seneca Falls,NY,US,"",136 Fall Street,"","",Physical
+1832,463,,13148,Seneca Falls,NY,US,"",136 Fall Street,"","",Mailing
+1833,464,,20004,Washington,DC,US,"","1493 Pennsylvania Avenue NW,","","",Physical
+1834,465,,20024,Washington,DC,US,"",1750 Independence Ave. SW,"","",Physical
+1835,465,,20242,Washington,DC,US,"",1100 Ohio Drive SW,"","",Mailing
+1836,466,,99573,Copper Center,AK,US,"",Wrangell-St. Elias National Park & Preserve,Mile 106.8 Richardson Highway,"",Physical
+1837,466,,99573,Copper Center,AK,US,"",Wrangell-St. Elias National Park & Preserve,PO Box 439,Mile 106.8 Richardson Highway,Mailing
+1838,467,,27948,Kill Devil Hills,NC,US,"",1000 North Croatan Highway,"","",Physical
+1839,467,,27954,Manteo,NC,US,"",Wright Brothers National Memorial,1401 National Park Drive,"",Mailing
+1840,468,,86004,Flagstaff,AZ,US,"",25137 N. Sunset Crater-Wupatki Loop Rd.,"","",Physical
+1841,468,,86004,Flagstaff,AZ,US,"",6400 U.S. 89,"","",Mailing
+1842,469,,82190,Yellowstone National Park,WY,US,"",2 Officers Row,Yellowstone National Park Headquarters,"",Physical
+1843,469,,82190-0168,Yellowstone National Park,WY,US,"",PO Box 168,"","",Mailing
+1844,470,,23690,Yorktown,VA,US,"",Yorktown Battlefield,1000 Colonial Parkway,"",Physical
+1845,470,,23690,Yorktown,VA,US,"",Colonial National Historical Park - Yorktown Battlefield,P.O. Box 210,"",Mailing
+1846,471,,95389,Yosemite National Park,CA,US,"",PO Box 577,"","",Physical
+1847,472,,81321,Cortez,CO,US,"",Off County Rd 20.5,"","",Physical
+1848,472,,81330,Mesa Verde,CO,US,"",PO Box 8,"","",Mailing
+1849,473,,99701,Fairbanks,AK,US,"",101 Dunkel St,Suite 110,"",Physical
+1850,473,,99701,Fairbanks,AK,US,"",101 Dunkel St,Suite 110,"",Mailing
+1851,474,,84767,Springdale,UT,US,"",Zion National Park,1 Zion Park Blvd.,"",Physical
+1852,474,,84767,Springdale,UT,US,"",Zion National Park,1 Zion Park Blvd.,"",Mailing

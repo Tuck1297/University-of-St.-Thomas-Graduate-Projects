@@ -1,0 +1,705 @@
+id,parkId,cost,description,title
+1,2,6.0,"Vehicle reservations are not required for any other areas of the park, or for visitors who enter the area by foot, bike, or taxi. Vehicle reservations provide a timed entry, but do not require a departure time until 9 pm, when the road closes to vehicles. Reservations do not permit re-entry. Reservations are per vehicle, not per person. Reservations do not assign a specific parking space. Parking is prohibited outside of designated spaces. Cadillac is not served by the Island Explorer bus system.",Timed Entry Reservation - Location
+2,2,35.0,"Valid for seven days. Admits private, non-commercial vehicle (15 passenger capacity or less) and all occupants. This includes rental cars, RVs, and vans with fewer than 16 passengers. If the vehicle pass is purchased, no other pass is necessary.",Entrance - Private Vehicle
+3,2,30.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+4,2,20.0,"Valid for seven days. Admits one individual with no car (bicyclist, hiker, pedestrian). Youth 15 and under are admitted free of charge.",Entrance - Per Person
+5,2,0.0,"School groups and other academic institutions may qualify for an Educational Fee Waiver. If not qualified, please check fees for large or commercial groups.",Entrance - Education/Academic Groups
+6,2,0.0,"Groups entering Acadia by bus, van, or other high-capacity vehicles (16 people or more) must pay an organized group entrance fee.
+
+Adults (16 years old and over): $20/per person
+Youth (15 years old and under): Free",Entrance - Non-commercial Groups
+7,2,20.0,"Are you operating a business that provides leisure or recreational services while in the park? If so, it is considered a commercial group and you are required to have a Commercial Use Authorization.
+
+A commercial group is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provisions of the service. Learn more on our ""Do Business With Us"" page.",Commercial Entrance - Per Person
+8,2,100.0,"Each non-US resident aged 16 and older visiting Acadia National Park must pay a $100 nonresident fee (in addition to the standard entrance fee), unless they are admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident
+9,3,15.0,"Entrance into the historic homes at Adams National Historical Park requires an entrance pass. Entrance passes cost $15 per person. Children under the age of 16 are free. If you have an America the Beautiful Interagency Pass, you do not need to pay the entrance fee. Guided tours must be reserved in-person on the day of your visit at the park’s visitor center.",Entrance - Per Person
+10,21,20.0,Personal Vehicle/Family: $20.00 for three days,Entrance - Private Vehicle
+11,21,10.0,"Individual: $10.00 for three days. This fee admits one individual in a vehicle and also includes hikers, bicyclists or pedestrians. Youth 15 and under are admitted free of charge.",Entrance - Per Person
+12,21,15.0,"Valid for 3 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+13,21,100.0,$100 Motor Coach/Commercial Tour Groups with 26 or more people,Commercial Entrance - Motor Coach
+14,21,40.0,$40 per passenger bus with 16-25 people,Commercial Entrance - Mini-bus
+15,21,25.0,$25 per passenger bus/sedan with 1-6 people,Commercial Entrance - Sedan
+16,21,0.0,"To request an Academic Fee Waiver for your group, click on the link for further details.",Entrance - Education/Academic Groups
+17,25,30.0,"Admits one private, non-commercial vehicle (15 passenger capacity or less) and all its occupants.",Entrance - Private Vehicle
+18,25,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+19,25,15.0,"Admits one individual with no car. Typically used for bicyclists, hikers, and pedestrians. Youth 15 and under are admitted free.",Entrance - Per Person
+20,28,25.0,Assateague 7 day vehicle pass.,Entrance - Private Vehicle
+21,28,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+22,28,0.0,Assateague per person walk-in or bicycle,Entrance - Per Person
+23,30,30.0,Fee covers the entry of a private vehicle and its occupants for 7 days,Entrance - Private Vehicle
+24,30,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+25,30,15.0,"Fee covers the entry of an individual that is hiking, bicycling, etc... for 7 days",Entrance - Per Person
+26,30,25.0,"Commercial sedan, 1 to 6 passenger capacity. $25 plus $15 per person - 7 days for Original Manifest",Commercial Entrance - Sedan
+27,30,50.0,"Commercial van, 7 to 15 passenger capacity; $50 - 7 days for Original Manifest",Commercial Entrance - Van
+28,30,60.0,"Minibus, 16 to 25 passenger capacity; $60 - 7 days for Original Manifest",Commercial Entrance - Mini-bus
+29,30,150.0,"Motorcoach, 26 or more passenger capacity; $150 - 7 days for Original Manifest",Commercial Entrance - Motor Coach
+30,32,25.0,"Pass covers all persons traveling in a single, private, non-commercial vehicle (car, truck, camper, or van up to 15 passengers). Auto passes are non-transferable and not replaced if lost or stolen.  Entrance passes do not cover camping fees.",Entrance - Private Vehicle
+31,32,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+32,32,15.0,"Pass covers per person entrance fee for those 16 years of age and older traveling on foot or by bicycle, or for individuals traveling together in a 16 passenger or greater vehicle as a non-commercial, organized group. Individual passes are non-transferable and not replaced if lost or stolen.",Entrance - Per Person
+33,36,30.0,"Admits one private, non-commercial vehicle (15 passenger capacity or less); valid for 7 days.",Entrance - Private Vehicle
+34,36,15.0,Admits one individual. Typically used for bicyclists and pedestrians; valid for 7 days.,Entrance - Per Person
+35,36,200.0,Companies conducting business in the park are required to obtain a commercial use authorization. The only exception is companies travelling in a 26-person capacity or greater vehicle; such vehicles are charged a flat fee of $200 (commercial use authorization not required).,Commercial Entrance - Motor Coach
+36,36,30.0,"Organized groups such as Scouts, clubs, etc. that do not qualify for an academic fee waiver are charged as follows:
+$30 per non-commercial vehicle with a capacity of 15 or less.
+$15 per person traveling in a non-commercial vehicle with a capacity of 16 or more. Fees will not exceed the commercial rate for the same sized vehicle. Youth 15 and younger are free. Individuals or families with a valid annual or lifetime pass may use their pass for themselves and up to 3 others.",Entrance - Non-commercial Groups
+37,36,100.0,"This fee is valid for seven consecutive days. A commercial use authorization is required.
+
+https://www.nps.gov/bibe/learn/management/cua.htm",Commercial Entrance - Mini-bus
+38,36,25.0,"These fees are charged only to commercial organizations, such as tour companies. This fee is determined by the seating capacity of the vehicle. For sedan with 1 to 6 seats, the fee is $30 + $15 per client.
+This fee is valid for seven consecutive days. A commercial use authorization is required.",Commercial Entrance - Sedan
+39,36,25.0,"Valid for 7 days. Admits up to 1 private, non-commercial motorcycle with up to 2 total passengers.",Entrance - Motorcycle
+40,44,30.0,"7-Day Vehicle Pass.  Entrance fees cover all persons in a single, private, non-commercial vehicle.",Entrance - Private Vehicle
+41,44,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+42,44,15.0,7-Day Individual Pass (pedestrian or bicycle),Entrance - Per Person
+43,44,25.0,Commercial tour fee for vehicle/bus with seating capacity of 1-6 persons.  Fee is $25.00 per vehicle plus $7.00 per passenger.,Commercial Entrance - Sedan
+44,44,40.0,Commercial tour fee for vehicle/bus with seating capacity of 7-25.  Fee is $40.00 per vehicle.,Commercial Entrance - Van
+45,44,40.0,Commercial tour fee for vehicle/bus with seating capacity of 7-25.  Fee is $40.00 per vehicle.,Commercial Entrance - Mini-bus
+46,44,100.0,Commercial tour fee for vehicle/bus with seating capacity of 26 or more.  Fee is $100.00 per vehicle.,Commercial Entrance - Motor Coach
+47,44,30.0,"Non-commercial vehicles with a vehicle capacity of 15 or fewer: $30.00 per vehicle, regardless of the number of passengers.",Entrance - Non-commercial Groups
+48,44,15.0,Non-commercial vehicles with a vehicle capacity of 16 or greater: $15.00 per passenger (including driver). Fees will not exceed the commercial fee for the same-sized vehicle. Youth 15 and under are free. Individuals or families with any valid Annual or Lifetime pass may use their pass for entry at the per-person rate. Pass and photo ID must be presented upon entry.,Entrance - Non-commercial Groups
+49,55,35.0,"Admits one private, non-commercial vehicle (15 passenger capacity or less) and all occupants.",Entrance - Private Vehicle
+50,55,30.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+51,55,20.0,Admits one individual with no car to the park - typically used for bicyclists and walk-ins. Youth 15 and under are admitted free.,Entrance - Per Person
+52,55,50.0,"Commercial tour vehicle rates are based on vehicle capacity. Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers.
+
+A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees of commercial tours are based upon the total capacity of vehicles t",Commercial Entrance - Sedan
+53,55,50.0,"Commercial tour vehicle rates are based on vehicle capacity. Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers.
+
+A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees of commercial tours are based upon the total capacity of vehicles t",Commercial Entrance - Van
+54,55,60.0,"Commercial tour vehicle rates are based on vehicle capacity. Pass is valid for the day o
+
+A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees of commercial tours are based upon the total capacity of vehicles that can carry seven or more passengers regardless of the actual number of passengers.",Commercial Entrance - Mini-bus
+55,55,150.0,"Commercial tour vehicle rates are based on vehicle capacity. Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers.
+
+A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees of commercial tours are based upon the total capacity of vehicles.",Commercial Entrance - Motor Coach
+56,55,100.0,"Each non-US resident aged 16 and older visiting Bryce Canyon National Park must pay a $100 nonresident fee (in addition to the standard entrance fee), unless admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident
+57,59,20.0,"Admits one single, private, non-commercial vehicle and all its passengers.",Entrance - Private Vehicle
+58,59,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+59,59,10.0,"Admits one individual when entering by foot or bicycle. Groups of up to 4 people walking in or on bicycles are capped at $20 total.
+
+Individuals 15 years old and younger are admitted free of charge.",Entrance - Per Person
+60,59,30.0,1 to 6 / ($30),Commercial Entrance - Sedan
+61,59,45.0,7 to 25 / ($45),Commercial Entrance - Van
+62,59,45.0,7 to 25 / ($45),Commercial Entrance - Mini-bus
+63,59,100.0,26 or more / ($100),Commercial Entrance - Motor Coach
+64,59,20.0,"Organized Non-Commercial Groups include church groups, college/school groups, scouts, service organizations, military, etc.
+Vehicles with a capacity of 16 or less are charged the $20.00 vehicle permit fee. Vehicles with 17 or more seats will instead be charged the $10 per person individual rate for any passengers that are not free. The total fee charged for an Organized Non-Commercial Group will not exceed $100 per vehicle.",Entrance - Non-commercial Groups
+65,62,25.0,Admits the passholder and passengers of a single vehicle. Good for 7 consecutive days at all park entrances.,Entrance - Private Vehicle
+66,62,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+67,62,15.0,"Good for 7 consecutive days at all park entrances. Admits one individual hiker, bicyclist, or pedestrian.",Entrance - Per Person
+68,65,30.0,"Admits one private, non-commercial vehicle (15 passenger capacity or less) and all its occupants.",Entrance - Private Vehicle
+69,65,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+70,65,15.0,"Admits one individual with no car. Typically used for bicyclists, hikers, and pedestrians. Youth 15 and under are admitted free.",Entrance - Per Person
+71,66,25.0,"Pass is for one private, non-commercial vehicle — passenger cars, pickup trucks, RVs and vans.",Entrance - Private Vehicle
+72,66,20.0,"Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+73,66,15.0,Pass is for one person 16 years of age or older — entering on foot or by bicycle.,Entrance - Per Person
+74,72,20.0,An entrance fee is charged per vehicle.,Entrance - Private Vehicle
+75,72,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+76,72,10.0,Admits one individual with no car. Typically used for bicyclists and pedestrians.,Entrance - Per Person
+77,72,10.0,"Commercial Road-Based Tours are required to obtain a Commercial Use Authorization before visiting Capitol Reef.
+
+When visiting the park, the tour must then pay the separate entrance fee at the visitor center (or through pay.gov).
+
+Tours with vehicle capacity of 15 or less should apply for a CUA in the ""Guided Interpretive Tours"" category. Tours of this size fall under the Guided Activities entry fee structure.",Commercial Entrance - Per Person
+78,72,100.0,"Commercial Road-Based Tours are required to obtain a Commercial Use Authorization before visiting Capitol Reef National Park.
+
+When visiting the park, the tour must then pay the separate entrance fee at the visitor center (or through pay.gov).
+
+Vehicle capacity of 16 seats or greater: $100.00 entrance fee",Commercial Entrance - Mini-bus
+79,72,100.0,"Commercial Road-Based Tours are required to obtain a Commercial Use Authorization before visiting Capitol Reef National Park.
+
+When visiting the park, the tour must then pay the separate entrance fee at the visitor center (or through pay.gov).
+
+Vehicle capacity of 16 seats or greater: $100.00 entrance fee",Commercial Entrance - Motor Coach
+80,72,10.0,"Guided Activities include all types of guided services, such as bike and motorcycle tours, hiking guides, photography classes, hiking shuttles, and road-based commercial tours with vehicles <16 capacity.
+
+Guided activity groups are charged the per person fee of $10.00 per client, excluding the trip leader or guide. If a client has an America the Beautiful Resident pass (annual, senior, access, etc.) it covers 4 people in the group. (Non-resident annual passes cover only the pass owner.)",Commercial Entrance - Per Person
+81,74,20.0,"Admits private, non-commercial vehicle (15 passenger capacity or less) and all occupants to Capulin Volcano National Monument. The maximum size of a vehicle allowed on the Volcano Road is 26 feet in length and/or 8 feet in width. Passes may be upgraded to annual passes within 7 days of purchase.",Entrance - Private Vehicle
+82,74,15.0,"Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. Capulin Volcano accepts the America the Beautiful - Federal Lands Passes (Interagency Annual, Senior, and Access passes) in place of an entrance fee. Passes may be upgraded to annual passes within 7 days of purchase.",Entrance - Motorcycle
+83,74,10.0,"Admits one person arriving on foot or bicycle, or by commercial operator to Capulin Volcano National Monument.",Entrance - Per Person
+84,74,10.0,"$10 per person for organized groups such as Scouts, Rotary, Clubs, Youth Groups, Churches, Reunions, etc. that do not qualify for an Academic Fee Waiver. Fees will not exceed the commercial fee for the same-sized vehicle. Youth 15 and under are free. Individuals or families with any valid Annual or Lifetime pass may use their pass for entry at the per person rate. The maximum size of a vehicle allowed on the Volcano Road without a permit is 26 feet in length and/or 8 feet in width.",Entrance - Non-commercial Groups
+85,74,0.0,"Educational waivers will be provided in accordance with the Code of Federal Regulations Title 36: if the request is from ""organized tours or outings conducted for educational or scientific purposes related to the resources of the area visited by bona fide institutions established for these purposes.",Entrance - Education/Academic Groups
+86,74,25.0,"Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Entry fees of commercial tours are based upon the total capacity of vehicles.",Commercial Entrance - Sedan
+87,74,40.0,"Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees of commercial tours are based upon the total capacity of vehicles",Commercial Entrance - Van
+88,74,40.0,"Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees of commercial tours are based upon the total capacity of vehicles",Commercial Entrance - Mini-bus
+89,74,100.0,"Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees of commercial tours are based upon the total capacity of vehicles",Commercial Entrance - Motor Coach
+90,77,1.0,"A timed entry reservation must be purchased to access Carlsbad Cavern. In addition, an entry pass must be purchased at the visitor center.
+
+Time entry reservations ensure a more enjoyable experience and helps to protect the cave formations.",Timed Entry Reservation - Location
+91,77,15.0,Entrance fee provides access to Carlsbad Cavern by elevator and hiking in. Ranger-guided tours are an additional fee and can be reserved on recreation.gov.,Entrance - Per Person
+92,80,15.0,"The Castillo de San Marcos is considered to be a ""walk-in"" park. The entrance fee applies to each individual. Tickets are not transferable and cannot be given to other guests. Adults (Age 16 and above) entrance is $15.00 and valid for 7 consecutive days. Children (age 15 and under) are admitted free of charge but must be accompanied by an adult.",Entrance - Per Person
+93,84,10.0,All Commercial Vehicles are $10 per person.,Commercial Entrance - Per Person
+94,84,25.0,"Admits one private, non-commercial vehicle (15 passenger capacity or less) and all its occupants for 7 days.",Entrance - Private Vehicle
+95,84,15.0,"Admits one individual with no car. Typically used for bicyclists, hikers, and pedestrians. Youth 15 and under are admitted free.",Entrance - Per Person
+96,84,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+97,86,25.0,"This fee allows all persons traveling in one private, non-commercial vehicle (car/truck/van) to enter the park to visit for up to 7 days from the date of purchase.",Entrance - Private Vehicle
+98,86,15.0,"This fee allows a single individual traveling on foot, bicycle, or as individuals traveling together in a vehicle as a non-commercial, organized group to enter the park to visit for up to 7 days from the date of purchase.",Entrance - Per Person
+99,86,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+100,86,40.0,This fee for commercial entrance is charged per vehicle and based on the capacity of the vehicle.,Commercial Entrance - Van
+101,86,100.0,This fee for commercial entrance is charged per vehicle and based on the capacity of the vehicle.,Commercial Entrance - Motor Coach
+102,86,25.0,"Non-commercial groups are charged per vehicle and based on the capacity of the vehicle. For vehicles with a seating capacity of 15 or fewer, the fee is $25. For vehicles with a seating capacity of 16 or more, the fee is $15/person up to the commercial fee rate. Interagency passes may be used for entry in lieu of the $15/person fee.",Entrance - Non-commercial Groups
+103,86,0.0,"If you represent an academic institution, you may be eligible for a fee waiver. Download and complete the Academic Fee Waiver and mail it to the park at least two weeks prior to your intended visit. We will notify you of the approval or disapproval of your application before your arrival. Please call 505-786-7014 for any additional questions about this process.",Entrance - Education/Academic Groups
+104,86,40.0,This fee for commercial entrance is charged per vehicle and based on the capacity of the vehicle.,Commercial Entrance - Sedan
+105,86,40.0,This fee for commercial entrance is charged per vehicle and based on the capacity of the vehicle.,Commercial Entrance - Mini-bus
+106,91,5.0,Required for visitors age 16+ entering on foot or by bicycle. Valid for one day.,Entrance - Per Person
+107,91,5.0,Private vehicle pass admits one private vehicle and its occupants for one day.,Entrance - Private Vehicle
+108,91,5.0,"Valid for 1 day. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+109,92,20.0,"Pass is for one private, non-commercial vehicle — passenger cars, pickup trucks, RVs and vans — and is valid at the Great Falls area of the Chesapeake and Ohio Canal National Historical Park on the Maryland side of the Potomac River and Great Falls Park on the Virginia side of the Potomac River.",Entrance - Private Vehicle
+110,92,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers to the Great Falls area of the Chesapeake and Ohio Canal National Historical Park on the Maryland side of the Potomac River and at Great Falls Park on the Virginia side of the Potomac River.",Entrance - Motorcycle
+111,92,10.0,Pass is for one person 16 years of age or older — entering on foot or by bicycle — and is valid at the Great Falls area of the Chesapeake and Ohio Canal National Historical Park on the Maryland side of the Potomac River and at Great Falls Park on the Virginia side of the Potomac River.,Entrance - Per Person
+112,92,100.0,"Includes church groups, college/school groups, scouts, service organizations, military, etc...
+Vehicles with passenger capacity of fewer than 16 persons, $20 for the vehicle.
+Vehicles with a passenger capacity of 16 or more persons, $10 per person age 16 and over.
+Removal of seats from a vehicle does not then qualify for the lower rate. Age and pass exemptions apply.
+The total fee charged for an Organized Non-Commercial Group will not exceed the $100 fee per vehicle.",Entrance - Non-commercial Groups
+113,92,100.0,The commercial pass is valid for date of purchase plus six days at the Great Falls area of the Chesapeake and Ohio Canal National Historical Park on the Maryland side of the Potomac River. Please note that fees are based on vehicle capacity and not actual occupants.,Commercial Entrance - Motor Coach
+114,92,40.0,The commercial pass is valid for date of purchase plus six days at the Great Falls area of the Chesapeake and Ohio Canal National Historical Park on the Maryland side of the Potomac River. Please note that fees are based on vehicle capacity and not actual occupants.,Commercial Entrance - Van
+115,92,40.0,The commercial pass is valid for date of purchase plus six days at the Great Falls area of the Chesapeake and Ohio Canal National Historical Park on the Maryland side of the Potomac River. Please note that fees are based on vehicle capacity and not actual occupants.,Commercial Entrance - Mini-bus
+116,92,25.0,The commercial pass is valid for date of purchase plus six days at the Great Falls area of the Chesapeake and Ohio Canal National Historical Park on the Maryland side of the Potomac River. Please note that fees are based on vehicle capacity and not actual occupants.,Commercial Entrance - Sedan
+117,94,10.0,"Entrance fees only apply to Point Park, on Lookout Mountain. If you plan to visit Chickamauga Battlefield, parts of Lookout Mountain Battlefield, exclusive of Point Park, Missionary Ridge, Orchard Knob, Signal Point, or Moccasin Bend National Archeological District, entrance to the park areas is FREE.",Entrance - Per Person
+118,97,10.0,Adults 16 and older.  Children under the age of 16 are admitted free with an adult.,Entrance - Per Person
+119,101,15.0,Adult (16 and older) -$15; good for 7 days entrance to Yorktown Battlefield (and NPS areas at Historic Jamestowne); can be upgraded to see Preservation Virginia areas at Historic Jamestowne for an additional $15 at the Historic Jamestowne Visitor Center. Yorktown Battlefield will not be selling the $30 entrance permit for Historic Jamestowne.,Entrance - Per Person
+120,102,25.0,"$25 for a private vehicle. Unlimited entry for one vehicle and all its passengers for seven consecutive days, beginning on the day of purchase. Private vehicle must be non-commercial and with a seating capacity of 15 or less.",Entrance - Private Vehicle
+121,102,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+122,102,15.0,This pass is good for 7 days for an individual who is walking or bicycling into the monument.,Entrance - Per Person
+123,102,15.0,"Organized groups such as Scouts, Rotary, Hiking Clubs, Youth Groups, Religious Institutions, etc. that do not qualify for an Academic Fee Waiver are charged as follows:  $15 per person, not to exceed the equivalent commercial rate.  Passes are valid for 7 days.  Youth ages 15 and under are free.  Individuals or families in the group may use any valid Annual or Lifetime pass for entry.  Pass and photo ID must be presented.",Entrance - Non-commercial Groups
+124,102,0.0,Groups entering the park for educational purposes (curriculum-based classes or activities) may be eligible for a free academic fee wavier.  Email COLM_permits@nps.gov to apply for a waiver or for more information.,Entrance - Education/Academic Groups
+125,102,25.0,"Cost:  $25, plus $15 per person to a maximum of $40.  The entry fees for commercial tours are based on the total capacity of vehicles that carry 7 or more people, regardless of the actual number of passengers.  Possession of an annual or lifetime pass, or the ages of the passengers, does not affect the price charged unless the vehicle's capacity is less than 7 passengers, excluding the driver.",Commercial Entrance - Sedan
+126,102,40.0,"The entry fees for commercial tours are based on the total capacity of vehicles that carry 7 or more people, regardless of the actual number of passengers.  Possession of an annual or lifetime pass, or the ages of the passengers, does not affect the price charged unless the vehicle's capacity is less than 7 passengers, excluding the driver.",Commercial Entrance - Van
+127,102,40.0,"The entry fees for commercial tours are based on the total capacity of vehicles that carry 7 or more people, regardless of the actual number of passengers.  Possession of an annual or lifetime pass, or the ages of the passengers, does not affect the price charged unless the vehicle's capacity is less than 7 passengers, excluding the driver.",Commercial Entrance - Mini-bus
+128,102,100.0,"The entry fees for commercial tours are based on the total capacity of vehicles that carry 7 or more people, regardless of the actual number of passengers.  Possession of an annual or lifetime pass, or the ages of the passengers, does not affect the price charged unless the vehicle's capacity is less than 7 passengers, excluding the driver.",Commercial Entrance - Motor Coach
+129,108,30.0,"This is the summer entrance fee and is charged from mid-May through the end of October.  Admits one private, non-commercial vehicle (15-passenger capacity or less) and all occupants. Good for 7 days.",Entrance - Private Vehicle
+130,108,20.0,"This is the winter entrance fee.  Admits one private, non-commercial vehicle (15-passenger capacity or less) and all occupants. Good for 7 days.",Entrance - Private Vehicle
+131,108,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. Summer rate from mid-May to October 31st.",Entrance - Motorcycle
+132,108,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. Winter rate from 11/1 through mid-May.",Entrance - Motorcycle
+133,108,15.0,"Admits one individual with no motor vehicle (bicyclist, hiker, pedestrian). Youth 15 and under are admitted free of charge. Good for 7 days.",Entrance - Per Person
+134,108,15.0,Admits one individual on a snowmobile for travel on snow covered North Entrance Road closed to regular vehicle traffic. Youth 15 and under are admitted free of charge. Good for 7 days.,Entrance - Snowmobile
+135,108,25.0,"Fees for commercial vehicles are based on the capacity of the vehicle, not the number of passengers on board.  In addition to the $25 per vehicle there is also a $15 per passenger charge.",Commercial Entrance - Sedan
+136,108,75.0,"Fees for commercial vehicles are based on the capacity of the vehicle, not the number of passengers on board.",Commercial Entrance - Van
+137,108,100.0,"Fees for commercial vehicles are based on the capacity of the vehicle, not the number of passengers on board.",Commercial Entrance - Mini-bus
+138,108,200.0,"Fees for commercial vehicles are based on the capacity of the vehicle, not the number of passengers on board.",Commercial Entrance - Motor Coach
+139,109,20.0,"This per-vehicle fee applies to private, non-commercial vehicles and provides entrance into the park for seven consecutive days. The fee covers the driver and any passengers.",Entrance - Private Vehicle
+140,109,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+141,109,25.0,This per-vehicle fee applies to commercial vehicles and provides entrance into the park for seven consecutive days.,Commercial Entrance - Sedan
+142,109,10.0,This per-person fee provides entrance into the park for seven consecutive days. Youth age 15 and under are free.,Entrance - Per Person
+143,109,0.0,Classes or groups from accredited academic institutions may apply for a fee waiver ahead of their visit by contacting the park. Academic fee waivers are not granted automatically. Educational groups must apply and meet the two criteria to receive a fee waiver: 1) eligibility and 2) educational purpose and relevance of park resources or facilities. Groups that choose to not make a reservation or apply for an academic fee waiver will be charged the standard entrance fee per vehicle.,Entrance - Education/Academic Groups
+144,109,100.0,This per-vehicle fee applies to commercial vehicles and provides entrance into the park for seven consecutive days.,Commercial Entrance - Motor Coach
+145,109,40.0,This per-vehicle fee applies to commercial vehicles and provides entrance into the park for seven consecutive days.,Commercial Entrance - Van
+146,111,15.0,Cumberland Island National Seashore has a per-person entrance fee. This fee is waived for America the Beautiful pass holder plus three adults. Must present pass at time of check-in.,Entrance - Per Person
+147,117,30.0,"All visitors, including Non-US residents, may purchase and utilize this entrance fee. Purchasing this entrance fee allows all persons traveling in one single private, non-commercial vehicle (car/truck/van/RV/aircraft) to leave and re-enter the park as many times as they wish during the 7-day period from the date of purchase.",Entrance - Private Vehicle
+148,117,25.0,"All visitors, including Non-US residents, may purchase and utilize this entrance fee. Purchasing this entrance fee allows all persons traveling on 2 private, non-commercial motorcycles to leave and re-enter the park as many times as they wish during the 7-day period from the date of purchase.",Entrance - Motorcycle
+149,117,15.0,"All visitors, including Non-US residents, may purchase and utilize this entrance fee. Purchasing this entrance fee allows a single individual traveling on foot or individuals traveling on one bicycle to leave and re-enter the park as many times as they wish during the 7-day period from the date of purchase.",Entrance - Per Person
+150,117,15.0,"1 - 15 Passenger Vehicle: $15 per person.
+
+In addition to the entrance fees listed below, additional permits are required for commercial groups, special park uses (weddings, memorialization, group events, etc.), commercial film and photography, research, and more.",Commercial Entrance - Per Person
+151,117,100.0,"16 - 25 Passenger Vehicle: $100
+
+In addition to the entrance fees listed below, additional permits are required for commercial groups, special park uses (weddings, memorialization, group events, etc.), commercial film and photography, research, and more.",Commercial Entrance - Mini-bus
+152,117,200.0,"26 + Passenger Vehicle: $200
+
+In addition to the entrance fees listed below, additional permits are required for commercial groups, special park uses (weddings, memorialization, group events, etc.), commercial film and photography, research, and more.",Commercial Entrance - Motor Coach
+153,117,15.0,"Non-commercial Groups (e.g., Scout groups, church groups, etc.) entering in a vehicle with a capacity of 16 persons or more are charged per-person for each person on board, not to exceed $200.",Entrance - Non-commercial Groups
+154,117,0.0,"National Park Service regulations allow school groups and other approved national and international academic institutions to obtain a waiver of Park entrance fees, provided that visit is for educational or scientific purposes, and the resources or facilities that the group intends to use, support those purposes. Submit your waiver through the link below at least one month prior to your visit.",Entrance - Education/Academic Groups
+155,118,10.0,Entrance fee for beaches and boat launches. Fee is good for one vehicle and it's passengers (up to 7 people).,Entrance - Private Vehicle
+156,119,15.0,"Denali charges an entrance fee year-round. Youth age 15 or younger are free. For people age 16 or older, the $15 entrance fee provides a 7-day entrance permit. Be prepared to show your receipt or pass (digital or physical) if requested by park staff.",Entrance - Per Person
+157,121,25.0,"Fee for a single, private, non-commercial vehicle and all its passengers.  Note: In summer it's a good idea to arrive at the entrance station before 10 am or after 4 pm to avoid congestion and find better parking options.",Entrance - Private Vehicle
+158,121,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. Note: In summer it's a good idea to arrive at the entrance station before 10 am or after 4 pm to avoid congestion and find better parking options.",Entrance - Motorcycle
+159,121,15.0,"Admits one individual when entering on foot or bicycle. Individuals 15 years of age or younger are admitted free. This may also be used to calculate cost for organized non-profit groups (service organizations, scout groups, religious groups, etc.)",Entrance - Per Person
+160,121,25.0,"These entrance fees are based upon the seating capacity of the commercial tour vehicle - not the actual number of passengers. The fee is $25 plus $15/person, not to exceed $40.",Commercial Entrance - Sedan
+161,121,40.0,These entrance fees are based upon the seating capacity of the commercial tour vehicle - not the actual number of passengers.,Commercial Entrance - Van
+162,121,40.0,These entrance fees are based upon the seating capacity of the commercial tour vehicle - not the actual number of passengers.,Commercial Entrance - Mini-bus
+163,121,100.0,These entrance fees are based upon the seating capacity of the commercial tour vehicle - not the actual number of passengers.,Commercial Entrance - Motor Coach
+164,122,25.0,"Admits one private, non-commercial vehicle (15 passenger capacity or less) and all its occupants. Admission is good for seven consecutive days. You can come and go any time with your seven-day pass.",Entrance - Private Vehicle
+165,122,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. You can come and go any time with your seven-day pass.",Entrance - Motorcycle
+166,122,15.0,"Admits one individual with no car. Typically used for bicyclists, hikers, and pedestrians. Youth 15 and under are admitted free. Admission is good for seven consecutive days. You can come and go any time with your seven-day pass.",Entrance - Per Person
+167,122,50.0,"Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Fees for commercial tours are based upon the total capacity of vehicle regardless of actual number of passengers.",Commercial Entrance - Van
+168,122,60.0,"Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Fees for commercial tours are based upon the total capacity of vehicle regardless of actual number of passengers.",Commercial Entrance - Mini-bus
+169,122,150.0,"Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Fees for commercial tours are based upon the total capacity of vehicle regardless of actual number of passengers.",Commercial Entrance - Motor Coach
+170,122,25.0,"Non-commercial group fees (per vehicle): 
+Vehicle capacity of 15 or less: $25 
+Vehicle capacity of 16-25: $15 per person age 16 and older, not to exceed $60. 
+Vehicle capacity of 26+: $15 per person age 16 and older, not to exceed $150. 
+You may use Annual and Lifetime passes. A pass will cover the pass holder and up to three people traveling with the group.
+Pass is valid for reentry for 7 days.",Entrance - Non-commercial Groups
+171,122,0.0,"National Park Service regulations allow school groups and other bona fide national and international academic institutions to obtain a waiver for park entrance fees, provided that the visit is for educational or scientific purposes, and the resources or facilities the group proposes to use support those purposes.
+
+Fee waivers must be obtained in advance and cannot be issued at the entrance station or visitor center.",Entrance - Education/Academic Groups
+172,122,25.0,"Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Fees for commercial tours are based upon the total capacity of vehicle regardless of actual number of passengers.",Commercial Entrance - Sedan
+173,122,15.0,"Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. (minimum required fee is $25 commercial fee plus the per-person entrance fee for each passenger not to exceed $50.00)",Commercial Entrance - Per Person
+174,123,15.0,"The entrance fee for Dry Tortugas National Park is $15.00 per person and is good for 7 consecutive days. Any person 15 years old and under is exempt from paying an entrance fees (including international visitors).
+
+Ferry tickets include the cost of entrance to the park, but NOT camping fees.
+
+Seaplane will charge the entrance fee upon arrival. Plan to bring cash for each person aged 16-years of age and older.
+
+Private boaters may purchase a digital pass in advance or pay cash/check at Garden Key main dock.",Entrance - Per Person
+175,137,35.0,Admits the passholder and passengers of a single vehicle or vessel. Good for 7 consecutive days at all park entrances.,Entrance - Private Vehicle
+176,137,30.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+177,137,20.0,"Good for 7 consecutive days at all park entrances. Admits one individual hiker, bicyclist, pedestrian, or human-powered paddlecraft, when not arriving in a vehicle or vessel. Individuals 15 years old and younger, are admitted free of charge.",Entrance - Per Person
+178,137,0.0,"All accredited educational and scientific institutions are eligible to receive free entrance to the park. Bringing your classroom to the park can present many unique learning opportunities and novel ways for your students to advance their studies. The Federal Lands Recreation Enhancement Act (FLREA), Public Law 108-447, provides the National Park Service statutory authority to allow “outings conducted for non-commercial educational purposes by schools or bona fide academic institutions.”",Entrance - Education/Academic Groups
+179,137,300.0,"A commercial tour is defined as persons traveling on an itinerary that has been packaged, priced or sold for leisure recreational purposes by an organization that realizes financial gain through the provisions of the service. Entrance fees are charges based on the seating capacity of the vehicle. Commercial entry good for 7 days as long as its the same passenger group.",Commercial Entrance - Motor Coach
+180,137,200.0,"A commercial tour is defined as persons traveling on an itinerary that has been packaged, priced or sold for leisure recreational purposes by an organization that realizes financial gain through the provisions of the service. Entrance fees are charges based on the seating capacity of the vehicle. Commercial entry good for 7 days as long as its the same passenger group.",Commercial Entrance - Mini-bus
+181,137,125.0,"A commercial tour is defined as persons traveling on an itinerary that has been packaged, priced or sold for leisure recreational purposes by an organization that realizes financial gain through the provisions of the service. Entrance fees are charges based on the seating capacity of the vehicle. Commercial entry good for 7 days as long as its the same passenger group.",Commercial Entrance - Van
+182,137,100.0,"Each non-US resident aged 16 and older visiting Everglades National Park must pay a $100 nonresident fee (in addition to the standard entrance fee), unless admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident
+183,143,10.0,"$10 per adult (age 16 or older). Admission is good for 7 days. Children ages 15 or under are admitted free. Fee covers entrance to all areas of the park including visitor center exhibits, film, outdoor exhibit area, hiking trails, picnic areas, Hornbek Homestead, self-guided tours, and ranger programs.
+
+Pay ahead of your visit at https://www.recreation.gov/sitepass/2683.",Entrance - Per Person
+184,144,5.0,"Make your reservation on the Ford's Theatre Society website at the link below. The reservation includes a self-guided tour through the museum, Petersen House (the house where Lincoln died), and Aftermath exhibits. Because Ford's Theatre is an active theatre, some tours or tour elements may occasionally be unavailable. Free, same-day tickets may be available on a first-come, first-served basis at the Ford's Theatre box office; supplies are limited.",Timed Entry Reservation - Location
+185,146,10.0,Per Person entry.,Entrance - Per Person
+186,146,15.0,"Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+187,146,20.0,Entrance - Private Vehicle (includes driver and passengers),Entrance - Private Vehicle
+188,146,20.0,Commercial Entrance - Sedan (1-6 persons vehicle capacity),Commercial Entrance - Sedan
+189,146,40.0,Commercial Entrance - Van (7-15 persons vehicle capacity),Commercial Entrance - Van
+190,146,40.0,Commercial Entrance - Mini-bus (16-25 persons vehicle capacity),Commercial Entrance - Mini-bus
+191,146,100.0,Commercial Entrance - Motor Coach (26+ person vehicle capacity),Commercial Entrance - Motor Coach
+192,153,0.0,"All areas of the park are free of charge including the ferry to the fort. However, you must stop in the Fort Matanzas Visitor Center (NOT the St. Augustine city Visitor Center) to get your free boarding pass for the ferry. Family members of all ages must have a pass to board the ferry. Passes are Free",Timed Entry Reservation - Location
+193,154,15.0,Access to the historic zone (where the star fort is located) requires an entrance fee.,Entrance - Per Person
+194,154,15.0,"There is no group rate for the entrance fee. All groups must pay $15 per adult. Children in the groups are free, however, they must be accompanied by an adult in the historic zone. Interagency passes are allowed to be used to assist with group entry fees.",Entrance - Non-commercial Groups
+195,154,15.0,"All commercial groups wishing to visitor Fort McHenry NM&HS must first obtain a Commercial Use Authorization (CUA). Groups with an active CUA are subject to the same $15 per person fee to enter the historic zone, however their employees conducting business (tour guides, bus drivers, etc.) are not subject to the entrance fee. Interagency passes may be used to assist with fee payment.",Commercial Entrance - Per Person
+196,158,10.0,A per person fee of $10 is required to visit Fort Pulaski and the surrounding areas. Admission is valid for 7 consecutive days. Youth 15 and under are admitted free of charge. Only available at the entrance station to Fort Pulaski National Monument. Credit/Debit Only,Entrance - Per Person
+197,158,10.0,Commercial bus/van tours are charged the per person fee for the number of persons on board.,Commercial Entrance - Per Person
+198,163,10.0,Fort Moultrie charges a per person entrance fee for adults. Anyone 16 years old or older is considered an adult.,Entrance - Per Person
+199,166,10.0,"Day use/entrance fees are required for visitors ages 16 and up to access reconstructed Fort Vancouver. Federal Interagency Passes are accepted. There is no day use/entrance fee for visitors accessing the Visitor Center, Pearson Air Museum, the Barclay House, and McLoughlin House.",Entrance - Per Person
+200,171,1.0,"The guided tour includes the upper and lower floors of the home and provides an intimate window into the life of Frederick Douglass.
+
+Space on each tour is limited. You are strongly encouraged to make a reservation to secure your spot on a tour. While walk-ins without a reservation are permitted if space is available, tours are frequently completely full well in advance. Plan ahead and reserve your tour today!",Timed Entry Reservation - Location
+201,177,19.0,"Prices vary by date of visit. 
+
+Begin your tour with an interactive pre-boarding experience featuring 60s-inspired animation and Gateway Arch trivia. Then, be transported 630 feet to the top of Arch for exhilarating views. Please allow 45 - 60 minutes for your Tram Ride to the Top experience.
+
+Adult (16 and up): Starting at $15
+
+Child (3-15): Starting at $11
+
+Infant (2 and under): FREE
+
+Park Pass Holder: Starting at $12
+
+Tickets available at www.gatewayarch.com",Timed Entry Reservation - Location
+202,188,35.0,"(Winter Rate - $25.00, November 1 to April 30)
+This is an entrance fee for all persons traveling in a single, private, non-commercial vehicle (car/truck/van). The pass is good for seven days and is non-transferable. Visitors can enter the park at any time, if the entrance station is not staffed, a self-registration area is available for purchasing a 7-day park pass.",Entrance - Private Vehicle
+203,188,20.0,"(Winter Rate - $15.00, November 1 to April 30)
+This is a per person entrance fee for a visitor traveling on foot, bicycle, or for individuals traveling together in a vehicle as a non-commercial, organized group. The pass is good for seven days and is non-transferable.",Entrance - Per Person
+204,188,30.0,"(Winter Rate - $20.00, November 1 to April 30)
+Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+205,188,25.0,"Entrance fees are based on the seating capacity of the vehicle (driver not included). Commercial Sedan entrance fee is $25, plus $20 per person, 16 years of age or older. The pass is good for seven days and is non-transferable.",Commercial Entrance - Sedan
+206,188,75.0,Entrance fees are based on the seating capacity of the vehicle (driver not included). Commercial Van entrance fee is $75 regardless of occupancy. The pass is good for seven days and is non-transferable.,Commercial Entrance - Van
+207,188,100.0,Entrance fees are based on the seating capacity of the vehicle (driver not included). Commercial Mini-bus entrance fee is $100 regardless of occupancy. The pass is good for seven days and is non-transferable.,Commercial Entrance - Mini-bus
+208,188,200.0,Entrance fees are based on the seating capacity of the vehicle (driver not included). Commercial Motor Coach fee is $200 regardless of occupancy. The pass is good for seven days and is non-transferable.,Commercial Entrance - Motor Coach
+209,188,100.0,"Each non-US resident aged 16 and older visiting Glacier National Park must pay a $100 nonresident fee (in addition to the standard entrance fee), unless admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident
+210,189,30.0,"Admits one single, private, non-commercial vehicle and all its passengers.",Entrance - Private Vehicle
+211,189,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+212,189,15.0,Admits one individual when entering on foot or bicycle. Individuals 15 years of age and younger are admitted free.,Entrance - Per Person
+213,189,40.0,Fees are assessed based on the passenger capacity of the vehicle. Pass is only valid for the same group to which it was issued.,Commercial Entrance - Van
+214,189,40.0,Fees are assessed based on the passenger capacity of the vehicle. Pass is only valid for the same group to which it was issued.,Commercial Entrance - Mini-bus
+215,189,100.0,Fees are assessed based on the passenger capacity of the vehicle. Pass is only valid for the same group to which it was issued.,Commercial Entrance - Motor Coach
+216,189,0.0,Academic fee waivers must be submitted and returned before you visit Glen Canyon National Recreation Area.,Entrance - Education/Academic Groups
+217,193,20.0,"The per vehicle fee covers all occupants in a single private vehicle. The fee will allow visitors access to all resources open to the public, including auto tours, walking trails, films, exhibit areas, ranger guided programs, and other seasonal activities. 
+
+If visitors have any of the America the Beautiful Inter-agency passes, these will cover the pass holder and anyone that is in their personal vehicle.",Entrance - Private Vehicle
+218,193,15.0,"Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. The fee will allow visitors access to all resources open to the public, including auto tours, walking trails, films, exhibit area, ranger guided programs, other seasonal activities. 
+If visitors have any of the America the Beautiful Inter-agency passes, these will cover the pass holder and the passenger of the motorcycle.",Entrance - Motorcycle
+219,193,10.0,"Admits one individual with no car. This pass is typically used for bicyclists, and pedestrians. Youth 15 and under are admitted free. The fee will allow visitor access to all resources open to the public, including auto tours, walking trails, films, exhibit area, ranger guided programs, other seasonal activities. If visitors have any of the America the Beautiful Inter-agency passes, these will cover the pass holder.",Entrance - Per Person
+220,195,35.0,"Admits one single, private, non-commercial vehicle and all its passengers, up to a 15 person passenger van. Organized non-commercial groups over 16 passengers require different charges. Commercial groups are not eligible for the vehicle permit.",Entrance - Private Vehicle
+221,195,30.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+222,195,20.0,"Individual ($20 valid for 7 days): for bicyclists, hikers, and pedestrians.",Entrance - Per Person
+223,195,100.0,"Each non-US resident aged 16 and older visiting Grand Canyon National Park must pay a $100 nonresident fee (in addition to the standard entrance fee), unless admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident
+224,198,35.0,"Park entrance fee for 7 days for a private, non-commercial vehicle.",Entrance - Private Vehicle
+225,198,30.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+226,198,20.0,"Park entrance fee for 7 days for each visitor 16 years and older entering by foot, bicycle, ski, etc.",Entrance - Per Person
+227,198,25.0,"A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. 
+
+The cost is $25 + $20 per person. Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Sedan
+228,198,125.0,"Based upon the total capacity of a vehicle that can carry 7-15 passengers, regardless of the actual number of passengers. 
+
+A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. 
+
+Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Van
+229,198,200.0,"Based upon the total capacity of a vehicle that can carry 16-25 passengers, regardless of the actual number of passengers. 
+
+A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. 
+
+Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Mini-bus
+230,198,300.0,"Based upon the total capacity of a vehicle that can carry 26 or more passengers, regardless of the actual number of passengers. 
+
+A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. 
+
+Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Motor Coach
+231,198,0.0,"Schools or other bona fide educational institutions (accredited, officially recognized, or tax exempt for educational purposes) may request an educational fee waiver. The fee waiver will allow qualifying groups free entry into the park for educational or scientific purposes. Prior approval required before entry to park. See additional <a href=""https://www.nps.gov/grte/planyourvisit/eduwaiver.htm"">Education Fee Waiver</a> page.",Entrance - Education/Academic Groups
+232,198,100.0,"Each non-US resident aged 16 and older visiting Grand Teton National Park must pay a $100 nonresident fee (in addition to the standard entrance fee), unless admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident
+233,202,20.0,"Includes driver and passengers. Admits one single, private, non-commercial vehicle and all its passengers. Organized groups are not eligible for the vehicle permit. Also valid for entrance into the Chesapeake and Ohio Canal National Historical Park. Admission to Great Falls Park is valid for seven consecutive days including date of purchase.",Entrance - Private Vehicle
+234,202,15.0,"Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. Individuals 15 years of age and younger are admitted free of charge. Also valid for entrance into the Chesapeake and Ohio Canal National Historical Park. Admission to Great Falls Park is valid for seven consecutive days including date of purchase.",Entrance - Motorcycle
+235,202,10.0,"Applies only to people entering by foot, bicycle, or horse. Individuals 15 years of age and younger are admitted free of charge. Also valid for entrance into the Chesapeake and Ohio Canal National Historical Park. Admission to Great Falls Park is valid for seven consecutive days including date of purchase.",Entrance - Per Person
+236,202,100.0,"Includes church groups, college/school groups, scouts, service organizations, military, etc.
+
+All holders of annual passes and those under 15 years old will be exempt from payment of fees.
+
+Non-Commercial Groups in vehicles with a capacity of 15 or less are charged the $20.00 vehicle permit. Vehicles with a capacity of 16 or more are charged a fee of $10.00 per person. Removal of seats from a vehicle does not then qualify for the lower rate.
+
+The total fee will not exceed the $100 fee per vehicle.",Entrance - Non-commercial Groups
+237,202,40.0,Vehicles with capacity of 7-25 passengers: $40. (No per person fee),Commercial Entrance - Van
+238,202,40.0,Vehicles with capacity of 7-25 passengers: $40. (No per person fee),Commercial Entrance - Mini-bus
+239,202,25.0,Vehicles with capacity of 1-6 passengers: $25 plus $3 per person.,Commercial Entrance - Sedan
+240,202,100.0,Vehicles with capacity of 26+: $100. (No per person fee),Commercial Entrance - Motor Coach
+241,203,25.0,"Fees are charged only when the entrance station is open in the spring, summer, and fall seasons or when the visitor center is open in the winter season. Fees can be paid by cash, check, or credit card. Passes may also be purchased in advance online through recreation.gov .",Entrance - Private Vehicle
+242,203,15.0,"15+ passenger vehicle, age 16+",Entrance - Non-commercial Groups
+243,203,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+244,203,25.0,This fee is for a commercial group of 1-6 people in a smaller vehicle. Valid for 7 days.,Commercial Entrance - Sedan
+245,203,40.0,This fee is for a commercial group of 7-15 persons in a van. Valid for 7 days.,Commercial Entrance - Van
+246,203,40.0,This fee is for a commercial group of 16-25 persons in a mini-bus. Valid for 7 days.,Commercial Entrance - Mini-bus
+247,203,100.0,This fee is for a commercial motor coach with 26+ capacity. Valid for 7 days.,Commercial Entrance - Motor Coach
+248,203,15.0,Entrance Fee for Bicycles or Walk-In Visitors,Entrance - Per Person
+249,207,10.0,"An entrance fee of $10 per person (16 years of age and older) is required; entrance fees/passes permit 1-7 consecutive days of use in this national park. Holders of the Annual, Senior, Military, 4th grade and Access Pass can bring in 3 adults free of charge under their pass. Any pass must be displayed in a vehicle while in the national park.",Entrance - Per Person
+250,207,0.0,"Entrance fee waivers are available to groups when the purpose of their visit is educational rather than recreational. Completed applications along with required documentation must be submitted via email. 
+Fee waiver requests must be submitted at least six weeks before a scheduled visit to allow for consideration.",Entrance - Education/Academic Groups
+251,209,25.0,"Cost for up to six people in one vehicle. Good for seven days into any fee area in Florida, (Opal Beach, Johnson Beach, Fort Pickens).",Entrance - Private Vehicle
+252,209,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. Fees are required at Fort Pickens Area, Opal Beach Complex Area, and Johnson Beach Area in Florida. Additional fees to ride the ferry.",Entrance - Motorcycle
+253,209,15.0,"Fees are required at Fort Pickens Area, Opal Beach Complex Area, and Johnson Beach Area in Florida. Additional fees to ride the ferry.",Entrance - Per Person
+254,211,25.0,"Valid for 3 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers to Haleakalā National Park, including both the Summit and Kīpahulu Districts.",Entrance - Motorcycle
+255,211,30.0,"Valid for three days. Admits private, non-commercial vehicle (14 max capacity or less) and all occupants to Haleakalā National Park including both the Summit and Kīpahulu Districts.",Entrance - Private Vehicle
+256,211,15.0,Admits one individual with no car to Haleakalā National Park including both the Summit and Kīpahulu Areas. Youth 15 and under are admitted free.,Entrance - Per Person
+257,211,15.0,$15.00 per person for non-road based organized groups that offer activities such as Astronomy and Hiking.,Commercial Entrance - Per Person
+258,211,30.0,"$30.00 plus, $15.00 per person for road based tour vehicles, such as sedans, with a passenger carrying capacity of 1-7 people.",Commercial Entrance - Sedan
+259,211,45.0,"$45.00 for road based tour vehicles, such as large vans and mini buses, with a passenger carrying capacity of 8-25 people.",Commercial Entrance - Van
+260,211,1.0,A reservation is required for each vehicle entering the park from 3:00 a.m. to 7:00 a.m. You may book a reservation up to 60 days in advance and 2 days in advance of the start date.,Timed Entry Reservation - Park & Location
+261,215,20.0,"For a single, private vehicle. Excludes group tours and 7+ passenger vans. Entrance passes are valid for three consecutive days, beginning on date of purchase and are required in all park areas. Fees are payable at the Entrance Station near the park's visitor center, Bolivar Heights, Maryland Heights, Harpers Ferry Train Station, and River Access Parking Lot.",Entrance - Private Vehicle
+262,215,15.0,"Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. Entrance passes are valid for 3 consecutive days, beginning on date of purchase and are required in all park areas. Fees are payable at the Entrance Station near the park's visitor center, Bolivar Heights, Maryland Heights, Harpers Ferry Train Station, and River Access Parking Lot.",Entrance - Motorcycle
+263,215,10.0,"Persons arriving on foot or on bicycle are required to pay the per-person fee. Entrance passes are valid for three consecutive days, beginning on date of purchase and are required in all park areas. Fees are payable at the Entrance Station near the park's visitor center, Bolivar Heights, Maryland Heights, Harpers Ferry Train Station, and River Access Parking Lot.",Entrance - Per Person
+264,219,30.0,"Private Vehicle Pass - The private vehicle pass admits the passholder and up to 14 passengers of a single, private (non-commercial) vehicle.",Entrance - Private Vehicle
+265,219,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+266,219,15.0,"Pedestrian/Cyclist Pass - Admits one individual bicyclist, hiker, or pedestrian visiting without a private vehicle. An individual pass is not required for visitors aged 15 and under.",Entrance - Per Person
+267,219,100.0,The commercial entrance fee for a Road Based Guided Tour is based on vehicle seating capacity. For a 16-25 passenger vehicle the user fee is $100.,Commercial Entrance - Mini-bus
+268,219,200.0,"The commercial entrance fee for a Road Based Guided Tour is based on vehicle seating capacity. For a 26+ passenger vehicle the user fee is $200. 
+
+Large vehicles, defined as more than 26 feet in length and/or more than eight feet wide, are only allowed to operate on Crater Rim Drive to Kilauea Visitor Center, Kūkamāhuākea (Steam Vents), and Uēkahuna. Mauna Loa Road to the Kīpukapuaulu turnabout.",Commercial Entrance - Motor Coach
+269,219,15.0,"$15 per person for Commercial Non-Road Based Guided Tours. This includes hiking more than one mile on one trail, bird watching on foot for more than one hour at one location, and/or or bicycling tours.",Commercial Entrance - Per Person
+270,221,15.0,Adult (16 and older) -$15; good for 7 days entrance to Yorktown Battlefield (and NPS areas at Historic Jamestowne); can be upgraded to see Preservation Virginia areas at Historic Jamestowne for an additional $15 at the Historic Jamestowne Visitor Center. Yorktown Battlefield will not be selling the $30 entrance permit for Historic Jamestowne.,Entrance - Per Person
+271,222,15.0,"Entrance to the Home of FDR is by guided tour only.  Tickets are sold on a first come, first served basis.  There are no advanced reservations for individuals.",Entrance - Per Person
+272,222,15.0,"The Franklin D. Roosevelt Presidential Library and Museum is open 7 days a week, from 9:00 a.m. to 5:00 p.m. (NOV-MAR) and 9:00 a.m. to 6:00 p.m. (APR-OCT). Online tickets may be purchased at the link below. You will receive an email confirmation after making a purchase (be sure to check your SPAM folder).  Bring this confirmation -- printed or on smart device -- as proof of purchase.",Entrance - Per Person
+273,229,20.0,Entry fee is valid for 7 days and grants entry for driver and passengers in one private vehicle. Does not cover camping costs.,Entrance - Private Vehicle
+274,229,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+275,229,10.0,Admits one individual with no car. This fee type is typically used for bicyclists and pedestrians. Youth 15 and under are admitted free. Entry fee is valid for 7 days.,Entrance - Per Person
+276,233,1.0,Entrance to Independence Hall requires a guided tour. Tickets are required.,Timed Entry Reservation - Location
+277,234,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+278,234,25.0,"7-Day Park Entrance Fee - Family-Size Vehicle
+
+Per private family-sized vehicle (valid for 1-7 days from date of purchase).",Entrance - Private Vehicle
+279,234,15.0,"7-Day Per Person Entrance Fee (Organized, non-commercial groups)
+
+Visitors 16 years of age or older who enter on foot, bicycle, boat, or as part of an organized group not involved in a commercial tour.",Entrance - Per Person
+280,234,25.0,"Entry for commercial sedans with 6 or less people. 
+
+Cost is $25.00 plus $15 per person (not to exceed next highest rate).",Commercial Entrance - Sedan
+281,234,40.0,"Commercial Tour Fee - Van (7-15 persons) - $40.00
+
+Entry for commercial vans with 7-15 people.",Commercial Entrance - Van
+282,234,40.0,"Commercial Tour Fee - Mini Bus (16-25 persons) - $40.00
+
+Entry for commercial mini bus with 16-25 people.",Commercial Entrance - Mini-bus
+283,234,100.0,"Commercial Tour Fee - Motor Coach (26+ persons) - $100.00
+Entry for commercial motor coaches with 26+ persons.",Commercial Entrance - Motor Coach
+284,235,7.0,"$7 per person per day to enter or remain in Isle Royale National Park. Children 15 and younger are exempt.
+
+Visiting Park Headquarters in Houghton, MI does not require a fee.",Entrance - Per Person
+285,245,30.0,"7-day vehicle permit, admitting the passengers of a single, non-commercial vehicle on the day of purchase and for the next six days.",Entrance - Private Vehicle
+286,245,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+287,245,15.0,"7-day entrance fee, per person on foot or bike.",Entrance - Per Person
+288,253,5.0,"The Daily Pass is valid for the date of purchase only. It admits all persons traveling in a single, private, non-commercial vehicle (car/truck/van) and is non-transferable. This pass does NOT guarantee a parking spot.",Entrance - Private Vehicle
+289,253,5.0,The Daily Pass is valid for the date of purchase only. It admits all walk-in visitors aged 16 and older.,Entrance - Per Person
+290,253,0.0,"To request an Academic Fee Waiver for your group, click on the link for further details.",Entrance - Education/Academic Groups
+291,253,100.0,$100 Motor Coach/Commercial Tour Groups with 26 or more people,Commercial Entrance - Motor Coach
+292,253,40.0,$40 per passenger bus with 16-25 people,Commercial Entrance - Mini-bus
+293,253,25.0,$25 per passenger bus/sedan with 1-6 people,Commercial Entrance - Sedan
+294,263,25.0,Admits a private non-commercial vehicle for 1-7 days.,Entrance - Private Vehicle
+295,263,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+296,263,15.0,Admits a single individual walking/bicycling for 1-7 days.,Entrance - Per Person
+297,263,15.0,"Admits vehicles at the per person rate for groups using vehicles for 12 or more people. The $15 cost is per person ages 16+, not to exceed the flat rate paid commercial tours for same type of vehicle.",Entrance - Non-commercial Groups
+298,263,0.0,Admits education/academic groups as long as a fee waiver form is filled out and approved.,Entrance - Education/Academic Groups
+299,263,25.0,Admits a sedan of 1-6 people.,Commercial Entrance - Sedan
+300,263,50.0,Admits a van of 7-16 persons.,Commercial Entrance - Van
+301,263,60.0,Admits a mini-bus of 16-25 persons.,Commercial Entrance - Mini-bus
+302,263,150.0,Admits a motor coach of 26+ persons.,Commercial Entrance - Motor Coach
+303,266,30.0,"Admits one private, non-commercial vehicle. Valid for up to 7 consecutive days from day of purchase at Lassen Volcanic National Park. When entrance station is not staffed, digital passes may be purchased online at recreation.gov.",Entrance - Private Vehicle
+304,266,10.0,"Discounted entry fee during winter. Admits one private, non-commercial vehicle. Valid for up to 7 consecutive days from day of purchase at Lassen Volcanic National Park. When entrance station is not staffed, digital passes may be purchased online at recreation.gov.",Entrance - Private Vehicle
+305,266,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. When entrance station is not staffed, digital passes may be purchased online at recreation.gov.",Entrance - Motorcycle
+306,266,15.0,"Per-person entrance fee used to admit one person on foot or bicycle. Also used for individuals traveling together in a vehicle as a non-commercial, organized group. Valid for up to 7 consecutive days from day of purchase at Lassen Volcanic National Park. When entrance station is not staffed, digital passes may be purchased online at recreation.gov.",Entrance - Per Person
+307,266,0.0,Park entrance fees are waived for eligible academic groups with approved fee waiver application. Applications must be submitted at least two weeks prior to park visit.,Entrance - Education/Academic Groups
+308,266,25.0,"Valid for up to 7 consecutive days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees are based upon the total seating capacity of vehicles regardless of the actual number of passengers. Annual or lifetime passes are not accepted.",Commercial Entrance - Sedan
+309,266,50.0,"Valid for up to 7 consecutive days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees are based upon the total seating capacity of vehicles regardless of the actual number of passengers. Annual or lifetime passes are not accepted.",Commercial Entrance - Van
+310,266,60.0,"Valid for up to 7 consecutive days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees are based upon the total seating capacity of vehicles regardless of the actual number of passengers. Annual or lifetime passes are not accepted.",Commercial Entrance - Mini-bus
+311,266,150.0,"Valid for up to 7 consecutive days for a vehicle carrying the same group of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees are based upon the total seating capacity of vehicles regardless of the actual number of passengers. Annual or lifetime passes are not accepted.",Commercial Entrance - Motor Coach
+312,266,10.0,"Discounted entry fee for winter. Admits one private, non-commercial motorcycle and its riders. Valid for up to 7 consecutive days from day of purchase at Lassen Volcanic National Park. When entrance station is not staffed, digital passes may be purchased online at recreation.gov.",Entrance - Motorcycle
+313,266,10.0,"Discounted entry fee for winter. Per-person entrance fee used to admit one person on foot or bicycle. Also used for individuals traveling together in a vehicle as a non-commercial, organized group. Valid for up to 7 consecutive days from day of purchase at Lassen Volcanic National Park. When entrance station is not staffed, digital passes may be purchased online at recreation.gov.",Entrance - Per Person
+314,267,25.0,Park Entrance is $25 per vehicle and is good for 7 days.,Entrance - Private Vehicle
+315,267,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+316,267,15.0,Park Entrance is $15 per person and is good for 7 days.,Entrance - Per Person
+317,269,10.0,Entrance fees are collected at the Fort Clatsop Visitor Center.,Entrance - Per Person
+318,273,25.0,Private non-commercial vehicle.,Entrance - Private Vehicle
+319,273,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+320,273,15.0,Per person fee,Entrance - Per Person
+321,273,25.0,"Commercial Rate for a vehicle holds up to 6 people, $25 plus per person.",Commercial Entrance - Sedan
+322,273,40.0,Van holds up to 15 people,Commercial Entrance - Van
+323,273,40.0,Commercial vehicle that holds up to 25 passengers,Commercial Entrance - Mini-bus
+324,273,100.0,"Commercial Bus $100.00 (26 or more seats, regardless of occupancy)",Commercial Entrance - Motor Coach
+325,274,15.0,"Admits all persons traveling in a single, private, non-commercial vehicle (car/truck/van/motorcycle) into Canyon Mouth Park for one day. The pass is non-transferable. Insert cash only (no bills larger than a $20) into the fee machine to gain entrance. Place the receipt on the dashboard of your vehicle, making sure the face of the receipt is visible.",Entrance - Private Vehicle
+326,274,15.0,"Valid for 1 day. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. The pass is non-transferable. Insert cash only (no bills larger than a $20) into the fee machine to gain entrance. Place the receipt on the dashboard of your vehicle, making sure the face of the receipt is visible.",Entrance - Motorcycle
+327,279,30.0,"Explore historically recreated tenement apartments and discover how immigrants lived on New York’s Lower East Side in the 19th and 20th centuries. Along with a glimpse of the past, glean insights from educators who offer historical perspectives that relate to current conversations about immigration.",Timed Entry Reservation - Location
+328,279,30.0,"Explore the often-forgotten places, unexplored spaces, and the many histories of migration over centuries on daily walking tours of the storied Lower East Side neighborhood. Get to know the city by visiting historical sites and learning about the people and neighborhoods that made New York City what it is today.",Timed Entry Reservation - Location
+329,293,30.0,Valid for 7 days.,Entrance - Private Vehicle
+330,293,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+331,293,15.0,Valid for 7 days.,Entrance - Per Person
+332,293,20.0,"Purchase digital park entrance passes on recreation.gov at no additional cost. Once purchased, passes for Mesa Verde National Park must be printed or saved on your mobile device prior to use. Connectivity is limited in the park, therefore printing the permit or saving it on your phone is highly recommended.
+
+Passes, including the America the Beautiful, National Parks & Federal Recreational Lands Passes, such as the Annual, Access, or Senior pass may be purchased at the entrance station upon arrival.",Entrance - Private Vehicle
+333,293,15.0,"Purchase digital park entrance passes on recreation.gov at no additional cost. Once purchased, passes for Mesa Verde National Park must be printed or saved on your mobile device prior to use. Connectivity is limited in the park, therefore printing the permit or saving it on your phone is highly recommended.
+
+Passes, including the America the Beautiful, National Parks & Federal Recreational Lands Passes, such as the Annual, Access, or Senior pass may be purchased at the entrance station upon arrival.",Entrance - Per Person
+334,293,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+335,302,10.0,"This entrance fee covers one adult, aged 16 and over, for entrance to Montezuma Castle and Tuzigoot National Monuments for 7 days.",Entrance - Per Person
+336,306,30.0,"Grants unlimited entry for one vehicle and passengers for seven consecutive days. Vehicle must be private, noncommercial, and with a seating capacity of 15 or less.",Entrance - Private Vehicle
+337,306,15.0,Walk-up or single bicycle fee. Grants unlimited entry for seven consecutive days.,Entrance - Per Person
+338,306,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+339,306,30.0,"These fees are charged only to commercial organizations, such as tour companies. This fee is determined by the seating capacity of the vehicle. For sedan with 1 to 6 seats, the fee is $30 + $15 per client.",Commercial Entrance - Sedan
+340,306,75.0,"These fees are charged only to commercial organizations, such as tour companies. This fee is determined by the seating capacity of the vehicle.",Commercial Entrance - Van
+341,306,100.0,"These fees are charged only to commercial organizations, such as tour companies. This fee is determined by the seating capacity of the vehicle.",Commercial Entrance - Mini-bus
+342,306,200.0,"These fees are charged only to commercial organizations, such as tour companies. This fee is determined by the seating capacity of the vehicle. NOTE: There are no current road restrictions for unmodified motor coaches of the standard length in the park. However, be aware that roads in the park are steep, narrow, and winding. In particular, it is recommended that RVs and vehicles with trailers longer than 25 feet LOA not travel up the Sunrise Road beyond the White River Campground intersection.",Commercial Entrance - Motor Coach
+343,308,15.0,$15 per person 16 years of age and older. Entrance fees may be purchased in advance with your parking/shuttle reservation or upon arrival to the park. Parking/shuttle reservations are required for all vehicles and shuttle riders visiting Muir Woods National Monument. Reservation fees are separate from entrance fees. Please visit GoMuirWoods.com for parking/shuttle reservations.,Entrance - Per Person
+344,316,20.0,"Entry fee admits one private, non-commercial vehicle driver and passengers. Entry fee is valid for 7 days.",Entrance - Private Vehicle
+345,316,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+346,316,10.0,"Admits one individual with no car. This pass is typically used for bicyclists, and pedestrians. Youth 15 and under are admitted free. Entry fee is valid for 7 days.",Entrance - Per Person
+347,333,18.0,"Ticket prices are $18 for Adults, $16 for Seniors 62+, $16 for Military with ID, and $15 for Students (Age 6 through college with ID). Children 5 and under are free. Group Rates are available. Free parking in Memorial garage with admission. Ticket sales end one hour before close.",Timed Entry Reservation - Location
+348,335,30.0,"Valid for seven consecutive days. Applies to private, non-commercial vehicles (15 passenger capacity or less). The pass covers all vehicle occupants.",Entrance - Private Vehicle
+349,335,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+350,335,15.0,"Valid for seven consecutive days. This fee admits one person without a vehicle, including hikers, bicyclists, and pedestrians. Individuals fifteen years or younger are admitted free of charge.",Entrance - Per Person
+351,335,75.0,"A commercial tour is defined as persons traveling on an itinerary that has been packaged, priced or sold for leisure recreational purposes by an organization that realizes financial gain through the provisions of the service.",Commercial Entrance - Van
+352,335,100.0,"A commercial tour is defined as persons traveling on an itinerary that has been packaged, priced or sold for leisure recreational purposes by an organization that realizes financial gain through the provisions of the service.",Commercial Entrance - Mini-bus
+353,335,200.0,"A commercial tour is defined as persons traveling on an itinerary that has been packaged, priced or sold for leisure recreational purposes by an organization that realizes financial gain through the provisions of the service.",Commercial Entrance - Motor Coach
+354,336,20.0,"Offered Thursday through Monday, 10 AM to 4 PM. Duration: 90 minutes. Difficulty: Moderately strenuous. Tickets are $20 for adults, $15 for youth (15 and under, must be at least 42 inches tall), $10 for America the Beautiful Senior Pass holders (ages 62 and over; discount applies to the cardholder only) and America the Beautiful Annual Pass holders (discount applies to the cardholder only), and $7.50 for youths with an America the Beautiful Annual Pass.",Timed Entry Reservation - Location
+355,336,20.0,"This 60-minute guided tour offers a unique experience, illuminating the cave’s features by candlelight. The tour is moderately strenuous, and participants must be 10 years or older to join. Tickets are $20 for adults, $15 for youth (ages 10 to 15), $10 for America the Beautiful Senior Pass holders (ages 62 and over; discount applies to the cardholder only) and America the Beautiful Annual Pass holders (discount applies to the cardholder only), and $7.50 for youths with an America the Beautiful Annual Pass.",Timed Entry Reservation - Location
+356,336,20.0,"Designed for families with children. Duration: 90 minutes. Difficulty: moderately strenuous. At least one child must be in the group, and all children must be over 42 inches tall. Tickets are $20 for adults, $15 for youth (ages 15 and under), $10 for America the Beautiful Senior Pass holders (ages 62 and over; discount applies to the cardholder only) and America the Beautiful Annual Pass holders (discount applies to the cardholder only), and $7.50 for youths with an America the Beautiful Annual Pass.",Timed Entry Reservation - Location
+357,338,25.0,Valid for 7 days. This fee includes all occupants of a non-commercial vehicle.,Entrance - Private Vehicle
+358,338,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+359,338,15.0,Valid for 7 days. This fee applies to bicycles and walk-ins (per person),Entrance - Per Person
+360,342,25.0,Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. The entry fees of commercial tours are based upon the total capacity of vehicles that can carry seven or more passengers regardless of the actual number of passengers.,Commercial Entrance - Sedan
+361,342,40.0,Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. The entry fees of commercial tours are based upon the total capacity of vehicles that can carry seven or more passengers regardless of the actual number of passengers.,Commercial Entrance - Van
+362,342,40.0,Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. The entry fees of commercial tours are based upon the total capacity of vehicles that can carry seven or more passengers regardless of the actual number of passengers.,Commercial Entrance - Mini-bus
+363,342,100.0,Pass is valid for the day of purchase and the next six days for a vehicle carrying the same group of passengers. The entry fees of commercial tours are based upon the total capacity of vehicles that can carry seven or more passengers regardless of the actual number of passengers.,Commercial Entrance - Motor Coach
+364,342,25.0,"Admits the passholder and up to 15 passengers in the same private (non-commercial) vehicle. It expires one week from the date of purchase. For private vehicles, this entrance pass is required for overnight camping. 
+
+A 1-day entrance pass is available for $10 per vehicle. 1-day entrance passes expire at midnight on the date of purchase and are not valid for overnight camping.",Entrance - Private Vehicle
+365,342,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. For motorcyclists, this entrance pass is required for overnight camping.
+
+A 1-day entrance pass is available for $5. 1-day entrance passes expire at midnight on the date of purchase and are not valid for overnight camping.",Entrance - Motorcycle
+366,342,15.0,"Admits one individual bicyclist, hiker, or pedestrian visiting the facility without a private vehicle. An individual pass is not required for visitors aged 15 and under. It expires one week from the date of purchase. For an individual, this entrance pass is required for overnight camping. 
+
+A 1-day entrance pass is available for $5 per person. 1-day entrance passes expire at midnight on the date of purchase and are not valid for overnight camping.",Entrance - Per Person
+367,342,15.0,Non-commercial groups traveling in a vehicle with a capacity of 16 persons or more are charged per person. This entrance pass is valid for one week from the date of purchase. Fees will not exceed the commercial fee for the same-sized vehicle. Youth 15 and younger are free. Individuals or families with any valid Annual or Lifetime pass may use their pass for entry.,Entrance - Non-commercial Groups
+368,349,10.0,"The Observation Deck will be inaccessible for 2026 and 2027 seasons.
+
+A ticket is required to visit the observation deck at the top of the Memorial. Tickets are sold daily in the visitor center from 10 am to 5:45 pm in 15-minute time slots and can sell out as early as 2 pm on the weekend. Children 15 and under are free and must be accompanied by an adult. An annual pass that covers the pass holder and three adults is available for $35.00. America the Beautiful Passes are also accepted.",Timed Entry Reservation - Location
+369,351,25.0,"Admits one private, non-commercial vehicle (15-passenger capacity or less) and all occupants. Valid for 7 days.",Entrance - Private Vehicle
+370,351,15.0,"Admits one individual with no motor vehicle (bicyclist, hiker, pedestrian). Youth 15 and under are admitted free of charge. Valid for 7 days.",Entrance - Per Person
+371,351,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+372,351,25.0,"$25 flat fee + $10 per person (Sedans, SUVs, Minivans)
+
+If you are conducting an income generating tour of the park, you are subject to commercial tour fees. Fees for commercial vehicles are based on the capacity of the vehicle, not the number of passengers on board, and are valid for 7 days.",Commercial Entrance - Sedan
+373,351,10.0,"$25 flat fee + $10 per person (Sedans, SUVs, Minivans)
+
+If you are conducting an income generating tour of the park, you are subject to commercial tour fees. Fees for commercial vehicles are based on the capacity of the vehicle, not the number of passengers on board, and are valid for 7 days.",Commercial Entrance - Per Person
+374,351,50.0,"Capacity of 7 to 15 passengers - $50 (Vans).
+
+If you are conducting an income generating tour of the park, you are subject to commercial tour fees. Fees for commercial vehicles are based on the capacity of the vehicle, not the number of passengers on board, and are valid for 7 days.",Commercial Entrance - Van
+375,351,60.0,"Capacity of 16-25 passengers - $60
+
+If you are conducting an income generating tour of the park, you are subject to commercial tour fees. Fees for commercial vehicles are based on the capacity of the vehicle, not the number of passengers on board, and are valid for 7 days.",Commercial Entrance - Mini-bus
+376,351,150.0,"Capacity of 26+ passengers - $150 (Large tour buses, motorcoaches).
+
+If you are conducting an income generating tour of the park, you are subject to commercial tour fees. Fees for commercial vehicles are based on the capacity of the vehicle, not the number of passengers on board, and are valid for 7 days.",Commercial Entrance - Motor Coach
+377,351,15.0,"Capacity of 16 or more $15/person.  Anyone that is 15 or younger is exempt from paying an entrance fee, in addition to anyone with a valid pass. A pass may cover immediate family members or up to 4 people traveling with the group.
+
+A non-commercial organized group is a group traveling together, such as scouts, a club, a church, or other group that has organized its own itinerary. Fees are based on the capacity of the vehicle, not the number of passengers on board, and are valid for 7 days.",Entrance - Non-commercial Groups
+378,353,25.0,This pass admits the driver and all passengers in a private-use vehicle for seven consecutive days to all areas of Pictured Rocks National Lakeshore. This fee does not cover additional fees associated with activities such as camping or commercial tours.,Entrance - Private Vehicle
+379,353,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers to all areas of Pictured Rocks National Lakeshore. This fee does not cover additional fees associated with activities such as camping or commercial tours.",Entrance - Motorcycle
+380,353,15.0,This pass admits a snowmobile to all parts of Pictured Rocks National Lakeshore for 7 consecutive days. This fee does not cover additional fees associated with activities such as camping or commercial tours.,Entrance - Snowmobile
+381,353,15.0,"This pass admits one walk-in, bicycle-in, or boat-in person to all parts of Pictured Rocks National Lakeshore. This fee does not cover additional fees associated with activities such as camping or commercial tours.",Entrance - Per Person
+382,353,25.0,"This admits a commercial sedan to all areas of Pictured Rocks National Lakeshore. The flat rate for this pass is $25, plus an additional $5 per person age 16+. This fee does not cover additional fees associated with activities such as camping or commercial tours.",Commercial Entrance - Sedan
+383,353,40.0,"This pass admits a commercial van with a capacity of 7-16 persons, regardless of capacity, to all parts of Pictured Rocks National Lakeshore. This fee does not cover additional fees associated with activities such as camping or commercial tours.",Commercial Entrance - Van
+384,353,40.0,This fee admits a commercial mini-bus to all parts of Pictured Rocks National Lakeshore. A mini-bus is defined as a vehicle with a 16-25 person capacity. The fee is charged regardless of occupancy of the vehicle. This fee does not cover additional fees associated with activities such as camping or commercial tours.,Commercial Entrance - Mini-bus
+385,353,100.0,"This fee applies to commercial vehicles with a 26+ person vehicle capacity, regardless of occupancy. This fee does not cover additional fees associated with activities such as camping or commercial tours.",Commercial Entrance - Motor Coach
+386,354,30.0,"This pass is valid for 1-7 days and includes everyone traveling in a single, private (non-commercial) vehicle up to 15 passengers to Pinnacles East Entrance and West Entrance.",Entrance - Private Vehicle
+387,354,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles, scooters, or similar motorized vehicles with up to 4 total passengers to Pinnacles East Entrance and West Entrance.",Entrance - Motorcycle
+388,354,15.0,This entry fee is for a single person traveling on foot or by bicycle.  It is valid for 1-7 days to Pinnacles East Entrance and West Entrance.,Entrance - Per Person
+389,354,15.0,"Non-commercial groups traveling in vehicles that have a capacity of 16 passengers or more pay $15 per person up to the maximums listed for commercial groups with comparable passenger capacity ($40 or $100). People 15 years old or younger, anyone with a pass that may be used for park entry, and drivers hired for transportation only are exempt from the per person fee.",Entrance - Non-commercial Groups
+390,354,30.0,"The charge for vehicles with a seating capacity of 1-6 passengers is $30. This entrance fee is for commercial tours of one or more people traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Passenger ages or entrance passes do not affect the price.",Commercial Entrance - Sedan
+391,354,40.0,"This entrance fee is for commercial tours of vehicles with a seating capacity of 7-15 people that has been packaged, priced, or sold for leisure or recreational puposes by an organization that realizes financial gain through the provision of the service. This fee is based on the seating capacity of the vehicle and not the actual number of passengers. Passengers ages or entrance passes do not affect the price.",Commercial Entrance - Van
+392,354,40.0,"This entrance fee is for commercial trous of vehicles with a seating capacity of 16-25 people that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the sevice. This fee is based on the seating capacity of the vehicle and not the actual number of passengers. Passengers ages or entrance passes do not affect the price.",Commercial Entrance - Mini-bus
+393,354,100.0,"This entrance fee is for commercial tours of vehicles with a seating capacity of 26 or more people that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. This fee is based on the seating capacity of the vehicle and not the actual number of passengers. Passenger ages or entrance passes do not affect the price.",Commercial Entrance - Motor Coach
+394,354,0.0,"School groups and other academic institutions may qualify for an Educational Fee Waiver. If not qualified, please check fees for large or commercial groups.",Entrance - Education/Academic Groups
+395,355,10.0,There is a $10 fee per person 16 years of age and older.  Children under 15 enter for free.  This fee includes a $3/person Tribal use fee to the Kaibab Band of Paiute Indians.  All Interagency Passes are accepted.,Entrance - Per Person
+396,365,20.0,Valid seven (7) consecutive days.,Entrance - Private Vehicle
+397,365,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+398,365,10.0,Valid seven (7) consecutive days.,Entrance - Per Person
+399,367,20.0,"Admits one single, private, non-commercial vehicle and all of its passengers (up to 8 persons). Organized non-profit groups (service organizations, scouts, church groups, college/school clubs) are not eligible for the vehicle permit. Good for entry into Puʻuhonua o Hōnaunau National Historical Park for seven days from the date of purchase.",Entrance - Private Vehicle
+400,367,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+401,367,10.0,Admits one individual when entering by foot or bicycle. Good for entry into Puʻuhonua o Hōnaunau National Historical Park for seven days from the date of purchase. Individuals 15 years old and younger are admitted free of charge.,Entrance - Per Person
+402,367,0.0,"Academic institutions may be eligible for a fee waiver by simply filling out sections 1, 2, and 5 of our educational fee waiver application. If an educational fee waiver is not obtained, the standard entrance fees apply.",Entrance - Education/Academic Groups
+403,367,10.0,Non-commercial groups entering the park in a bus or vehicle with a capacity of 16 persons or more will be charged $10.00 for each person on board.,Entrance - Non-commercial Groups
+404,367,10.0,All commercial tours that enter the park on a regular basis must have a Commercial Use Authorization (CUA) and are required to pay the commercial tour fee at the entrance station at each visit. For more information on how to get a CUA visit the Permits & Reservations page.,Commercial Entrance - Per Person
+405,373,30.0,"Entrance Fee to Big Bend National Park.
+This fee includes all occupants of a private, non-commercial vehicle and is valid for 7 days",Entrance - Private Vehicle
+406,376,30.0,1-Day Vehicle Entrance Pass. This pass is valid for one private vehicle to enter RMNP for one day only. All passengers inside the vehicle are covered. Park entrance passes may be purchased in person at any of the park's entrance stations or in advance online at www.recreation.gov.,Entrance - Private Vehicle
+407,376,35.0,7-Day Vehicle Entrance Pass. This vehicle entrance pass is valid for one vehicle to enter RMNP for 7 consecutive days. All passengers inside the vehicle are covered. Park entrance passes may be purchased in person at the any of the park's entrance stations or in advance online at www.recreation.gov.,Entrance - Private Vehicle
+408,376,15.0,"1-Day Per Person Entrance Pass. This park entrance fee is for individuals, walk-ins, bicycles, and non-commercial groups to enter RMNP for 1-day only. Park entrance passes may be purchased in person at the any of the park's entrance stations or in advance online at www.recreation.gov.",Entrance - Per Person
+409,376,25.0,"Valid for 1 day. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. Park entrance passes may be purchased in person at the any of the park's entrance stations or in advance online at www.recreation.gov.",Entrance - Motorcycle
+410,376,30.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. Park entrance passes may be purchased in person at the any of the park's entrance stations or in advance online at www.recreation.gov.",Entrance - Motorcycle
+411,376,20.0,"7-Day Per Person Entrance Pass. This park entrance fee is for individuals, walk-ins, bicycles, and non-commercial groups to enter RMNP for 7 consecutive days. Park entrance passes may be purchased in person at the any of the park's entrance stations or in advance online at www.recreation.gov.",Entrance - Per Person
+412,376,100.0,"Each non-US resident aged 16 and older visiting Rocky Mountain National Park must pay a $100 nonresident fee (in addition to the standard entrance fee), unless admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident
+413,382,25.0,"The vehicle entrance pass is sold in the form of a dated register receipt and admits one privately owned, non-commercial vehicle into Saguaro National Park. This includes passenger cars, trucks, vans, recreational vehicles, campers, or converted buses used for private, recreational purposes.",Entrance - Private Vehicle
+414,382,15.0,"Individuals entering the park by means other than a motor vehicle may purchase individual entrance passes. This includes hikers, horseback riders and bicyclists. The individual entrance fee is charged to anyone 16 years of age or older.",Entrance - Per Person
+415,382,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+416,386,10.0,Entrance fee to park grounds for people aged 16 and over. Kids aged 15 and younger are free. Valid for seven days. Fees collected 9am-4pm.,Entrance - Per Person
+417,393,10.0,"Valid for 24 hours, valid for both fortifications",Entrance - Per Person
+418,401,35.0,This pass is valid for 1-7 days and includes everyone traveling in a single vehicle for Sequoia & Kings Canyon National Parks and Hume Lake District of Sequoia National Forest/Giant Sequoia National Monument.,Entrance - Private Vehicle
+419,401,20.0,This entry fee is for a single person traveling on foot or by bicycle. It is valid for 1-7 days in Sequoia & Kings Canyon National Parks and Hume Lake District of Sequoia National Forest/Giant Sequoia National Monument.,Entrance - Per Person
+420,401,30.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles, scooters, or similar motorized vehicles with up to 4 total passengers to Sequoia & Kings Canyon National Parks and Hume Lake District of Sequoia National Forest/Giant Sequoia National Monument.",Entrance - Motorcycle
+421,401,20.0,"Non-commercial groups traveling in vehicles that have a capacity of up to 15 passengers pay a $35 vehicle entrance fee or use a park pass. Groups traveling in a bus or vehicle with a capacity of 16 persons or more are charged $20 per person, up to the maximums listed for commercial groups with comparable passenger capacity ($100 or $200). People 15 years old or younger, anyone with a pass that may be used for park entry, and drivers hired for transportation only are exempt from the per person fee.",Entrance - Non-commercial Groups
+422,401,100.0,"This entrance fee is for commercial tours of vehicles with a seating capacity of 16-25 people that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. This fee is based on the seating capacity of the vehicle and not the actual number of passengers. Passenger ages or entrance passes do not affect the price.",Commercial Entrance - Mini-bus
+423,401,200.0,"This entrance fee is for commercial tours of vehicles with a seating capacity of 26 or more people that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. This fee is based on the seating capacity of the vehicle and not the actual number of passengers. Passenger ages or entrance passes do not affect the price.",Commercial Entrance - Motor Coach
+424,401,20.0,"The per person fee for vehicles with a seating capacity of 1-6 passengers is $20, plus $25 per vehicle, with a maximum total fee of $75. This entrance fee is for commercial tours of one or more people traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Passenger ages or entrance passes do not affect the price.",Commercial Entrance - Per Person
+425,401,100.0,"Each non-US resident aged 16 and older visiting Sequoia & Kings Canyon National Parks must pay a $100 nonresident fee (in addition to the standard entrance fee), unless admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident
+426,402,30.0,"Unlimited entry for one vehicle and all passengers for seven consecutive days, beginning on the day of purchase. Admits the pass holder and occupants of a single, private non-commercial vehicle.",Entrance - Private Vehicle
+427,402,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+428,402,15.0,"Entry for walk-up or bicycling visitors, when 16 years of age or older (children under 16 are admitted for free). Includes entering the Park by all means other than a private, non-commercial vehicle. A family traveling together shall pay no more than the vehicle fee.",Entrance - Per Person
+429,402,25.0,The total cost is calculated: $25 + $10 per passenger.,Commercial Entrance - Sedan
+430,402,10.0,This fee is for commercial use between 1-6 passengers (sedan). The total cost is calculated: $25 for the vehicle + $10 per passenger.,Commercial Entrance - Per Person
+431,402,75.0,"Based upon the total capacity of a vehicle that can carry 7-15 passengers, regardless of the actual number of passengers.",Commercial Entrance - Van
+432,402,100.0,"Based upon the total capacity of a vehicle that can carry 16-25 passengers, regardless of the actual number of passengers.",Commercial Entrance - Mini-bus
+433,402,200.0,"Based upon the total capacity of a vehicle that can carry 26 or more passengers, regardless of the actual number of passengers.",Commercial Entrance - Motor Coach
+434,402,0.0,"National Park Service regulations allow school groups and other approved national and international academic institutions to obtain a waiver of Park entrance fees, provided that visit is for educational or scientific purposes, and the resources or facilities that the group intends to use, support those purposes. Request an academic fee waiver through the education section of our website.",Entrance - Education/Academic Groups
+435,402,15.0,Fee is calculated per person for anyone 16 years of age or older (children under 16 are admitted for free). Groups will not be charged more than the equivalent commercial group fee.,Entrance - Non-commercial Groups
+436,405,25.0,"Sedan
+1-6 Person Capacity
+$25.00 + $10.00 Per Person 16 years or older (up to a maximum of $40.00)",Commercial Entrance - Sedan
+437,405,40.0,"Van
+7-15 Person Capacity
+$40.00",Commercial Entrance - Van
+438,405,40.0,"Mini Bus
+16-25 Person Capacity
+$40.00",Commercial Entrance - Mini-bus
+439,405,100.0,"Motorcoach
+26+ Person Capacity
+$100.00",Commercial Entrance - Motor Coach
+440,405,25.0,Entrance pass - vehicle 1-7 day.,Entrance - Private Vehicle
+441,405,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+442,405,15.0,"If you enter the park on a bicycle or on foot and are at least 16 years old, you need your own entrance pass. Children under the age of 16 don't need an entrance pass.",Entrance - Per Person
+443,414,25.0,"This pass covers the pass holder and up to 15 passengers of a single, private (non-commercial) vehicle at both Sunset Crater Volcano and Wupatki National Monuments for 1-7 days.",Entrance - Private Vehicle
+444,414,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers to both Sunset Crater and Wupatki National Monument.",Entrance - Motorcycle
+445,414,15.0,"Admits one individual bicyclist, hiker, or pedestrian visiting the facility without a private vehicle. Good for both Sunset Crater and Wupatki National Monuments for 1-7 days. A pass is not required for individuals 15 or younger.",Entrance - Per Person
+446,414,15.0,The per person fee is charged for non-commercial groups up to the point that it exceeds the cost of the commercial rate for the same size vehicle.,Entrance - Non-commercial Groups
+447,414,0.0,Bona fide educational institutions visiting for non-recreational purposes whose visit pertains directly to established curriculum are exempt from paying entry fees. Apply for an educational fee waiver at least 4 weeks in advance by submitting an educational fee waiver. Please see the below link to access the waiver.,Entrance - Education/Academic Groups
+448,414,28.0,"Covers occupants of a vehicle with an occupancy of 1-6 individuals at Sunset Crater, Wupatki, and Walnut Canyon for 1 day. A commercial group is defined as a group that is entering for the purpose of providing commercial tour services within the unit. A commercial group consists of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure/recreational purpose by an organization that realizes financial gain through the provision of the service.",Commercial Entrance - Sedan
+449,414,40.0,"Covers occupants of a vehicle with an occupancy of 7-15 individuals at Sunset Crater, Wupatki, and Walnut Canyon for 1 day. A commercial group is defined as a group that is entering for the purpose of providing commercial tour services within the unit. A commercial group consists of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure/recreational purpose by an organization that realizes financial gain through the provision of the service.",Commercial Entrance - Van
+450,414,100.0,"Covers occupants of a vehicle with an occupancy of 16+ individuals at Sunset Crater, Wupatki, and Walnut Canyon for 1 day. A commercial group is defined as a group that is entering for the purpose of providing commercial tour services within the unit. A commercial group consists of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure/recreational purpose by an organization that realizes financial gain through the provision of the service.",Commercial Entrance - Motor Coach
+451,419,12.0,"Museum visits are by guided tour only. Due to limited space on each guided tour, pre-paid reservations are strongly recommended. Tours scheduled hourly, beginning at 9:30 a.m. weekdays and 11:30 p.m. weekends. Last tour at 3:30 p.m. For groups of ten or more, advance reservations are required. Minimum two weeks' notice, please. Call 716-884-0095.",Timed Entry Reservation - Location
+452,421,30.0,"Valid for 7 days for all persons traveling in a single, private, non-commercial vehicle.",Entrance - Private Vehicle
+453,421,25.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+454,421,15.0,"Valid for 7 days for a visitor traveling on foot, bicycle, horse, or other non-motorized means of travel.",Entrance - Per Person
+455,421,50.0,"Based upon the total capacity of a vehicle that can carry 7-15 passengers, regardless of the actual number of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Van
+456,421,60.0,"Based upon the total capacity of a vehicle that can carry 16-25 passengers, regardless of the actual number of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Mini-bus
+457,421,150.0,"Based upon the total capacity of a vehicle that can carry 26 or more passengers, regardless of the actual number of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Motor Coach
+458,423,10.0,"THIS GUIDED WALKING TOUR IS FOR Elementary, Middle, and College Groups to learn about Thomas Edison’s West Orange Laboratory as a working invention factory where ideas became products, and those products became industries we all enjoy today.",Entrance - Education/Academic Groups
+459,423,15.0,"Children 15 and under free of charge. Visitors may pay the fee on the day of their visit at the visitor center, or may choose to pay it online via Recreation.gov. Visitors to Glenmont and the Edison home must also pay this entrance fee. Credit or debt card payments only.",Entrance - Per Person
+460,426,12.0,"Open seasonally depending on weather. Caves cannot be accessed without a ticket. Tickets are between $2.00 and $12.00 depending on age and are 50% off for the passholder only with a Senior or Access Pass.
+This tour spends 55 minutes inside of the cave system with a ranger walking along a 1/3 mile trail. There are multiple stairs and places you must bend and twist. Visitors on this tour will see Hansen Cave, Middle Cave, and Timpanogos Cave.",Timed Entry Reservation - Location
+461,426,17.0,"Open seasonally depending on weather. Caves cannot be accessed without a ticket. 
+Spend an hour inside the Timpanogos Cave System with a ranger on a lantern guided tour. Discover what early explorers experienced as they traveled through the dark passages of the cave. Hear stories of early exploration and marvel at the cave’s geology by the glow of your lantern and experience the caves in a way that hasn't been done in decades.
+
+This tour is limited to those 7 years of age and older.",Timed Entry Reservation - Location
+462,426,22.0,"Open seasonally depending on weather. Caves cannot be accessed without a ticket. With a helmet and headlamp you are ready to experience Hansen Cave in its natural state. With a ranger, you'll scramble and sometimes even crawl on the trail leading to Hansen Cave Lake, along the same route Martin Hansen conducted tours in the late 1800s. The tour is considered strenuous. Must be 14 years of age or older to participate.",Timed Entry Reservation - Location
+463,428,10.0,Tonto National Monument charges a fee to all visitors hiking to the Lower or Upper Cliff Dwelling. Tour reservations are required to visit the Upper Cliff Dwelling. The Lower Cliff Dwelling is open September through May 8:00 am to 4:00 pm and June through August 8:00 am to noon. Credit and Debit only,Entrance - Per Person
+464,428,0.0,Education groups may be granted an educational fee waiver. All requests and documentation must be submitted at least 2 weeks in advance of the school's planned visit.,Entrance - Education/Academic Groups
+465,433,10.0,The park entrance fee is $10.00 per adult (age 16 or older) and is good for 7 days. The entrance pass is valid for seven days.,Entrance - Per Person
+466,433,0.0,Accredited school groups coming for educational purposes are exempt from the normal entrance fees.,Entrance - Education/Academic Groups
+467,437,10.0,"Tuzigoot Entrance Fee - Per Adult - $10.00
+
+This entrance fee covers one adult, aged 16 and over, for entrance to Montezuma Castle and Tuzigoot National Monuments for 7 days.",Entrance - Per Person
+468,440,25.0,The entrance fee for a private vehicle covers seven consecutive days of entrance to Valles Caldera National Preserve.,Entrance - Private Vehicle
+469,440,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+470,440,15.0,The per-person entrance fee covers seven consecutive days of entrance to Valles Caldera National Preserve.,Entrance - Per Person
+471,442,15.0,Entrance to the Vanderbilt Mansion is by guided tour only.,Entrance - Per Person
+472,443,20.0,"This pass admits the driver and all passengers in a private, non-commercial vehicle to the park.",Entrance - Private Vehicle
+473,443,15.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. The park requires all visitors to pay an entrance fee except children under 16 years of age.",Entrance - Motorcycle
+474,443,10.0,"Good for 7 days 
+
+You are purchasing a digital site pass that is valid only for weekly entrance fees at Vicksburg National Military Park. The park requires all visitors to pay an entrance fee except children under 16 years of age.  The pass covers entry for one pedestrian or cyclist.",Entrance - Per Person
+475,443,0.0,"$10 per person, not to exceed commercial group rate.",Entrance - Non-commercial Groups
+476,443,25.0,$25.00 plus $10 per passenger (not to exceed $40).,Commercial Entrance - Sedan
+477,443,40.0,As provided by non-NPS charter tour companies.,Commercial Entrance - Van
+478,443,40.0,As provided by non-NPS charter tour companies.,Commercial Entrance - Mini-bus
+479,443,100.0,As provided by non-NPS charter tour companies.,Commercial Entrance - Motor Coach
+480,449,25.0,"This pass covers the pass holder and up to 15 passengers of a single, private (non-commercial) vehicle at Walnut Canyon National Monuments for 1-7 days.",Entrance - Private Vehicle
+481,449,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+482,449,15.0,"Admits one individual bicyclist, hiker, or pedestrian visiting the facility without a private vehicle. Good for Walnut Canyon National Monument for 1-7 days. A pass is not required for individuals 15 or younger.",Entrance - Per Person
+483,449,15.0,Non-commercial groups pay the per person fee up until the cost exceeds that of the commercial rate for the same size vehicle.,Entrance - Non-commercial Groups
+484,449,0.0,Bona fide educational institutions visiting for non-recreational purposes whose visit pertains directly to established curriculum are exempt from paying entry fees. Apply for an educational fee waiver at least 4 weeks in advance by submitting an educational fee waiver. Please see the below link to access the waiver.,Entrance - Education/Academic Groups
+485,449,28.0,"Covers occupants of a vehicle with an occupancy of 1-6 individuals at Sunset Crater, Wupatki, and Walnut Canyon for 1 day. A commercial group is defined as a group that is entering for the purpose of providing commercial tour services within the unit. A commercial group consists of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure/recreational purpose by an organization that realizes financial gain through the provision of the service.",Commercial Entrance - Sedan
+486,449,40.0,"Covers occupants of a vehicle with an occupancy of 7-15 individuals at Sunset Crater, Wupatki, and Walnut Canyon for 1 day. A commercial group is defined as a group that is entering for the purpose of providing commercial tour services within the unit. A commercial group consists of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure/recreational purpose by an organization that realizes financial gain through the provision of the service.",Commercial Entrance - Van
+487,449,100.0,"Covers occupants of a vehicle with an occupancy of 16+ individuals at Sunset Crater, Wupatki, and Walnut Canyon for 1 day. A commercial group is defined as a group that is entering for the purpose of providing commercial tour services within the unit. A commercial group consists of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure/recreational purpose by an organization that realizes financial gain through the provision of the service.",Commercial Entrance - Motor Coach
+488,451,1.0,"Advance reservations open 30 days before the tour date. Additional reservations open 24 hours in advance of the tour date. Advance reservations carry a $1 non-refundable processing fee. Free, same-day, walk-up reservations are available at the Washington Monument Lodge starting at 8:45 am. Maximum 6 tickets per customer. Tickets typically sell out.
+Group tours must reserve in advance at recreation.gov, maximum 55 tickets. Same-day tickets are not available for group tours.",Timed Entry Reservation - Park
+489,455,15.0,"Admits one individual with no motor vehicle (bicyclist, hiker, pedestrian). Youth 15 and under are admitted free of charge. Good for 7 days. For more information visit https://www.recreation.gov/sitepass/74295.",Entrance - Per Person
+490,455,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. For more information visit https://www.recreation.gov/sitepass/74295.",Entrance - Motorcycle
+491,455,25.0,"Admits one private, non-commercial vehicle (15-passenger capacity or less) and all occupants. Good for 7 days at Whiskeytown National Recreation Area only. For more information visit https://www.recreation.gov/sitepass/74295.",Entrance - Private Vehicle
+492,456,25.0,"Per vehicle fee is charged to visitors for entry by a single, private non-commercial vehicle. Entrance fees are valid for reentry for seven consecutive days from the date of purchase.",Entrance - Private Vehicle
+493,456,15.0,"Per person fee is charged to visitors for entry by means other than a single, private non-commercial vehicle. This includes, but is not limited to, individuals who enter the park by walking and bicycling. Entrance fees are valid for reentry for seven consecutive days from the date of purchase.",Entrance - Per Person
+494,456,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+495,456,50.0,Commercial bus/van tours are charged a flat rate based on the capacity of the vehicle (not the number of persons on board).,Commercial Entrance - Van
+496,456,60.0,Commercial bus/van tours are charged a flat rate based on the capacity of the vehicle (not the number of persons on board).,Commercial Entrance - Mini-bus
+497,456,150.0,Commercial bus/van tours are charged a flat rate based on the capacity of the vehicle (not the number of persons on board).,Commercial Entrance - Motor Coach
+498,467,10.0,"Fee is charged per-person, NOT per vehicle. Ages 15 and younger are free of charge.",Entrance - Per Person
+499,467,25.0,$25 plus $7 per person.  Sedans have a capacity of 1-6 people.,Commercial Entrance - Sedan
+500,467,40.0,A flat fee for all Van/ Small Bus with a seating capacity of 7-16 passengers,Commercial Entrance - Van
+501,467,40.0,Fee is charged for any commercial vehicle with a capacity of 16-25 individuals.,Commercial Entrance - Mini-bus
+502,467,100.0,Fees charged for commercial vehicles with a capacity of over 26 individuals.,Commercial Entrance - Motor Coach
+503,467,0.0,Structured educational visits that serve a curriculum need for a class may apply for a waiver for entrance fees in advance.,Entrance - Education/Academic Groups
+504,468,25.0,This fee covers the occupants of one private vehicle for seven days at both Sunset Crater Volcano and Wupatki National Monuments.,Entrance - Private Vehicle
+505,468,20.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers to both Sunset Crater Volcano and Wupatki National Monuments.",Entrance - Motorcycle
+506,468,15.0,This fee covers entry for one bicyclist or pedestrian for seven days at both Sunset Crater Volcano and Wupatki National Monuments.,Entrance - Per Person
+507,468,15.0,"Non-commercial groups are charged the per-person entrance fee of $15 for all persons 16yrs and over, not to exceed the commercial rate for the size of vehicle entering the monument.",Entrance - Non-commercial Groups
+508,468,0.0,"Educational groups visiting the monument for a curriculum related visit should apply for an Academic Fee Waiver. If no fee waiver is obtained, educational groups will be charged as non-commercial groups.",Entrance - Education/Academic Groups
+509,468,28.0,This fee covers the occupants of one commercial sedan for one day at both Sunset Crater Volcano and Wupatki National Monuments.,Commercial Entrance - Sedan
+510,468,40.0,This fee covers the occupants of one commercial van for one day at both Sunset Crater Volcano and Wupatki National Monuments.,Commercial Entrance - Van
+511,468,100.0,This fee covers the occupants of one commercial bus for one day at both Sunset Crater Volcano and Wupatki National Monuments.,Commercial Entrance - Motor Coach
+512,468,100.0,https://www.nps.gov/wupa/planyourvisit/fees.htm,Commercial Entrance - Mini-bus
+513,469,35.0,"Unlimited entry for one vehicle and all passengers for seven consecutive days, beginning on the day of purchase. Vehicles must be private, non-commercial, and with a seating capacity of 15 or less.",Entrance - Private Vehicle
+514,469,20.0,"Non-commercial group (e.g. church groups, scouts) traveling in a vehicle with a capacity of 16 or more people. Cost is per person. Unlimited entry for one vehicle and all passengers for seven consecutive days, beginning on the day of purchase.",Entrance - Non-commercial Groups
+515,469,30.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+516,469,30.0,Valid for 7 days. Admits up to 2 snowmobiles with up to 4 total passengers.,Entrance - Snowmobile
+517,469,20.0,"Entry for visitors on foot, bicycle, ski, etc., when 16 years of age or older.",Entrance - Per Person
+518,469,20.0,"A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The cost is $25 + $20 per person. Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Sedan
+519,469,125.0,"Based upon the total capacity of a vehicle that can carry 7-15 passengers, regardless of the actual number of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Van
+520,469,200.0,"Based upon the total capacity of a vehicle that can carry 16-25 passengers, regardless of the actual number of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Mini-bus
+521,469,300.0,"Based upon the total capacity of a vehicle that can carry 26 or more passengers, regardless of the actual number of passengers. A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Pass is good for seven days as long as it's the same passenger group.",Commercial Entrance - Motor Coach
+522,469,100.0,"Each non-US resident aged 16 and older visiting Yellowstone National Park must pay a $100 nonresident fee (in addition to the standard entrance fee), unless admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident
+523,470,15.0,Adult (16 and older) -$15; good for 7 days entrance to Yorktown Battlefield (and NPS areas at Historic Jamestowne); can be upgraded to see Preservation Virginia areas at Historic Jamestowne for an additional $15 at the Historic Jamestowne Visitor Center. Yorktown Battlefield will not be selling the $30 entrance permit for Historic Jamestowne,Entrance - Per Person
+524,471,35.0,"This fee is valid for seven consecutive days for a non-commercial car, pickup truck, RV, or van with 15 or fewer passenger seats. This fee covers the vehicle and everyone inside of it. Per-person nonresident fees still apply.",Entrance - Private Vehicle
+525,471,30.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers. Per-person nonresident fees still apply.",Entrance - Motorcycle
+526,471,20.0,"This fee is valid for seven consecutive days for people entering on foot, a bicycle, a horse, or a non-commercial bus or van. People 15 years and younger are free.",Entrance - Per Person
+527,471,300.0,The per-person fee is $20 to a maximum of $300 per vehicle. People 15 years and younger are free.,Entrance - Non-commercial Groups
+528,471,0.0,An educational fee waiver is available for educational and scientific groups that are accredited or tax-exempt for educational purposes planning a trip for educational or scientific purposes related to Yosemite that is not primarily recreational.,Entrance - Education/Academic Groups
+529,471,20.0,The fee is $20 per person for any resident 16 years or older. For any nonresident the fee is $100 per person for anyone 16 years or older. This fee is valid for seven consecutive days.,Commercial Entrance - Per Person
+530,471,100.0,"Each non-US resident aged 16 and older visiting Yosemite National Park must pay a $100 nonresident fee (in addition to the standard entrance fee), unless admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident
+531,471,200.0,This fee is valid for seven consecutive days. For any nonresident there is an additional fee of $100 per person for anyone 16 years or older. A commercial use authorization is required.,Commercial Entrance - Mini-bus
+532,471,300.0,This fee is valid for seven consecutive days. For any nonresident there is an additional fee of $100 per person for anyone 16 years or older. A commercial use authorization is required.,Commercial Entrance - Motor Coach
+533,474,35.0,"Admits private, non-commercial vehicle (15 passenger capacity or less) and all occupants to Zion National Park. Valid for 1-7 days.",Entrance - Private Vehicle
+534,474,30.0,"Valid for 7 days. Admits up to 2 private, non-commercial motorcycles with up to 4 total passengers.",Entrance - Motorcycle
+535,474,20.0,"Admits one individual with no car to Zion National Park. Typically used for bicyclists, hikers and pedestrians. Youth 15 and under are admitted free. Valid for 1-7 days.",Entrance - Snowmobile
+536,474,20.0,"Admits one individual with no car to Zion National Park. Typically used for bicyclists, hikers and pedestrians. Youth 15 and under are admitted free. Valid for 1-7 days.",Entrance - Per Person
+537,474,20.0,$20 per person. Non-commercial vehicles with a capacity of 16 or greater. Fees will not exceed the commercial fee for the same-sized vehicle. Youth 15 and under are free. Individuals or families with any valid Annual or Lifetime pass may use their pass for entry at the per person rate. Pass and photo ID must be present upon entry.,Entrance - Non-commercial Groups
+538,474,70.0,"A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees of commercial tours are based upon the total capacity of vehicles that can carry seven or more passengers regardless of the actual number of passengers.",Commercial Entrance - Van
+539,474,80.0,"A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees of commercial tours are based upon the total capacity of vehicles that can carry seven or more passengers regardless of the actual number of passengers.",Commercial Entrance - Mini-bus
+540,474,190.0,"A commercial tour is defined as consisting of one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. The entry fees of commercial tours are based upon the total capacity of vehicles that can carry seven or more passengers regardless of the actual number of passengers.",Commercial Entrance - Motor Coach
+541,474,20.0,"A commercial tour is defined as one or more persons traveling on an itinerary that has been packaged, priced, or sold for leisure or recreational purposes by an organization that realizes financial gain through the provision of the service. Vehicles with commercial tours of 1-6 people (not including guide) pay $35 per vehicle + $20 per person with a total fee not to exceed $70.
+
+Passengers can use valid weekly, annual, lifetime, or appreciation passes.",Commercial Entrance - Per Person
+542,474,100.0,"Each non-US resident aged 16 and older visiting Zion National Park must pay a $100 nonresident fee (in addition to the standard entrance fee), unless admitted with an Annual or America the Beautiful Pass. This includes nonresidents entering as part of a commercial tour group, commercial use authorization (CUA) group, or concessioner tour group.",Nonresident

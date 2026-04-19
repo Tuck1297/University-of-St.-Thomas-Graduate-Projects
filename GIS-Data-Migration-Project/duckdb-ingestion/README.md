@@ -13,24 +13,37 @@ Orchestrator module for running various GIS data ingestion jobs. This module pro
 - Minnesota DNR: Minnesota Department of Natural Resources data ingestion
 
 ### Usage:
-- python orchestrator.py --run-nps              # Run only NPS job
-- python orchestrator.py --run-google           # Run only Google Places job
-- python orchestrator.py --run-ridb-rec         # Run only RIDB Recreation job
-- python orchestrator.py --run-mn-gis           # Run only Minnesota GIS job
-- python orchestrator.py --run-mn-dnr           # Run only Minnesota DNR job
-- python orchestrator.py --all                  # Run all jobs
-- python orchestrator.py                        # No jobs run (displays message)
+
+- python orchestrator.py --run-nps # Run only NPS job
+- python orchestrator.py --run-google # Run only Google Places job
+- python orchestrator.py --run-ridb-rec # Run only RIDB Recreation job
+- python orchestrator.py --run-mn-gis # Run only Minnesota GIS job
+- python orchestrator.py --run-mn-dnr # Run only Minnesota DNR job
+- python orchestrator.py --all # Run all jobs
+- python orchestrator.py # No jobs run (displays message)
+
 ### Options:
---run-nps:       (bool) Execute NPS data ingestion job
---run-google:    (bool) Execute Google Places data ingestion job
---run-ridb-rec:  (bool) Execute RIDB Recreation data ingestion job
---run-mn-gis:    (bool) Execute Minnesota GIS data ingestion job
---run-mn-dnr:    (bool) Execute Minnesota DNR data ingestion job
---all:           (bool) Execute all available jobs
---help:          Display help message with all available options
+
+--run-nps: (bool) Execute NPS data ingestion job
+--run-google: (bool) Execute Google Places data ingestion job
+--run-ridb-rec: (bool) Execute RIDB Recreation data ingestion job
+--run-mn-gis: (bool) Execute Minnesota GIS data ingestion job
+--run-mn-dnr: (bool) Execute Minnesota DNR data ingestion job
+--all: (bool) Execute all available jobs
+--help: Display help message with all available options
+
 ### Examples:
+
 - Run multiple jobs: python orchestrator.py --run-nps --run-google
 - Run all jobs: python orchestrator.py --all
+
+### Export Database
+
+To export the database into CSV files that are easier to commit to a GitHub repository run the following script:
+
+```
+python db_export.py
+```
 
 ## Common DuckDB CMD Commands
 
@@ -40,32 +53,39 @@ Orchestrator module for running various GIS data ingestion jobs. This module pro
 pragma show_tables;
 ```
 
+- Connect to DuckDB Database
 
-
-
-
+```
+duckdb [DATABASE FILE].duckdb
+```
 
 # DuckDB Ingestion Guide: Zip & CSV Workflow
 
 This guide explains how to use Python to download a zipped archive from a URL, extract its contents, and ingest the CSV data into DuckDB.
 
 ## 1. Prerequisites
+
 Ensure you have the required libraries installed:
+
 ```bash
 pip install duckdb requests python-dotenv
 ```
-*(Note: `zipfile` and `os` are part of the Python Standard Library and do not need installation.)*
+
+_(Note: `zipfile` and `os` are part of the Python Standard Library and do not need installation.)_
 
 ## 2. Environment Variables (.env)
+
 To keep your script configurable without hardcoding values, use a `.env` file.
 
 **Create a `.env` file in this directory:**
+
 ```env
 DATA_SOURCE_URL=https://example.com/data.zip
 DATABASE_NAME=my_project.db
 ```
 
 **Accessing them in Python:**
+
 ```python
 import os
 from dotenv import load_dotenv
@@ -79,12 +99,15 @@ DB_PATH = os.getenv("DATABASE_NAME")
 ## 3. Implementation Strategy
 
 ### A. Download the Zip File
+
 Use the `requests` library to fetch the file. It's best to stream the download for larger files to save memory.
 
 ### B. Extract the Archive
+
 Use the `zipfile` module to extract the files to a temporary directory.
 
 ### C. Ingest into DuckDB
+
 Use DuckDB's `read_csv_auto()` function. DuckDB is highly efficient at reading local CSVs and can often infer types automatically.
 
 ## 3. Complete Python Script Example
@@ -134,8 +157,10 @@ if __name__ == "__main__":
 ```
 
 ## 4. Pro Tip: Performance
+
 If you have a very large CSV, you don't actually need to "upload" it line-by-line. DuckDB's `CREATE TABLE ... AS SELECT` syntax performs a bulk import that is significantly faster than standard SQL `INSERT` statements.
 
 ## 5. NPS Data to introduce later if I have time
+
 - visitorcenters
 - webcams
