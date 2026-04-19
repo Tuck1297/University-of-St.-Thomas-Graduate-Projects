@@ -5,6 +5,8 @@ COPY google.places FROM 'project_data_export/google_places.csv' (FORMAT 'csv', h
 COPY mn_gis.dnr_management_units_prk FROM 'project_data_export/mn_gis_dnr_management_units_prk.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"');
 COPY mn_gis.dnr_management_units_prk_ref_pts FROM 'project_data_export/mn_gis_dnr_management_units_prk_ref_pts.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"');
 COPY mn_gis.dnr_stat_plan_areas_prk FROM 'project_data_export/mn_gis_dnr_stat_plan_areas_prk.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"');
+COPY mn_gis.state_forest_campgrounds_and_day_use_areas FROM 'project_data_export/mn_gis_state_forest_campgrounds_and_day_use_areas.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"');
+COPY mn_gis.state_forest_campgrounds_and_day_use_areas_orig FROM 'project_data_export/mn_gis_state_forest_campgrounds_and_day_use_areas_orig.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"');
 COPY nps.activities FROM 'project_data_export/nps_activities.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"', force_not_null 'id');
 COPY nps.addresses FROM 'project_data_export/nps_addresses.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"', force_not_null 'id');
 COPY nps.amenities FROM 'project_data_export/nps_amenities.csv' (FORMAT 'csv', header 1, delimiter ',', quote '"', force_not_null 'id');
