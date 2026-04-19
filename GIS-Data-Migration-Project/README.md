@@ -27,6 +27,7 @@ Below are the sources that I have discovered thus far to try to integrate into m
 - https://files.dnr.state.mn.us/destinations/state_parks/publications/pat_guide/2025.pdf - Manual Map that provides MN State Park Activity information. May need to collect lat/lon information from Google or OpenStreetMaps
 - https://www.tpl.org/park-data-downloads -- shapefile
 - Google Places (New) API
+- https://gis.data.mn.gov/datasets/c76bcca7eb564523b6a1cf2807cbc481_3/explore?location=45.235305%2C-93.037062%2C10
 
 ### Hiking Trail Data
 - https://www.fws.gov/service/national-wildlife-refuge-system-gis-data-and-mapping-tools
@@ -42,4 +43,4 @@ Below are the sources that I have discovered thus far to try to integrate into m
 
 ### Used Resources for Documentation and Citing purposes
 - https://duckdb.org/docs/current/
-- 
+- https://chatgpt.com/share/69e556f5-b744-83ea-99ff-f87fb17c2c13
