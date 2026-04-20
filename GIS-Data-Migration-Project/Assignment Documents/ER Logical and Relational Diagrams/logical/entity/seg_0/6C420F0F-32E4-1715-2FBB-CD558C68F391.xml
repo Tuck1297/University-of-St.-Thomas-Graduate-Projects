@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A4DBC53-52CE-8E6E-B5AF-0D7F960CA483" name="Contact Type">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C420F0F-32E4-1715-2FBB-CD558C68F391" name="Contact Emails">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-19 22:53:38 UTC</createdTime>
+<createdTime>2026-04-20 03:15:41 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="contact_type_key" id="7153F7C7-3486-7EC5-9AE3-C22D4842DDCE">
+<Attribute name="contact_email_key" id="BD281D61-146D-2E3C-AD34-6CD5C9ED8E2B">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:11:51 UTC</createdTime>
+<createdTime>2026-04-20 03:15:41 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="6201E322-7FCC-BA64-8779-5925BD1EE924">
+<Attribute name="email_address" id="C024BE8D-B811-9E60-028E-7564C1A84CD0">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:15:23 UTC</createdTime>
+<createdTime>2026-04-20 03:16:18 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
@@ -38,12 +38,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="description" id="649B2DBA-7BBA-082B-6447-3103B64F6034">
+<Attribute name="description" id="E37DB7A5-A09D-F15E-6B93-54E9CE9F6BC4">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:15:23 UTC</createdTime>
+<createdTime>2026-04-20 03:15:41 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
@@ -55,18 +55,33 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="location_key" id="3A92373F-C110-65DF-ADEE-25A8C85F75BF">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:18:38 UTC</createdTime>
+<generatorID>A484C9C3-227F-D7C8-910D-40A4CAA69CD7</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C2B247EC-3DDD-1F58-D058-EECBCE87E464</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="98A54989-6FE6-BDD3-607B-B7F7C57BE79B" name="Contact Type PK">
+<identifier id="0131F8C9-D4CF-620D-892A-EA0DF8A1F892" name="Contacts PK">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:12:01 UTC</createdTime>
+<createdTime>2026-04-20 03:15:41 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7153F7C7-3486-7EC5-9AE3-C22D4842DDCE</attributeRef>
+<attributeRef>BD281D61-146D-2E3C-AD34-6CD5C9ED8E2B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

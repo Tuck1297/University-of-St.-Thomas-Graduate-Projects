@@ -41,6 +41,116 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="credit" id="D16137B4-451A-BA3E-1734-8382C176F5CA">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:19:17 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="047427B5-AA87-2FB0-51B4-FAF79E109538">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:19:28 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altText" id="6D15DEF2-4E3D-0789-6ED0-C8C7DEF935D7">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:19:39 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="caption" id="D015A5DF-5D77-59EE-F345-723F6A85FEE7">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:19:52 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url" id="45FA38C5-5E15-892F-81B1-CC14517C7746">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:20:08 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtitle" id="4A3D2A5A-66D4-969A-2A8E-0CF97AA2F16E">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:21:09 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="height" id="B59CC021-E560-AD77-4A7E-807C72DC167E">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:21:26 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="width" id="E86CDACE-2C71-AD87-F693-B5DBE014BBE6">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:21:36 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="BE68BEAE-B4FB-3DA4-F746-6096A776B471" name="Media PK">

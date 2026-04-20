@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A222736-1277-7B03-2C6B-0BC2CD20AD4D" name="Website">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A222736-1277-7B03-2C6B-0BC2CD20AD4D" name="Websites">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-19 22:51:04 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>

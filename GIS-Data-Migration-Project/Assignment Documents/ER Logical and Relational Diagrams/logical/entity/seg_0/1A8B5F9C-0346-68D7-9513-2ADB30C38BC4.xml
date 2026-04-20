@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A8B5F9C-0346-68D7-9513-2ADB30C38BC4" name="Contacts">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A8B5F9C-0346-68D7-9513-2ADB30C38BC4" name="Contact Phone Numbers">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-19 22:52:03 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="contact_key" id="803EFA8B-C81A-42D3-A604-A88B913F930C">
+<Attribute name="contact_phone_number_key" id="803EFA8B-C81A-42D3-A604-A88B913F930C">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-20 00:12:47 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
@@ -42,19 +42,61 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="contact_type_key" id="269DF0F7-FA39-A47A-830C-C55A3E6233AE">
+<Attribute name="phone_number" id="AF0DA128-FFDB-5876-2AAF-4A4F46E3B42A">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:12:02 UTC</createdTime>
-<generatorID>8434D4A3-B937-AFF0-C8B1-6FF0C51B30DC</generatorID>
+<createdTime>2026-04-20 03:13:34 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
 </engineerTo>
-<referedAttribute>7153F7C7-3486-7EC5-9AE3-C22D4842DDCE</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="A6E21F83-87FC-CBC6-F011-771F3DB86F33">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:14:07 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="extension" id="C393D2ED-9318-9292-841D-E56A216D8CAE">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:14:46 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="824F0B71-D961-8104-48DE-95FBAC822C2C">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 03:15:02 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

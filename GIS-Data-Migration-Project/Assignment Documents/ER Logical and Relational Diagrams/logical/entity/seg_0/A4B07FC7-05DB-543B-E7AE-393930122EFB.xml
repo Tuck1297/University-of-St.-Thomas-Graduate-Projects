@@ -180,9 +180,9 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="active_flag" id="47E3F1A7-B64F-C23E-F0EF-37D03F603A74">
+<Attribute name="attributes" id="FA62B598-4231-143E-AAC5-C25AB73B2F46">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-19 22:59:08 UTC</createdTime>
+<createdTime>2026-04-20 03:08:56 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
@@ -190,22 +190,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT034</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="location_attribute_key" id="C0253C06-FB9C-F9AF-E1B2-DCE20E884022">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:09:37 UTC</createdTime>
-<generatorID>BB0EA251-CA53-7E54-8FFA-C4A102559CAF</generatorID>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
-</engineerTo>
-<referedAttribute>4DA8FCBB-2049-ABD3-A2A8-6455CD803C57</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>47823B89-BECE-2D4A-B641-EE3BE6149078</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="data_source_key" id="266AB553-BB3E-38E1-11CE-F489512779D0">
@@ -235,6 +220,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="active_flag" id="47E3F1A7-B64F-C23E-F0EF-37D03F603A74">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-19 22:59:08 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
