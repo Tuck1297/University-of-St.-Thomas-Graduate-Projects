@@ -14,4 +14,89 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="website_key" id="DD973D33-4C7D-67D0-851E-C7A9D7EC7E4A">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-19 23:41:15 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url" id="5C103A22-F3CB-A177-A6E9-42B03E753B07">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-19 23:41:37 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="FFFA2DB4-6393-2828-4CF1-27FB9AF1ED1F">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-19 23:41:58 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="website_type_key" id="63D9BE0D-DB05-73AA-9957-D0B0B7F99C4E">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-19 23:56:21 UTC</createdTime>
+<generatorID>0C478D28-D003-AFFC-C1B6-D6EEA9CBFF59</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<referedAttribute>6720DD45-7707-B30A-7858-7998D5F59995</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_key" id="46830054-80FB-ECC4-E84C-4F7113AD232F">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:03:40 UTC</createdTime>
+<generatorID>6F30F512-B015-07F2-1572-6D7676894DCD</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C2B247EC-3DDD-1F58-D058-EECBCE87E464</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30EF56BA-19C8-7C50-B5E4-215876842451" name="Website PK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-19 23:41:36 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD973D33-4C7D-67D0-851E-C7A9D7EC7E4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

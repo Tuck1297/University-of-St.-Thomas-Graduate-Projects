@@ -14,4 +14,46 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="media_key" id="6BF5F2E0-1C5F-B6F8-5633-D0766C6AFB49">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:09:58 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="media_type_key" id="84309305-301F-8E3A-A458-0C9201781293">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:12:23 UTC</createdTime>
+<generatorID>A2973D71-9E6E-F688-8BF4-1A2815FABAE9</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<referedAttribute>FF7A4E28-FA56-9246-FB30-B5C58CF72E69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE68BEAE-B4FB-3DA4-F746-6096A776B471" name="Media PK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:10:07 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BF5F2E0-1C5F-B6F8-5633-D0766C6AFB49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

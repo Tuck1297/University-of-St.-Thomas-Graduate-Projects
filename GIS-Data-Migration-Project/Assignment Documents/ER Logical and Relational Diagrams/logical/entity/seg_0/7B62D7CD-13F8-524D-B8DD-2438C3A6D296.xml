@@ -14,4 +14,32 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="location_attribute_key" id="4DA8FCBB-2049-ABD3-A2A8-6455CD803C57">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:09:22 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="105B4E8F-4A94-3A83-B3AF-F799C67EF5FB" name="Location Attributes PK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:09:36 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4DA8FCBB-2049-ABD3-A2A8-6455CD803C57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -14,4 +14,47 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="operating_hours_key" id="1AF707BE-FF35-F671-B732-67BF2EA44389">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:13:36 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_key" id="BBB54DCE-BC0C-6C10-9354-ADCAC521E3CA">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:07:00 UTC</createdTime>
+<generatorID>59AFCD2B-9CD1-E257-E36B-B94E0E1B3E4B</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C2B247EC-3DDD-1F58-D058-EECBCE87E464</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76763177-615F-647C-2F86-F2B54F63A3AF" name="Operating Hours PK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:13:49 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AF707BE-FF35-F671-B732-67BF2EA44389</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

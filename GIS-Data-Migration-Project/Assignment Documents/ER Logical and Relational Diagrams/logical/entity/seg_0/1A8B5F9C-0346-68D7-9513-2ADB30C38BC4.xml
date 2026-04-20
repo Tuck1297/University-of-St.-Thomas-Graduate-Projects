@@ -14,4 +14,61 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contact_key" id="803EFA8B-C81A-42D3-A604-A88B913F930C">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:12:47 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_key" id="C59327CD-39C5-6094-B5E9-18662269BB1B">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:03:56 UTC</createdTime>
+<generatorID>9A95AAAC-5E9B-DDB8-138A-BC75EC7234C5</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C2B247EC-3DDD-1F58-D058-EECBCE87E464</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact_type_key" id="269DF0F7-FA39-A47A-830C-C55A3E6233AE">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:12:02 UTC</createdTime>
+<generatorID>8434D4A3-B937-AFF0-C8B1-6FF0C51B30DC</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<referedAttribute>7153F7C7-3486-7EC5-9AE3-C22D4842DDCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6D46AD9-DFF5-C12D-50A3-E81757A4EC46" name="Contacts PK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:13:01 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>803EFA8B-C81A-42D3-A604-A88B913F930C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

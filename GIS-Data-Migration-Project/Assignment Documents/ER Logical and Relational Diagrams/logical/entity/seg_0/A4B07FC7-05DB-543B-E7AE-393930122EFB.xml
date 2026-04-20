@@ -54,7 +54,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_source_key" id="B0B1C797-0DC7-3FBE-EE52-7EE109BBB203">
+<Attribute name="orig_data_source_key" id="B0B1C797-0DC7-3FBE-EE52-7EE109BBB203">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-19 22:34:15 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
@@ -67,19 +67,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>300</dataTypeSize>
 <ownDataTypeParameters>300,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="data_source_type" id="65574A37-5D3C-A543-2405-3FB28BD93FC3">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-19 22:43:23 UTC</createdTime>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="latitude" id="61A7F233-44B9-5FB8-BC69-555E00B64ED7">
 <createdBy>Tucker</createdBy>
@@ -136,19 +123,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1000</dataTypeSize>
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="location_type_key" id="E7DE563B-29E9-FFBC-4866-CA6AE9540CAC">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-19 22:37:06 UTC</createdTime>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ai_generative_description" id="75CCEE8D-B2D9-F817-6001-616ED978C901">
 <createdBy>Tucker</createdBy>
@@ -219,6 +193,48 @@
 <logicalDatatype>LOGDT034</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_attribute_key" id="C0253C06-FB9C-F9AF-E1B2-DCE20E884022">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:09:37 UTC</createdTime>
+<generatorID>BB0EA251-CA53-7E54-8FFA-C4A102559CAF</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<referedAttribute>4DA8FCBB-2049-ABD3-A2A8-6455CD803C57</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_source_key" id="266AB553-BB3E-38E1-11CE-F489512779D0">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:11:22 UTC</createdTime>
+<generatorID>29CFC402-661B-98FF-5AF9-12EA2027E07E</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<referedAttribute>29BC39F8-CE14-3716-44E4-BB37D01FE170</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_type_key" id="FE142E50-9D90-169C-A34D-02A8E1B295EB">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-20 00:11:43 UTC</createdTime>
+<generatorID>8701E7E0-EF7E-5181-AA9E-69CC1FA7A5B2</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<referedAttribute>50FF9806-6AD8-9815-A60D-171A29FCBB3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
