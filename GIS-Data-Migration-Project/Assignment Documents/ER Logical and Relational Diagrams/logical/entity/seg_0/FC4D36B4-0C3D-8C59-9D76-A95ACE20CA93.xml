@@ -168,6 +168,20 @@
 <dataTypeSize>5</dataTypeSize>
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="address_type_key" id="B73E313C-08C1-E623-4D35-044D91D6C2E3">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-21 02:52:10 UTC</createdTime>
+<generatorID>42B51D50-CC64-7C4A-9B50-ADBD936D4CA8</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<referedAttribute>DEE24D80-C22E-991E-4A57-1657315BD2F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="BAFD2305-D2C4-B4CD-ACBE-CA1A2873639F" name="Addresses PK">
