@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8743173C-B07D-9CF4-D0A9-5BB314F2EAE5" name="Contact_Emails">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>6C420F0F-32E4-1715-2FBB-CD558C68F391</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contact_email_key" id="2091214C-9F26-13C2-1381-209AC2A0ADD5">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>BD281D61-146D-2E3C-AD34-6CD5C9ED8E2B</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_address" id="D5A395ED-BDD6-08B0-B2D1-4599C04EA6D2">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>C024BE8D-B811-9E60-028E-7564C1A84CD0</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="F15E42ED-1D61-0B06-FDE3-6D832A06FF8D">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>E37DB7A5-A09D-F15E-6B93-54E9CE9F6BC4</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_location_key" id="E7628DD3-B5AA-9ACA-20B7-1075B1369DF9">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>3A92373F-C110-65DF-ADEE-25A8C85F75BF</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13A8C784-740E-A2A5-23F7-C57369CC03B4" referredColumn="97BD3AAA-38D0-265C-DA10-ADB5660F5380"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="770D7CF6-24E2-4D44-F7C3-FC987BFC7850" name="Contact_Emails_PK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>0131F8C9-D4CF-620D-892A-EA0DF8A1F892</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2091214C-9F26-13C2-1381-209AC2A0ADD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E53B818-4912-0860-9D65-AB091CCA3763" name="Contact_Emails_Location_FK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>A484C9C3-227F-D7C8-910D-40A4CAA69CD7</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7628DD3-B5AA-9ACA-20B7-1075B1369DF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

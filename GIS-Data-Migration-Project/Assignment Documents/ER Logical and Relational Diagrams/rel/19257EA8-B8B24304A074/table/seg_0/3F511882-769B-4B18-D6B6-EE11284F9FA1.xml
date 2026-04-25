@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F511882-769B-4B18-D6B6-EE11284F9FA1" name="Contact_Phone_Numbers">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>1A8B5F9C-0346-68D7-9513-2ADB30C38BC4</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contact_phone_number_key" id="B6F28979-035E-7846-80FB-DFC3BA39A21D">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>803EFA8B-C81A-42D3-A604-A88B913F930C</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_location_key" id="6D7FC8C0-62EB-8613-4C41-AFE13256232E">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>C59327CD-39C5-6094-B5E9-18662269BB1B</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDFBC23D-2BB7-0B76-3267-2766224A122D" referredColumn="97BD3AAA-38D0-265C-DA10-ADB5660F5380"/>
+</associations>
+</Column>
+<Column name="phone_number" id="C0B37D18-8778-CA22-4F85-250F9FDC2A64">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>AF0DA128-FFDB-5876-2AAF-4A4F46E3B42A</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="A6C3CB9E-CB01-4B7D-4FC5-FE58F7EC9145">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>A6E21F83-87FC-CBC6-F011-771F3DB86F33</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="extension" id="F3AB9FAE-E889-A549-4A3E-106970CD50AC">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>C393D2ED-9318-9292-841D-E56A216D8CAE</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="81C5170C-E37D-AEAD-5176-E416C2DB1100">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>824F0B71-D961-8104-48DE-95FBAC822C2C</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A29248C-5C76-7E65-34A1-52E2E4B35CA0" name="Contact_Phone_Numbers_PK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>B6D46AD9-DFF5-C12D-50A3-E81757A4EC46</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6F28979-035E-7846-80FB-DFC3BA39A21D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C152BCA-AA8A-B1DB-2AA8-1F6BBE416A7B" name="Contact_Phone_Numbers_Location_FK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>9A95AAAC-5E9B-DDB8-138A-BC75EC7234C5</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D7FC8C0-62EB-8613-4C41-AFE13256232E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

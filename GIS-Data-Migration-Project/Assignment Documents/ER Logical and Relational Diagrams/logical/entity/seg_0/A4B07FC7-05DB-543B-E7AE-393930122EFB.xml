@@ -41,14 +41,16 @@
 <dataTypeSize>300</dataTypeSize>
 <ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="location_parent_key" id="9AFEBA08-18AC-F974-DA3C-814383308662">
+<Attribute name="location_parent_key" id="ED248910-6A05-2329-981F-286D918503E5">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-19 22:54:44 UTC</createdTime>
+<createdTime>2026-04-25 02:35:03 UTC</createdTime>
+<generatorID>90014A22-9297-CE52-AB78-AAD8779AACCC</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<referedAttribute>C2B247EC-3DDD-1F58-D058-EECBCE87E464</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -193,34 +195,6 @@
 <logicalDatatype>47823B89-BECE-2D4A-B641-EE3BE6149078</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_source_key" id="266AB553-BB3E-38E1-11CE-F489512779D0">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:11:22 UTC</createdTime>
-<generatorID>29CFC402-661B-98FF-5AF9-12EA2027E07E</generatorID>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
-</engineerTo>
-<referedAttribute>29BC39F8-CE14-3716-44E4-BB37D01FE170</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="location_type_key" id="FE142E50-9D90-169C-A34D-02A8E1B295EB">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:11:43 UTC</createdTime>
-<generatorID>8701E7E0-EF7E-5181-AA9E-69CC1FA7A5B2</generatorID>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
-</engineerTo>
-<referedAttribute>50FF9806-6AD8-9815-A60D-171A29FCBB3F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="active_flag" id="47E3F1A7-B64F-C23E-F0EF-37D03F603A74">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-19 22:59:08 UTC</createdTime>
@@ -235,14 +209,43 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="data_source_key" id="ADA97CAA-6F58-AF8A-E5E7-13E154DC3372">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-25 02:16:09 UTC</createdTime>
+<generatorID>29CFC402-661B-98FF-5AF9-12EA2027E07E</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<referedAttribute>29BC39F8-CE14-3716-44E4-BB37D01FE170</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_type_key" id="BC94EBE5-B05E-7F9A-980F-D6814B4947E3">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-25 02:16:40 UTC</createdTime>
+<generatorID>8701E7E0-EF7E-5181-AA9E-69CC1FA7A5B2</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<referedAttribute>50FF9806-6AD8-9815-A60D-171A29FCBB3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="19C142A4-C8C8-8F56-1B35-EC5D58E2D11C" name="Location PK">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-19 22:55:54 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36656C25-F485-E152-1BE8-3CF720DA6FC6" name="Data_Source">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>C11B8BD1-62D0-A36F-8085-719F51B45DDB</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data_source_key" id="AB19F8ED-3833-ACCD-9913-440C6A3D14FA">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>29BC39F8-CE14-3716-44E4-BB37D01FE170</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="CCE3F01A-6268-DEE9-8D55-E8A9A3A7AB8F">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>204812F6-1964-6B51-7378-6694ADC3EAA3</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="87D41C2C-9346-3E99-3130-8867F268462F">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>4F4E901A-FADA-674E-BC16-A532960B4B73</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BD76F78-2329-52C5-C360-CA50C9CB1805" name="Data_Source_PK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>B034E426-A4F1-87F3-968E-A832B7685DFA</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB19F8ED-3833-ACCD-9913-440C6A3D14FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

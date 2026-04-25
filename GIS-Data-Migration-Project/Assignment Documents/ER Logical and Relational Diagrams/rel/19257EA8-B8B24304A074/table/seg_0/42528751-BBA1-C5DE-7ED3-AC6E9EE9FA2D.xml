@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42528751-BBA1-C5DE-7ED3-AC6E9EE9FA2D" name="Websites">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>7A222736-1277-7B03-2C6B-0BC2CD20AD4D</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="website_key" id="C4697628-1C3A-5934-522C-8B951C43B4D6">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>DD973D33-4C7D-67D0-851E-C7A9D7EC7E4A</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url" id="CD71A518-B825-9802-871A-41D311360E01">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>5C103A22-F3CB-A177-A6E9-42B03E753B07</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="A0F4901E-CF53-E7E1-A0B3-23A6AD215A72">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>FFFA2DB4-6393-2828-4CF1-27FB9AF1ED1F</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Website_Type_website_type_key" id="B7F9BDE3-D5DA-C08C-D375-EBC07B6391DE">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>63D9BE0D-DB05-73AA-9957-D0B0B7F99C4E</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C6CDF7C-FA04-AFB0-CB27-6E708B8998EA" referredColumn="96E3C24F-2744-A848-4F87-83470402E07A"/>
+</associations>
+</Column>
+<Column name="Location_location_key" id="5D66850E-9768-0E3C-FB11-F1011238F4D1">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>46830054-80FB-ECC4-E84C-4F7113AD232F</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6361DF70-AFA9-0A35-355B-4793200D5BCD" referredColumn="97BD3AAA-38D0-265C-DA10-ADB5660F5380"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51E97F72-A220-09A9-3F53-8C30FA0D9BB7" name="Websites_PK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>30EF56BA-19C8-7C50-B5E4-215876842451</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4697628-1C3A-5934-522C-8B951C43B4D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="257612AD-AD0A-DE78-5E57-182ACB08FE84" name="Websites_Website_Type_FK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>0C478D28-D003-AFFC-C1B6-D6EEA9CBFF59</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7F9BDE3-D5DA-C08C-D375-EBC07B6391DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37920783-9A10-93B5-2574-FDA05491EFD1" name="Websites_Location_FK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>6F30F512-B015-07F2-1572-6D7676894DCD</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D66850E-9768-0E3C-FB11-F1011238F4D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

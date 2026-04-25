@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14CDD96E-096F-A19D-5434-9AE1EC06E3A3" name="Media">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>5EB8F655-AF62-574B-E3A0-2655200BFA91</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="media_key" id="CA76FEE0-D5A8-13FC-C563-270265D5A54D">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>6BF5F2E0-1C5F-B6F8-5633-D0766C6AFB49</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Media_Type_media_type_key" id="8F0811B7-FD6D-B716-CFBD-C15B1D4C8841">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>84309305-301F-8E3A-A458-0C9201781293</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18F4B82A-485D-FF95-8CEA-01581700D2B7" referredColumn="D8C6DD49-AC7C-5C87-F0EF-5BECEDAC4CF1"/>
+</associations>
+</Column>
+<Column name="credit" id="3FEE79AB-8EA1-7C4A-B657-5547B0F3DD3A">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>D16137B4-451A-BA3E-1734-8382C176F5CA</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="0667F153-B530-AB54-D539-397DE73B9EDF">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>047427B5-AA87-2FB0-51B4-FAF79E109538</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altText" id="8D84510F-6155-FB16-D330-1BA02A08DD7A">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>6D15DEF2-4E3D-0789-6ED0-C8C7DEF935D7</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="caption" id="4C251852-4FD5-A117-90E0-EBCCA0201747">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>D015A5DF-5D77-59EE-F345-723F6A85FEE7</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url" id="355CBE75-533C-720B-2390-82620864584A">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>45FA38C5-5E15-892F-81B1-CC14517C7746</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtitle" id="44B16D93-0AC4-D06A-F4EE-4DAA7F7823C0">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>4A3D2A5A-66D4-969A-2A8E-0CF97AA2F16E</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="height" id="072C6529-63CC-9B5E-6D1D-7973683F010B">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>B59CC021-E560-AD77-4A7E-807C72DC167E</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="width" id="F81DE506-4339-1631-DA74-7F54DBAAA6D1">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>E86CDACE-2C71-AD87-F693-B5DBE014BBE6</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="third_party_key" id="7B56EB83-B8B4-C3B6-CDE5-5EBA9D3F9E76">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>62FC239B-EE33-B396-B6DC-66407D52FC2B</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_location_key" id="38D000CE-1B6D-B210-F8C9-DB599447E918">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:13:43 UTC</createdTime>
+<generatorID>F04E5D24-1346-1AEE-2B51-BB5482CDD6FD</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C53A74E-9CF0-7A08-6E87-58E82E0A5F01" referredColumn="97BD3AAA-38D0-265C-DA10-ADB5660F5380"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA28FC24-29CA-3093-1642-58E9B04C4C62" name="Media_PK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>BE68BEAE-B4FB-3DA4-F746-6096A776B471</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA76FEE0-D5A8-13FC-C563-270265D5A54D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F4C0A24-4E50-4155-6BEB-1DC22851FB0B" name="Media_Media_Type_FK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>A2973D71-9E6E-F688-8BF4-1A2815FABAE9</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F0811B7-FD6D-B716-CFBD-C15B1D4C8841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A6489E2-8E2A-B546-A046-E762723B5852" name="Media_Location_FK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:13:43 UTC</createdTime>
+<generatorID>62CEC1C0-1306-D69A-70DA-3D2D2A003C39</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38D000CE-1B6D-B210-F8C9-DB599447E918"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

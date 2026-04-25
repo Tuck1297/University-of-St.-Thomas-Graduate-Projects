@@ -165,14 +165,29 @@
 <dataTypeSize>300</dataTypeSize>
 <ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="location_key" id="F04E5D24-1346-1AEE-2B51-BB5482CDD6FD">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:13:31 UTC</createdTime>
+<generatorID>62CEC1C0-1306-D69A-70DA-3D2D2A003C39</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<referedAttribute>C2B247EC-3DDD-1F58-D058-EECBCE87E464</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="BE68BEAE-B4FB-3DA4-F746-6096A776B471" name="Media PK">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-20 00:10:07 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3C6CDF7C-FA04-AFB0-CB27-6E708B8998EA" containerWithKeyObject="42528751-BBA1-C5DE-7ED3-AC6E9EE9FA2D" localFKIndex="257612AD-AD0A-DE78-5E57-182ACB08FE84" name="Websites_Website_Type_FK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>0C478D28-D003-AFFC-C1B6-D6EEA9CBFF59</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<referredTableLongName>Website_Type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D107BAF-DDE5-B0A5-4DEF-55757E5E2315</referredTableID>
+<keyObject>DCCF8588-282B-9371-6FE1-468C6FD0EA33</keyObject>
+<referredKeyID>DCCF8588-282B-9371-6FE1-468C6FD0EA33</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>website_type_key</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

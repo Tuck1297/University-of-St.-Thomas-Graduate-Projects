@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="8701E7E0-EF7E-5181-AA9E-69CC1FA7A5B2">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="isv2" directorySegmentName="seg_0" id="8701E7E0-EF7E-5181-AA9E-69CC1FA7A5B2">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-20 00:04:19 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
@@ -7,8 +7,9 @@
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
 </engineerTo>
 <sourcePk>872CA022-6906-91EB-19EC-91E417032572</sourcePk>
+<targetPk>19C142A4-C8C8-8F56-1B35-EC5D58E2D11C</targetPk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>F45B6A43-8434-C100-4485-A429859392C9</sourceEntity>

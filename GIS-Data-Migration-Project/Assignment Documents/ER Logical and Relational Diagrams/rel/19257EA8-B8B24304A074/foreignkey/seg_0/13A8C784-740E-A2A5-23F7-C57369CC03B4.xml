@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="13A8C784-740E-A2A5-23F7-C57369CC03B4" containerWithKeyObject="8743173C-B07D-9CF4-D0A9-5BB314F2EAE5" localFKIndex="5E53B818-4912-0860-9D65-AB091CCA3763" name="Contact_Emails_Location_FK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>A484C9C3-227F-D7C8-910D-40A4CAA69CD7</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<referredTableLongName>Location</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC699863-2EEB-EC0B-C769-9A01FED53D3F</referredTableID>
+<keyObject>5781D114-E82C-C675-C6EF-4F0080245C8C</keyObject>
+<referredKeyID>5781D114-E82C-C675-C6EF-4F0080245C8C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>location_key</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

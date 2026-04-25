@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18F4B82A-485D-FF95-8CEA-01581700D2B7" containerWithKeyObject="14CDD96E-096F-A19D-5434-9AE1EC06E3A3" localFKIndex="7F4C0A24-4E50-4155-6BEB-1DC22851FB0B" name="Media_Media_Type_FK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-22 00:12:38 UTC</createdTime>
+<generatorID>A2973D71-9E6E-F688-8BF4-1A2815FABAE9</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<referredTableLongName>Media_Type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>078A57BE-8790-930B-0865-BB12A4AB0FDE</referredTableID>
+<keyObject>3E130042-CD97-B742-D184-C0ED30A39BBC</keyObject>
+<referredKeyID>3E130042-CD97-B742-D184-C0ED30A39BBC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>media_type_key</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
