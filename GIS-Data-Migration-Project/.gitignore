@@ -18,3 +18,4 @@ ENV/
 # Data
 extracted_data/
 downloaded_data.zip
+duckdb-ingestion/normalization
