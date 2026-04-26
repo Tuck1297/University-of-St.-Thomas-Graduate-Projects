@@ -18,9 +18,6 @@ CREATE SCHEMA IF NOT EXISTS normalized;
 /* NOTE: If you don't want to drop tables without checking if there is data in them, you will have to run
          that check in a python script or manually before running this SQL script. */
 
-DROP TABLE IF EXISTS normalized.Locations;
-DROP TABLE IF EXISTS normalized.DataSources;
-DROP TABLE IF EXISTS normalized.LocationTypes;
 DROP TABLE IF EXISTS normalized.OperatingHours;
 DROP TABLE IF EXISTS normalized.Media;
 DROP TABLE IF EXISTS normalized.MediaTypes;
@@ -30,6 +27,9 @@ DROP TABLE IF EXISTS normalized.ContactPhoneNumbers;
 DROP TABLE IF EXISTS normalized.ContactEmailAddresses;
 DROP TABLE IF EXISTS normalized.Addresses;
 DROP TABLE IF EXISTS normalized.AddressTypes;
+DROP TABLE IF EXISTS normalized.Locations;
+DROP TABLE IF EXISTS normalized.DataSources;
+DROP TABLE IF EXISTS normalized.LocationTypes;
 
 -- Create Tables
 
@@ -76,7 +76,8 @@ CREATE TABLE normalized.Locations (
     location_parent_key INTEGER NOT NULL DEFAULT 0,
     data_source_key INTEGER NOT NULL DEFAULT 0,
     location_type_key INTEGER NOT NULL DEFAULT 0,
-    orig_data_source_key VARCHAR(300),
+    orig_data_source_key VARCHAR(300), -- This is the original unique identifier for the location from the source system (e.g., npsId for NPS data)
+    migration_primary_key INTEGER, -- This is the primary key from the table that the data was placed into during collection. This can be used for traceability back to the raw data.
     latitude DOUBLE NOT NULL DEFAULT 0.0,
     longitude DOUBLE NOT NULL DEFAULT 0.0,
     directions_info VARCHAR(1000) NOT NULL DEFAULT '',
@@ -85,6 +86,7 @@ CREATE TABLE normalized.Locations (
     description VARCHAR(1000) NOT NULL DEFAULT '',
     state_abbre VARCHAR(5) NOT NULL DEFAULT '',
     state VARCHAR(30) NOT NULL DEFAULT '',
+    states STRING[], -- For locations that span multiple states, we can store an array of state abbreviations or names
     attributes JSON,
     active_flag BOOLEAN NOT NULL DEFAULT TRUE,
     created_dt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,

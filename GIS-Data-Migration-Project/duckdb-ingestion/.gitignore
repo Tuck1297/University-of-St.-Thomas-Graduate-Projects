@@ -135,3 +135,5 @@ dmypy.json
 *.xml
 metadata.html
 *.duckdb
+
+backup
