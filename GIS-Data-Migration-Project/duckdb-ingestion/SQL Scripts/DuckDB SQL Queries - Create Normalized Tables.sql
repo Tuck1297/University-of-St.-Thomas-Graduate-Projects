@@ -101,21 +101,33 @@ CREATE TABLE normalized.OperatingHours (
     location_key INTEGER NOT NULL DEFAULT 0,
     name VARCHAR(100) NOT NULL DEFAULT '',
     description VARCHAR(200) NOT NULL DEFAULT '',
+    type VARCHAR(25) NOT NULL DEFAULT '',
+    timezone VARCHAR(30) NOT NULL DEFAULT '',
+    start_time_period TIMESTAMP, -- Period in which these operating hours are valid (e.g., for seasonal hours)
+    end_time_period TIMESTAMP, -- Period in which these operating hours are valid (e.g., for seasonal hours)
+    created_dt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_dt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (location_key) REFERENCES normalized.Locations(location_key),
+);
+
+CREATE TABLE normalized.OperatingHoursTimes (
+    operating_hours_time_key INTEGER PRIMARY KEY,
+    operating_hours_key INTEGER NOT NULL DEFAULT 0,
     day_of_week INTEGER, -- 1=Monday, 2=Tuesday, ..., 7=Sunday
     day_start_hour INTEGER, -- Hour of the day when the location opens (0-23)
     day_end_hour INTEGER, -- Hour of the day when the location closes (0-23
     day_start_minute INTEGER, -- Minute of the hour when the location opens (0-59)
     day_end_minute INTEGER, -- Minute of the hour when the location closes (0-59)
     descriptive_time VARCHAR(100) NOT NULL DEFAULT '',
-    start_time_period TIMESTAMP, -- Period in which these operating hours are valid (e.g., for seasonal hours)
-    end_time_period TIMESTAMP, -- Period in which these operating hours are valid (e.g., for seasonal hours)
     specific_day DATE, -- Specific date for which these operating hours apply (e.g., for holidays)
-    type VARCHAR(25) NOT NULL DEFAULT '',
-    timezone VARCHAR(30) NOT NULL DEFAULT '',
     created_dt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_dt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (location_key) REFERENCES normalized.Locations(location_key),
     CONSTRAINT chk_day_of_week CHECK (day_of_week >= 1 AND day_of_week <= 7),
+    CONSTRAINT chk_day_start_hour CHECK (day_start_hour >= 0 AND day_start_hour <= 23),
+    CONSTRAINT chk_day_end_hour CHECK (day_end_hour >= 0 AND day_end_hour <= 23),
+    CONSTRAINT chk_day_start_minute CHECK (day_start_minute >= 0 AND day_start_minute <= 59),
+    CONSTRAINT chk_day_end_minute CHECK (day_end_minute >= 0 AND day_end_minute <= 59),
+    FOREIGN KEY (operating_hours_key) REFERENCES normalized.OperatingHours(operating_hours_key)
 );
 
 CREATE TABLE normalized.MediaTypes (

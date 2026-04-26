@@ -3,14 +3,14 @@
 -- Views Created for NPS Data Migration
 
 -- View unique designations from the parks table to populate the location types dimension table during the migration
-CREATE VIEW nps.v_location_types AS
+CREATE OR REPLACE VIEW nps.v_location_types AS
 SELECT DISTINCT
     designation AS location_type
 FROM nps.parks
-WHERE designation IS NOT NULL
+WHERE designation IS NOT NULL;
 
 -- View to denormalize the parks data by including activity and topic names as comma-separated lists
-CREATE VIEW nps.v_locations AS
+CREATE OR REPLACE VIEW nps.v_locations AS
 SELECT
     id AS migration_primary_key,
     npsId AS orig_data_source_key,
@@ -23,6 +23,7 @@ SELECT
     designation AS location_type, -- Data Source Key determined from here during the migration.
     1 AS data_source_key, -- NPS datasource
     TO_JSON(STRUCT_PACK(
+        park_code := p.parkCode,
     	activities := (
 	    	SELECT LIST(a.name ORDER BY ac.ord)
 	        FROM UNNEST(p.activities) WITH ORDINALITY AS ac(id, ord)
@@ -37,7 +38,7 @@ SELECT
 FROM nps.parks p;
 
 -- View to denormalize the campgrounds data by including campground amenities and campground campsites into comma-separated lists
-CREATE VIEW nps.v_location_campgrounds AS
+CREATE OR REPLACE VIEW nps.v_location_campgrounds AS
 SELECT
     c.npsId AS orig_data_source_key,
     c.id AS migration_primary_key,
@@ -100,12 +101,13 @@ SELECT
     JOIN nps.parks p
         ON c.parkCode = p.parkCode;
 
-
 -- View to retrieve all media items for a given park/campground
-CREATE VIEW nps.v_media AS
+CREATE OR REPLACE VIEW nps.v_media AS
 SELECT * FROM (
 SELECT
 	id,
+	parkId,
+	campgroundId,
 	credit,
 	title,
 	altText,
@@ -118,10 +120,12 @@ SELECT
 FROM
 nps.images
 
-UNION
+UNION ALL
 
 SELECT
 	id,
+	parkId,
+	campgroundId,
 	'NPS' as credit,
 	title,
 	'' as altText,
@@ -135,11 +139,10 @@ FROM
 nps.multimedia
 WHERE media_type NOT LIKE '%galleries%'
 )
-
 ORDER BY media_type;
 
 -- Views to retrieve all park and campground website urls for migration to the website entity
-CREATE VIEW nps.park_websites AS
+CREATE OR REPLACE VIEW nps.v_park_websites AS
 SELECT
 	id AS park_id,
 	directionsInfo AS directions_info,
@@ -147,7 +150,7 @@ SELECT
 	url AS primary_url
 FROM nps.parks;
 
-CREATE VIEW nps.campground_websites
+CREATE OR REPLACE VIEW nps.v_campground_websites AS
 SELECT
 	c.id as campground_id,
 	c.regulationsUrl AS regulations_url,
@@ -159,11 +162,165 @@ FROM nps.campgrounds c
 JOIN nps.parks p
 	ON p.parkCode = c.parkCode;
 
--- View to retrieve and transform the operating hours data for parks and campgrounds for migration to the location operating hours entity
+-- View to retrieve the operating hours header data (names and periods)
+CREATE OR REPLACE VIEW nps.v_operating_hours AS
+SELECT
+    id,
+    parkId,
+    campgroundId,
+    name,
+    description,
+    'Regular' as type,
+    NULL as startDate,
+    NULL as endDate
+FROM nps.operating_hours
+UNION ALL
+SELECT
+    oh.id,
+    oh.parkId,
+    oh.campgroundId,
+    e.name,
+    oh.description,
+    'Exception' as type,
+    e.startDate,
+    e.endDate
+FROM nps.operating_hours_exceptions e
+JOIN nps.operating_hours oh ON e.operatingHoursId = oh.id;
+
+-- View to retrieve and transform the operating hours detail data (times per day)
+CREATE OR REPLACE VIEW nps.v_operating_hours_times AS
+WITH base_hours AS (
+    SELECT
+        id as operating_hours_id,
+        parkId,
+        campgroundId,
+        'Regular' as type,
+        NULL as startDate,
+        NULL as endDate,
+        monday, tuesday, wednesday, thursday, friday, saturday, sunday
+    FROM nps.operating_hours
+    UNION ALL
+    SELECT
+        oh.id as operating_hours_id,
+        oh.parkId,
+        oh.campgroundId,
+        'Exception' as type,
+        e.startDate,
+        e.endDate,
+        e.monday, e.tuesday, e.wednesday, e.thursday, e.friday, e.saturday, e.sunday
+    FROM nps.operating_hours_exceptions e
+    JOIN nps.operating_hours oh ON e.operatingHoursId = oh.id
+),
+unpivoted AS (
+    SELECT
+        operating_hours_id,
+        parkId,
+        campgroundId,
+        type,
+        startDate,
+        endDate,
+        day_name,
+        hours_text,
+        CASE
+            WHEN day_name = 'monday' THEN 1
+            WHEN day_name = 'tuesday' THEN 2
+            WHEN day_name = 'wednesday' THEN 3
+            WHEN day_name = 'thursday' THEN 4
+            WHEN day_name = 'friday' THEN 5
+            WHEN day_name = 'saturday' THEN 6
+            WHEN day_name = 'sunday' THEN 7
+        END AS day_of_week
+    FROM base_hours
+    UNPIVOT (hours_text FOR day_name IN (monday, tuesday, wednesday, thursday, friday, saturday, sunday))
+),
+parsed_times AS (
+    SELECT
+        *,
+        regexp_extract(hours_text, '^(\d{1,2}):(\d{2})(AM|PM)', ['h', 'm', 'p']) as s,
+        regexp_extract(hours_text, '(\d{1,2}):(\d{2})(AM|PM)$', ['h', 'm', 'p']) as e
+    FROM unpivoted
+)
+SELECT
+    operating_hours_id,
+    parkId,
+    campgroundId,
+    type,
+    startDate,
+    endDate,
+    day_name,
+    hours_text,
+    day_of_week,
+    CASE
+        WHEN hours_text = 'All Day' THEN 0
+        WHEN s.h IS NOT NULL AND s.h != '' THEN
+            TRY_CAST(s.h AS INT) + CASE WHEN s.p = 'PM' AND s.h != '12' THEN 12 WHEN s.p = 'AM' AND s.h = '12' THEN -12 ELSE 0 END
+        ELSE NULL
+    END AS day_start_hour,
+    CASE
+        WHEN hours_text = 'All Day' THEN 0
+        WHEN s.m IS NOT NULL AND s.m != '' THEN TRY_CAST(s.m AS INT)
+        ELSE NULL
+    END AS day_start_minute,
+    CASE
+        WHEN hours_text = 'All Day' THEN 23
+        WHEN e.h IS NOT NULL AND e.h != '' THEN
+            TRY_CAST(e.h AS INT) + CASE WHEN e.p = 'PM' AND e.h != '12' THEN 12 WHEN e.p = 'AM' AND e.h = '12' THEN -12 ELSE 0 END
+        ELSE NULL
+    END AS day_end_hour,
+    CASE
+        WHEN hours_text = 'All Day' THEN 59
+        WHEN e.m IS NOT NULL AND e.m != '' THEN TRY_CAST(e.m AS INT)
+        ELSE NULL
+    END AS day_end_minute
+FROM parsed_times;
+
+-- View to retrieve all unique NPS Address Types for migration to the AddressTypes dimension table
+CREATE OR REPLACE VIEW nps.v_address_types AS
+SELECT DISTINCT
+    type AS address_type
+FROM nps.addresses
+WHERE type IS NOT NULL;
+
+-- View to retrieve the location and campground addresses
+CREATE OR REPLACE VIEW nps.v_addresses AS
+SELECT
+    id,
+    parkId,
+    campgroundId,
+    postalCode  AS postal_code,
+    city,
+    stateCode AS state_abbre,
+    countryCode AS country_code,
+    line1 AS address_line_1,
+    line2 AS address_line_2,
+    line3 AS address_line_3,
+    type
+FROM nps.addresses;
+
+-- View to retrieve the location and campground contacts
+CREATE OR REPLACE VIEW nps.v_contact_emails AS
+SELECT
+    id,
+    parkId,
+    campgroundId,
+    emailAddress as email_address,
+    description,
+    '' as type
+FROM nps.contact_email_addresses;
+
+CREATE OR REPLACE VIEW nps.v_contact_phones AS
+SELECT
+    id,
+    parkId,
+    campgroundId,
+    phoneNumber as phone_number,
+    extension,
+    description,
+    type
+FROM nps.contact_phone_numbers;
 
 
-
-
+rollback;
 
 
 -- Start Transaction
@@ -171,28 +328,282 @@ JOIN nps.parks p
 BEGIN TRANSACTION;
 
 -- Migrate unique park designations to the location types dimension table
--- view created
+INSERT INTO normalized.LocationTypes (location_type_key, name, description)
+SELECT
+    (SELECT COALESCE(MAX(location_type_key), 0) FROM normalized.LocationTypes) + row_number() OVER (),
+    location_type,
+    'NPS Designation: ' || location_type
+FROM nps.v_location_types
+WHERE location_type NOT IN (SELECT name FROM normalized.LocationTypes);
 
 -- Migrate the denormalized parks data to the locations table
--- view created
+INSERT INTO normalized.Locations (
+    location_key,
+    name,
+    data_source_key,
+    location_type_key,
+    orig_data_source_key,
+    migration_primary_key,
+    latitude,
+    longitude,
+    description,
+    weather_info,
+    states,
+    attributes
+)
+SELECT
+    (SELECT COALESCE(MAX(location_key), 0) FROM normalized.Locations) + row_number() OVER (),
+    v.name,
+    v.data_source_key,
+    lt.location_type_key,
+    v.orig_data_source_key,
+    v.migration_primary_key,
+    v.latitude,
+    v.longitude,
+    v.description,
+    v.weather_info,
+    v.states,
+    v.attributes
+FROM nps.v_locations v
+JOIN normalized.LocationTypes lt ON v.location_type = lt.name;
 
 -- Migrate the denormalized campgrounds data to the locations table
--- view created
+INSERT INTO normalized.Locations (
+    location_key,
+    name,
+    data_source_key,
+    location_type_key,
+    orig_data_source_key,
+    migration_primary_key,
+    latitude,
+    longitude,
+    description,
+    weather_info,
+    states,
+    attributes
+)
+SELECT
+    (SELECT COALESCE(MAX(location_key), 0) FROM normalized.Locations) + row_number() OVER (),
+    name,
+    data_source_key,
+    location_type_key,
+    orig_data_source_key,
+    migration_primary_key,
+    latitude,
+    longitude,
+    description,
+    weather_info,
+    states,
+    attributes
+FROM nps.v_location_campgrounds;
 
--- Migrate the media data to the media table, associating each media item with the correct location based on the original data source keys and location types
--- view created
+-- Update parent-child relationship for campgrounds (linking them to their respective parks)
+UPDATE normalized.Locations
+SET location_parent_key = p.location_key
+FROM (
+    SELECT location_key, attributes->>'$.park_code' as park_code
+    FROM normalized.Locations
+    WHERE data_source_key = 1 AND location_type_key != 6
+) p
+WHERE normalized.Locations.data_source_key = 1
+  AND normalized.Locations.location_type_key = 6
+  AND normalized.Locations.attributes->>'$.park_code' = p.park_code;
+
+-- Migrate the media data to the media table
+INSERT INTO normalized.Media (
+    media_key,
+    media_type_key,
+    location_key,
+    credit,
+    title,
+    altText,
+    caption,
+    url,
+    subtitle,
+    height,
+    width
+)
+SELECT
+    (SELECT COALESCE(MAX(media_key), 0) FROM normalized.Media) + row_number() OVER (),
+    COALESCE(mt.media_type_key, 0),
+    l.location_key,
+    v.credit,
+    v.title,
+    v.altText,
+    v.caption,
+    v.url,
+    v.subtitle,
+    v.height,
+    v.width
+FROM nps.v_media v
+JOIN normalized.Locations l ON
+    (v.parkId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key != 6)
+    OR
+    (v.campgroundId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key = 6)
+LEFT JOIN normalized.MediaTypes mt ON mt.name = CASE
+    WHEN v.media_type IN ('photo', 'image', 'jpg', 'jpeg', 'png') THEN 'Photo'
+    WHEN v.media_type IN ('video', 'mp4', 'mov') THEN 'Video'
+    WHEN v.media_type IN ('audio', 'mp3', 'wav') THEN 'Audio'
+    ELSE 'UNKNOWN'
+END;
 
 -- Migrate the park and campground website urls to the website entity
--- cire created
+INSERT INTO normalized.Websites (website_key, website_type_key, location_key, url, description)
+SELECT
+    (SELECT COALESCE(MAX(website_key), 0) FROM normalized.Websites) + row_number() OVER (),
+    0, -- UNKNOWN website type
+    l.location_key,
+    v.primary_url,
+    'Primary Website'
+FROM nps.v_park_websites v
+JOIN normalized.Locations l ON v.park_id = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key != 6
+WHERE v.primary_url IS NOT NULL;
 
--- Migrate the location operating hours
--- TODO: create view
+INSERT INTO normalized.Websites (website_key, website_type_key, location_key, url, description)
+SELECT
+    (SELECT COALESCE(MAX(website_key), 0) FROM normalized.Websites) + row_number() OVER (),
+    0, -- UNKNOWN website type
+    l.location_key,
+    v.primary_url,
+    'Primary Website'
+FROM nps.v_campground_websites v
+JOIN normalized.Locations l ON v.campground_id = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key = 6
+WHERE v.primary_url IS NOT NULL;
+
+-- Migrate the location operating hours (Header)
+INSERT INTO normalized.OperatingHours (
+    operating_hours_key,
+    location_key,
+    name,
+    description,
+    type,
+    start_time_period,
+    end_time_period
+)
+SELECT
+    (SELECT COALESCE(MAX(operating_hours_key), 0) FROM normalized.OperatingHours) + row_number() OVER (),
+    l.location_key,
+    v.name,
+    v.description,
+    v.type,
+    TRY_CAST(v.startDate AS TIMESTAMP),
+    TRY_CAST(v.endDate AS TIMESTAMP)
+FROM nps.v_operating_hours v
+JOIN normalized.Locations l ON
+    (v.parkId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key != 6)
+    OR
+    (v.campgroundId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key = 6);
+
+-- Migrate the location operating hours times (Detail)
+INSERT INTO normalized.OperatingHoursTimes (
+    operating_hours_time_key,
+    operating_hours_key,
+    day_of_week,
+    day_start_hour,
+    day_start_minute,
+    day_end_hour,
+    day_end_minute,
+    descriptive_time
+)
+SELECT
+    (SELECT COALESCE(MAX(operating_hours_time_key), 0) FROM normalized.OperatingHoursTimes) + row_number() OVER (),
+    oh.operating_hours_key,
+    v.day_of_week,
+    v.day_start_hour,
+    v.day_start_minute,
+    v.day_end_hour,
+    v.day_end_minute,
+    v.hours_text
+FROM nps.v_operating_hours_times v
+JOIN normalized.Locations l ON
+    (v.parkId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key != 6)
+    OR
+    (v.campgroundId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key = 6)
+JOIN normalized.OperatingHours oh ON
+    oh.location_key = l.location_key
+    AND oh.name = (SELECT name FROM nps.v_operating_hours WHERE id = v.operating_hours_id AND type = v.type LIMIT 1) -- Match on name and type to get the correct header
+    AND oh.type = v.type;
 
 -- Migrate the location and campground addresses
--- TODO: create view
+-- First, ensure all NPS address types are in the AddressTypes table
+INSERT INTO normalized.AddressTypes (address_type_key, name, description)
+SELECT
+    (SELECT COALESCE(MAX(address_type_key), 0) FROM normalized.AddressTypes) + row_number() OVER () AS address_type_key,
+    trim(type),
+    'NPS Address Type' AS description
+FROM (SELECT DISTINCT type FROM nps.v_addresses)
+WHERE type NOT IN (SELECT name FROM normalized.AddressTypes);
 
--- Migrate the location and campground contacts
--- TODO: create view
+--INSERT INTO normalized.Addresses (
+--    address_key,
+--    location_key,
+--    address_type_key,
+--    postal_code,
+--    city,
+--    state_abbre,
+--    address_line_1,
+--    address_line_2,
+--    address_line_3,
+--    country_code
+--)
+--SELECT
+--    (SELECT COALESCE(MAX(address_key), 0) FROM normalized.Addresses) + row_number() OVER (),
+--    l.location_key,
+--    at.address_type_key,
+--    v.postalCode,
+--    v.city,
+--    v.state_abbre,
+--    v.line1,
+--    v.line2,
+--    v.line3,
+--    v.countryCode
+--FROM nps.v_addresses v
+--JOIN normalized.Locations l ON
+--    (v.parkId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key != 6)
+--    OR
+--    (v.campgroundId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key = 6)
+--JOIN normalized.AddressTypes at ON trim(v.type) = trim(at.name);
 
+-- Migrate the location and campground contacts (Emails)
+INSERT INTO normalized.ContactEmailAddresses (
+    contact_email_address_key,
+    location_key,
+    email_address,
+    description,
+    type
+)
+SELECT
+    (SELECT COALESCE(MAX(contact_email_address_key), 0) FROM normalized.ContactEmailAddresses) + row_number() OVER (),
+    l.location_key,
+    v.emailAddress,
+    v.description,
+    'Email'
+FROM nps.v_contact_emails v
+JOIN normalized.Locations l ON
+    (v.parkId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key != 6)
+    OR
+    (v.campgroundId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key = 6);
+
+-- Migrate the location and campground contacts (Phones)
+INSERT INTO normalized.ContactPhoneNumbers (
+    contact_phone_number_key,
+    location_key,
+    phone_number,
+    description,
+    extension,
+    type
+)
+SELECT
+    (SELECT COALESCE(MAX(contact_phone_number_key), 0) FROM normalized.ContactPhoneNumbers) + row_number() OVER (),
+    l.location_key,
+    v.phoneNumber,
+    v.description,
+    v.extension,
+    v.type
+FROM nps.v_contact_phones v
+JOIN normalized.Locations l ON
+    (v.parkId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key != 6)
+    OR
+    (v.campgroundId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key = 6);
 
 COMMIT;

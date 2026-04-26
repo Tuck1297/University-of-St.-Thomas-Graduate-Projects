@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="909A2BAA-12F1-F0D5-4924-97A4891AE656" containerWithKeyObject="5822E39E-1A3E-6DD4-3A00-4617E7B0308C" localFKIndex="07608F22-7512-573B-AEC6-2B2D7F85147D" name="Operating_Hours_Time_Operating_Hours_FK">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:58:11 UTC</createdTime>
+<generatorID>83E5FBEC-EA55-3246-907A-5E5994F26171</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<referredTableLongName>Operating_Hours</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BC4D5D36-F03F-B2D1-2363-25F8DE478ACF</referredTableID>
+<keyObject>DC85DBA4-19F9-38C7-EE6B-1C7DF6F6C2D1</keyObject>
+<referredKeyID>DC85DBA4-19F9-38C7-EE6B-1C7DF6F6C2D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>operating_hours_key</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

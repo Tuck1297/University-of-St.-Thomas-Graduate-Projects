@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC4D5D36-F03F-B2D1-2363-25F8DE478ACF" name="Operating_Hours">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5822E39E-1A3E-6DD4-3A00-4617E7B0308C" name="Operating_Hours_Time">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-22 00:12:38 UTC</createdTime>
-<generatorID>75FA9724-3E40-1B64-1CFD-83BDA61A4656</generatorID>
+<createdTime>2026-04-26 20:58:11 UTC</createdTime>
+<generatorID>A9ED3059-A0E6-F461-6AAA-5A13BF7CC635</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="operating_hours_key" id="D3D9F004-B00D-BB94-3B89-32ED642542FD">
+<Column name="operating_hours_time_key" id="72849FD4-77AC-B785-6451-4D1C89EC336A">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-22 00:12:38 UTC</createdTime>
-<generatorID>1AF707BE-FF35-F671-B732-67BF2EA44389</generatorID>
+<createdTime>2026-04-26 20:58:11 UTC</createdTime>
+<generatorID>4AE7C091-20DE-6B77-8191-D3CC99590906</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,10 +19,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="location_key" id="F96828B9-74BE-020B-CE83-7E46DDD8F55D">
+<Column name="operating_hours_key" id="BA3BD12C-76E0-850F-C867-681601F5242A">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-22 00:12:38 UTC</createdTime>
-<generatorID>BBB54DCE-BC0C-6C10-9354-ADCAC521E3CA</generatorID>
+<createdTime>2026-04-26 20:58:11 UTC</createdTime>
+<generatorID>86A39EEE-D7F5-AA1F-E3C9-838CA3271D7F</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,13 +31,70 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8AB88F62-9C6D-B459-5AEA-BAA6D8229CEE" referredColumn="97BD3AAA-38D0-265C-DA10-ADB5660F5380"/>
+<colAssociation fkAssociation="909A2BAA-12F1-F0D5-4924-97A4891AE656" referredColumn="D3D9F004-B00D-BB94-3B89-32ED642542FD"/>
 </associations>
 </Column>
-<Column name="name" id="45023C80-CE19-0F6F-3383-9C592F1CBC6C">
+<Column name="day_of_week" id="89DE0FB8-5255-D00F-13BF-83DDDB16BC97">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-22 00:12:38 UTC</createdTime>
-<generatorID>6AE729CB-210B-1135-B82F-6E88DF5AAB2B</generatorID>
+<createdTime>2026-04-26 21:17:17 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="day_start_hour" id="67A56AE9-2C23-F824-A377-47B0BCC536EC">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:58:11 UTC</createdTime>
+<generatorID>3875CA46-8B1B-6218-4D01-0D7E390F9E43</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="day_end_hour" id="39F34D0A-DA41-D036-DE28-431C16595E4C">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:58:11 UTC</createdTime>
+<generatorID>9BD719C1-FBBF-9568-91DF-94FE7CCB1C16</generatorID>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="day_start_minute" id="F8F29E3C-61F1-76E6-201B-AC764313D291">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 21:17:17 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="day_end_minute" id="A24656EB-C6D9-B5E4-DE81-4815467DBA8A">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 21:17:17 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descriptive_time" id="53D0CE72-0726-3D88-24E2-51851BB3CB3E">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:58:11 UTC</createdTime>
+<generatorID>E674889F-F590-4230-6E4B-1BEF6DF976E7</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,72 +104,21 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="description" id="3F48A02A-C791-447C-A213-84FDC2873F18">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-22 00:12:38 UTC</createdTime>
-<generatorID>22F9FD62-6BD7-D0C1-88BA-1A3CCECF9EA4</generatorID>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="type" id="05B0294B-0CC7-32EC-C538-879F3B7D34D3">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-22 00:12:38 UTC</createdTime>
-<generatorID>9A3E988B-C652-8EB1-DE73-53E86928807C</generatorID>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25</dataTypeSize>
-<ownDataTypeParameters>25,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="timezone" id="CEA1AA2B-3A83-14AA-FF2E-A184B390F1BC">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-22 00:12:38 UTC</createdTime>
-<generatorID>82627DA7-427A-B038-E313-ED76DEAC9E24</generatorID>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="start_time_period" id="D31F81CB-B802-64F7-BD0C-C1DFF48F2E70">
+<Column name="specific_day" id="7542E21D-935A-FACE-40BE-330CF75513DF">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-26 20:58:11 UTC</createdTime>
-<generatorID>E18C78AE-E1DD-90A5-0C66-EA49397BAAA2</generatorID>
+<generatorID>62B9DC98-96B9-5A56-36C9-5A107A03AEDB</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="end_time_period" id="52FC6C4F-8F29-D1E7-AA39-570CAA4965BD">
+<Column name="created_dt" id="DF2C766F-C8B0-DB80-08AD-A8D2E46A1AD6">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-26 20:58:11 UTC</createdTime>
-<generatorID>59233BC2-E45B-D912-F1AD-317F93C34C68</generatorID>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="created_dt" id="D7FB2E5E-71BC-8A6E-0248-2E18F8232D4A">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-26 21:00:25 UTC</createdTime>
+<createdTime>2026-04-26 21:00:29 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -121,9 +127,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="updated_dt" id="1327C0C5-E59E-3F10-F8FE-4D28CC255FE0">
+<Column name="updated_dt" id="A27BFA29-B623-AB05-19EB-41505A58180E">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-26 21:00:25 UTC</createdTime>
+<createdTime>2026-04-26 21:00:29 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -134,27 +140,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DC85DBA4-19F9-38C7-EE6B-1C7DF6F6C2D1" name="Operating_Hours_PK">
+<ind_PK_UK id="BC40F989-3935-F3C8-D904-13A1239C2C82" name="Operating_Hours_Time_PK">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-22 00:12:38 UTC</createdTime>
-<generatorID>76763177-615F-647C-2F86-F2B54F63A3AF</generatorID>
+<createdTime>2026-04-26 20:58:11 UTC</createdTime>
+<generatorID>BF21AB36-5848-3E64-2B51-3F34817D4B54</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D3D9F004-B00D-BB94-3B89-32ED642542FD"/>
+<colUsage columnID="72849FD4-77AC-B785-6451-4D1C89EC336A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="55E24497-C8A8-D88F-A37E-2159C38C9352" name="Operating_Hours_Location_FK">
+<ind_PK_UK id="07608F22-7512-573B-AEC6-2B2D7F85147D" name="Operating_Hours_Time_Operating_Hours_FK">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-22 00:12:38 UTC</createdTime>
-<generatorID>59AFCD2B-9CD1-E257-E36B-B94E0E1B3E4B</generatorID>
+<createdTime>2026-04-26 20:58:11 UTC</createdTime>
+<generatorID>83E5FBEC-EA55-3246-907A-5E5994F26171</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F96828B9-74BE-020B-CE83-7E46DDD8F55D"/>
+<colUsage columnID="BA3BD12C-76E0-850F-C867-681601F5242A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

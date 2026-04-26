@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75FA9724-3E40-1B64-1CFD-83BDA61A4656" name="Operating Hours">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9ED3059-A0E6-F461-6AAA-5A13BF7CC635" name="Operating Hours Time">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-19 22:59:47 UTC</createdTime>
+<createdTime>2026-04-26 20:52:41 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="operating_hours_key" id="1AF707BE-FF35-F671-B732-67BF2EA44389">
+<Attribute name="operating_hours_time_key" id="4AE7C091-20DE-6B77-8191-D3CC99590906">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:13:36 UTC</createdTime>
+<createdTime>2026-04-26 20:53:56 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
@@ -27,23 +27,48 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="location_key" id="BBB54DCE-BC0C-6C10-9354-ADCAC521E3CA">
+<Attribute name="day_start_time" id="3875CA46-8B1B-6218-4D01-0D7E390F9E43">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:07:00 UTC</createdTime>
-<generatorID>59AFCD2B-9CD1-E257-E36B-B94E0E1B3E4B</generatorID>
+<createdTime>2026-04-26 20:53:56 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
 </engineerTo>
-<referedAttribute>C2B247EC-3DDD-1F58-D058-EECBCE87E464</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="6AE729CB-210B-1135-B82F-6E88DF5AAB2B">
+<Attribute name="day_end_time" id="9BD719C1-FBBF-9568-91DF-94FE7CCB1C16">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-21 01:54:22 UTC</createdTime>
+<createdTime>2026-04-26 20:53:56 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="specific_day" id="62B9DC98-96B9-5A56-36C9-5A107A03AEDB">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:53:56 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<engineerTo>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descriptive_time" id="E674889F-F590-4230-6E4B-1BEF6DF976E7">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:53:56 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
@@ -55,86 +80,32 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="description" id="22F9FD62-6BD7-D0C1-88BA-1A3CCECF9EA4">
+<Attribute name="operating_hours_key" id="86A39EEE-D7F5-AA1F-E3C9-838CA3271D7F">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-21 01:53:52 UTC</createdTime>
+<createdTime>2026-04-26 20:54:54 UTC</createdTime>
+<generatorID>83E5FBEC-EA55-3246-907A-5E5994F26171</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1AF707BE-FF35-F671-B732-67BF2EA44389</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="type" id="9A3E988B-C652-8EB1-DE73-53E86928807C">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-21 02:02:19 UTC</createdTime>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25</dataTypeSize>
-<ownDataTypeParameters>25,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="timezone" id="82627DA7-427A-B038-E313-ED76DEAC9E24">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-21 02:03:18 UTC</createdTime>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="start_time_period" id="E18C78AE-E1DD-90A5-0C66-EA49397BAAA2">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-26 20:56:17 UTC</createdTime>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="end_time_period" id="59233BC2-E45B-D912-F1AD-317F93C34C68">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-26 20:56:17 UTC</createdTime>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="76763177-615F-647C-2F86-F2B54F63A3AF" name="Operating Hours PK">
+<identifier id="BF21AB36-5848-3E64-2B51-3F34817D4B54" name="Operating Hours Time PK">
 <createdBy>Tucker</createdBy>
-<createdTime>2026-04-20 00:13:49 UTC</createdTime>
+<createdTime>2026-04-26 20:54:16 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
 <engineerTo>
 <item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1AF707BE-FF35-F671-B732-67BF2EA44389</attributeRef>
+<attributeRef>4AE7C091-20DE-6B77-8191-D3CC99590906</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
