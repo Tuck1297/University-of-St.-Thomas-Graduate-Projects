@@ -145,6 +145,7 @@ ORDER BY media_type;
 CREATE OR REPLACE VIEW nps.v_park_websites AS
 SELECT
 	id AS park_id,
+    id AS migration_primary_key,
 	directionsInfo AS directions_info,
 	directionsUrl AS directions_url,
 	url AS primary_url
@@ -153,6 +154,7 @@ FROM nps.parks;
 CREATE OR REPLACE VIEW nps.v_campground_websites AS
 SELECT
 	c.id as campground_id,
+    c.id AS migration_primary_key,
 	c.regulationsUrl AS regulations_url,
     c.directionsUrl AS directions_url,
     c.reservationsUrl AS reservations_url,
@@ -320,7 +322,6 @@ SELECT
 FROM nps.contact_phone_numbers;
 
 
-rollback;
 
 
 -- Start Transaction
@@ -401,13 +402,13 @@ FROM nps.v_location_campgrounds;
 UPDATE normalized.Locations
 SET location_parent_key = p.location_key
 FROM (
-    SELECT location_key, attributes->>'$.park_code' as park_code
+    SELECT location_key, json_extract_string(attributes, '$.park_code') as park_code
     FROM normalized.Locations
     WHERE data_source_key = 1 AND location_type_key != 6
 ) p
 WHERE normalized.Locations.data_source_key = 1
   AND normalized.Locations.location_type_key = 6
-  AND normalized.Locations.attributes->>'$.park_code' = p.park_code;
+  AND json_extract_string(normalized.Locations.attributes, '$.park_code') = p.park_code;
 
 -- Migrate the media data to the media table
 INSERT INTO normalized.Media (
@@ -451,24 +452,33 @@ END;
 INSERT INTO normalized.Websites (website_key, website_type_key, location_key, url, description)
 SELECT
     (SELECT COALESCE(MAX(website_key), 0) FROM normalized.Websites) + row_number() OVER (),
-    0, -- UNKNOWN website type
+    v.website_type_key,
     l.location_key,
-    v.primary_url,
-    'Primary Website'
-FROM nps.v_park_websites v
-JOIN normalized.Locations l ON v.park_id = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key != 6
-WHERE v.primary_url IS NOT NULL;
-
-INSERT INTO normalized.Websites (website_key, website_type_key, location_key, url, description)
-SELECT
-    (SELECT COALESCE(MAX(website_key), 0) FROM normalized.Websites) + row_number() OVER (),
-    0, -- UNKNOWN website type
-    l.location_key,
-    v.primary_url,
-    'Primary Website'
-FROM nps.v_campground_websites v
-JOIN normalized.Locations l ON v.campground_id = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key = 6
-WHERE v.primary_url IS NOT NULL;
+    v.url,
+    v.description
+FROM (
+    -- Park Websites (location_type_key != 6)
+    SELECT migration_primary_key, 1 as website_type_key, primary_url as url, 'Primary Website' as description, 'PARK' as source FROM nps.v_park_websites WHERE primary_url IS NOT NULL
+    UNION ALL
+    SELECT migration_primary_key, 2 as website_type_key, directions_url as url, 'Directions Website', 'PARK' as source FROM nps.v_park_websites WHERE directions_url IS NOT NULL
+    
+    UNION ALL
+    
+    -- Campground Websites (location_type_key = 6)
+    SELECT migration_primary_key, 1 as website_type_key, primary_url as url, 'Primary Park Website' as description, 'CAMPGROUND' as source FROM nps.v_campground_websites WHERE primary_url IS NOT NULL
+    UNION ALL
+    SELECT migration_primary_key, 2 as website_type_key, directions_url as url, 'Directions Website', 'CAMPGROUND' as source FROM nps.v_campground_websites WHERE directions_url IS NOT NULL
+    UNION ALL
+    SELECT migration_primary_key, 3 as website_type_key, regulations_url as url, 'Regulations Website', 'CAMPGROUND' as source FROM nps.v_campground_websites WHERE regulations_url IS NOT NULL
+    UNION ALL
+    SELECT migration_primary_key, 4 as website_type_key, reservations_url as url, COALESCE(reservations_description, 'Reservations Website'), 'CAMPGROUND' as source FROM nps.v_campground_websites WHERE reservations_url IS NOT NULL
+) v
+JOIN normalized.Locations l ON v.migration_primary_key = l.migration_primary_key AND l.data_source_key = 1
+AND (
+    (v.source = 'PARK' AND l.location_type_key != 6)
+    OR
+    (v.source = 'CAMPGROUND' AND l.location_type_key = 6)
+);
 
 -- Migrate the location operating hours (Header)
 INSERT INTO normalized.OperatingHours (
@@ -528,41 +538,41 @@ JOIN normalized.OperatingHours oh ON
 -- First, ensure all NPS address types are in the AddressTypes table
 INSERT INTO normalized.AddressTypes (address_type_key, name, description)
 SELECT
-    (SELECT COALESCE(MAX(address_type_key), 0) FROM normalized.AddressTypes) + row_number() OVER () AS address_type_key,
+    (SELECT COALESCE(MAX(address_type_key), 0) FROM normalized.AddressTypes) + row_number() OVER (),
     trim(type),
-    'NPS Address Type' AS description
+    'NPS Address Type'
 FROM (SELECT DISTINCT type FROM nps.v_addresses)
-WHERE type NOT IN (SELECT name FROM normalized.AddressTypes);
+WHERE trim(type) NOT IN (SELECT name FROM normalized.AddressTypes);
 
---INSERT INTO normalized.Addresses (
---    address_key,
---    location_key,
---    address_type_key,
---    postal_code,
---    city,
---    state_abbre,
---    address_line_1,
---    address_line_2,
---    address_line_3,
---    country_code
---)
---SELECT
---    (SELECT COALESCE(MAX(address_key), 0) FROM normalized.Addresses) + row_number() OVER (),
---    l.location_key,
---    at.address_type_key,
---    v.postalCode,
---    v.city,
---    v.state_abbre,
---    v.line1,
---    v.line2,
---    v.line3,
---    v.countryCode
---FROM nps.v_addresses v
---JOIN normalized.Locations l ON
---    (v.parkId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key != 6)
---    OR
---    (v.campgroundId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key = 6)
---JOIN normalized.AddressTypes at ON trim(v.type) = trim(at.name);
+INSERT INTO normalized.Addresses (
+    address_key,
+    location_key,
+    address_type_key,
+    postal_code,
+    city,
+    state_abbre,
+    address_line_1,
+    address_line_2,
+    address_line_3,
+    country_code
+)
+SELECT
+    (SELECT COALESCE(MAX(address_key), 0) FROM normalized.Addresses) + row_number() OVER (),
+    l.location_key,
+    addr_type.address_type_key,
+    v.postal_code,
+    v.city,
+    v.state_abbre,
+    v.address_line_1,
+    v.address_line_2,
+    v.address_line_3,
+    v.country_code
+FROM nps.v_addresses v
+JOIN normalized.Locations l ON
+    (v.parkId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key != 6)
+    OR
+    (v.campgroundId = l.migration_primary_key AND l.data_source_key = 1 AND l.location_type_key = 6)
+JOIN normalized.AddressTypes addr_type ON trim(v.type) = trim(addr_type.name);
 
 -- Migrate the location and campground contacts (Emails)
 INSERT INTO normalized.ContactEmailAddresses (
@@ -575,7 +585,7 @@ INSERT INTO normalized.ContactEmailAddresses (
 SELECT
     (SELECT COALESCE(MAX(contact_email_address_key), 0) FROM normalized.ContactEmailAddresses) + row_number() OVER (),
     l.location_key,
-    v.emailAddress,
+    v.email_address,
     v.description,
     'Email'
 FROM nps.v_contact_emails v
@@ -596,7 +606,7 @@ INSERT INTO normalized.ContactPhoneNumbers (
 SELECT
     (SELECT COALESCE(MAX(contact_phone_number_key), 0) FROM normalized.ContactPhoneNumbers) + row_number() OVER (),
     l.location_key,
-    v.phoneNumber,
+    v.phone_number,
     v.description,
     v.extension,
     v.type

@@ -18,6 +18,7 @@ CREATE SCHEMA IF NOT EXISTS normalized;
 /* NOTE: If you don't want to drop tables without checking if there is data in them, you will have to run
          that check in a python script or manually before running this SQL script. */
 
+DROP TABLE IF EXISTS normalized.OperatingHoursTimes;
 DROP TABLE IF EXISTS normalized.OperatingHours;
 DROP TABLE IF EXISTS normalized.Media;
 DROP TABLE IF EXISTS normalized.MediaTypes;
@@ -73,7 +74,7 @@ INSERT INTO normalized.LocationTypes (location_type_key, name, description) VALU
 CREATE TABLE normalized.Locations (
     location_key INTEGER PRIMARY KEY,
     name VARCHAR(300) NOT NULL DEFAULT '',
-    location_parent_key INTEGER NOT NULL DEFAULT 0,
+    location_parent_key INTEGER,
     data_source_key INTEGER NOT NULL DEFAULT 0,
     location_type_key INTEGER NOT NULL DEFAULT 0,
     orig_data_source_key VARCHAR(300), -- This is the original unique identifier for the location from the source system (e.g., npsId for NPS data)
@@ -95,6 +96,11 @@ CREATE TABLE normalized.Locations (
     FOREIGN KEY (location_type_key) REFERENCES normalized.LocationTypes(location_type_key),
     FOREIGN KEY (location_parent_key) REFERENCES normalized.Locations(location_key)
 );
+
+-- Insert default location
+INSERT INTO normalized.Locations (location_key, name, location_parent_key, data_source_key, location_type_key) VALUES
+(0, 'UNKNOWN', NULL, 0, 0);
+
 
 CREATE TABLE normalized.OperatingHours (
     operating_hours_key INTEGER PRIMARY KEY,
@@ -174,7 +180,11 @@ CREATE TABLE normalized.WebsiteTypes (
 
 -- Insert default website types
 INSERT INTO normalized.WebsiteTypes (website_type_key, name, description) VALUES
-(0, 'UNKNOWN', 'Unknown website type');
+(0, 'UNKNOWN', 'Unknown website type'),
+(1, 'Primary', 'The primary official website for the location'),
+(2, 'Directions', 'Website providing directions to the location'),
+(3, 'Regulations', 'Website providing rules and regulations for the location'),
+(4, 'Reservations', 'Website for making reservations at the location');
 
 CREATE TABLE normalized.Websites (
     website_key INTEGER PRIMARY KEY,
