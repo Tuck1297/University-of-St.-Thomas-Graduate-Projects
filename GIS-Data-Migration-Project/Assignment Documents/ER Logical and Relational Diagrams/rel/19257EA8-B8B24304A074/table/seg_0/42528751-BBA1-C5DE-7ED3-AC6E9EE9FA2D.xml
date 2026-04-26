@@ -28,8 +28,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="description" id="A0F4901E-CF53-E7E1-A0B3-23A6AD215A72">
@@ -45,7 +45,7 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Website_Type_website_type_key" id="B7F9BDE3-D5DA-C08C-D375-EBC07B6391DE">
+<Column name="website_type_key" id="B7F9BDE3-D5DA-C08C-D375-EBC07B6391DE">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-22 00:12:38 UTC</createdTime>
 <generatorID>63D9BE0D-DB05-73AA-9957-D0B0B7F99C4E</generatorID>
@@ -60,7 +60,7 @@
 <colAssociation fkAssociation="3C6CDF7C-FA04-AFB0-CB27-6E708B8998EA" referredColumn="96E3C24F-2744-A848-4F87-83470402E07A"/>
 </associations>
 </Column>
-<Column name="Location_location_key" id="5D66850E-9768-0E3C-FB11-F1011238F4D1">
+<Column name="location_key" id="5D66850E-9768-0E3C-FB11-F1011238F4D1">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-22 00:12:38 UTC</createdTime>
 <generatorID>46830054-80FB-ECC4-E84C-4F7113AD232F</generatorID>
@@ -74,6 +74,28 @@
 <associations>
 <colAssociation fkAssociation="6361DF70-AFA9-0A35-355B-4793200D5BCD" referredColumn="97BD3AAA-38D0-265C-DA10-ADB5660F5380"/>
 </associations>
+</Column>
+<Column name="created_dt" id="A2C8959B-13A4-1B47-40D3-1BE23966E26A">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:45:05 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_dt" id="91F42BED-4A8A-1593-7971-CADBF3616349">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:45:05 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

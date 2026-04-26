@@ -41,11 +41,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Location_location_key" id="E7628DD3-B5AA-9ACA-20B7-1075B1369DF9">
+<Column name="location_key" id="E7628DD3-B5AA-9ACA-20B7-1075B1369DF9">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-22 00:12:38 UTC</createdTime>
 <generatorID>3A92373F-C110-65DF-ADEE-25A8C85F75BF</generatorID>
@@ -59,6 +59,28 @@
 <associations>
 <colAssociation fkAssociation="13A8C784-740E-A2A5-23F7-C57369CC03B4" referredColumn="97BD3AAA-38D0-265C-DA10-ADB5660F5380"/>
 </associations>
+</Column>
+<Column name="created_dt" id="88C774FA-94AF-3AA1-0A30-5D71AEC88694">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:44:31 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_dt" id="3FB7E29F-07A2-029A-B4F1-4CCDE58E0EA6">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:44:31 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

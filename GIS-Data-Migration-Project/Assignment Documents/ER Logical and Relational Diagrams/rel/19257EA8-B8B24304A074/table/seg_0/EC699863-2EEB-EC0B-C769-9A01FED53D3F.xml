@@ -32,18 +32,6 @@
 <ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="location_parent_key" id="E5964074-09F2-780F-8F6E-574E1D31F560">
-<createdBy>Tucker</createdBy>
-<createdTime>2026-04-22 00:12:38 UTC</createdTime>
-<generatorID>9AFEBA08-18AC-F974-DA3C-814383308662</generatorID>
-<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="orig_data_source_key" id="A5FE282D-9D67-2D1C-82A0-03C4F306E211">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-22 00:12:38 UTC</createdTime>
@@ -55,6 +43,17 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>300</dataTypeSize>
 <ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="migration_primary_key" id="A5AF66B6-F046-746D-4970-A1BE37A4299B">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:41:23 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="latitude" id="8B00B1BF-898F-203C-979E-E5FC90D04ACB">
@@ -186,7 +185,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Location_location_key" id="493111C0-6AAD-C29C-E3B3-6EA866B45899">
+<Column name="location_parent_key" id="493111C0-6AAD-C29C-E3B3-6EA866B45899">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-25 03:22:11 UTC</createdTime>
 <generatorID>ED248910-6A05-2329-981F-286D918503E5</generatorID>
@@ -202,7 +201,7 @@
 <colAssociation fkAssociation="B3EB0D94-F87E-6C5C-8A17-32DED6E6347F" referredColumn="97BD3AAA-38D0-265C-DA10-ADB5660F5380"/>
 </associations>
 </Column>
-<Column name="Data_Source_data_source_key" id="32344C3A-0E08-D8CE-FFFF-D2653395A0D9">
+<Column name="data_source_key" id="32344C3A-0E08-D8CE-FFFF-D2653395A0D9">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-25 03:22:11 UTC</createdTime>
 <generatorID>ADA97CAA-6F58-AF8A-E5E7-13E154DC3372</generatorID>
@@ -217,7 +216,7 @@
 <colAssociation fkAssociation="16464E37-6612-8729-016A-B0DC89918B52" referredColumn="AB19F8ED-3833-ACCD-9913-440C6A3D14FA"/>
 </associations>
 </Column>
-<Column name="Location_Types_location_type_key" id="E7993DD5-328C-8031-A3A7-2FF6117550F0">
+<Column name="location_type_key" id="E7993DD5-328C-8031-A3A7-2FF6117550F0">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-25 03:22:11 UTC</createdTime>
 <generatorID>BC94EBE5-B05E-7F9A-980F-D6814B4947E3</generatorID>
@@ -231,6 +230,28 @@
 <associations>
 <colAssociation fkAssociation="EE1973CD-B904-B258-1C12-F96202FCD90C" referredColumn="72E82E02-EA7D-7329-E822-827CCD489B18"/>
 </associations>
+</Column>
+<Column name="created_dt" id="D0A20139-A7E8-0855-FD80-BA352E6E240E">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:40:12 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_dt" id="1FC4C27D-57C3-0456-5D09-BFB505E5C3F6">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:40:12 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

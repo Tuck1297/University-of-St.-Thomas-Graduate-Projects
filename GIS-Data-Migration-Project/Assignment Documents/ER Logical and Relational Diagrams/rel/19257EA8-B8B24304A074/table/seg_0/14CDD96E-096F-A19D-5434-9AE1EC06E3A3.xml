@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Media_Type_media_type_key" id="8F0811B7-FD6D-B716-CFBD-C15B1D4C8841">
+<Column name="media_type_key" id="8F0811B7-FD6D-B716-CFBD-C15B1D4C8841">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-22 00:12:38 UTC</createdTime>
 <generatorID>84309305-301F-8E3A-A458-0C9201781293</generatorID>
@@ -56,8 +56,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="altText" id="8D84510F-6155-FB16-D330-1BA02A08DD7A">
@@ -82,8 +82,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150</dataTypeSize>
-<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="url" id="355CBE75-533C-720B-2390-82620864584A">
@@ -95,8 +95,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150</dataTypeSize>
-<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="subtitle" id="44B16D93-0AC4-D06A-F4EE-4DAA7F7823C0">
@@ -108,8 +108,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="height" id="072C6529-63CC-9B5E-6D1D-7973683F010B">
@@ -149,7 +149,7 @@
 <ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Location_location_key" id="38D000CE-1B6D-B210-F8C9-DB599447E918">
+<Column name="location_key" id="38D000CE-1B6D-B210-F8C9-DB599447E918">
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-22 00:13:43 UTC</createdTime>
 <generatorID>F04E5D24-1346-1AEE-2B51-BB5482CDD6FD</generatorID>
@@ -163,6 +163,28 @@
 <associations>
 <colAssociation fkAssociation="5C53A74E-9CF0-7A08-6E87-58E82E0A5F01" referredColumn="97BD3AAA-38D0-265C-DA10-ADB5660F5380"/>
 </associations>
+</Column>
+<Column name="created_dt" id="2BD28AED-DF03-10A8-4E65-7086BB61AC5D">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:42:53 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_dt" id="3984B72B-7E2B-4AA3-B52C-5047E3B4D245">
+<createdBy>Tucker</createdBy>
+<createdTime>2026-04-26 20:42:53 UTC</createdTime>
+<ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
