@@ -81,17 +81,21 @@ JOIN normalized.LocationTypes lt ON v.location_type = lt.name;
 
 -- Migrate Addresses for Forest Campgrounds
 INSERT INTO normalized.Addresses (
-    address_key, location_key, address_type_key, city, state_abbre, state, county, country_code
+    address_key, location_key, address_type_key, city, state_abbre, state, county, country_code, address_line_1, address_line_2, address_line_3, postal_code
 )
 SELECT
     (SELECT COALESCE(MAX(address_key), 0) FROM normalized.Addresses) + row_number() OVER (),
     l.location_key,
     (SELECT address_type_key FROM normalized.AddressTypes WHERE name = 'Physical' LIMIT 1),
-    v.county, -- Using county as city if city is unknown? The original script used s.COUNTY for city.
+    COALESCE(v.county, ''),
     'MN',
     'Minnesota',
-    v.county,
-    'US'
+    COALESCE(v.county, ''),
+    'US',
+    '', -- address_line_1
+    '', -- address_line_2
+    '', -- address_line_3
+    ''  -- postal_code
 FROM mn_gis.v_forest_campgrounds v
 JOIN normalized.Locations l ON v.orig_data_source_key = l.orig_data_source_key AND l.data_source_key = 5;
 

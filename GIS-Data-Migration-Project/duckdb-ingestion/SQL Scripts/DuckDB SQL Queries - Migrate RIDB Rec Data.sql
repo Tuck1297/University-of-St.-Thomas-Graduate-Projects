@@ -61,26 +61,26 @@ CREATE OR REPLACE VIEW ridb.v_addresses AS
 SELECT
     CAST(RecAreaID AS VARCHAR) AS orig_id,
     'RECAREA' as source,
-    PostalCode AS postal_code,
-    City AS city,
-    AddressStateCode AS state_abbre,
-    RecAreaStreetAddress1 AS line1,
-    RecAreaStreetAddress2 AS line2,
-    RecAreaStreetAddress3 AS line3,
-    AddressCountryCode AS country_code,
+    COALESCE(PostalCode, '') AS postal_code,
+    COALESCE(City, '') AS city,
+    COALESCE(AddressStateCode, '') AS state_abbre,
+    COALESCE(RecAreaStreetAddress1, '') AS line1,
+    COALESCE(RecAreaStreetAddress2, '') AS line2,
+    COALESCE(RecAreaStreetAddress3, '') AS line3,
+    COALESCE(AddressCountryCode, '') AS country_code,
     RecAreaAddressType AS type
 FROM ridb.RecAreaAddresses_API_v1
 UNION ALL
 SELECT
     CAST(FacilityID AS VARCHAR) AS orig_id,
     'FACILITY' as source,
-    PostalCode AS postal_code,
-    City AS city,
-    AddressStateCode AS state_abbre,
-    FacilityStreetAddress1 AS line1,
-    FacilityStreetAddress2 AS line2,
-    FacilityStreetAddress3 AS line3,
-    AddressCountryCode AS country_code,
+    COALESCE(PostalCode, '') AS postal_code,
+    COALESCE(City, '') AS city,
+    COALESCE(AddressStateCode, '') AS state_abbre,
+    COALESCE(FacilityStreetAddress1, '') AS line1,
+    COALESCE(FacilityStreetAddress2, '') AS line2,
+    COALESCE(FacilityStreetAddress3, '') AS line3,
+    COALESCE(AddressCountryCode, '') AS country_code,
     FacilityAddressType AS type
 FROM ridb.FacilityAddresses_API_v1;
 
