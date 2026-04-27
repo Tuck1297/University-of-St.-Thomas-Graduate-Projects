@@ -1,0 +1,5 @@
+media_type_key,name,description,created_dt,updated_dt
+0,UNKNOWN,Unknown media type,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+1,Photo,Photographic image,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+2,Video,Video content,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+3,Audio,Audio recording,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915

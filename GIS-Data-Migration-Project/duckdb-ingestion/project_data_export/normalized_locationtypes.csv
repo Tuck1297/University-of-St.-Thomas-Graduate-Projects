@@ -1,0 +1,9 @@
+location_type_key,name,description,created_dt,updated_dt
+0,UNKNOWN,Unknown location type,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+1,National Park,A national park location,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+2,State Park,A state park location,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+3,Recreation Area,A recreation area location,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+4,National Forest,A national forest location,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+5,State Forest,A state forest location,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+6,Campground,A campground location,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+7,Visitor Center,A visitor center location,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915

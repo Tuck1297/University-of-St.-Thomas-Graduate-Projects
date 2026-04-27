@@ -6,14 +6,14 @@
 CREATE OR REPLACE VIEW mn_gis.v_location_types AS
 SELECT DISTINCT UNIT_TYPE AS location_type FROM mn_gis.dnr_management_units_prk WHERE UNIT_TYPE IS NOT NULL
 UNION
-SELECT 'State Forest Campground' AS location_type;
+SELECT DISTINCT SITE_TYPE AS location_type FROM mn_gis.state_forest_campgrounds_and_day_use_areas WHERE SITE_TYPE IS NOT NULL;
 
 -- View to transform DNR Management Units
 CREATE OR REPLACE VIEW mn_gis.v_management_units AS
 SELECT
     UNIT_NAME AS name,
-    ST_Y(ST_Centroid(geom)) AS latitude,
-    ST_X(ST_Centroid(geom)) AS longitude,
+    ST_X(ST_Centroid(ST_Transform(geom, 'EPSG:26915', 'EPSG:4326'))) AS latitude,
+    ST_Y(ST_Centroid(ST_Transform(geom, 'EPSG:26915', 'EPSG:4326'))) AS longitude,
     'MN' AS state_abbre,
     'Minnesota' AS state,
     UNIT_TYPE AS location_type,
@@ -30,18 +30,17 @@ FROM mn_gis.dnr_management_units_prk;
 CREATE OR REPLACE VIEW mn_gis.v_forest_campgrounds AS
 SELECT
     FACILITY_N AS name,
-    ST_Y(ST_Centroid(geom)) AS latitude,
-    ST_X(ST_Centroid(geom)) AS longitude,
+    ST_X(ST_Centroid(ST_Transform(geom, 'EPSG:26915', 'EPSG:4326'))) AS latitude,
+    ST_Y(ST_Centroid(ST_Transform(geom, 'EPSG:26915', 'EPSG:4326'))) AS longitude,
     'MN' AS state_abbre,
     'Minnesota' AS state,
-    'State Forest Campground' AS location_type,
+    SITE_TYPE AS location_type,
     5 AS data_source_key, -- MN GIS
     GLOBALID AS orig_data_source_key,
     OGC_FID AS migration_primary_key,
-    COUNTY AS county,
     TO_JSON(STRUCT_PACK(
-        site_type := SITE_TYPE,
-        state_forest := STATE_FORE
+        state_forest := STATE_FORE,
+        pat_admin := PAT_ADMIN_
     )) AS attributes
 FROM mn_gis.state_forest_campgrounds_and_day_use_areas;
 
@@ -78,25 +77,5 @@ SELECT
     v.name, v.latitude, v.longitude, v.state_abbre, v.state, v.data_source_key, lt.location_type_key, v.orig_data_source_key, v.migration_primary_key, v.attributes
 FROM mn_gis.v_forest_campgrounds v
 JOIN normalized.LocationTypes lt ON v.location_type = lt.name;
-
--- Migrate Addresses for Forest Campgrounds
-INSERT INTO normalized.Addresses (
-    address_key, location_key, address_type_key, city, state_abbre, state, county, country_code, address_line_1, address_line_2, address_line_3, postal_code
-)
-SELECT
-    (SELECT COALESCE(MAX(address_key), 0) FROM normalized.Addresses) + row_number() OVER (),
-    l.location_key,
-    (SELECT address_type_key FROM normalized.AddressTypes WHERE name = 'Physical' LIMIT 1),
-    COALESCE(v.county, ''),
-    'MN',
-    'Minnesota',
-    COALESCE(v.county, ''),
-    'US',
-    '', -- address_line_1
-    '', -- address_line_2
-    '', -- address_line_3
-    ''  -- postal_code
-FROM mn_gis.v_forest_campgrounds v
-JOIN normalized.Locations l ON v.orig_data_source_key = l.orig_data_source_key AND l.data_source_key = 5;
 
 COMMIT;
