@@ -7,7 +7,7 @@ CREATE OR REPLACE VIEW nps.v_location_types AS
 SELECT DISTINCT
     designation AS location_type
 FROM nps.parks
-WHERE designation IS NOT NULL;
+WHERE designation IS NOT NULL AND designation != '';
 
 -- View to denormalize the parks data by including activity and topic names as comma-separated lists
 CREATE OR REPLACE VIEW nps.v_locations AS
@@ -20,7 +20,7 @@ SELECT
     longitude,
     states,
     weatherInfo as weather_info,
-    designation AS location_type, -- Data Source Key determined from here during the migration.
+    COALESCE(NULLIF(designation, ''), 'UNKNOWN') AS location_type, -- Data Source Key determined from here during the migration.
     1 AS data_source_key, -- NPS datasource
     TO_JSON(STRUCT_PACK(
         park_code := p.parkCode,
@@ -321,9 +321,6 @@ SELECT
     type
 FROM nps.contact_phone_numbers;
 
-
-
-
 -- Start Transaction
 
 BEGIN TRANSACTION;
@@ -461,9 +458,7 @@ FROM (
     SELECT migration_primary_key, 1 as website_type_key, primary_url as url, 'Primary Website' as description, 'PARK' as source FROM nps.v_park_websites WHERE primary_url IS NOT NULL
     UNION ALL
     SELECT migration_primary_key, 2 as website_type_key, directions_url as url, 'Directions Website', 'PARK' as source FROM nps.v_park_websites WHERE directions_url IS NOT NULL
-    
     UNION ALL
-    
     -- Campground Websites (location_type_key = 6)
     SELECT migration_primary_key, 1 as website_type_key, primary_url as url, 'Primary Park Website' as description, 'CAMPGROUND' as source FROM nps.v_campground_websites WHERE primary_url IS NOT NULL
     UNION ALL

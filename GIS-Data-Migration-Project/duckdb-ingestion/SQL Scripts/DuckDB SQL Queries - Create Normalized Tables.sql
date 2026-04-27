@@ -1,4 +1,10 @@
--- DuckDB Normalized Schema
+/*
+ * DuckDB Normalized Schema
+ * 
+ * Rerun this whenever all the tables need to be empied. Useful during script development and testing.
+ * NOTE: This will drop all normalized tables so any manual edits done outside of the developed scripts
+ *       will be deleted and will not be recoverable if this entire script is run within one transaction.
+ * */
 
 -- Ensure that DuckDB json and spatial extensions are installed.
 INSTALL json;
