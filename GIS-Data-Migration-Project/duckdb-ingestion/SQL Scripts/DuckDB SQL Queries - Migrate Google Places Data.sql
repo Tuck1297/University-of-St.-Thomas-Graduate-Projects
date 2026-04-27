@@ -4,22 +4,22 @@
 
 -- View unique designations from the google places data to populate the location types dimension table
 CREATE OR REPLACE VIEW google.v_location_types AS
-SELECT DISTINCT primaryType AS location_type FROM google.places WHERE primaryType IS NOT NULL;
+SELECT DISTINCT primaryType AS location_type FROM google.places WHERE primaryType IS NOT NULL AND primaryType != '';
 
 -- View to transform Google Places
 CREATE OR REPLACE VIEW google.v_places AS
 SELECT
     primaryDisplayName AS name,
-    latitude,
-    longitude,
-    editorialSummary AS description,
-    geminiGenerativeSummary AS ai_generative_description,
-    administrativeArea AS state_abbre,
-    state,
-    primaryType AS location_type,
     4 AS data_source_key, -- Google Places API
     googlePlaceId AS orig_data_source_key,
     id AS migration_primary_key,
+    latitude,
+    longitude,
+    geminiGenerativeSummary AS ai_generative_description,
+    editorialSummary AS description,
+    administrativeArea AS state_abbre,
+    state,
+    primaryType AS location_type,
     TO_JSON(STRUCT_PACK(
         google_name := googleName,
         business_status := businessStatus,
@@ -33,7 +33,18 @@ SELECT
         free_street_parking := freeStreetParking,
         wheelchair_accessible_parking := wheelchairAccessibleParking,
         wheelchair_accessible_seating := wheelchairAccessibleSeating,
-        short_formatted_address := shortFormattedAddress
+        search_api_type := 
+        	CASE 
+        		WHEN statePark = TRUE THEN 'State Park'
+        		WHEN stateForest = TRUE THEN 'State Forest'
+        		WHEN stateWayside = TRUE THEN 'State Wayside'
+        		WHEN nationalForest = TRUE THEN 'National Forest'
+        		WHEN countyPark = TRUE THEN 'County Park'
+        		WHEN naturalWildlifeArea = TRUE THEN 'Natural Wildlife Area'
+        		WHEN cityPark = TRUE THEN 'City Park'
+        		ELSE 'UNKNOWN'
+        	END
+        	
     )) AS attributes,
     nationalPhoneNumber AS phone,
     websiteUri AS website_url
@@ -42,15 +53,15 @@ FROM google.places;
 -- View to transform Photos
 CREATE OR REPLACE VIEW google.v_media AS
 SELECT
+	id,
     googlePlaceId AS orig_id,
     authorDisplayName AS credit,
-    googlePhotoName AS title,
-    photoUri AS url,
+    SPLIT_PART(googlePhotoName, '/', 4) AS title,
+    CONCAT('https://places.googleapis.com/v1/', googlePhotoName, '/media') AS url,
     widthPx AS width,
     heightPx AS height,
-    'Image' AS media_type
+    'Photo' AS media_type
 FROM google.photos;
-
 
 -- Start Transaction
 
