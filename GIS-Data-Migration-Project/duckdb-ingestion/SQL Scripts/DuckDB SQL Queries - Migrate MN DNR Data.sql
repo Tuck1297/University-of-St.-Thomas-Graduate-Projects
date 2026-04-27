@@ -23,13 +23,45 @@ SELECT
     0.0 AS longitude,
     '' AS description,
     TO_JSON(STRUCT_PACK(
-        total_acres := "1",
-        overnight_visits := "2",
-        day_visits := "3",
-        total_visits := "4"
+        winter_camping := trim("3") = '•',
+        spring_camping := trim("4") = '•',
+        summer_camping := trim("5") = '•',
+        fall_camping := trim("6") = '•',
+        site_drive_in := trim("7") = '•',
+        site_accessible_drive_in := trim("8") = '•',
+        max_rv_length := "9",
+        rv_pull_through_sites := trim("10") = '•',
+        "30_amp_hookup_sites" := trim("11") = '•',
+        "50_amp_hookup_sites" := trim("12") = '•',
+        horse_campsites := trim("13") = '•',
+        backpack_sites := trim("14") = '•',
+        group_campsites := trim("15") = '•',
+        has_showers := trim("16") = '•',
+        has_accessible_showers := trim("17") = '•',
+        has_flush_toilets := trim("18") = '•',
+        has_accessible_flush_toilets := trim("19") = '•',
+        has_dump_station := trim("20") = '•',
+        camper_cabins := trim("21") = '•',
+        accessible_camper_cabins := trim("22") = '•',
+        other_lodging := trim("23") = '•',
+        hiking_trails := trim("24") = '•',
+        paved_trails := trim("25") = '•',
+        groomed_cross_country_ski_trails := trim("26") = '•',
+        swimming_beach := trim("27") = '•',
+        fishing_pier := trim("28") = '•',
+        accessible_fishing_pier := trim("29") = '•',
+        boat_rental := trim("30") = '•',
+        showshoe_rental := trim("31") = '•',
+        picnic_shelter := trim("32") = '•',
+        accessible_picnic_shelter := trim("33") = '•',
+        nature_programs := trim("34") = '•',
+        accessible_track_chair := trim("35") = '•'
     )) AS attributes
-FROM mn_dnr.extracted_table_0
-WHERE "0" IS NOT NULL AND length("0") > 3 AND "0" NOT LIKE 'Page %';
+FROM
+	mn_dnr.extracted_table_0
+WHERE
+	"0" != ''
+	AND "0" NOT LIKE '%NAME OF STATE PARK%';
 
 
 -- Start Transaction
