@@ -3,8 +3,9 @@
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-19 22:51:04 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,8 +20,9 @@
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-19 23:41:15 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,8 +33,9 @@
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-19 23:41:37 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,8 +48,9 @@
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-19 23:41:58 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,8 +64,9 @@
 <createdTime>2026-04-19 23:56:21 UTC</createdTime>
 <generatorID>0C478D28-D003-AFFC-C1B6-D6EEA9CBFF59</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="false"/>
 </engineerTo>
 <referedAttribute>6720DD45-7707-B30A-7858-7998D5F59995</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,8 +79,9 @@
 <createdTime>2026-04-20 00:03:40 UTC</createdTime>
 <generatorID>6F30F512-B015-07F2-1572-6D7676894DCD</generatorID>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="false"/>
 </engineerTo>
 <referedAttribute>C2B247EC-3DDD-1F58-D058-EECBCE87E464</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

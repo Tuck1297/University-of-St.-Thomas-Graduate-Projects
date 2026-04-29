@@ -3,14 +3,15 @@
 <createdBy>Tucker</createdBy>
 <createdTime>2026-04-19 23:50:45 UTC</createdTime>
 <ownerDesignName>ER Logical and Relational Diagrams</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="true"/>
+<item key="19257EA8-93D9-ECE5-A988-B8B24304A074" value="false"/>
 </engineerTo>
 <sourcePk>30EF56BA-19C8-7C50-B5E4-215876842451</sourcePk>
 <targetPk>E4DB77F9-C11E-BB76-A2A5-B8A3A4063DA2</targetPk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>7A222736-1277-7B03-2C6B-0BC2CD20AD4D</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
