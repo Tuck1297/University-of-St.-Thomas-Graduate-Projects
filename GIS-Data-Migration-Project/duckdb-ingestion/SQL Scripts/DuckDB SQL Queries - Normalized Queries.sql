@@ -36,7 +36,39 @@ FROM LocationHierarchy lh
 JOIN normalized.LocationTypes lt ON lh.location_type_key = lt.location_type_key
 ORDER BY hierarchy_path;
 
--- TODO: Add spatial queries to find locations within certain geographic boundaries.
+-- Spatial Query: Find locations within a certain geographic boundary
+-- NOTE: This one was AI Generated and is only a starting point estimate that uses the Haversine formula for distance calculation.
+-- TODO: Still need to try to utilize the DuckDB Spatial Extension functions to see if I can get better performance and more accurate results.
+
+WITH params AS (
+    SELECT 
+        [LAT_HERE]  AS user_lat,
+        [LON_HERE] AS user_lon,
+        210.0     AS radius_miles
+),
+locations_with_distance AS (
+    SELECT 
+        l.*,
+        lt.name AS location_type,
+        ds.name AS data_source,
+        -- Haversine formula: calculates distance in miles between two lat/lon points
+        3958.8 * 2 * ASIN(SQRT(
+            POWER(SIN(RADIANS(l.latitude  - p.user_lat) / 2), 2) +
+            COS(RADIANS(p.user_lat)) * COS(RADIANS(l.latitude)) *
+            POWER(SIN(RADIANS(l.longitude - p.user_lon) / 2), 2)
+        )) AS distance_miles
+    FROM normalized.Locations l
+    JOIN normalized.LocationTypes lt ON l.location_type_key = lt.location_type_key
+    JOIN normalized.DataSources ds ON l.data_source_key = ds.data_source_key
+    CROSS JOIN params p
+    WHERE l.location_key <> 0
+      AND l.latitude IS NOT NULL
+      AND l.longitude IS NOT NULL
+)
+SELECT *
+FROM locations_with_distance
+WHERE distance_miles <= (SELECT radius_miles FROM params)
+ORDER BY distance_miles ASC;
 
 -- Unified Join Query: Grouping Media, Websites, and Addresses into Arrays
 -- This query aggregates related entities into JSON arrays for easy consumption by visualization tools.
