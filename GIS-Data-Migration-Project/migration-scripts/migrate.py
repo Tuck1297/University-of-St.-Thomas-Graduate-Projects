@@ -18,10 +18,11 @@ POSTGRES_PORT = os.getenv('POSTGRES_PORT', '5432')
 POSTGRES_SCHEMA = os.getenv('POSTGRES_SCHEMA', 'normalized')
 
 def check_existing_tables(engine, schema):
-    """Checks if any tables exist in the specified PostgreSQL schema."""
+    """Checks if any tables or views exist in the specified PostgreSQL schema."""
     inspector = inspect(engine)
     existing_tables = inspector.get_table_names(schema=schema)
-    return existing_tables
+    existing_views = inspector.get_view_names(schema=schema)
+    return existing_tables + existing_views
 
 def migrate():
     # PostgreSQL connection string
@@ -42,15 +43,15 @@ def migrate():
         duck_conn.close()
         return
 
-    # 1. Check for existing tables in PostgreSQL
-    existing_pg_tables = check_existing_tables(pg_engine, POSTGRES_SCHEMA)
+    # 1. Check for existing tables/views in PostgreSQL
+    existing_pg_objects = check_existing_tables(pg_engine, POSTGRES_SCHEMA)
 
-    if existing_pg_tables:
-        print(f"\nWARNING: The following tables already exist in the '{POSTGRES_SCHEMA}' schema on PostgreSQL:")
-        for table in existing_pg_tables:
-            print(f" - {table}")
+    if existing_pg_objects:
+        print(f"\nWARNING: The following objects already exist in the '{POSTGRES_SCHEMA}' schema on PostgreSQL:")
+        for obj in existing_pg_objects:
+            print(f" - {obj}")
 
-        user_input = input(f"\nDo you want to drop and rebuild these tables? (yes/no): ").strip().lower()
+        user_input = input(f"\nDo you want to drop and rebuild these objects? (yes/no): ").strip().lower()
         if user_input != 'yes':
             print("Migration cancelled by user. Exiting.")
             duck_conn.close()
@@ -63,37 +64,55 @@ def migrate():
         conn.execute(text(f"CREATE SCHEMA IF NOT EXISTS {POSTGRES_SCHEMA}"))
         conn.commit()
 
-    # 3. Get list of tables in the normalized schema from DuckDB
-    tables_query = f"SELECT table_name FROM information_schema.tables WHERE table_schema = 'normalized'"
-    tables = duck_conn.execute(tables_query).fetchall()
+    # 3. Get list of tables and views in the normalized schema from DuckDB
+    objects_query = f"""
+        SELECT table_name, table_type 
+        FROM information_schema.tables 
+        WHERE table_schema = 'normalized'
+    """
+    objects = duck_conn.execute(objects_query).fetchall()
 
-    if not tables:
-        print(f"No tables found in DuckDB schema 'normalized'.")
+    if not objects:
+        print(f"No tables or views found in DuckDB schema 'normalized'.")
         duck_conn.close()
         return
 
-    print(f"Found {len(tables)} tables to migrate: {[t[0] for t in tables]}")
+    tables = [obj[0] for obj in objects if obj[1] == 'BASE TABLE']
+    views = [obj[0] for obj in objects if obj[1] == 'VIEW']
+
+    print(f"\nFound {len(tables)} tables and {len(views)} views to migrate.")
+    if tables: print(f"Tables: {tables}")
+    if views: print(f"Views: {views}")
 
     # 4. Perform migration
-    for (table_name,) in tables:
-        print(f"Migrating table: {table_name}...")
+    # We migrate both tables and views as tables in PostgreSQL.
+    # This ensures that DuckDB-specific view logic (like STRUCT_PACK) is preserved as data.
+    for obj_name, obj_type in objects:
+        label = "Table" if obj_type == 'BASE TABLE' else "View"
+        print(f"\nMigrating {label}: {obj_name}...")
 
-        # Read ALL data from DuckDB for this table
-        df = duck_conn.execute(f"SELECT * FROM normalized.{table_name}").df()
+        try:
+            # Read ALL data from DuckDB
+            df = duck_conn.execute(f"SELECT * FROM normalized.{obj_name}").df()
 
-        # Write ALL data to PostgreSQL
-        # if_exists='replace' handles the drop/rebuild if user approved above
-        df.to_sql(
-            table_name,
-            pg_engine,
-            schema=POSTGRES_SCHEMA,
-            if_exists='replace',
-            index=False
-        )
-        print(f"Successfully migrated {len(df)} rows to {POSTGRES_SCHEMA}.{table_name}")
+            # Write to PostgreSQL
+            # If it's a view in DuckDB, it becomes a table in PostgreSQL to preserve the calculated data.
+            df.to_sql(
+                obj_name, 
+                pg_engine, 
+                schema=POSTGRES_SCHEMA, 
+                if_exists='replace', 
+                index=False
+            )
+            print(f"Successfully migrated {len(df)} rows to {POSTGRES_SCHEMA}.{obj_name}")
+            if obj_type == 'VIEW':
+                print(f"Note: View '{obj_name}' was migrated as a static table to ensure data compatibility.")
+        except Exception as e:
+            print(f"Error migrating {obj_name}: {e}")
 
     duck_conn.close()
     print("\nMigration completed successfully!")
 
 if __name__ == "__main__":
     migrate()
+
