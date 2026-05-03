@@ -48,6 +48,7 @@ The `orchestrator.py` module is responsible for fetching raw data from external 
 - `python orchestrator.py --run-google`    # Run only Google Places ingestion
 - `python orchestrator.py --run-ridb-rec` # Run only RIDB Recreation ingestion
 - `python orchestrator.py --run-mn-gis`    # Run only Minnesota GIS ingestion
+- `python orchestrator.py --run-mn-gis-campsite` # Run only Minnesota GIS Campsites ingestion
 - `python orchestrator.py --run-mn-dnr`    # Run only Minnesota DNR ingestion
 - `python orchestrator.py --all`           # Run all ingestion jobs
 
@@ -67,11 +68,16 @@ The `migration_orchestrator.py` module orchestrates the execution of SQL scripts
 
 ### Usage:
 
-- `python migration_orchestrator.py --restart`       # Reset schema and start fresh
-- `python migration_orchestrator.py --run-nps`       # Run NPS SQL migration
-- `python migration_orchestrator.py --run-ridb`      # Run RIDB SQL migration
-- `python migration_orchestrator.py --all`           # Run all migration scripts
-- `python migration_orchestrator.py --all --sanity`  # Run all and perform sanity checks
+- `python migration_orchestrator.py --restart`               # Reset schema and start fresh
+- `python migration_orchestrator.py --run-nps`               # Run NPS SQL migration
+- `python migration_orchestrator.py --run-ridb`              # Run RIDB SQL migration
+- `python migration_orchestrator.py --run-google`            # Run Google SQL migration
+- `python migration_orchestrator.py --run-mn-dnr`            # Run only MN DNR SQL transformation
+- `python migration_orchestrator.py --run-mn-gis`            # Run only MN GIS SQL transformation
+- `python migration_orchestrator.py --run-mn-gis-boundary`   # Run only MN GIS Boundary SQL transformation
+- `python migration_orchestrator.py --run-mn-gis-campsites`  # Run only MN GIS Campsite SQL transformation
+- `python migration_orchestrator.py --all`                   # Run all migration scripts
+- `python migration_orchestrator.py --all --sanity`          # Run all and perform sanity checks
 
 ### Options:
 
@@ -81,6 +87,8 @@ The `migration_orchestrator.py` module orchestrates the execution of SQL scripts
 - `--run-google`: (bool) Migrate Google Places data
 - `--run-mn-dnr`: (bool) Migrate MN DNR data
 - `--run-mn-gis`: (bool) Migrate MN GIS data
+- `--run-mn-gis-boundary`: (bool) Migrate MN GIS Boundary data
+- `--run-mn-gis-campsites`: (bool) Migrate MN GIS Campsites data
 - `--all`: (bool) Execute all available transformation scripts
 - `--sanity`: (bool) Run data sanity checks
 - `--help`: Display help message with all available options
@@ -91,6 +99,14 @@ To export the database into CSV files that are easier to commit to a GitHub repo
 
 ```
 python db_export.py
+```
+
+## Import Database backup
+
+To import the database from CSV files that exist in `project_data_export` run the following python script:
+
+```
+python db_import.py
 ```
 
 ## Freeze requirements.txt after dependencies updates

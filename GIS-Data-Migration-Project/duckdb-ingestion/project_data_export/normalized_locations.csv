@@ -1,2 +1,2 @@
 location_key,name,location_parent_key,data_source_key,location_type_key,orig_data_source_key,migration_primary_key,latitude,longitude,directions_info,weather_info,ai_generative_description,description,state_abbre,state,states,attributes,active_flag,created_dt,updated_dt
-0,UNKNOWN,,0,0,,,0.0,0.0,"","","","","","",,,true,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+0,UNKNOWN,,0,0,,,0.0,0.0,"","","","","","",,,true,2026-05-03 12:16:01.352198,2026-05-03 12:16:01.352198

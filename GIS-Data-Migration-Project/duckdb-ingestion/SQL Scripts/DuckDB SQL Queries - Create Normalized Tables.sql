@@ -55,8 +55,11 @@ INSERT INTO normalized.DataSources (data_source_key, name, description) VALUES
 (2, 'MN DNR', 'Data Collected from the Minnesota Department of Natural Resources (MN DNR)'),
 (3, 'RIDB', 'Data Collected from the Recreation.gov website.'),
 (4, 'Google Places API', 'Data sourced from the Google Places API.'),
-(5, 'MN GIS', 'Data sourced from the Minnesota Geospatial Commons website.');
-
+(5, 'MN GIS', 'Data sourced from the Minnesota Geospatial Commons website.'),
+(6, 'MN GIS Campgrounds', 'Data sourced from the Minnesota Geospatial Commons website, specifically for campgrounds.'),
+(7, 'MN GIS Boundary Data', 'Boundary data sourced from the Minnesota Geospatial Commons website.'),
+(8, 'MN DNR and GIS Boundary Combined', 'Combined data from MN DNR PDF and MN GIS Boundary records'),
+(9, 'MN Combined Master Record', 'Fully consolidated data from MN DNR PDF, MN GIS Boundary, and MN GIS Campground records');
 
 CREATE TABLE normalized.LocationTypes (
     location_type_key INTEGER PRIMARY KEY,
@@ -75,7 +78,8 @@ INSERT INTO normalized.LocationTypes (location_type_key, name, description) VALU
 (4, 'National Forest', 'A national forest location'),
 (5, 'State Forest', 'A state forest location'),
 (6, 'Campground', 'A campground location'),
-(7, 'Visitor Center', 'A visitor center location');
+(7, 'Campsite', 'A campsite location'),
+(8, 'Visitor Center', 'A visitor center location');
 
 CREATE TABLE normalized.Locations (
     location_key INTEGER PRIMARY KEY,

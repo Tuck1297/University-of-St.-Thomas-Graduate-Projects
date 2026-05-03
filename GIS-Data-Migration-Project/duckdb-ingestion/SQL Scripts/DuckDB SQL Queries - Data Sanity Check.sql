@@ -9,13 +9,14 @@ UNION ALL
 SELECT 'PlacesCount', COUNT(*) FROM google.places;
 
 -- Find all places that are State Park related
-select * from google.places where primaryDisplayName like '%State Park%';
+SELECT * FROM google.places where primaryDisplayName like '%State Park%';
 
 -- Find all duplicate places
-select primaryDisplayName, count(*) AS count from google.places GROUP BY primaryDisplayName
-ORDER BY count DESC; 
+SELECT googleName, count(*) AS count FROM google.places GROUP BY googleName
+ORDER BY count DESC;
 
-SELECT * from google.places where 
+-- Location similar names based on primaryDisplayName
+SELECT * FROM google.places where
 primaryDisplayName in (
 'Central Park',
 'Memorial Park',
@@ -82,19 +83,19 @@ primaryDisplayName in (
 'Lakeside Park'
 );
 
-select * from google.address_descriptors;
+SELECT * FROM google.address_descriptors;
 
-select * from google.photos;
+SELECT * FROM google.photos;
 
 -- MN DNR Script Sanity Check
 
-SELECT 'StateParkInfoCount' AS metric, COUNT(*) AS value from mn_dnr.extracted_table_0;
+SELECT 'StateParkInfoCount' AS metric, COUNT(*) AS VALUE FROM mn_dnr.extracted_table_0;
 
-SELECT * from mn_dnr.extracted_table_0;
+SELECT * FROM mn_dnr.extracted_table_0;
 
 -- MN GIS Script Sanity Check
 
-SELECT 'ParkUnitsCount' AS metric, COUNT(*) AS value FROM mn_gis.dnr_management_units_prk
+SELECT 'ParkUnitsCount' AS metric, COUNT(*) AS VALUE FROM mn_gis.dnr_management_units_prk
 UNION ALL
 SELECT 'ParkUnitsPtsCount', COUNT(*) FROM mn_gis.dnr_management_units_prk_ref_pts
 UNION ALL
@@ -104,15 +105,21 @@ SELECT 'StateForestCampgroundsCount', COUNT(*) FROM mn_gis.state_forest_campgrou
 UNION ALL
 SELECT 'StateForestCampgroundsOrigCount', COUNT(*) FROM mn_gis.state_forest_campgrounds_and_day_use_areas_orig;
 
-select * from mn_gis.dnr_management_units_prk;
-select * from mn_gis.dnr_management_units_prk_ref_pts;
-select * from mn_gis.dnr_stat_plan_areas_prk;
-select * from mn_gis.state_forest_campgrounds_and_day_use_areas;
-select * from mn_gis.state_forest_campgrounds_and_day_use_areas_orig;
+SELECT * FROM mn_gis.dnr_management_units_prk;
+SELECT * FROM mn_gis.dnr_management_units_prk_ref_pts;
+SELECT * FROM mn_gis.dnr_stat_plan_areas_prk;
+SELECT * FROM mn_gis.state_forest_campgrounds_and_day_use_areas;
+SELECT * FROM mn_gis.state_forest_campgrounds_and_day_use_areas_orig;
+
+-- MN GIS Campsite Script Sanity Check
+
+SELECT 'CampsitesCount' AS metric, COUNT(*) AS VALUE FROM mn_gis_campsites.struc_parks_and_trails_campsites;
+
+SELECT * FROM mn_gis_campsites.struc_parks_and_trails_campsites;
 
 -- NPS Script Sanity Check
 
-SELECT 'ActivityCount' AS metric, COUNT(*) AS value FROM nps.activities
+SELECT 'ActivityCount' AS metric, COUNT(*) AS VALUE FROM nps.activities
 UNION ALL
 SELECT 'AddressCount', COUNT(*) FROM nps.addresses
 UNION ALL
@@ -147,50 +154,50 @@ UNION ALL
 SELECT 'TopicCount', COUNT(*) FROM nps.topics;
 
 
-select * from nps.activities;
+SELECT * FROM nps.activities;
 
-select * from nps.addresses;
+SELECT * FROM nps.addresses;
 
-select * from nps.amenities;
+SELECT * FROM nps.amenities;
 
-select * from nps.campground_amenities;
+SELECT * FROM nps.campground_amenities;
 
-select * from nps.campground_campsites;
+SELECT * FROM nps.campground_campsites;
 
-select * from nps.campgrounds;
+SELECT * FROM nps.campgrounds;
 
-select * from nps.contact_email_addresses;
+SELECT * FROM nps.contact_email_addresses;
 
-select * from nps.contact_phone_numbers;
+SELECT * FROM nps.contact_phone_numbers;
 
-select * from nps.entrance_fees;
+SELECT * FROM nps.entrance_fees;
 
-select * from nps.entrance_passes;
+SELECT * FROM nps.entrance_passes;
 
-select * from nps.fees;
+SELECT * FROM nps.fees;
 
-select * from nps.images;
+SELECT * FROM nps.images;
 
-select * from nps.multimedia;
+SELECT * FROM nps.multimedia;
 
-select * from nps.operating_hours;
+SELECT * FROM nps.operating_hours;
 
-select * from nps.operating_hours_exceptions;
+SELECT * FROM nps.operating_hours_exceptions;
 
-select * from nps.parks;
+SELECT * FROM nps.parks;
 
-select * from nps.topics; 
+SELECT * FROM nps.topics;
 
 
 -- RIDB Script Sanity Check
 
-SELECT 'ActivitiesCount' AS metric, COUNT(*) AS value FROM  ridb.Activities_API_v1
+SELECT 'ActivitiesCount' AS metric, COUNT(*) AS VALUE FROM  ridb.Activities_API_v1
 UNION ALL
 SELECT 'CampsiteAttributes', COUNT(*) FROM ridb.CampsiteAttributes_API_v1
 UNION ALL
 SELECT 'CampsitesCount', COUNT(*) FROM ridb.Campsites_API_v1
 UNION ALL
-SELECT 'EntityActivityCount', COUNT(*) FROM ridb.EntityActivities_API_v1 
+SELECT 'EntityActivityCount', COUNT(*) FROM ridb.EntityActivities_API_v1
 UNION ALL
 SELECT 'EventsCount', COUNT(*) FROM ridb.Events_API_v1
 UNION ALL
@@ -204,7 +211,7 @@ SELECT 'MediaCount', COUNT(*) FROM ridb.Media_API_v1
 UNION ALL
 SELECT 'MemberToursCount', COUNT(*) FROM ridb.MemberTours_API_v1
 UNION ALL
-SELECT 'OrganizationsCount', COUNT(*) FROM ridb.Organizations_API_v1 
+SELECT 'OrganizationsCount', COUNT(*) FROM ridb.Organizations_API_v1
 UNION ALL
 SELECT 'OrgEntitiesCount', COUNT(*) FROM ridb.OrgEntities_API_v1
 UNION ALL

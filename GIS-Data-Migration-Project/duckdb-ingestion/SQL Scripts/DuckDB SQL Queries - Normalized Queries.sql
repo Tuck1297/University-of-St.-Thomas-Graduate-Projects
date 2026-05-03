@@ -1,6 +1,33 @@
 INSTALL spatial;
 LOAD spatial;
 
+-- Sanity check normalized data
+SELECT COUNT(*), 'locations' AS table_name FROM normalized.locations
+UNION ALL
+SELECT COUNT(*) AS total_location_types, 'LocationTypes' AS table_name FROM normalized.LocationTypes
+UNION ALL
+SELECT COUNT(*) AS total_data_sources, 'DataSources' AS table_name FROM normalized.DataSources
+UNION ALL
+SELECT COUNT(*) AS total_addresses, 'Addresses' AS table_name FROM normalized.Addresses
+UNION ALL
+SELECT COUNT(*) AS total_address_types, 'AddressTypes' AS table_name FROM normalized.AddressTypes
+UNION ALL
+SELECT COUNT(*) AS total_contact_emails, 'ContactEmailAddresses' AS table_name FROM normalized.ContactEmailAddresses
+UNION ALL
+SELECT COUNT(*) AS total_contact_phones, 'ContactPhoneNumbers' AS table_name FROM normalized.ContactPhoneNumbers
+UNION ALL
+SELECT COUNT(*) AS total_media, 'Media' AS table_name FROM normalized.Media
+UNION ALL
+SELECT COUNT(*) AS total_media_types, 'MediaTypes' AS table_name FROM normalized.MediaTypes
+UNION ALL
+SELECT COUNT(*) AS total_operating_hours, 'OperatingHours' AS table_name FROM normalized.OperatingHours
+UNION ALL
+SELECT COUNT(*) AS total_operating_hours_times, 'OperatingHoursTimes' AS table_name FROM normalized.OperatingHoursTimes
+UNION ALL
+SELECT COUNT(*) AS total_websites, 'Websites' AS table_name FROM normalized.Websites
+UNION ALL
+SELECT COUNT(*) AS total_website_types, 'WebsiteTypes' AS table_name FROM normalized.WebsiteTypes;
+
 -- Hierarchical Query: Get the full path for each location
 -- This query uses a Recursive CTE to show the hierarchy of locations (e.g., Park -> Campground -> Site)
 WITH RECURSIVE LocationHierarchy AS (

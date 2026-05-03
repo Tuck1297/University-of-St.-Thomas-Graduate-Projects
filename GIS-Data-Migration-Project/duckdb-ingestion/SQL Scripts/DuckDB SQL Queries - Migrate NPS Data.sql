@@ -19,7 +19,7 @@ SELECT
     latitude,
     longitude,
     states,
-    weatherInfo as weather_info,
+    COALESCE(weatherInfo, '') AS weather_info,
     COALESCE(NULLIF(designation, ''), 'UNKNOWN') AS location_type, -- Data Source Key determined from here during the migration.
     1 AS data_source_key, -- NPS datasource
     TO_JSON(STRUCT_PACK(
@@ -42,11 +42,11 @@ CREATE OR REPLACE VIEW nps.v_location_campgrounds AS
 SELECT
     c.npsId AS orig_data_source_key,
     c.id AS migration_primary_key,
-    c.description,
+    COALESCE(c.description, '') AS description,
     c.latitude,
     c.longitude,
     c.name,
-    c.weatherOverview AS weather_info,
+    COALESCE(c.weatherOverview, '') AS weather_info,
     p.states AS states,
     1 AS data_source_key, -- NPS datasource
     6 AS location_type_key, -- Campground

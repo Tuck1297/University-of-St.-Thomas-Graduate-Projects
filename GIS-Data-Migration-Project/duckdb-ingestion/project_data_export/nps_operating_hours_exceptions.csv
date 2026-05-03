@@ -47,12 +47,12 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 307,68,Winter Closure,2025-11-01,2026-05-11,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 308,69,Closed for Winter,2026-11-01,2027-04-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 309,69,Closed for Winter,2026-11-01,2027-04-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-310,71,Managed Hunt,2027-01-04,2027-01-06,"","","","","","",""
-311,71,Managed Hunt,2027-01-25,2027-01-27,"","","","","","",""
-312,71,Managed Hunt,2026-10-05,2026-10-07,"","","","","","",""
-313,71,Managed Hunt,2026-11-09,2026-11-11,"","","","","","",""
-314,71,Managed Hunt,2026-12-07,2026-12-09,"","","","","","",""
-315,71,Managed Hunt- Adult/Child,2026-12-20,2026-12-21,"","","","","","",""
+310,71,Managed Hunt,2027-01-04,2027-01-06,,,,,,,
+311,71,Managed Hunt,2027-01-25,2027-01-27,,,,,,,
+312,71,Managed Hunt,2026-10-05,2026-10-07,,,,,,,
+313,71,Managed Hunt,2026-11-09,2026-11-11,,,,,,,
+314,71,Managed Hunt,2026-12-07,2026-12-09,,,,,,,
+315,71,Managed Hunt- Adult/Child,2026-12-20,2026-12-21,,,,,,,
 316,72,Bridalveil Creek Campground is closed from early September through mid-July,2025-09-01,2026-07-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 317,73,Closed,2025-09-14,2026-05-14,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 318,77,Reopening Date To Be Determined Due to Past Storm Damage,2026-01-01,2026-12-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -71,7 +71,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 331,91,Closed for Winter,2025-11-01,2026-04-30,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 332,92,Closed for Winter,2026-11-09,2027-04-17,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 333,93,Closed for Winter,2025-11-01,2026-04-30,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-334,97,Closed Seasonally,2025-11-27,2026-04-18,"","","","","","",""
+334,97,Closed Seasonally,2025-11-27,2026-04-18,,,,,,,
 335,104,Winter Season,2025-10-01,2026-05-14,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 336,107,Closed,2025-09-20,2026-05-28,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 337,109,Canyon View Campground Closure,2025-10-12,2026-05-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -93,7 +93,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 353,137,Winter Colonial Creek South Campground,2025-09-15,2026-05-20,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 354,139,Winter Closure,2025-09-27,2026-05-21,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 355,140,Winter Closure,2025-10-10,2026-05-04,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-356,141,Winter Closure,2025-09-07,2026-05-22,"","","","","","",""
+356,141,Winter Closure,2025-09-07,2026-05-22,,,,,,,
 357,142,Closed,2025-10-25,2026-05-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 358,144,Partial Summer Closure,2026-06-01,2026-08-28,All Day,All Day,All Day,All Day,All Day,All Day,All Day
 359,145,Closed for Summer,2026-05-01,2026-10-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -124,7 +124,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 384,183,Winter Closure,2026-10-01,2027-04-14,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 385,184,Closed in Winter,2026-11-10,2027-04-11,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 386,192,Closed,2026-11-29,2027-04-03,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-387,193,Seasonally Closed,2025-10-31,2026-05-08,"","","","","","",""
+387,193,Seasonally Closed,2025-10-31,2026-05-08,,,,,,,
 388,200,Winter Season,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 389,201,Winter Season,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 390,203,Campground Closed due to Covid-`9,2026-05-22,2026-07-21,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -153,12 +153,12 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 413,263,Park Closed,2026-11-01,2027-04-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 414,264,Closed for season.,2026-12-01,2027-03-11,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 415,265,Winter Closure,2025-09-30,2026-05-09,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-416,267,Managed Hunt,2027-01-04,2027-01-06,"","","","","","",""
-417,267,Managed Hunt,2027-01-25,2027-01-27,"","","","","","",""
-418,267,Managed Hunt,2026-10-05,2026-10-07,"","","","","","",""
-419,267,Managed Hunt,2026-11-09,2026-11-11,"","","","","","",""
-420,267,Managed Hunt,2026-12-07,2026-12-09,"","","","","","",""
-421,267,Managed Hunt- Adult/Child,2026-12-20,2026-12-21,"","","","","","",""
+416,267,Managed Hunt,2027-01-04,2027-01-06,,,,,,,
+417,267,Managed Hunt,2027-01-25,2027-01-27,,,,,,,
+418,267,Managed Hunt,2026-10-05,2026-10-07,,,,,,,
+419,267,Managed Hunt,2026-11-09,2026-11-11,,,,,,,
+420,267,Managed Hunt,2026-12-07,2026-12-09,,,,,,,
+421,267,Managed Hunt- Adult/Child,2026-12-20,2026-12-21,,,,,,,
 422,282,Park Closed,2026-11-01,2027-04-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 423,283,Winter Season,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 424,284,Winter Season,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -174,7 +174,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 434,309,Winter Season,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 435,317,Winter Season,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 436,319,Weather Dependent Primitive Fall Season,2026-09-03,2026-10-31,All Day,All Day,All Day,All Day,All Day,All Day,All Day
-437,319,Winter Closure,2025-11-01,2026-05-21,"","","","","","",Closed
+437,319,Winter Closure,2025-11-01,2026-05-21,,,,,,,Closed
 438,320,Closed for Season.,2026-12-01,2027-03-11,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 439,322,Winter Hours Nov 15-Mar 15,2026-11-15,2027-03-15,All Day,All Day,All Day,All Day,All Day,All Day,All Day
 440,326,Park Closed,2026-11-01,2027-04-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -190,7 +190,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 450,344,Winter Season,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 451,345,Winter Closure (subject to change),2025-12-02,2026-06-14,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 452,348,Winter Closure,2025-10-26,2026-06-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-453,350,Long Pine Key Campground closed season,2026-05-01,2026-10-31,"","","","","","",""
+453,350,Long Pine Key Campground closed season,2026-05-01,2026-10-31,,,,,,,
 454,353,Closed.,2025-10-25,2026-05-08,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 455,355,2026 Operating Dates,2026-06-12,2026-09-15,All Day,All Day,All Day,All Day,All Day,All Day,All Day
 456,355,Mid-summer Closure,2026-07-27,2026-08-06,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -227,7 +227,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 487,410,Winter Season,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 488,412,Seasonal Winter Closure,2025-10-26,2026-04-21,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 489,413,Winter Closure,2025-11-15,2026-04-30,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-490,414,Temporary Closure,2026-06-09,2026-06-09,"","",Closed,"","","",""
+490,414,Temporary Closure,2026-06-09,2026-06-09,,,Closed,,,,
 491,415,Winter Closure,2026-12-01,2027-02-28,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 492,420,Closed for 2026,2026-04-01,2026-12-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 493,420,Closed Seasonally,2025-10-12,2026-06-13,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -244,7 +244,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 504,444,Winter Closure,2025-11-26,2026-05-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 505,448,Winter Season,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 506,449,Porcupine Flat Campground is closed from mid-October through mid-July (dates vary),2025-10-15,2026-07-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-507,457,Winter Closure,2025-10-23,2026-06-30,Closed,Closed,Closed,Closed,Closed,"",Closed
+507,457,Winter Closure,2025-10-23,2026-06-30,Closed,Closed,Closed,Closed,Closed,,Closed
 508,460,Winter Closure,2025-10-01,2026-05-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 509,464,Winter Closure,2025-09-05,2026-05-28,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 510,466,Closed for Winter,2025-11-30,2026-04-21,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -275,10 +275,10 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 535,518,Winter Closure,2026-10-23,2027-03-14,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 536,520,Closure Due to Damage From Winter Storms - Reopening Date Unknown,2026-01-01,2026-12-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 537,521,Park Closed,2026-11-01,2027-04-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-538,527,Winter Closure,2025-10-02,2026-05-19,"","","","","","",""
+538,527,Winter Closure,2025-10-02,2026-05-19,,,,,,,
 539,529,Winter Season,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 540,534,Primitive Spring Season,2026-04-18,2026-05-21,All Day,All Day,All Day,All Day,All Day,All Day,All Day
-541,534,Primitive Fall and Winter Season,2026-09-12,2027-04-17,"","","","","","",""
+541,534,Primitive Fall and Winter Season,2026-09-12,2027-04-17,,,,,,,
 542,540,Winter Hours Nov 15-Mar 15,2026-11-15,2027-03-15,All Day,All Day,All Day,All Day,All Day,All Day,All Day
 543,541,Winter Closure,2025-10-01,2026-05-17,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 544,544,Closed for Summer,2026-04-20,2026-10-14,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -298,10 +298,10 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 558,567,Park Closed,2026-11-01,2027-04-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 559,568,Closed,2025-09-28,2026-05-21,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 560,573,Winter closure,2025-09-21,2026-08-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-561,578,Weather Dependent Fall Primitive Season,2026-09-16,2026-10-14,"","","","","","",""
-562,578,Winter Closure,2025-10-15,2026-05-23,Closed,Closed,Closed,"","","",Closed
+561,578,Weather Dependent Fall Primitive Season,2026-09-16,2026-10-14,,,,,,,
+562,578,Winter Closure,2025-10-15,2026-05-23,Closed,Closed,Closed,,,,Closed
 563,582,Winter Closure,2026-12-03,2027-04-09,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-564,583,"Some Sites Closed for Hazardous Tree Removal from March 30 through April 7, 2026",2027-03-30,2027-04-08,"","","","","","",""
+564,583,"Some Sites Closed for Hazardous Tree Removal from March 30 through April 7, 2026",2027-03-30,2027-04-08,,,,,,,
 565,583,"Campground Closed for Internal Road Constuction from May 26 through June 8, 2026",2026-05-26,2026-06-09,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 566,585,Closed for Winter,2025-11-30,2026-04-24,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 567,589,2026 Operating Dates,2026-06-12,2026-10-10,All Day,All Day,All Day,All Day,All Day,All Day,All Day
@@ -314,16 +314,16 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 574,603,Summer Closure,2026-06-01,2026-08-28,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 575,604,White Wolf Campground is closed from mid-September through mid-July (dates vary),2025-09-01,2026-06-20,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 576,614,Park Closed,2026-11-01,2027-04-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-577,617,Managed Hunt,2027-01-04,2027-01-06,"","","","","","",""
-578,617,Managed Hunt,2027-01-25,2027-01-27,"","","","","","",""
-579,617,Managed Hunt,2026-10-05,2026-10-07,"","","","","","",""
-580,617,Managed Hunt,2026-11-09,2026-11-11,"","","","","","",""
-581,617,Managed Hunt,2026-12-07,2026-12-09,"","","","","","",""
-582,617,Managed Hunt- Adult/Child,2026-12-20,2026-12-21,"","","","","","",""
+577,617,Managed Hunt,2027-01-04,2027-01-06,,,,,,,
+578,617,Managed Hunt,2027-01-25,2027-01-27,,,,,,,
+579,617,Managed Hunt,2026-10-05,2026-10-07,,,,,,,
+580,617,Managed Hunt,2026-11-09,2026-11-11,,,,,,,
+581,617,Managed Hunt,2026-12-07,2026-12-09,,,,,,,
+582,617,Managed Hunt- Adult/Child,2026-12-20,2026-12-21,,,,,,,
 583,618,Yosemite Creek Campground is closed from mid-September through mid-July (dates vary),2025-09-01,2026-07-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-584,619,Park is Closed,2026-11-26,2026-11-26,"","","","","","",""
-585,619,Park is Closed,2026-12-25,2026-12-25,"","","","","","",""
-586,619,Park is Closed,2027-01-01,2027-01-01,"","","","","","",""
+584,619,Park is Closed,2026-11-26,2026-11-26,,,,,,,
+585,619,Park is Closed,2026-12-25,2026-12-25,,,,,,,
+586,619,Park is Closed,2027-01-01,2027-01-01,,,,,,,
 587,622,2026 Tour Season,2026-05-01,2026-10-31,Closed,Closed,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
 588,622,Memorial Day,2026-05-25,2026-05-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 589,622,Labor Day,2026-09-07,2026-09-07,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -333,47 +333,47 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 593,622,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 594,622,New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 595,622,"Birthday of Martin Luther King, Jr.",2027-01-18,2027-01-18,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-596,623,2026 Tour Season,2026-05-01,2026-10-31,Closed,Closed,"","","","",""
-597,626,Memorial Day,2026-05-26,2026-05-26,10:00AM - 4:00PM,"","","","","",""
+596,623,2026 Tour Season,2026-05-01,2026-10-31,Closed,Closed,,,,,
+597,626,Memorial Day,2026-05-26,2026-05-26,10:00AM - 4:00PM,,,,,,
 598,626,Juneteenth National Independence Day,2026-06-19,2026-06-19,Closed,Closed,Closed,10:00AM - 4:00PM,Closed,Closed,Closed
-599,626,Independence Day,2026-07-04,2026-07-04,"","","","",10:00AM - 4:00PM,"",""
-600,626,Labor Day,2026-09-07,2026-09-07,10:00AM - 4:00PM,"","","","","",""
+599,626,Independence Day,2026-07-04,2026-07-04,,,,,10:00AM - 4:00PM,,
+600,626,Labor Day,2026-09-07,2026-09-07,10:00AM - 4:00PM,,,,,,
 601,626,Columbus Day,2026-10-13,2026-10-13,10:00AM - 4:00PM,Closed,Closed,Closed,Closed,Closed,Closed
-602,626,Veteran's Day,2026-11-11,2026-11-11,"",10:00AM - 4:00PM,"","","","",""
+602,626,Veteran's Day,2026-11-11,2026-11-11,,10:00AM - 4:00PM,,,,,
 603,626,Thanksgiving Holiday Closure,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 604,626,Christmas Holiday Closure,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 605,626,New Year's Day Closure,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-606,626,"Birthday of Dr. Martin Luther King, Jr.",2027-01-18,2027-01-18,10:00AM - 4:00PM,"","","","","",""
-607,626,Washington's Birthday,2027-02-15,2027-02-15,10:00AM - 4:00PM,"","","","","",""
-608,627,Outdoor Memorial Summer Hours,2026-05-07,2026-09-02,"",10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,""
-609,627,Memorial Day,2026-05-25,2026-05-25,10:00AM - 5:00PM,"","","","","",""
-610,627,Juneteenth National Independence Day,2026-06-19,2026-06-19,Closed,Closed,"",10:00AM - 5:00PM,Closed,Closed,Closed
-611,627,Independence Day,2026-07-04,2026-07-04,Closed,Closed,Closed,"",10:00AM - 5:00PM,Closed,Closed
-612,627,Labor Day,2026-09-07,2026-09-07,10:00AM - 5:00PM,"","","","","",""
+606,626,"Birthday of Dr. Martin Luther King, Jr.",2027-01-18,2027-01-18,10:00AM - 4:00PM,,,,,,
+607,626,Washington's Birthday,2027-02-15,2027-02-15,10:00AM - 4:00PM,,,,,,
+608,627,Outdoor Memorial Summer Hours,2026-05-07,2026-09-02,,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,
+609,627,Memorial Day,2026-05-25,2026-05-25,10:00AM - 5:00PM,,,,,,
+610,627,Juneteenth National Independence Day,2026-06-19,2026-06-19,Closed,Closed,,10:00AM - 5:00PM,Closed,Closed,Closed
+611,627,Independence Day,2026-07-04,2026-07-04,Closed,Closed,Closed,,10:00AM - 5:00PM,Closed,Closed
+612,627,Labor Day,2026-09-07,2026-09-07,10:00AM - 5:00PM,,,,,,
 613,627,Columbus Day,2026-10-13,2026-10-13,10:00AM - 4:00PM,Closed,Closed,Closed,Closed,Closed,Closed
-614,627,Veteran's Day,2026-11-11,2026-11-11,"",10:00AM - 4:00PM,"","","","",""
+614,627,Veteran's Day,2026-11-11,2026-11-11,,10:00AM - 4:00PM,,,,,
 615,627,Thanksgiving Holiday Closure,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 616,627,Christmas Holiday Closure,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 617,627,New Year's Day Closure,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-618,627,"Birthday of Dr. Martin Luther King, Jr.",2027-01-18,2027-01-18,10:00AM - 4:00PM,"","","","","",""
-619,627,Washington's Birthday,2027-02-15,2027-02-15,10:00AM - 4:00PM,"","","","","",""
+618,627,"Birthday of Dr. Martin Luther King, Jr.",2027-01-18,2027-01-18,10:00AM - 4:00PM,,,,,,
+619,627,Washington's Birthday,2027-02-15,2027-02-15,10:00AM - 4:00PM,,,,,,
 620,631,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 621,631,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 622,631,New Year's,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-623,633,Closed Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-624,633,Closed Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-625,634,Thanksgiving Closure,2026-11-26,2026-11-26,"","","",Closed,"","",""
-626,634,Christmas Day Closure,2026-12-25,2026-12-25,"","","","",Closed,"",""
-627,634,New Year's Day Closure,2027-01-01,2027-01-01,"","","","",Closed,"",""
+623,633,Closed Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+624,633,Closed Christmas Day,2026-12-25,2026-12-25,,,,,,,
+625,634,Thanksgiving Closure,2026-11-26,2026-11-26,,,,Closed,,,
+626,634,Christmas Day Closure,2026-12-25,2026-12-25,,,,,Closed,,
+627,634,New Year's Day Closure,2027-01-01,2027-01-01,,,,,Closed,,
 628,640,Spring & Summer Hours,2026-05-25,2026-09-07,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 8:00PM,9:00AM - 8:00PM,9:00AM - 8:00PM,9:00AM - 5:00PM
 629,640,Fall Hours,2026-09-02,2026-10-31,Closed,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,Closed
 630,640,Closed for the Season,2025-11-01,2026-05-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-631,641,Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-632,641,Christmas,2026-12-25,2026-12-25,"","","","","","",""
-633,641,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-634,642,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-635,642,Closed for Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-636,642,Closed New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+631,641,Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+632,641,Christmas,2026-12-25,2026-12-25,,,,,,,
+633,641,New Year's Day,2027-01-01,2027-01-01,,,,,,,
+634,642,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+635,642,Closed for Christmas Day,2026-12-25,2026-12-25,,,,,,,
+636,642,Closed New Year's Day,2027-01-01,2027-01-01,,,,,,,
 637,644,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 638,644,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 639,644,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -381,36 +381,36 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 641,647,Reduced Hours December 24,2026-12-24,2026-12-24,9:00AM - 2:00PM,9:00AM - 2:00PM,9:00AM - 2:00PM,9:00AM - 2:00PM,9:00AM - 2:00PM,9:00AM - 2:00PM,9:00AM - 2:00PM
 642,647,Closed December 25,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 643,647,Closed January 1,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-644,649,Thanksgiving Day Closure,2026-11-26,2026-11-26,"","","","","","",""
-645,649,Christmas Day Closure,2026-12-25,2026-12-25,"","","","","","",""
-646,649,New Year's Day Closure,2027-01-01,2027-01-01,"","","","","","",""
+644,649,Thanksgiving Day Closure,2026-11-26,2026-11-26,,,,,,,
+645,649,Christmas Day Closure,2026-12-25,2026-12-25,,,,,,,
+646,649,New Year's Day Closure,2027-01-01,2027-01-01,,,,,,,
 647,650,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 648,650,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 649,650,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 650,652,Spring Hours,2026-03-09,2026-04-30,6:00AM - 8:00PM,6:00AM - 8:00PM,6:00AM - 8:00PM,6:00AM - 8:00PM,6:00AM - 8:00PM,6:00AM - 8:00PM,6:00AM - 8:00PM
 651,652,Fall Hours,2026-10-01,2026-10-31,6:00AM - 8:00PM,6:00AM - 8:00PM,6:00AM - 8:00PM,6:00AM - 8:00PM,6:00AM - 8:00PM,6:00AM - 8:00PM,6:00AM - 8:00PM
 652,652,Winter Hours,2026-11-01,2027-03-08,6:00AM - 6:00PM,6:00AM - 6:00PM,6:00AM - 6:00PM,6:00AM - 6:00PM,6:00AM - 6:00PM,6:00AM - 6:00PM,6:00AM - 6:00PM
-653,653,Closed on Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-654,653,Closed on Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-655,653,Closed on New Years Day,2027-01-01,2027-01-01,"","","","","","",""
-656,656,Bandelier National Monument Closed on Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-657,658,Belmont-Paul closed,2027-02-13,2027-03-08,"","","","","","",""
+653,653,Closed on Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+654,653,Closed on Christmas Day,2026-12-25,2026-12-25,,,,,,,
+655,653,Closed on New Years Day,2027-01-01,2027-01-01,,,,,,,
+656,656,Bandelier National Monument Closed on Christmas Day,2026-12-25,2026-12-25,,,,,,,
+657,658,Belmont-Paul closed,2027-02-13,2027-03-08,,,,,,,
 658,658,Women's History Month special hours,2027-03-01,2027-03-31,Closed,Closed,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
 659,659,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-660,659,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
+660,659,Christmas Day,2026-12-25,2026-12-25,,,,,,,
 661,659,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 662,659,"Birthday of Martin Luther King, Jr.",2027-01-18,2027-01-18,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 663,659,Washington's Birthday,2027-02-15,2027-02-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-664,663,Thanksgiving,2026-11-26,2026-11-26,"","","",Closed,"","",""
-665,663,Christmas Eve,2026-12-24,2026-12-24,"",Closed,"","","","",""
-666,663,New Year's Eve,2026-12-31,2026-12-31,"",Closed,"","","","",""
-667,663,Christmas Day,2027-01-01,2027-01-01,"","",Closed,"","","",""
-668,663,New Year's Day,2027-01-01,2027-01-01,"","",Closed,"","","",""
+664,663,Thanksgiving,2026-11-26,2026-11-26,,,,Closed,,,
+665,663,Christmas Eve,2026-12-24,2026-12-24,,Closed,,,,,
+666,663,New Year's Eve,2026-12-31,2026-12-31,,Closed,,,,,
+667,663,Christmas Day,2027-01-01,2027-01-01,,,Closed,,,,
+668,663,New Year's Day,2027-01-01,2027-01-01,,,Closed,,,,
 669,673,Winter Season,2025-11-25,2026-04-29,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 670,676,"Closed from Milepost 200.1 to Milepost 285.5, Closed from Milepost 305 to Milepost 411.8, and Closed from Milepost 421 to Milepost 423.2",2025-09-29,2026-09-28,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-671,679,Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-672,679,Christmas,2026-12-25,2026-12-25,"","","","","","",""
-673,679,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+671,679,Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+672,679,Christmas,2026-12-25,2026-12-25,,,,,,,
+673,679,New Year's Day,2027-01-01,2027-01-01,,,,,,,
 674,681,Winter,2025-10-15,2026-05-17,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 675,682,Memorial Day,2026-05-25,2026-05-25,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
 676,682,Winter Hours,2025-10-01,2026-05-22,Closed,Closed,1:00PM - 4:00PM,1:00PM - 4:00PM,1:00PM - 4:00PM,1:00PM - 4:00PM,1:00PM - 4:00PM
@@ -446,7 +446,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 706,688,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 707,688,Presidents' Day (Washington's Birthday),2027-02-15,2027-02-15,10:00AM - 4:30PM,10:00AM - 4:30PM,10:00AM - 4:30PM,10:00AM - 4:30PM,10:00AM - 4:30PM,10:00AM - 4:30PM,10:00AM - 4:30PM
 708,689,Summer Hours,2026-05-01,2026-09-01,Closed,10:00AM - 6:00PM,10:00AM - 6:00PM,10:00AM - 6:00PM,10:00AM - 6:00PM,10:00AM - 6:00PM,10:00AM - 6:00PM
-709,689,Labor Day,2026-09-07,2026-09-07,10:00AM - 6:00PM,"","","","","",""
+709,689,Labor Day,2026-09-07,2026-09-07,10:00AM - 6:00PM,,,,,,
 710,689,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 711,689,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 712,689,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -460,35 +460,35 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 720,693,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 721,693,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 722,693,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-723,699,Memorial Day,2026-05-25,2026-05-25,1:00PM - 5:00PM,"","","","","",""
-724,699,Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-725,699,Christmas,2026-12-25,2026-12-25,"","","","","","",""
-726,705,Memorial Day,2026-05-25,2026-05-25,Closed,"","","","","",""
-727,705,Juneteenth,2026-06-19,2026-06-19,"","",Closed,"","","",""
-728,705,Independence Day,2026-07-04,2026-07-04,Closed,"","","","","",Closed
-729,705,Labor Day,2026-09-06,2026-09-06,Closed,"","","","","",""
-730,705,Columbus Day,2026-10-12,2026-10-12,Closed,"","","","","",""
-731,705,Veteran's Day,2026-11-11,2026-11-11,"","",9:00AM - 3:30PM,Closed,"","",""
-732,705,Thanksgiving,2026-11-26,2026-11-26,"","","",Closed,"","",""
+723,699,Memorial Day,2026-05-25,2026-05-25,1:00PM - 5:00PM,,,,,,
+724,699,Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+725,699,Christmas,2026-12-25,2026-12-25,,,,,,,
+726,705,Memorial Day,2026-05-25,2026-05-25,Closed,,,,,,
+727,705,Juneteenth,2026-06-19,2026-06-19,,,Closed,,,,
+728,705,Independence Day,2026-07-04,2026-07-04,Closed,,,,,,Closed
+729,705,Labor Day,2026-09-06,2026-09-06,Closed,,,,,,
+730,705,Columbus Day,2026-10-12,2026-10-12,Closed,,,,,,
+731,705,Veteran's Day,2026-11-11,2026-11-11,,,9:00AM - 3:30PM,Closed,,,
+732,705,Thanksgiving,2026-11-26,2026-11-26,,,,Closed,,,
 733,705,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-734,705,New Year's Day,2027-01-01,2027-01-01,"","",Closed,"","","",""
-735,705,Martin Luther King Jr. Day,2027-01-18,2027-01-18,Closed,"","","","","",""
-736,705,Washington's Birthday,2027-02-15,2027-02-15,Closed,"","","","","",""
+734,705,New Year's Day,2027-01-01,2027-01-01,,,Closed,,,,
+735,705,Martin Luther King Jr. Day,2027-01-18,2027-01-18,Closed,,,,,,
+736,705,Washington's Birthday,2027-02-15,2027-02-15,Closed,,,,,,
 737,720,Holiday Closures,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 738,720,Holiday Closures,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 739,720,Holiday Closures,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 740,721,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 741,721,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 742,721,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-743,722,Memorial Day,2026-05-26,2026-05-26,Closed,"","","","","",""
-744,722,Juneteenth,2026-06-19,2026-06-19,"","","",10:00AM - 4:00AM,"","",""
-745,722,Labor Day,2026-09-01,2026-09-01,Closed,"","","","","",""
-746,722,Veteran's Day,2026-11-11,2026-11-11,Closed,"","","","","",""
-747,722,Thanksgiving Day,2026-11-11,2026-11-11,"","","",Closed,"","",""
-748,722,Christmas Day,2026-12-25,2026-12-25,"","",Closed,"","","",""
-749,722,New Years Day,2027-01-01,2027-01-01,"","",Closed,"","","",""
-750,722,Martin Luther King Jr. Birthday,2027-01-20,2027-01-20,Closed,"","","","","",""
-751,722,Presidents Day,2027-02-17,2027-02-17,Closed,"","","","","",""
+743,722,Memorial Day,2026-05-26,2026-05-26,Closed,,,,,,
+744,722,Juneteenth,2026-06-19,2026-06-19,,,,10:00AM - 4:00AM,,,
+745,722,Labor Day,2026-09-01,2026-09-01,Closed,,,,,,
+746,722,Veteran's Day,2026-11-11,2026-11-11,Closed,,,,,,
+747,722,Thanksgiving Day,2026-11-11,2026-11-11,,,,Closed,,,
+748,722,Christmas Day,2026-12-25,2026-12-25,,,Closed,,,,
+749,722,New Years Day,2027-01-01,2027-01-01,,,Closed,,,,
+750,722,Martin Luther King Jr. Birthday,2027-01-20,2027-01-20,Closed,,,,,,
+751,722,Presidents Day,2027-02-17,2027-02-17,Closed,,,,,,
 752,724,Memorial Day,2026-05-25,2026-05-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 753,724,Juneteenth National Independence Day,2026-06-19,2026-06-19,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 754,724,Independence Day,2026-07-04,2026-07-04,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -507,18 +507,18 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 767,727,Independence Day,2026-07-04,2026-07-04,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 768,727,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 769,727,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-770,729,Closed Thanksgiving Holiday,2026-11-26,2026-11-26,"","","","","","",""
-771,729,Closed Christmas Holiday,2026-12-25,2026-12-25,"","","","","","",""
+770,729,Closed Thanksgiving Holiday,2026-11-26,2026-11-26,,,,,,,
+771,729,Closed Christmas Holiday,2026-12-25,2026-12-25,,,,,,,
 772,732,Winter Season,2025-10-15,2026-05-26,All Day,All Day,All Day,All Day,All Day,All Day,All Day
 773,734,Spring Operating Hours,2026-03-01,2026-04-30,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM
 774,734,Winter Operating Hours,2026-11-01,2027-02-28,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM
-775,734,Thanksgiving Holiday Closure,2026-11-26,2026-11-26,"","","",Closed,"","",""
+775,734,Thanksgiving Holiday Closure,2026-11-26,2026-11-26,,,,Closed,,,
 776,734,December 25th Holiday Closure,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 777,734,New Year's Day Holiday Closure,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 778,735,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 779,735,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 780,735,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-781,737,Thanksgiving Day Holiday,2026-11-26,2026-11-26,"","","",Closed,"","",""
+781,737,Thanksgiving Day Holiday,2026-11-26,2026-11-26,,,,Closed,,,
 782,737,Christmas Day Holiday,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 783,737,New Years Day Holiday,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 784,738,Veterans Day,2026-11-11,2026-11-11,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -543,24 +543,24 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 803,753,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 804,753,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 805,753,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-806,759,Christmas (Closed),2026-12-25,2026-12-25,"","","","","","",""
+806,759,Christmas (Closed),2026-12-25,2026-12-25,,,,,,,
 807,762,Winter Closure of North Entrance,2025-11-01,2026-06-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 808,764,Winter Closure of Loop Road,2025-12-02,2026-04-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-809,765,Thanksgiving,2026-11-27,2026-11-27,"","","","","","",""
-810,765,Christmas,2026-12-25,2026-12-25,"","","","","","",""
-811,765,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-812,769,Easter Sunday,2027-04-05,2027-04-05,"","","","","","",Closed
-813,769,Memorial Day Closure,2026-05-25,2026-05-25,Closed,"","","","","",""
+809,765,Thanksgiving,2026-11-27,2026-11-27,,,,,,,
+810,765,Christmas,2026-12-25,2026-12-25,,,,,,,
+811,765,New Year's Day,2027-01-01,2027-01-01,,,,,,,
+812,769,Easter Sunday,2027-04-05,2027-04-05,,,,,,,Closed
+813,769,Memorial Day Closure,2026-05-25,2026-05-25,Closed,,,,,,
 814,769,Thanksgiving and the Day After Thanksgiving,2026-11-26,2026-11-28,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-815,769,"Christmas Holiday, December 24-26",2026-12-24,2026-12-26,"","",Closed,Closed,Closed,"",""
+815,769,"Christmas Holiday, December 24-26",2026-12-24,2026-12-26,,,Closed,Closed,Closed,,
 816,769,New Year's Eve and New Year's Day Closure,2026-12-31,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-817,770,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+817,770,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 818,770,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 819,770,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-820,771,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+820,771,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 821,771,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 822,771,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-823,772,Thanksgiving Day Closure,2026-11-26,2026-11-26,"","","",Closed,"","",""
+823,772,Thanksgiving Day Closure,2026-11-26,2026-11-26,,,,Closed,,,
 824,772,Christmas Day Closure,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 825,772,New Year's Day Closure,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 826,773,Thanksgiving Day Park Closed,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -573,21 +573,21 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 833,778,October No Overnight Parking,2026-10-16,2026-10-31,Sunrise to Sunset,Sunrise to Sunset,Sunrise to Sunset,Sunrise to Sunset,Sunrise to Sunset,Sunrise to Sunset,Sunrise to Sunset
 834,787,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 835,793,Winter Hours,2025-10-19,2026-05-23,9:00AM - 5:00PM,Closed,Closed,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
-836,793,Closed Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-837,793,Closed Christmas,2026-12-25,2026-12-25,"","","","","","",""
-838,793,Closed New Years Day,2027-01-01,2027-01-01,"","","","","","",""
+836,793,Closed Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+837,793,Closed Christmas,2026-12-25,2026-12-25,,,,,,,
+838,793,Closed New Years Day,2027-01-01,2027-01-01,,,,,,,
 839,794,Winter and Early Spring Closure,2025-11-01,2026-05-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-840,794,Holiday Closure,2027-01-01,2027-01-01,"","","","","","",""
+840,794,Holiday Closure,2027-01-01,2027-01-01,,,,,,,
 841,795,February 1 - February 28,2027-02-01,2027-02-28,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM
 842,795,March 1 - March 31,2027-03-01,2027-03-31,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM
 843,795,April 1 - August 31,2026-04-01,2026-08-31,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM
 844,795,September 1 - September 30,2026-09-01,2026-09-30,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM
 845,795,October 1 - October 31,2026-10-01,2026-10-31,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM
-846,795,Holiday Closure,2026-11-26,2026-11-26,"","","","","","",""
-847,795,Holiday Closure,2026-12-25,2026-12-25,"","","","","","",""
-848,795,Holiday Closure,2027-01-01,2027-01-01,"","","","","","",""
-849,796,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-850,796,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
+846,795,Holiday Closure,2026-11-26,2026-11-26,,,,,,,
+847,795,Holiday Closure,2026-12-25,2026-12-25,,,,,,,
+848,795,Holiday Closure,2027-01-01,2027-01-01,,,,,,,
+849,796,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+850,796,Christmas Day,2026-12-25,2026-12-25,,,,,,,
 851,797,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 852,797,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 853,797,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -628,30 +628,30 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 888,807,Closed December 24th,2026-12-24,2026-12-24,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 889,807,Closed December 25th,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 890,807,Closed New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-891,809,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-892,809,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-893,809,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-894,809,"Birthday of Martin Luther King, Jr.",2027-01-18,2027-01-18,"","","","","","",""
-895,809,"Birthday of Martin Luther King, Jr.",2027-01-18,2027-01-18,"","","","","","",""
-896,810,Thanksgiving,2026-11-26,2026-11-26,"","","",Closed,"","",""
+891,809,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+892,809,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+893,809,New Year's Day,2027-01-01,2027-01-01,,,,,,,
+894,809,"Birthday of Martin Luther King, Jr.",2027-01-18,2027-01-18,,,,,,,
+895,809,"Birthday of Martin Luther King, Jr.",2027-01-18,2027-01-18,,,,,,,
+896,810,Thanksgiving,2026-11-26,2026-11-26,,,,Closed,,,
 897,810,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-898,812,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+898,812,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 899,812,Closed Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 900,812,Closed New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-901,812,"Closed Martin Luther King, Jr. Day",2027-01-18,2027-01-18,Closed,"","","","","",""
+901,812,"Closed Martin Luther King, Jr. Day",2027-01-18,2027-01-18,Closed,,,,,,
 902,813,Mid-March to Memorial Day,2026-03-11,2026-05-29,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM
 903,813,Memorial Day to Labor Day,2026-05-29,2026-09-07,8:00AM - 8:00PM,8:00AM - 8:00PM,8:00AM - 8:00PM,8:00AM - 8:00PM,8:00AM - 8:00PM,8:00AM - 8:00PM,8:00AM - 8:00PM
 904,813,Labor Day to Fall Time Change,2026-09-07,2026-11-02,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM
 905,813,Fall Time Change - Spring Time Change,2026-11-02,2027-03-08,8:00AM - 4:30PM,8:00AM - 4:30PM,8:00AM - 4:30PM,8:00AM - 4:30PM,8:00AM - 4:30PM,8:00AM - 4:30PM,8:00AM - 4:30PM
-906,813,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
-907,813,Christmas Day,2026-12-25,2026-12-25,"","","","","",Closed,""
-908,813,New Year's Day,2027-01-01,2027-01-01,"","","","","",Closed,""
+906,813,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
+907,813,Christmas Day,2026-12-25,2026-12-25,,,,,,Closed,
+908,813,New Year's Day,2027-01-01,2027-01-01,,,,,,Closed,
 909,815,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 910,815,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 911,815,New Year’s Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-912,816,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-913,816,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-914,816,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+912,816,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+913,816,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+914,816,New Year's Day,2027-01-01,2027-01-01,,,,,,,
 915,817,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 916,817,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 917,817,New Year’s Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -661,11 +661,11 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 921,819,Thanksgiving Day Closure,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 922,819,Christmas Day Closure,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 923,819,New Year's Day Closure,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-924,822,Thanksgiving Holiday Closure,2026-11-26,2026-11-26,"","","",Closed,"","",""
-925,822,Christmas Holiday Closure,2026-12-25,2026-12-25,"","","","","",Closed,""
-926,822,New Year's Day Holiday Closure,2027-01-01,2027-01-01,"","","","","","",""
-927,823,Area Closed,2026-11-26,2026-11-26,"","","","","","",""
-928,823,Area Closed,2026-12-25,2026-12-25,"","","","","","",""
+924,822,Thanksgiving Holiday Closure,2026-11-26,2026-11-26,,,,Closed,,,
+925,822,Christmas Holiday Closure,2026-12-25,2026-12-25,,,,,,Closed,
+926,822,New Year's Day Holiday Closure,2027-01-01,2027-01-01,,,,,,,
+927,823,Area Closed,2026-11-26,2026-11-26,,,,,,,
+928,823,Area Closed,2026-12-25,2026-12-25,,,,,,,
 929,825,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 930,825,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 931,825,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -673,18 +673,18 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 933,831,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 934,831,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 935,831,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-936,832,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
-937,832,Closed Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-938,832,Closed New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-939,833,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-940,833,Closed Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-941,833,Closed New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-942,834,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-943,834,Closed Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-944,834,Closed New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+936,832,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
+937,832,Closed Christmas Day,2026-12-25,2026-12-25,,,,,,,
+938,832,Closed New Year's Day,2027-01-01,2027-01-01,,,,,,,
+939,833,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+940,833,Closed Christmas Day,2026-12-25,2026-12-25,,,,,,,
+941,833,Closed New Year's Day,2027-01-01,2027-01-01,,,,,,,
+942,834,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+943,834,Closed Christmas Day,2026-12-25,2026-12-25,,,,,,,
+944,834,Closed New Year's Day,2027-01-01,2027-01-01,,,,,,,
 945,838,Spring Hours,2026-04-01,2026-06-21,Closed,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,Closed
 946,838,Fall Hours,2026-09-01,2026-12-13,Closed,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,Closed
-947,838,Thanksgiving Closure,2026-11-26,2026-11-26,"","","",Closed,"","",All Day
+947,838,Thanksgiving Closure,2026-11-26,2026-11-26,,,,Closed,,,All Day
 948,838,Winter Closure,2026-12-14,2027-04-06,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 949,839,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 950,839,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,9:00AM - 4:30PM,Closed,Closed,Closed,Closed
@@ -693,7 +693,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 953,840,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 954,840,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 955,841,Winter Hours of Operation,2025-09-07,2026-05-27,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM
-956,841,Thanksgiving Day Holiday Closure,2026-11-26,2026-11-26,"","","",Closed,"","",""
+956,841,Thanksgiving Day Holiday Closure,2026-11-26,2026-11-26,,,,Closed,,,
 957,841,Christmas Day Holiday Closure,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 958,841,New Year's Day Holiday Closure,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 959,842,Winter Hours,2025-11-14,2026-05-22,Closed,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,Closed
@@ -702,8 +702,8 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 962,842,Closed New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 963,843,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 964,843,Winter Season Closure,2026-12-21,2027-01-05,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-965,843,Christmas Eve & Christmas Day,2026-12-24,2026-12-25,"","","","","","",""
-966,843,New Year's Eve & New Year's Day,2026-12-31,2027-01-01,"","","","","","",""
+965,843,Christmas Eve & Christmas Day,2026-12-24,2026-12-25,,,,,,,
+966,843,New Year's Eve & New Year's Day,2026-12-31,2027-01-01,,,,,,,
 967,844,Annual Winter Closure,2026-12-03,2027-02-16,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 968,846,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 969,846,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -719,25 +719,25 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 979,852,Spring Hours,2026-05-29,2026-06-14,Closed,Closed,Closed,Closed,9:30AM - 4:30PM,9:30AM - 4:30PM,Closed
 980,852,Fall Hours,2026-09-19,2026-11-01,Closed,Closed,Closed,Closed,9:30AM - 4:30PM,9:30AM - 4:30PM,Closed
 981,852,Closed November 2025 through May 2026,2025-11-17,2026-05-28,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-982,854,65th Anniversary Event,2026-05-09,2026-05-09,"","","","","",10:00AM - 12:00PM,""
-983,858,"Closed Nov. 28, Thanksgiving Day",2026-11-28,2026-11-28,"","","","","","",""
-984,858,"Closed Dec. 25, Christmas Day",2026-12-25,2026-12-25,"","","","","","",""
-985,858,"Closed Jan. 1, New Years Day",2027-01-01,2027-01-01,"","","","","","",""
-986,865,Memorial Day,2026-05-25,2026-05-25,10:00AM - 5:00PM,"","","","","",""
+982,854,65th Anniversary Event,2026-05-09,2026-05-09,,,,,,10:00AM - 12:00PM,
+983,858,"Closed Nov. 28, Thanksgiving Day",2026-11-28,2026-11-28,,,,,,,
+984,858,"Closed Dec. 25, Christmas Day",2026-12-25,2026-12-25,,,,,,,
+985,858,"Closed Jan. 1, New Years Day",2027-01-01,2027-01-01,,,,,,,
+986,865,Memorial Day,2026-05-25,2026-05-25,10:00AM - 5:00PM,,,,,,
 987,865,Juneteenth,2026-06-19,2026-06-19,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
 988,865,Independence Day,2026-07-04,2026-07-04,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
 989,865,"Fall, Winter, Spring Hours",2025-09-03,2026-05-25,Closed,Closed,10:00AM - 3:30PM,10:00AM - 3:30PM,10:00AM - 3:30PM,10:00AM - 3:30PM,10:00AM - 3:30PM
-990,865,Labor Day,2026-09-07,2026-09-07,10:00AM - 5:00PM,"","","","","",""
-991,865,Columbus Day,2026-10-12,2026-10-12,10:00AM - 4:00PM,"","","","","",""
-992,865,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+990,865,Labor Day,2026-09-07,2026-09-07,10:00AM - 5:00PM,,,,,,
+991,865,Columbus Day,2026-10-12,2026-10-12,10:00AM - 4:00PM,,,,,,
+992,865,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 993,865,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 994,865,New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-995,865,"Martin Luther King, Jr. Day",2027-01-18,2027-01-18,10:00AM - 4:00PM,"","","","","",""
-996,865,Washington's Birthday,2027-02-15,2027-02-15,10:00AM - 4:00PM,"","","","","",""
+995,865,"Martin Luther King, Jr. Day",2027-01-18,2027-01-18,10:00AM - 4:00PM,,,,,,
+996,865,Washington's Birthday,2027-02-15,2027-02-15,10:00AM - 4:00PM,,,,,,
 997,866,Columbus Day Closed,2026-10-12,2026-10-12,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 998,866,Winter Hours,2026-10-19,2027-03-31,Closed,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,Closed
 999,866,Veterans Day Closed,2026-11-11,2026-11-11,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1000,866,Thanksgiving Closed,2026-11-26,2026-11-26,"","","","","","",""
+1000,866,Thanksgiving Closed,2026-11-26,2026-11-26,,,,,,,
 1001,866,Christmas Day Closed,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1002,866,New Years Day Closed,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1003,866,MLK Closed,2027-01-18,2027-01-18,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -764,17 +764,17 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1024,871,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1025,871,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1026,871,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1027,872,Closed Memorial Day,2026-05-25,2026-05-25,"","","","","","",""
-1028,872,Closed Juneteenth,2026-06-19,2026-06-19,"","","","","","",""
-1029,872,Closed Independence Day,2026-07-04,2026-07-04,"","","","","","",""
-1030,872,Closed Labor Day,2026-09-07,2026-09-07,"","","","","","",""
-1031,872,Closed Columbus Day,2026-10-12,2026-10-12,"","","","","","",""
-1032,872,Closed Veterans Day,2026-11-11,2026-11-11,"","","","","","",""
-1033,872,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1034,872,Closed Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1035,872,Closed New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-1036,872,Closed MLK Day,2027-01-18,2027-01-18,"","","","","","",""
-1037,872,Closed Washington's Birthday,2027-02-15,2027-02-15,"","","","","","",""
+1027,872,Closed Memorial Day,2026-05-25,2026-05-25,,,,,,,
+1028,872,Closed Juneteenth,2026-06-19,2026-06-19,,,,,,,
+1029,872,Closed Independence Day,2026-07-04,2026-07-04,,,,,,,
+1030,872,Closed Labor Day,2026-09-07,2026-09-07,,,,,,,
+1031,872,Closed Columbus Day,2026-10-12,2026-10-12,,,,,,,
+1032,872,Closed Veterans Day,2026-11-11,2026-11-11,,,,,,,
+1033,872,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1034,872,Closed Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1035,872,Closed New Year's Day,2027-01-01,2027-01-01,,,,,,,
+1036,872,Closed MLK Day,2027-01-18,2027-01-18,,,,,,,
+1037,872,Closed Washington's Birthday,2027-02-15,2027-02-15,,,,,,,
 1038,875,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1039,875,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1040,875,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -783,7 +783,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1043,876,New Years,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1044,878,Closed for Winter Season,2025-09-07,2026-05-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1045,879,Closed for Winter,2025-10-01,2026-04-30,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1046,882,Closed All Federal Holidays,2026-01-01,2026-12-25,"","","","","","",""
+1046,882,Closed All Federal Holidays,2026-01-01,2026-12-25,,,,,,,
 1047,888,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1048,888,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1049,891,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -791,14 +791,14 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1051,891,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1052,894,Fort Jay Winter schedule,2026-12-01,2027-04-12,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1053,896,Winter Hours,2026-12-12,2027-04-12,Closed,Closed,10:30AM - 4:00PM,10:30AM - 4:00PM,10:30AM - 4:00PM,10:30AM - 4:00PM,10:30AM - 4:00PM
-1054,901,Veterans Day,2026-11-11,2026-11-11,"","","","",Closed,"",""
-1055,901,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
-1056,901,Christmas Day,2026-12-25,2026-12-25,Closed,"","","","","",""
-1057,901,New Year's Day,2027-01-01,2027-01-01,Closed,"","","","","",""
-1058,901,"Birthday of Martin Luther King, Jr.",2027-01-18,2027-01-18,Closed,"","","","","",""
-1059,901,Washington's Birthday,2027-02-15,2027-02-15,Closed,"","","","","",""
+1054,901,Veterans Day,2026-11-11,2026-11-11,,,,,Closed,,
+1055,901,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
+1056,901,Christmas Day,2026-12-25,2026-12-25,Closed,,,,,,
+1057,901,New Year's Day,2027-01-01,2027-01-01,Closed,,,,,,
+1058,901,"Birthday of Martin Luther King, Jr.",2027-01-18,2027-01-18,Closed,,,,,,
+1059,901,Washington's Birthday,2027-02-15,2027-02-15,Closed,,,,,,
 1060,904,Summer Hours,2026-05-25,2026-09-07,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
-1061,904,Thanksgiving,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1061,904,Thanksgiving,2026-11-26,2026-11-26,,,,Closed,,,
 1062,904,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1063,904,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1064,907,December 25,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -808,16 +808,16 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1068,913,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1069,913,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1070,913,New Year’s Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1071,919,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1072,919,Closed Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1073,919,Closed New Years Day,2027-01-01,2027-01-01,"","","","","","",""
+1071,919,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1072,919,Closed Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1073,919,Closed New Years Day,2027-01-01,2027-01-01,,,,,,,
 1074,921,Winter Season,2026-11-01,2027-03-31,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM
 1075,923,Winter Season,2026-11-01,2027-03-31,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM
 1076,923,Winter Season,2026-11-01,2027-03-31,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM,5:00AM - 6:00PM
-1077,932,Closed,2026-12-25,2026-12-25,"","","","","","",""
-1078,932,Closed,2026-12-25,2026-12-25,"","","","","","",""
-1079,935,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1080,935,Closed Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
+1077,932,Closed,2026-12-25,2026-12-25,,,,,,,
+1078,932,Closed,2026-12-25,2026-12-25,,,,,,,
+1079,935,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1080,935,Closed Christmas Day,2026-12-25,2026-12-25,,,,,,,
 1081,936,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1082,936,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1083,936,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -828,8 +828,8 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1088,939,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1089,939,New Year's,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1090,940,Off Season,2025-11-01,2026-05-23,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1091,942,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1092,942,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
+1091,942,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1092,942,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
 1093,942,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1094,943,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1095,943,December 25th (Christmas Day),2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -845,21 +845,21 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1105,949,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1106,949,New Year's,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1107,950,Tour Hours - Winter & Spring,2025-11-01,2026-05-25,9:30AM - 3:30PM,9:30AM - 3:30PM,9:30AM - 3:30PM,9:30AM - 3:30PM,9:30AM - 3:30PM,9:30AM - 3:30PM,9:30AM - 3:30PM
-1108,950,Holiday Closure - Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1109,950,Holiday Closure - Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1110,950,Holiday Closure - New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1108,950,Holiday Closure - Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1109,950,Holiday Closure - Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1110,950,Holiday Closure - New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1111,951,February,2027-02-01,2027-02-28,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM
 1112,951,March,2027-03-01,2027-03-31,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM
 1113,951,September,2026-09-01,2026-09-30,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM
 1114,951,October,2026-10-01,2026-10-31,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM
 1115,951,November - January,2026-11-01,2027-01-31,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM
-1116,951,Holiday Closure - Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1117,951,Holiday Closure - Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1118,951,Holiday Closure - New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-1119,955,Closed Memorial Day,2026-05-25,2026-05-25,"","","","","","",""
-1120,955,Closed Labor Day,2026-09-07,2026-09-07,"","","","","","",""
-1121,955,Closed Columbus Day,2026-10-12,2026-10-12,"","","","","","",""
-1122,955,Closed Thanksgiving,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1116,951,Holiday Closure - Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1117,951,Holiday Closure - Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1118,951,Holiday Closure - New Year's Day,2027-01-01,2027-01-01,,,,,,,
+1119,955,Closed Memorial Day,2026-05-25,2026-05-25,,,,,,,
+1120,955,Closed Labor Day,2026-09-07,2026-09-07,,,,,,,
+1121,955,Closed Columbus Day,2026-10-12,2026-10-12,,,,,,,
+1122,955,Closed Thanksgiving,2026-11-26,2026-11-26,,,,Closed,,,
 1123,955,Closed December 25th for Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1124,955,Closed New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1125,955,Closed Martin Luther King Jr. Birthday,2027-01-18,2027-01-18,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -877,9 +877,9 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1137,963,New Year's Day Holiday Closure,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1138,963,"Martin Luther King, Jr. Holiday Closure",2027-01-18,2027-01-18,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1139,963,Washington's Birthday Holiday Closure,2027-02-15,2027-02-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1140,964,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
-1141,964,Christmas Day,2026-12-25,2026-12-25,"","",Closed,"","","",""
-1142,964,New Year's Day,2027-01-01,2027-01-01,"","",Closed,"","","",""
+1140,964,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
+1141,964,Christmas Day,2026-12-25,2026-12-25,,,Closed,,,,
+1142,964,New Year's Day,2027-01-01,2027-01-01,,,Closed,,,,
 1143,967,Transportation Services (Offered May to September),2026-05-01,2026-09-30,All Day,All Day,All Day,All Day,All Day,All Day,All Day
 1144,967,Annual Winter Closure (November 1 to April 15),2026-11-01,2027-04-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1145,969,May,2026-05-01,2026-05-31,10:00AM - 5:00PM,12:00PM - 5:00PM,12:00PM - 5:00PM,12:00PM - 5:00PM,12:00PM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
@@ -887,12 +887,12 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1147,969,Summer hours June - October,2026-06-01,2026-10-31,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
 1148,969,JuneTeenth National Independence Day,2026-06-19,2026-06-19,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
 1149,969,Independence Day,2026-07-04,2026-07-04,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
-1150,969,Labor Day,2026-09-07,2026-09-07,10:00AM - 5:00PM,"","","","","",""
-1151,969,Columbus Day,2026-10-12,2026-10-12,Closed,"","","","","",""
+1150,969,Labor Day,2026-09-07,2026-09-07,10:00AM - 5:00PM,,,,,,
+1151,969,Columbus Day,2026-10-12,2026-10-12,Closed,,,,,,
 1152,969,Columbus Day,2026-10-12,2026-10-12,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
 1153,969,Winter hours - November - April,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
 1154,969,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1155,969,Christmas Day,2026-12-25,2026-12-25,"","","","",Closed,"",""
+1155,969,Christmas Day,2026-12-25,2026-12-25,,,,,Closed,,
 1156,969,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1157,969,Martin Luther King Jr. Day,2027-01-18,2027-01-18,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1158,969,Presidents Day -- Call site for details,2027-02-15,2027-02-15,11:00AM - 3:00PM,11:00AM - 3:00PM,11:00AM - 3:00PM,11:00AM - 3:00PM,11:00AM - 3:00PM,11:00AM - 3:00PM,11:00AM - 3:00PM
@@ -917,16 +917,16 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1177,973,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1178,973,"December 25, Christmas Day",2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1179,973,"January 1, New Year's Day",2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1180,974,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1181,974,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1182,974,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1180,974,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1181,974,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1182,974,New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1183,976,Closed October 2025 through May 2026,2025-10-28,2026-05-28,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1184,977,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1185,977,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1186,977,New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1187,978,Thanksgiving Day Closure,2026-11-26,2026-11-26,"","","",Closed,"","",""
-1188,978,Christmas Day Closure,2026-12-25,2026-12-25,"","","","",Closed,"",""
-1189,978,New Year's Day Closure,2027-01-01,2027-01-01,"","","","",Closed,"",""
+1187,978,Thanksgiving Day Closure,2026-11-26,2026-11-26,,,,Closed,,,
+1188,978,Christmas Day Closure,2026-12-25,2026-12-25,,,,,Closed,,
+1189,978,New Year's Day Closure,2027-01-01,2027-01-01,,,,,Closed,,
 1190,983,Late October to Late May,2025-11-04,2026-05-23,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1191,984,Late October to Late May,2025-10-31,2026-05-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1192,985,Late October to Late May,2025-11-04,2026-05-23,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -944,38 +944,38 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1204,995,Spring Training,2026-05-02,2026-05-02,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1205,995,Winter Hours,2025-10-01,2026-04-29,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1206,996,Summer Hours,2026-05-19,2026-09-01,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
-1207,1004,Memorial Day,2026-05-25,2026-05-25,"","","","","","",""
-1208,1004,Juneteenth,2026-06-19,2026-06-19,"","","","","","",""
-1209,1004,Independence Day,2026-07-04,2026-07-04,"","","","","","",""
-1210,1004,Labor Day,2026-09-07,2026-09-07,"","","","","","",""
-1211,1004,Columbus Day,2026-10-12,2026-10-12,"","","","","","",""
-1212,1004,Veterans Day,2026-11-11,2026-11-11,"","","","","","",""
-1213,1004,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1214,1004,Christmas,2026-12-25,2026-12-25,"","","","","","",""
-1215,1004,New Years Day,2027-01-01,2027-01-01,"","","","","","",""
-1216,1004,MLK Day,2027-01-18,2027-01-18,"","","","","","",""
-1217,1004,Washington's Birthday,2027-02-15,2027-02-15,"","","","","","",""
-1218,1008,Memorial Day,2026-05-29,2026-05-29,8:30AM - 4:30PM,"","","","","",""
-1219,1008,Juneteenth National Independence Day,2026-06-19,2026-06-19,"","",8:30AM - 4:30PM,"","","",""
+1207,1004,Memorial Day,2026-05-25,2026-05-25,,,,,,,
+1208,1004,Juneteenth,2026-06-19,2026-06-19,,,,,,,
+1209,1004,Independence Day,2026-07-04,2026-07-04,,,,,,,
+1210,1004,Labor Day,2026-09-07,2026-09-07,,,,,,,
+1211,1004,Columbus Day,2026-10-12,2026-10-12,,,,,,,
+1212,1004,Veterans Day,2026-11-11,2026-11-11,,,,,,,
+1213,1004,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1214,1004,Christmas,2026-12-25,2026-12-25,,,,,,,
+1215,1004,New Years Day,2027-01-01,2027-01-01,,,,,,,
+1216,1004,MLK Day,2027-01-18,2027-01-18,,,,,,,
+1217,1004,Washington's Birthday,2027-02-15,2027-02-15,,,,,,,
+1218,1008,Memorial Day,2026-05-29,2026-05-29,8:30AM - 4:30PM,,,,,,
+1219,1008,Juneteenth National Independence Day,2026-06-19,2026-06-19,,,8:30AM - 4:30PM,,,,
 1220,1008,Independence Day,2026-07-04,2026-07-04,8:30AM - 4:30PM,8:30AM - 4:30PM,8:30AM - 4:30PM,8:30AM - 4:30PM,8:30AM - 4:30PM,8:30AM - 4:30PM,8:30AM - 4:30PM
 1221,1008,Labor Day,2026-09-07,2026-09-07,8:30AM - 4:30PM,8:30AM - 4:30PM,8:30AM - 4:30PM,8:30AM - 4:30PM,8:30AM - 4:30PM,8:30AM - 4:30PM,8:30AM - 4:30PM
-1222,1008,Columbus Day,2026-10-12,2026-10-12,8:30AM - 4:30PM,unknown,"","","","",""
-1223,1008,Thanksgiving,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1222,1008,Columbus Day,2026-10-12,2026-10-12,8:30AM - 4:30PM,unknown,,,,,
+1223,1008,Thanksgiving,2026-11-26,2026-11-26,,,,Closed,,,
 1224,1008,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1225,1008,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1226,1009,Summer Hours,2026-06-23,2026-09-01,9:00AM - 6:00PM,9:00AM - 6:00PM,9:00AM - 6:00PM,9:00AM - 6:00PM,9:00AM - 6:00PM,9:00AM - 6:00PM,9:00AM - 6:00PM
-1227,1009,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1228,1009,Christmas Eve Day,2026-12-25,2026-12-25,"","","","","","",""
-1229,1009,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
+1227,1009,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1228,1009,Christmas Eve Day,2026-12-25,2026-12-25,,,,,,,
+1229,1009,Christmas Day,2026-12-25,2026-12-25,,,,,,,
 1230,1011,Closed Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1231,1011,Closed Christmas Eve,2026-12-24,2026-12-24,"","","","","","",""
+1231,1011,Closed Christmas Eve,2026-12-24,2026-12-24,,,,,,,
 1232,1011,Closed Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1233,1011,Closed New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1234,1014,Winter Hours,2026-11-01,2027-02-28,9:30AM - 8:00PM,9:30AM - 8:00PM,9:30AM - 8:00PM,9:30AM - 8:00PM,9:30AM - 8:00PM,9:30AM - 8:00PM,9:30AM - 8:00PM
-1235,1015,Closed for Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-1236,1015,Closed for the Holiday Season,2026-12-25,2026-12-25,"","","","","","",""
-1237,1015,Closed for the New Years Day,2027-01-01,2027-01-01,"","","","","","",""
-1238,1018,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
+1235,1015,Closed for Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+1236,1015,Closed for the Holiday Season,2026-12-25,2026-12-25,,,,,,,
+1237,1015,Closed for the New Years Day,2027-01-01,2027-01-01,,,,,,,
+1238,1018,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
 1239,1018,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1240,1018,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1241,1019,Closed October 2025 through late May 2026,2025-10-29,2026-05-21,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -985,7 +985,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1245,1020,Christmas Eve,2026-12-24,2026-12-24,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1246,1020,Christmas Eve and Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1247,1020,New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1248,1022,Thanksgiving,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1248,1022,Thanksgiving,2026-11-26,2026-11-26,,,,Closed,,,
 1249,1022,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1250,1023,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1251,1023,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -993,43 +993,43 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1253,1024,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1254,1024,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1255,1024,New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1256,1026,Thanksgiving Closure,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1256,1026,Thanksgiving Closure,2026-11-26,2026-11-26,,,,Closed,,,
 1257,1026,Christmas Day Closure,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1258,1026,New Years Day Closure,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1259,1032,Memorial Day,2026-05-25,2026-05-25,"","","","","","",""
-1260,1032,Independence Day,2026-07-04,2026-07-04,"","","","","","",""
-1261,1032,Labor Day,2026-09-07,2026-09-07,"","","","","","",""
-1262,1032,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1263,1032,Christmas Eve and Day,2026-12-24,2026-12-25,"","","","","","",""
-1264,1032,New Year's Eve and Day,2026-12-31,2027-01-01,"","","","","","",""
-1265,1037,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1266,1037,Christmas Holiday,2026-12-25,2026-12-25,"","","","","","",""
-1267,1037,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1259,1032,Memorial Day,2026-05-25,2026-05-25,,,,,,,
+1260,1032,Independence Day,2026-07-04,2026-07-04,,,,,,,
+1261,1032,Labor Day,2026-09-07,2026-09-07,,,,,,,
+1262,1032,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1263,1032,Christmas Eve and Day,2026-12-24,2026-12-25,,,,,,,
+1264,1032,New Year's Eve and Day,2026-12-31,2027-01-01,,,,,,,
+1265,1037,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1266,1037,Christmas Holiday,2026-12-25,2026-12-25,,,,,,,
+1267,1037,New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1268,1039,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1269,1039,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1270,1039,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1271,1043,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1272,1043,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1273,1043,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-1274,1046,Memorial Day,2026-05-29,2026-05-29,Closed,"","","","","",""
-1275,1046,Labor Day,2026-09-07,2026-09-07,Closed,"","","","","",""
-1276,1046,Columbus Day,2026-10-12,2026-10-12,Closed,"","","","","",""
-1277,1046,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1271,1043,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1272,1043,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1273,1043,New Year's Day,2027-01-01,2027-01-01,,,,,,,
+1274,1046,Memorial Day,2026-05-29,2026-05-29,Closed,,,,,,
+1275,1046,Labor Day,2026-09-07,2026-09-07,Closed,,,,,,
+1276,1046,Columbus Day,2026-10-12,2026-10-12,Closed,,,,,,
+1277,1046,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 1278,1046,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1279,1046,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1280,1047,Memorial Day,2026-05-29,2026-05-29,Closed,"","","","","",""
-1281,1047,Labor Day,2026-09-07,2026-09-07,Closed,"","","","","",""
+1280,1047,Memorial Day,2026-05-29,2026-05-29,Closed,,,,,,
+1281,1047,Labor Day,2026-09-07,2026-09-07,Closed,,,,,,
 1282,1047,Columbus Day,2026-10-12,2026-10-12,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1283,1047,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1283,1047,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 1284,1047,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1285,1047,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1286,1052,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1287,1052,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1288,1052,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1289,1053,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1289,1053,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 1290,1053,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1291,1053,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1292,1054,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1292,1054,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 1293,1054,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1294,1054,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1295,1055,OPEN - Memorial Day,2026-05-25,2026-05-25,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
@@ -1042,12 +1042,12 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1302,1055,CLOSED - Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1303,1055,CLOSED - New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1304,1055,CLOSED - Martin Luther King Jr. Day,2027-01-18,2027-01-18,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1305,1055,CLOSED - President's Day,2027-02-15,2027-02-15,"","","","","","",""
+1305,1055,CLOSED - President's Day,2027-02-15,2027-02-15,,,,,,,
 1306,1058,Independence Day,2026-07-04,2026-07-04,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM
-1307,1058,Thanksgiving,2026-11-28,2026-11-28,"","","",Closed,"","",""
-1308,1058,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,"","","",11:00AM - 4:00PM
+1307,1058,Thanksgiving,2026-11-28,2026-11-28,,,,Closed,,,
+1308,1058,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,,,,11:00AM - 4:00PM
 1309,1058,Winter Hours,2026-12-28,2027-02-11,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1310,1058,President's Day,2027-02-15,2027-02-15,10:00AM - 4:00PM,"","","","","",""
+1310,1058,President's Day,2027-02-15,2027-02-15,10:00AM - 4:00PM,,,,,,
 1311,1062,Closed due to bridge closure.,2026-01-01,2026-12-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1312,1063,Closed Seasonally,2025-10-14,2026-05-23,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1313,1064,Closed Seasonally,2025-11-19,2026-05-27,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -1074,25 +1074,25 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1334,1073,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1335,1073,Birthday of Martin Luther King Jr.,2027-01-18,2027-01-18,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1336,1073,Washington’s Birthday,2027-02-15,2027-02-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1337,1074,Rangers and Volunteers Christmas Day Dec. 25  Holiday,2026-12-25,2026-12-25,"","","","","","",""
-1338,1075,"Independence Day, July 4",2026-07-04,2026-07-04,"","","","","","",""
-1339,1075,"Christmas Day, December 25",2026-12-25,2026-12-25,"","","","","","",""
-1340,1077,Thanksgiving,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1337,1074,Rangers and Volunteers Christmas Day Dec. 25  Holiday,2026-12-25,2026-12-25,,,,,,,
+1338,1075,"Independence Day, July 4",2026-07-04,2026-07-04,,,,,,,
+1339,1075,"Christmas Day, December 25",2026-12-25,2026-12-25,,,,,,,
+1340,1077,Thanksgiving,2026-11-26,2026-11-26,,,,Closed,,,
 1341,1077,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1342,1077,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1343,1078,Veterans Day,2026-11-11,2026-11-11,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM
-1344,1078,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1344,1078,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 1345,1078,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1346,1078,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1347,1080,Winter Season Hours,2025-09-07,2026-05-25,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
-1348,1084,Mardi Gras,2027-02-17,2027-02-17,"",Closed,"","","","",""
+1348,1084,Mardi Gras,2027-02-17,2027-02-17,,Closed,,,,,
 1349,1084,Memorial Day,2026-05-25,2026-05-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1350,1084,Juneteenth,2026-06-19,2026-06-19,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1351,1084,Independence Day,2026-07-04,2026-07-04,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1352,1084,Labor Day,2026-09-07,2026-09-07,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1353,1084,Columbus Day,2026-10-12,2026-10-12,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1354,1084,Veterans Day,2026-11-11,2026-11-11,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1355,1084,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1355,1084,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 1356,1084,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1357,1084,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1358,1084,"Birthday of Martin Luther King, Jr.",2027-01-18,2027-01-18,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -1103,85 +1103,85 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1363,1088,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1364,1088,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1365,1090,Seasonal Closure,2026-11-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1366,1096,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1367,1096,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1368,1096,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1366,1096,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1367,1096,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1368,1096,New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1369,1107,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1370,1107,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1371,1107,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1372,1112,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1373,1112,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1374,1112,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-1375,1116,Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-1376,1117,Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-1377,1117,Christmas,2026-12-25,2026-12-25,"","","","","","",""
-1378,1117,New Years Day,2027-01-01,2027-01-01,"","","","","","",""
+1372,1112,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1373,1112,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1374,1112,New Year's Day,2027-01-01,2027-01-01,,,,,,,
+1375,1116,Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+1376,1117,Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+1377,1117,Christmas,2026-12-25,2026-12-25,,,,,,,
+1378,1117,New Years Day,2027-01-01,2027-01-01,,,,,,,
 1379,1119,Post Historic Weekend Hours,2026-09-14,2026-09-28,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1380,1119,October Hours,2026-09-29,2026-10-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1381,1119,Winter Closed,2025-10-27,2026-05-16,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1382,1120,Closed - Thanksgiving Day,2026-11-25,2026-11-25,"","","",Closed,"","",""
-1383,1120,Closed - Christmas Day,2026-12-25,2026-12-25,"","","","","",Closed,Closed
-1384,1120,Closed - New Years Day,2027-01-01,2027-01-01,"","","","","",Closed,Closed
-1385,1121,Closed - Thanksgiving Day,2026-11-25,2026-11-25,"","","",Closed,"","",""
+1382,1120,Closed - Thanksgiving Day,2026-11-25,2026-11-25,,,,Closed,,,
+1383,1120,Closed - Christmas Day,2026-12-25,2026-12-25,,,,,,Closed,Closed
+1384,1120,Closed - New Years Day,2027-01-01,2027-01-01,,,,,,Closed,Closed
+1385,1121,Closed - Thanksgiving Day,2026-11-25,2026-11-25,,,,Closed,,,
 1386,1121,Closed - Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1387,1121,Closed - New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1388,1122,Trails and Visitor Contact Station Closed Thanksgiving Day,2026-11-25,2026-11-25,"","","",Closed,"","",""
+1388,1122,Trails and Visitor Contact Station Closed Thanksgiving Day,2026-11-25,2026-11-25,,,,Closed,,,
 1389,1122,Trails and Visitor Center Closed - Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1390,1122,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1391,1123,Park Closed Thanksgiving.,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1391,1123,Park Closed Thanksgiving.,2026-11-26,2026-11-26,,,,Closed,,,
 1392,1123,Park Closed Christmas.,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1393,1124,Thanksgiving Day Closure,2026-11-26,2026-11-26,"","","","","","",""
-1394,1124,Christmas Day Closure,2026-12-25,2026-12-25,"","","","",Closed,"",""
-1395,1124,New Year's Day Closure,2027-01-01,2027-01-01,"","","","",Closed,"",""
-1396,1125,Rinconada Canyon Parking Lot closed on Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1397,1125,Christmas Day Closure,2026-12-25,2026-12-25,"","","","",Closed,"",""
-1398,1125,New Year's Day Closure,2027-01-01,2027-01-01,"","","","",Closed,"",""
-1399,1127,Volcanoes Day Use Area Parking Lot Closed on Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1400,1131,Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-1401,1131,Christmas,2026-12-25,2026-12-25,"","","","","","",""
-1402,1131,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1393,1124,Thanksgiving Day Closure,2026-11-26,2026-11-26,,,,,,,
+1394,1124,Christmas Day Closure,2026-12-25,2026-12-25,,,,,Closed,,
+1395,1124,New Year's Day Closure,2027-01-01,2027-01-01,,,,,Closed,,
+1396,1125,Rinconada Canyon Parking Lot closed on Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1397,1125,Christmas Day Closure,2026-12-25,2026-12-25,,,,,Closed,,
+1398,1125,New Year's Day Closure,2027-01-01,2027-01-01,,,,,Closed,,
+1399,1127,Volcanoes Day Use Area Parking Lot Closed on Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1400,1131,Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+1401,1131,Christmas,2026-12-25,2026-12-25,,,,,,,
+1402,1131,New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1403,1133,Winter Hours,2027-01-02,2027-04-05,Closed,Closed,9:30AM - 4:00PM,9:30AM - 4:00PM,9:30AM - 4:00PM,9:00AM - 4:00PM,Closed
 1404,1133,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1405,1134,Spring & Summer Hours,2026-04-01,2026-09-30,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM
-1406,1134,Easter Sunday,2027-04-05,2027-04-05,"","","","","","",Closed
+1406,1134,Easter Sunday,2027-04-05,2027-04-05,,,,,,,Closed
 1407,1134,Fall & Winter Hours,2026-10-01,2027-03-31,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM,7:00AM - 5:00PM
 1408,1134,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1409,1134,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1410,1138,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1411,1138,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1412,1138,New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1413,1141,Thanksgiving Closed,2026-11-26,2026-11-26,"","","","","","",""
-1414,1141,Christmas Closed,2026-12-25,2026-12-25,"","","","","","",""
-1415,1141,New Years Day Closed,2027-01-01,2027-01-01,"","","","","","",""
+1413,1141,Thanksgiving Closed,2026-11-26,2026-11-26,,,,,,,
+1414,1141,Christmas Closed,2026-12-25,2026-12-25,,,,,,,
+1415,1141,New Years Day Closed,2027-01-01,2027-01-01,,,,,,,
 1416,1142,Thanksgiving Day Holiday Closure,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1417,1142,Christmas Day Holiday Closure,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1418,1142,New Year's Day Holiday Closure,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1419,1144,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1420,1144,Closed Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1421,1144,Closed New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-1422,1145,Labor Day,2026-09-01,2026-09-01,10:00AM - 4:00PM,"","","","","",""
-1423,1145,Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-1424,1145,Christmas,2026-12-25,2026-12-25,"","","","","","",""
-1425,1145,New Years Day,2027-01-01,2027-01-01,"","","","","","",""
+1419,1144,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1420,1144,Closed Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1421,1144,Closed New Year's Day,2027-01-01,2027-01-01,,,,,,,
+1422,1145,Labor Day,2026-09-01,2026-09-01,10:00AM - 4:00PM,,,,,,
+1423,1145,Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+1424,1145,Christmas,2026-12-25,2026-12-25,,,,,,,
+1425,1145,New Years Day,2027-01-01,2027-01-01,,,,,,,
 1426,1145,Birthday of Martin Luther King Jr.,2027-01-18,2027-01-18,Closed,Closed,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM
 1427,1145,Washington's Birthday,2027-02-15,2027-02-15,Closed,Closed,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM
-1428,1150,Memorial Day,2026-05-25,2026-05-25,9:00AM - 5:00PM,"","","","","",""
+1428,1150,Memorial Day,2026-05-25,2026-05-25,9:00AM - 5:00PM,,,,,,
 1429,1150,Juneteenth,2026-06-19,2026-06-19,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
 1430,1150,Independence Day,2026-07-04,2026-07-04,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
-1431,1150,Labor Day,2026-09-07,2026-09-07,9:00AM - 5:00PM,"","","","","",""
-1432,1150,Columbus Day,2026-10-12,2026-10-12,9:00AM - 5:00PM,"","","","","",""
+1431,1150,Labor Day,2026-09-07,2026-09-07,9:00AM - 5:00PM,,,,,,
+1432,1150,Columbus Day,2026-10-12,2026-10-12,9:00AM - 5:00PM,,,,,,
 1433,1150,Veterans Day,2026-11-11,2026-11-11,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
-1434,1150,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1435,1150,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
+1434,1150,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1435,1150,Christmas Day,2026-12-25,2026-12-25,,,,,,,
 1436,1150,New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1437,1150,"Martin Luther King, Jr Day",2027-01-18,2027-01-18,9:00AM - 5:00PM,"","","","","",""
+1437,1150,"Martin Luther King, Jr Day",2027-01-18,2027-01-18,9:00AM - 5:00PM,,,,,,
 1438,1150,Washington's Birthday,2027-02-15,2027-02-15,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
-1439,1152,Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-1440,1152,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1441,1152,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-1442,1153,Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-1443,1153,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1444,1153,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1439,1152,Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+1440,1152,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1441,1152,New Year's Day,2027-01-01,2027-01-01,,,,,,,
+1442,1153,Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+1443,1153,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1444,1153,New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1445,1156,Winter Hours,2026-10-01,2027-03-31,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM,10:00AM - 5:00PM
 1446,1156,CLOSED Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1447,1156,CLOSED Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -1189,9 +1189,9 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1449,1161,Thanksgiving,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1450,1161,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1451,1161,New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1452,1162,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1453,1162,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1454,1162,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1452,1162,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1453,1162,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1454,1162,New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1455,1169,Seasonal Closure,2025-11-01,2026-05-22,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1456,1171,Winter Hours,2026-11-01,2027-03-31,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM
 1457,1171,Thanksgiving Day,2026-11-23,2026-11-23,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -1206,25 +1206,25 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1466,1175,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1467,1175,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1468,1175,New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1469,1176,Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-1470,1176,Christmas,2026-12-25,2026-12-25,"","","","","","",""
-1471,1176,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1469,1176,Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+1470,1176,Christmas,2026-12-25,2026-12-25,,,,,,,
+1471,1176,New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1472,1177,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,10:00AM - 4:00PM,Closed,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM
 1473,1177,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1474,1177,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1475,1179,Thanksgiving Day - Closed,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1476,1179,Christmas Day - Closed,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1477,1179,New Years Day - Closed,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1478,1182,Closed on Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1479,1182,Closed on Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1480,1182,Closed on New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1478,1182,Closed on Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1479,1182,Closed on Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1480,1182,Closed on New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1481,1183,Winter off season period,2027-01-01,2027-03-15,Closed,Closed,Closed,Closed,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM
 1482,1183,Closed Juneteenth,2026-06-19,2026-06-19,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1483,1183,Closed Veterans Day,2026-11-11,2026-11-11,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1484,1183,Fall off season period,2026-11-14,2026-12-31,Closed,Closed,Closed,Closed,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM
-1485,1183,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1486,1183,Closed Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1487,1183,Closed New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1485,1183,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1486,1183,Closed Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1487,1183,Closed New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1488,1183,Closed MLK,2027-01-18,2027-01-18,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1489,1183,Closed Washington's Birthday,2027-02-15,2027-02-15,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1490,1186,Extended Hours,2026-06-01,2026-09-01,9:00AM - 6:00PM,9:00AM - 6:00PM,9:00AM - 6:00PM,9:00AM - 6:00PM,9:00AM - 6:00PM,9:00AM - 6:00PM,9:00AM - 6:00PM
@@ -1234,10 +1234,10 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1494,1188,Winter,2025-10-13,2026-05-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1495,1191,Winter,2026-12-01,2027-03-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1496,1194,Summit Road Fall/Winter/Spring Hours (early September though late May),2025-09-01,2026-05-23,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM,9:00AM - 4:00PM
-1497,1194,Thanksgiving Day Closure,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1497,1194,Thanksgiving Day Closure,2026-11-26,2026-11-26,,,,Closed,,,
 1498,1194,Christmas Day Closure,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1499,1194,New Year's Day Closure,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1500,1195,"Jubilee Sunday, March 8, 2026",2027-03-08,2027-03-08,"","","","","","",9:00AM - 4:30PM
+1500,1195,"Jubilee Sunday, March 8, 2026",2027-03-08,2027-03-08,,,,,,,9:00AM - 4:30PM
 1501,1195,Memorial Day,2026-05-25,2026-05-25,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,Closed
 1502,1195,Juneteenth,2026-06-19,2026-06-19,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,Closed
 1503,1195,Fourth of July,2026-07-04,2026-07-04,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,Closed
@@ -1251,24 +1251,24 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1511,1195,Washington's Birthday,2027-02-15,2027-02-15,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,9:00AM - 4:30PM,Closed
 1512,1199,Winter Day Use Hours,2025-10-01,2026-04-24,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM
 1513,1201,Winter Hours,2027-01-02,2027-04-05,Closed,Closed,9:30AM - 4:00PM,9:30AM - 4:00PM,9:30AM - 4:00PM,9:00AM - 4:00PM,Closed
-1514,1203,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1515,1203,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
+1514,1203,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1515,1203,Christmas Day,2026-12-25,2026-12-25,,,,,,,
 1516,1204,Winter Hours,2026-11-01,2027-02-28,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM
 1517,1204,Closed Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1518,1204,Closed Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1519,1204,Closed New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1520,1205,Winter Hours,2025-11-17,2026-05-01,Closed,Closed,9:30AM - 4:00PM,9:30AM - 4:00PM,9:30AM - 4:00PM,9:30AM - 4:00PM,9:30AM - 4:00PM
-1521,1205,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1521,1205,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 1522,1205,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1523,1205,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1524,1206,Winter Gate Closure Times,2026-11-01,2027-02-28,8:00AM - 4:30PM,8:00AM - 4:30PM,8:00AM - 4:30PM,8:00AM - 4:30PM,8:00AM - 4:30PM,8:00AM - 4:30PM,8:00AM - 4:30PM
 1525,1206,Closed Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1526,1206,Closed Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1527,1211,Veterans Day,2026-11-11,2026-11-11,"","","","","",Closed,""
+1527,1211,Veterans Day,2026-11-11,2026-11-11,,,,,,Closed,
 1528,1211,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1529,1211,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1530,1218,Winter Closure,2027-01-01,2027-02-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1531,1218,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1531,1218,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 1532,1218,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1533,1218,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1534,1221,Independence Day,2026-07-04,2026-07-04,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM
@@ -1278,31 +1278,31 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1538,1221,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1539,1226,Juneteenth National Independence Day,2026-06-19,2026-06-19,Closed,Closed,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM
 1540,1226,Veterans Day,2026-11-11,2026-11-11,Closed,Closed,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,9:00AM - 5:00PM,All Day
-1541,1226,Thanksgiving,2026-11-26,2026-11-26,"","","",Closed,"","",""
-1542,1226,Christmas,2026-12-25,2026-12-25,"","","","",Closed,"",""
-1543,1226,New Years Day,2027-01-01,2027-01-01,Closed,"","","","","",""
+1541,1226,Thanksgiving,2026-11-26,2026-11-26,,,,Closed,,,
+1542,1226,Christmas,2026-12-25,2026-12-25,,,,,Closed,,
+1543,1226,New Years Day,2027-01-01,2027-01-01,Closed,,,,,,
 1544,1227,Open Juneteenth,2026-06-19,2026-06-19,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM
 1545,1227,Open Independence Day,2026-07-04,2026-07-04,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM,8:00AM - 4:00PM
-1546,1227,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
-1547,1227,Closed December 25,2026-12-25,2026-12-25,"","","","","","",""
-1548,1227,Closed New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1546,1227,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
+1547,1227,Closed December 25,2026-12-25,2026-12-25,,,,,,,
+1548,1227,Closed New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1549,1230,Winter Season,2025-10-04,2026-05-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1550,1232,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1551,1232,Closed Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1552,1234,Park is closed Thanksgiving Day.,2026-11-26,2026-11-26,"","","","","","",""
-1553,1234,Park is Closed Christmas Day.,2026-12-25,2026-12-25,"","","","","","",""
-1554,1234,Park is closed New Year's Day.,2027-01-01,2027-01-01,"","","","","","",""
-1555,1236,Closed Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
-1556,1236,Closed December 25th,2026-12-25,2026-12-25,"","","","","",Closed,""
-1557,1236,Closed New Year's Day,2027-01-01,2027-01-01,"","","","","",Closed,""
-1558,1237,Closed Thanksgiving,2026-11-26,2026-11-26,"","","","","","",""
-1559,1237,Closed December 25,2026-12-25,2026-12-25,"","","","","","",""
-1560,1237,Closed New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-1561,1239,"Zane Grey Museum, January and February",2027-01-04,2027-02-23,"","","","","",10:00AM - 3:30PM,10:00AM - 3:30PM
+1550,1232,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1551,1232,Closed Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1552,1234,Park is closed Thanksgiving Day.,2026-11-26,2026-11-26,,,,,,,
+1553,1234,Park is Closed Christmas Day.,2026-12-25,2026-12-25,,,,,,,
+1554,1234,Park is closed New Year's Day.,2027-01-01,2027-01-01,,,,,,,
+1555,1236,Closed Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
+1556,1236,Closed December 25th,2026-12-25,2026-12-25,,,,,,Closed,
+1557,1236,Closed New Year's Day,2027-01-01,2027-01-01,,,,,,Closed,
+1558,1237,Closed Thanksgiving,2026-11-26,2026-11-26,,,,,,,
+1559,1237,Closed December 25,2026-12-25,2026-12-25,,,,,,,
+1560,1237,Closed New Year's Day,2027-01-01,2027-01-01,,,,,,,
+1561,1239,"Zane Grey Museum, January and February",2027-01-04,2027-02-23,,,,,,10:00AM - 3:30PM,10:00AM - 3:30PM
 1562,1239,"Zane Grey Museum, March - May",2026-02-24,2026-05-24,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1563,1239,"Zane Grey Museum, October - December",2026-09-30,2027-01-03,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1564,1241,Summer Hours,2026-05-25,2026-09-07,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM,8:00AM - 6:00PM
-1565,1241,Thanksgiving Day,2026-11-26,2026-11-26,"","","",Closed,"","",""
+1565,1241,Thanksgiving Day,2026-11-26,2026-11-26,,,,Closed,,,
 1566,1241,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1567,1243,"Winter Hours - January to March 22, 2026.",2027-01-01,2027-03-22,Closed,Closed,Closed,Closed,Closed,10:00AM - 4:00PM,10:00AM - 4:00PM
 1568,1243,Isaac Potts House Restoration Project,2026-05-04,2026-12-31,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -1313,40 +1313,40 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1573,1243,"Open on Birthday of Martin Luther King, Jr.",2027-01-18,2027-01-18,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM
 1574,1243,Open on Washington's Birthday,2027-02-15,2027-02-15,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM
 1575,1244,Summer & Fall,2026-05-25,2026-11-15,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM,10:00AM - 4:00PM
-1576,1244,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1577,1244,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1578,1244,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
+1576,1244,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1577,1244,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1578,1244,New Year's Day,2027-01-01,2027-01-01,,,,,,,
 1579,1245,February,2027-02-01,2027-02-28,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM
 1580,1245,March,2027-03-01,2027-03-31,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM
 1581,1245,April - August,2026-04-01,2026-08-31,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM,7:00AM - 8:00PM
 1582,1245,September,2026-09-01,2026-09-30,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM,7:00AM - 7:00PM
 1583,1245,October,2026-10-01,2026-10-31,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM,7:00AM - 6:00PM
-1584,1245,Thanksgiving Day,2026-11-26,2026-11-26,"","","","","","",""
-1585,1245,Holiday Closure,2026-12-25,2026-12-25,"","","","","","",""
-1586,1245,Holiday Closure,2027-01-01,2027-01-01,"","","","","","",""
+1584,1245,Thanksgiving Day,2026-11-26,2026-11-26,,,,,,,
+1585,1245,Holiday Closure,2026-12-25,2026-12-25,,,,,,,
+1586,1245,Holiday Closure,2027-01-01,2027-01-01,,,,,,,
 1587,1246,Thanksgiving Day - Park Closed,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1588,1246,Christmas Day - Park Closed,2026-12-25,2026-12-25,"","","","","","",""
+1588,1246,Christmas Day - Park Closed,2026-12-25,2026-12-25,,,,,,,
 1589,1246,New Year's Day - Park Closed,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1590,1247,Thanksgiving Day - Park Closed,2026-11-26,2026-11-26,"","","","","","",""
-1591,1247,Christmas Day-Park Closed,2026-12-25,2026-12-25,"","","","","","",""
-1592,1247,New Year's Day- Park Closed,2027-01-01,2027-01-01,"","","","","","",""
-1593,1248,Thanksgiving Day - Park Closed,2026-11-26,2026-11-26,"","","","","","",""
-1594,1248,Christmas Day - Park Closed,2026-12-25,2026-12-25,"","","","","","",""
-1595,1248,New Year's Day - Park Closed,2027-01-01,2027-01-01,"","","","","","",""
+1590,1247,Thanksgiving Day - Park Closed,2026-11-26,2026-11-26,,,,,,,
+1591,1247,Christmas Day-Park Closed,2026-12-25,2026-12-25,,,,,,,
+1592,1247,New Year's Day- Park Closed,2027-01-01,2027-01-01,,,,,,,
+1593,1248,Thanksgiving Day - Park Closed,2026-11-26,2026-11-26,,,,,,,
+1594,1248,Christmas Day - Park Closed,2026-12-25,2026-12-25,,,,,,,
+1595,1248,New Year's Day - Park Closed,2027-01-01,2027-01-01,,,,,,,
 1596,1249,Thanksgiving Day - Park Closed,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1597,1249,Christmas Day - Park Closed,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1598,1249,New Years Day - Park Closed,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1599,1254,4th of July,2026-07-04,2026-07-04,"","","","","","",""
+1599,1254,4th of July,2026-07-04,2026-07-04,,,,,,,
 1600,1254,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1601,1254,Christmas,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1602,1256,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1603,1256,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1604,1256,New Year's Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1605,1257,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
-1606,1257,New Year's Day,2027-01-01,2027-01-01,"","","","","","",""
-1607,1264,Maintenance Closures,2027-01-10,2027-01-10,"","","","","","",""
-1608,1264,Independence Day (July 4),2026-07-04,2026-07-04,"","","","","","",""
-1609,1264,Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
+1605,1257,Christmas Day,2026-12-25,2026-12-25,,,,,,,
+1606,1257,New Year's Day,2027-01-01,2027-01-01,,,,,,,
+1607,1264,Maintenance Closures,2027-01-10,2027-01-10,,,,,,,
+1608,1264,Independence Day (July 4),2026-07-04,2026-07-04,,,,,,,
+1609,1264,Christmas Day,2026-12-25,2026-12-25,,,,,,,
 1610,1269,Summer Hours,2026-05-22,2026-09-07,7:00AM - Sunset,7:00AM - Sunset,7:00AM - Sunset,7:00AM - Sunset,7:00AM - Sunset,7:00AM - Sunset,7:00AM - Sunset
 1611,1269,Thanksgiving Day,2026-11-26,2026-11-26,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1612,1269,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
@@ -1360,7 +1360,7 @@ id,operatingHoursId,name,startDate,endDate,monday,tuesday,wednesday,thursday,fri
 1620,1276,Winter 2025/2026,2026-12-22,2027-02-28,Closed,Closed,Closed,Closed,10:00AM - 4:00PM,10:00AM - 4:00PM,Closed
 1621,1276,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1622,1276,New Years Day,2027-01-01,2027-01-01,Closed,Closed,Closed,Closed,Closed,Closed,Closed
-1623,1280,Rangers not on duty Christmas Day,2026-12-25,2026-12-25,"","","","","","",""
+1623,1280,Rangers not on duty Christmas Day,2026-12-25,2026-12-25,,,,,,,
 1624,1284,Christmas Day,2026-12-25,2026-12-25,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1625,1287,Spring Shoulder Season,2026-03-16,2026-04-20,Closed,Closed,Closed,Closed,Closed,Closed,Closed
 1626,1287,Fall Shoulder Season,2026-11-01,2026-12-14,Closed,Closed,Closed,Closed,Closed,Closed,Closed

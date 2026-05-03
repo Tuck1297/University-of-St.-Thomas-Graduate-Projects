@@ -1,7 +1,10 @@
 data_source_key,name,description,created_dt,updated_dt
-0,UNKNOWN,Unknown data source,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
-1,NPS,Data Collected from the National Park Service (NPS) API,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
-2,MN DNR,Data Collected from the Minnesota Department of Natural Resources (MN DNR),2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
-3,RIDB,Data Collected from the Recreation.gov website.,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
-4,Google Places API,Data sourced from the Google Places API.,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
-5,MN GIS,Data sourced from the Minnesota Geospatial Commons website.,2026-04-27 18:45:37.846915,2026-04-27 18:45:37.846915
+0,UNKNOWN,Unknown data source,2026-05-03 12:16:01.352198,2026-05-03 12:16:01.352198
+1,NPS,Data Collected from the National Park Service (NPS) API,2026-05-03 12:16:01.352198,2026-05-03 12:16:01.352198
+2,MN DNR,Data Collected from the Minnesota Department of Natural Resources (MN DNR),2026-05-03 12:16:01.352198,2026-05-03 12:16:01.352198
+3,RIDB,Data Collected from the Recreation.gov website.,2026-05-03 12:16:01.352198,2026-05-03 12:16:01.352198
+4,Google Places API,Data sourced from the Google Places API.,2026-05-03 12:16:01.352198,2026-05-03 12:16:01.352198
+5,MN GIS,Data sourced from the Minnesota Geospatial Commons website.,2026-05-03 12:16:01.352198,2026-05-03 12:16:01.352198
+6,MN GIS Campgrounds,"Data sourced from the Minnesota Geospatial Commons website, specifically for campgrounds.",2026-05-03 12:16:01.352198,2026-05-03 12:16:01.352198
+7,MN GIS Boundary Data,Boundary data sourced from the Minnesota Geospatial Commons website.,2026-05-03 12:16:01.352198,2026-05-03 12:16:01.352198
+8,MN DNR and GIS Boundary Combined,Combined data from MN DNR PDF and MN GIS Boundary records,2026-05-03 12:16:01.352198,2026-05-03 12:16:01.352198

@@ -7,7 +7,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 6,6,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 7,7,Yes - year round,[Flush Toilets - year round],false,"[Hot - Year Round, Free - Year Round]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 8,8,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
-9,9,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+9,9,,[],false,[],false,false,,false,false,,[],false,false,
 10,10,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,Yes - year round
 11,11,Yes - year round,[Flush Toilets - year round],false,"[Hot - Year Round, Free - Year Round]",false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
 12,12,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
@@ -15,7 +15,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 14,14,Yes - year round,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 15,15,Yes - year round,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
 16,16,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
-17,17,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+17,17,,[],false,[],false,false,,false,false,,[],false,false,
 18,18,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
 19,19,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 20,20,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
@@ -27,7 +27,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 26,26,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
 27,27,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
 28,28,Yes - year round,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
-29,29,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+29,29,,[],false,[],false,false,,false,false,,[],false,false,
 30,30,No,[No Toilets],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 31,31,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
 32,32,No,[No Toilets],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
@@ -41,7 +41,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 40,40,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 41,41,Yes - year round,[Vault Toilets - year round],false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
 42,42,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
-43,43,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+43,43,,[],false,[],false,false,,false,false,,[],false,false,
 44,44,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
 45,45,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 46,46,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
@@ -107,7 +107,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 106,106,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - year round,[Yes - year round],false,false,Yes - year round
 107,107,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 108,108,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
-109,109,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+109,109,,[],false,[],false,false,,false,false,,[],false,false,
 110,110,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
 111,111,Yes - year round,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,No,[Yes - year round],false,false,No
 112,112,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
@@ -116,7 +116,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 115,115,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
 116,116,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 117,117,No,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
-118,118,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+118,118,,[],false,[],false,false,,false,false,,[],false,false,
 119,119,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
 120,120,Yes - seasonal,[Flush Toilets - seasonal],false,"[Cold- Seasonal, Free - Seasonal]",false,false,No,false,false,No,[Yes - seasonal],false,false,No
 121,121,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
@@ -130,7 +130,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 129,129,No,"[Flush Toilets - seasonal, Portable Toilets - seasonal]",false,[None],false,false,No,false,false,No,[No water],false,false,No
 130,130,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 131,131,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
-132,132,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+132,132,,[],false,[],false,false,,false,false,,[],false,false,
 133,133,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
 134,134,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 135,135,Yes - year round,"[Flush Toilets - year round, Portable Toilets - seasonal]",false,[None],false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,Yes - year round
@@ -156,8 +156,8 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 155,155,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 156,156,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,No,[Yes - year round],false,false,No
 157,157,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
-158,158,"",[],false,[],false,false,"",false,false,"",[],false,false,""
-159,159,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+158,158,,[],false,[],false,false,,false,false,,[],false,false,
+159,159,,[],false,[],false,false,,false,false,,[],false,false,
 160,160,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 161,161,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 162,162,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
@@ -172,7 +172,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 171,171,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
 172,172,No,[Vault Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,"[Water, ' but not potable']",false,false,Yes - year round
 173,173,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
-174,174,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+174,174,,[],false,[],false,false,,false,false,,[],false,false,
 175,175,Yes - seasonal,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
 176,176,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 177,177,Yes - seasonal,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
@@ -186,7 +186,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 185,185,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
 186,186,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 187,187,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
-188,188,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+188,188,,[],false,[],false,false,,false,false,,[],false,false,
 189,189,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
 190,190,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
 191,191,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
@@ -201,7 +201,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 200,200,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - year round
 201,201,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
 202,202,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
-203,203,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+203,203,,[],false,[],false,false,,false,false,,[],false,false,
 204,204,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - year round
 205,205,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - seasonal],false,false,No
 206,206,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
@@ -209,7 +209,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 208,208,Yes - seasonal,[Flush Toilets - year round],false,"[Hot - Year Round, Free - Year Round]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
 209,209,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 210,210,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
-211,211,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+211,211,,[],false,[],false,false,,false,false,,[],false,false,
 212,212,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,No
 213,213,No,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,No
 214,214,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
@@ -226,11 +226,11 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 225,225,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 226,226,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 227,227,Yes - year round,[Flush Toilets - year round],false,"[Free - Year Round, Hot - Year Round]",false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,No
-228,228,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+228,228,,[],false,[],false,false,,false,false,,[],false,false,
 229,229,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
-230,230,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+230,230,,[],false,[],false,false,,false,false,,[],false,false,
 231,231,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,No
-232,232,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+232,232,,[],false,[],false,false,,false,false,,[],false,false,
 233,233,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 234,234,Yes - seasonal,[Flush Toilets - seasonal],false,"[Hot - Seasonal, Free - Seasonal]",false,false,No,false,false,No,[Yes - seasonal],false,false,No
 235,235,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - year round],false,false,No
@@ -261,7 +261,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 260,260,Yes - year round,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 261,261,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 262,262,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
-263,263,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+263,263,,[],false,[],false,false,,false,false,,[],false,false,
 264,264,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[No water],false,false,Yes - seasonal
 265,265,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 266,266,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
@@ -274,11 +274,11 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 273,273,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 274,274,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
 275,275,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - year round,false,false,Yes - year round,[Yes - year round],false,false,No
-276,276,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+276,276,,[],false,[],false,false,,false,false,,[],false,false,
 277,277,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
 278,278,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 279,279,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
-280,280,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+280,280,,[],false,[],false,false,,false,false,,[],false,false,
 281,281,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 282,282,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
 283,283,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
@@ -328,15 +328,15 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 327,327,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 328,328,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 329,329,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - year round,false,false,No,[No water],false,false,No
-330,330,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+330,330,,[],false,[],false,false,,false,false,,[],false,false,
 331,331,Yes - year round,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 332,332,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
 333,333,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
 334,334,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
 335,335,Yes - year round,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,No
 336,336,No,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
-337,337,"",[],false,[],false,false,"",false,false,"",[],false,false,""
-338,338,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+337,337,,[],false,[],false,false,,false,false,,[],false,false,
+338,338,,[],false,[],false,false,,false,false,,[],false,false,
 339,339,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 340,340,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 341,341,No,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,No,[No water],false,false,No
@@ -349,7 +349,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 348,348,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
 349,349,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 350,350,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
-351,351,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+351,351,,[],false,[],false,false,,false,false,,[],false,false,
 352,352,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
 353,353,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
 354,354,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
@@ -385,7 +385,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 384,384,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 385,385,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - year round],false,false,No
 386,386,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
-387,387,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+387,387,,[],false,[],false,false,,false,false,,[],false,false,
 388,388,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
 389,389,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
 390,390,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
@@ -434,7 +434,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 433,433,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 434,434,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
 435,435,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
-436,436,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+436,436,,[],false,[],false,false,,false,false,,[],false,false,
 437,437,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 438,438,Yes - year round,[Vault Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,No,[No water],false,false,No
 439,439,Yes - year round,[Flush Toilets - year round],false,[Hot - Seasonal],false,false,No,false,false,No,[Yes - year round],false,false,No
@@ -461,7 +461,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 460,460,Yes - seasonal,[Flush Toilets - seasonal],false,"[Hot - Seasonal, Free - Seasonal]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 461,461,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - seasonal]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 462,462,Yes - year round,"[Vault Toilets - year round, Flush Toilets - seasonal]",false,[None],false,false,No,false,false,No,[No water],false,false,No
-463,463,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+463,463,,[],false,[],false,false,,false,false,,[],false,false,
 464,464,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
 465,465,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 466,466,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
@@ -490,7 +490,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 489,489,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 490,490,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,Yes - year round
 491,491,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
-492,492,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+492,492,,[],false,[],false,false,,false,false,,[],false,false,
 493,493,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 494,494,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 495,495,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
@@ -507,7 +507,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 506,506,Yes - seasonal,[Flush Toilets - seasonal],false,[Coin-Operated - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 507,507,No,"[Vault Toilets - seasonal, Portable Toilets - seasonal, Composting Toilets - seasonal]",false,[None],false,false,No,false,false,No,[No water],false,false,No
 508,508,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
-509,509,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+509,509,,[],false,[],false,false,,false,false,,[],false,false,
 510,510,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,Yes - year round
 511,511,Yes - year round,[Flush Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
 512,512,Yes - seasonal,"[Flush Toilets - seasonal, Composting Toilets - seasonal]",false,"[Hot - Seasonal, Coin-Operated - Seasonal]",false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
@@ -523,13 +523,13 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 522,522,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 523,523,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - year round],false,false,No
 524,524,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
-525,525,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+525,525,,[],false,[],false,false,,false,false,,[],false,false,
 526,526,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,Yes - year round
 527,527,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 528,528,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
 529,529,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - year round
 530,530,No,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
-531,531,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+531,531,,[],false,[],false,false,,false,false,,[],false,false,
 532,532,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,Yes - year round
 533,533,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[No water],false,false,Yes - year round
 534,534,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,Yes - year round
@@ -540,7 +540,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 539,539,No,[Flush Toilets - year round],false,[Cold - Year Round],false,false,No,false,false,No,[Yes - year round],false,false,Yes - year round
 540,540,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 541,541,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,No,[Yes - seasonal],false,false,Yes - seasonal
-542,542,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+542,542,,[],false,[],false,false,,false,false,,[],false,false,
 543,543,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
 544,544,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 545,545,No,[Composting Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
@@ -574,7 +574,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 573,573,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 574,574,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 575,575,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,[Yes - seasonal],false,false,No
-576,576,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+576,576,,[],false,[],false,false,,false,false,,[],false,false,
 577,577,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
 578,578,Yes - seasonal,[Flush Toilets - seasonal],false,[Hot - Seasonal],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
 579,579,No,[Flush Toilets - year round],false,[Cold - Year Round],false,false,No,false,false,No,[Yes - year round],false,false,Yes - year round
@@ -598,7 +598,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 597,597,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
 598,598,Yes - seasonal,[Vault Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - year round
 599,599,Yes - year round,[Flush Toilets - year round],false,[None],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
-600,600,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+600,600,,[],false,[],false,false,,false,false,,[],false,false,
 601,601,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,No,false,false,Yes - seasonal,[Yes - seasonal],false,false,No
 602,602,No,[No Toilets],false,[None],false,false,No,false,false,No,[No water],false,false,No
 603,603,Yes - year round,"[Flush Toilets - year round, Portable Toilets - year round]",false,"[Hot - Year Round, Free - Year Round]",false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
@@ -614,7 +614,7 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 613,613,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 614,614,No,[Portable Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 615,615,Yes - year round,[Flush Toilets - year round],false,[Hot - Year Round],false,false,No,false,false,Yes - year round,[Yes - year round],false,false,No
-616,616,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+616,616,,[],false,[],false,false,,false,false,,[],false,false,
 617,617,No,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - seasonal
 618,618,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 619,619,Yes - seasonal,[Flush Toilets - seasonal],false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
@@ -655,11 +655,11 @@ id,campgroundId,trashRecyclingCollection,toilets,internetConnectivity,showers,ce
 654,654,No,[Flush Toilets - year round],false,[Hot - Year Round],false,false,Yes - year round,false,false,Yes - seasonal,[Yes - year round],false,false,No
 655,655,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 656,656,Yes - year round,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
-657,657,"",[],false,[],false,false,"",false,false,"",[],false,false,""
-658,658,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+657,657,,[],false,[],false,false,,false,false,,[],false,false,
+658,658,,[],false,[],false,false,,false,false,,[],false,false,
 659,659,Yes - seasonal,"[Flush Toilets - seasonal, Vault Toilets - year round]",false,[None],false,false,Yes - seasonal,false,false,Yes - seasonal,[Yes - seasonal],false,false,Yes - seasonal
 660,660,No,[Composting Toilets - seasonal],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,Yes - year round
 661,661,No,[Vault Toilets - year round],false,[None],false,false,No,false,false,No,[No water],false,false,No
-662,662,"",[],false,[],false,false,"",false,false,"",[],false,false,""
+662,662,,[],false,[],false,false,,false,false,,[],false,false,
 663,663,No,[No Toilets],false,[None],false,false,No,false,false,No,"[Water, ' but not potable']",false,false,No
 664,664,Yes - seasonal,[Vault Toilets - seasonal],false,[None],false,false,No,false,false,No,[No water],false,false,Yes - seasonal
