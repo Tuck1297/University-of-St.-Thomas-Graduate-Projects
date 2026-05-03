@@ -79,8 +79,8 @@ primaryDisplayName in (
 'Northwest Angle State Forest',
 'Westside Park',
 'Heritage Park',
-'Lakeside Park',
-)
+'Lakeside Park'
+);
 
 select * from google.address_descriptors;
 

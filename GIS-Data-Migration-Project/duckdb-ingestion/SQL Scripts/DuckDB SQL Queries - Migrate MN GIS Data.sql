@@ -1,5 +1,9 @@
 -- DuckDB SQL Queries - Migrate MN GIS Data
 
+-- Load Spatial Extension
+INSTALL spatial;
+LOAD spatial;
+
 -- Views Created for MN GIS Data Migration
 
 -- View unique designations from the GIS data to populate the location types dimension table

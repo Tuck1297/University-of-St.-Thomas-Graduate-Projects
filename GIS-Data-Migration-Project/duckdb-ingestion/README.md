@@ -28,13 +28,13 @@ source venv/bin/activate # Activate the Virtual Environment
 pip install -r requirements.txt
 ```
 
-3. Run script -- Review the **Invoke Script** section below to learn how to run the script in different modes.
+3. Run script -- Review the **Invoke Script** and **Migration Orchestrator** sections below to learn how to run the ingestion and migration workflows.
 
-## Invoke Script
+## Invoke Script (Data Ingestion)
 
-Orchestrator module for running various GIS data ingestion jobs. This module provides a command-line interface (CLI) using Typer to execute different data migration jobs independently or all together. The data is ingested and imported into a single DuckDB database for further analysis, querying and ingestion.
+The `orchestrator.py` module is responsible for fetching raw data from external sources (NPS, Google, RIDB, MN GIS, MN DNR) and ingesting it into DuckDB. It provides a command-line interface (CLI) using Typer.
 
-### Available Jobs:
+### Available Ingestion Jobs:
 
 - NPS: National Park Service data ingestion
 - Google: Google Places data ingestion
@@ -44,28 +44,46 @@ Orchestrator module for running various GIS data ingestion jobs. This module pro
 
 ### Usage:
 
-- python orchestrator.py --run-nps # Run only NPS job
-- python orchestrator.py --run-google # Run only Google Places job
-- python orchestrator.py --run-ridb-rec # Run only RIDB Recreation job
-- python orchestrator.py --run-mn-gis # Run only Minnesota GIS job
-- python orchestrator.py --run-mn-dnr # Run only Minnesota DNR job
-- python orchestrator.py --all # Run all jobs
-- python orchestrator.py # No jobs run (displays message)
+- `python orchestrator.py --run-nps`       # Run only NPS ingestion
+- `python orchestrator.py --run-google`    # Run only Google Places ingestion
+- `python orchestrator.py --run-ridb-rec` # Run only RIDB Recreation ingestion
+- `python orchestrator.py --run-mn-gis`    # Run only Minnesota GIS ingestion
+- `python orchestrator.py --run-mn-dnr`    # Run only Minnesota DNR ingestion
+- `python orchestrator.py --all`           # Run all ingestion jobs
+
+## Migration Orchestrator (Data Transformation)
+
+The `migration_orchestrator.py` module orchestrates the execution of SQL scripts to transform raw ingested data into a normalized schema. This script is used after the initial ingestion is complete.
+
+### Available Transformation Steps:
+
+- **Schema Setup:** Creates or resets the normalized table structure.
+- **NPS Migration:** Transforms raw NPS data into normalized tables.
+- **RIDB Migration:** Transforms raw RIDB data (including Tours and Links).
+- **Google Migration:** Transforms raw Google Places data.
+- **MN DNR Migration:** Transforms raw MN DNR PDF-extracted data.
+- **MN GIS Migration:** Transforms raw MN GIS spatial data.
+- **Sanity Checks:** Runs verification queries to ensure data integrity.
+
+### Usage:
+
+- `python migration_orchestrator.py --restart`       # Reset schema and start fresh
+- `python migration_orchestrator.py --run-nps`       # Run NPS SQL migration
+- `python migration_orchestrator.py --run-ridb`      # Run RIDB SQL migration
+- `python migration_orchestrator.py --all`           # Run all migration scripts
+- `python migration_orchestrator.py --all --sanity`  # Run all and perform sanity checks
 
 ### Options:
 
---run-nps: (bool) Execute NPS data ingestion job
---run-google: (bool) Execute Google Places data ingestion job
---run-ridb-rec: (bool) Execute RIDB Recreation data ingestion job
---run-mn-gis: (bool) Execute Minnesota GIS data ingestion job
---run-mn-dnr: (bool) Execute Minnesota DNR data ingestion job
---all: (bool) Execute all available jobs
---help: Display help message with all available options
-
-### Examples:
-
-- Run multiple jobs: python orchestrator.py --run-nps --run-google
-- Run all jobs: python orchestrator.py --all
+- `--restart`: (bool) Reset the database and recreate normalized tables
+- `--run-nps`: (bool) Migrate NPS data
+- `--run-ridb`: (bool) Migrate RIDB data
+- `--run-google`: (bool) Migrate Google Places data
+- `--run-mn-dnr`: (bool) Migrate MN DNR data
+- `--run-mn-gis`: (bool) Migrate MN GIS data
+- `--all`: (bool) Execute all available transformation scripts
+- `--sanity`: (bool) Run data sanity checks
+- `--help`: Display help message with all available options
 
 ## Export Database
 

@@ -13,7 +13,7 @@ SELECT DISTINCT 'Campsite' AS location_type;
 -- Intermediate views for aggregated data
 CREATE OR REPLACE VIEW ridb.v_aggregated_rec_area_activities AS
 SELECT 
-    ea.EntityID,
+    CAST(ea.EntityID AS VARCHAR) as EntityID,
     json_group_object(a.ActivityName, 
         CASE 
             WHEN ea.ActivityDescription IS NULL OR ea.ActivityDescription = '' 
@@ -28,7 +28,7 @@ GROUP BY ea.EntityID;
 
 CREATE OR REPLACE VIEW ridb.v_aggregated_facility_activities AS
 SELECT 
-    ea.EntityID,
+    CAST(ea.EntityID AS VARCHAR) as EntityID,
     json_group_object(a.ActivityName, 
         CASE 
             WHEN ea.ActivityDescription IS NULL OR ea.ActivityDescription = '' 
@@ -43,7 +43,7 @@ GROUP BY ea.EntityID;
 
 CREATE OR REPLACE VIEW ridb.v_aggregated_campsite_attributes AS
 SELECT 
-    EntityID,
+    CAST(EntityID AS VARCHAR) as EntityID,
     json_group_object(AttributeName, 
         CASE 
             WHEN AttributeValue IS NULL OR AttributeValue = '' 
@@ -55,14 +55,42 @@ FROM ridb.CampsiteAttributes_API_v1
 WHERE EntityType = 'Campsite'
 GROUP BY EntityID;
 
+CREATE OR REPLACE VIEW ridb.v_aggregated_facility_tours AS
+WITH tour_links AS (
+    SELECT 
+        CAST(CAST(EntityID AS BIGINT) AS VARCHAR) as TourID,
+        json_group_array(json_object(
+            'title', Title,
+            'url', URL,
+            'type', LinkType
+        )) as links
+    FROM ridb.Links_API_v1
+    WHERE EntityType = 'Tour'
+    GROUP BY EntityID
+)
+SELECT 
+    CAST(t.FacilityID AS VARCHAR) as FacilityID,
+    json_group_array(json_object(
+        'tour_id', t.TourID,
+        'name', t.TourName,
+        'type', t.TourType,
+        'description', t.TourDescription,
+        'duration', t.TourDuration,
+        'accessible', t.TourAccessible,
+        'links', tl.links
+    )) as tours_json
+FROM ridb.Tours_API_v1 t
+LEFT JOIN tour_links tl ON CAST(t.TourID AS VARCHAR) = tl.TourID
+GROUP BY t.FacilityID;
+
 -- View to transform RecAreas
 CREATE OR REPLACE VIEW ridb.v_rec_areas AS
 SELECT
-    v.RecAreaName AS name,
-    v.RecAreaLatitude AS latitude,
-    v.RecAreaLongitude AS longitude,
-    v.RecAreaDirections AS directions_info,
-    v.RecAreaDescription AS description,
+    COALESCE(v.RecAreaName, '') AS name,
+    COALESCE(v.RecAreaLatitude, 0.0) AS latitude,
+    COALESCE(v.RecAreaLongitude, 0.0) AS longitude,
+    COALESCE(v.RecAreaDirections, '') AS directions_info,
+    COALESCE(v.RecAreaDescription, '') AS description,
     'Recreation Area' AS location_type,
     3 AS data_source_key, -- RIDB
     CAST(v.RecAreaID AS VARCHAR) AS orig_data_source_key,
@@ -86,11 +114,11 @@ LEFT JOIN ridb.v_aggregated_rec_area_activities agg ON v.RecAreaID = agg.EntityI
 -- View to transform Facilities
 CREATE OR REPLACE VIEW ridb.v_facilities AS
 SELECT
-    v.FacilityName AS name,
-    v.FacilityLatitude AS latitude,
-    v.FacilityLongitude AS longitude,
-    v.FacilityDirections AS directions_info,
-    v.FacilityDescription AS description,
+    COALESCE(v.FacilityName, '') AS name,
+    COALESCE(v.FacilityLatitude, 0.0) AS latitude,
+    COALESCE(v.FacilityLongitude, 0.0) AS longitude,
+    COALESCE(v.FacilityDirections, '') AS directions_info,
+    COALESCE(v.FacilityDescription, '') AS description,
     'Facility' AS location_type,
     3 AS data_source_key, -- RIDB
     CAST(v.FacilityID AS VARCHAR) AS orig_data_source_key,
@@ -103,21 +131,23 @@ SELECT
         reservable := v.Reservable,
         enabled := v.Enabled,
         last_updated := v.LastUpdatedDate,
-        activities := agg.activities_json
+        activities := agg.activities_json,
+        tours := t.tours_json
     )) AS attributes,
     v.FacilityPhone AS phone,
     v.FacilityEmail AS email,
     v.FacilityReservationURL AS reservation_url,
     v.FacilityMapURL AS map_url
 FROM ridb.Facilities_API_v1 v
-LEFT JOIN ridb.v_aggregated_facility_activities agg ON v.FacilityID = agg.EntityID;
+LEFT JOIN ridb.v_aggregated_facility_activities agg ON v.FacilityID = agg.EntityID
+LEFT JOIN ridb.v_aggregated_facility_tours t ON v.FacilityID = t.FacilityID;
 
 -- View to transform Campsites
 CREATE OR REPLACE VIEW ridb.v_campsites AS
 SELECT
-    v.CampsiteName AS name,
-    v.CampsiteLatitude AS latitude,
-    v.CampsiteLongitude AS longitude,
+    COALESCE(v.CampsiteName, '') AS name,
+    COALESCE(v.CampsiteLatitude, 0.0) AS latitude,
+    COALESCE(v.CampsiteLongitude, 0.0) AS longitude,
     '' AS directions_info,
     '' AS description,
     'Campsite' AS location_type,
@@ -176,7 +206,20 @@ SELECT orig_data_source_key, map_url AS url, 'Directions' AS type, 'Map/Directio
 UNION ALL
 SELECT orig_data_source_key, reservation_url AS url, 'Reservations' AS type, 'Official Reservation Website' as description FROM ridb.v_facilities WHERE reservation_url IS NOT NULL AND reservation_url != ''
 UNION ALL
-SELECT orig_data_source_key, map_url AS url, 'Directions' AS type, 'Map/Directions Website' as description FROM ridb.v_facilities WHERE map_url IS NOT NULL AND map_url != '';
+SELECT orig_data_source_key, map_url AS url, 'Directions' AS type, 'Map/Directions Website' as description FROM ridb.v_facilities WHERE map_url IS NOT NULL AND map_url != ''
+UNION ALL
+SELECT 
+    CAST(CAST(l.EntityID AS BIGINT) AS VARCHAR) as orig_data_source_key,
+    l.URL as url,
+    CASE 
+        WHEN l.LinkType = 'Official Web Site' THEN 'Primary'
+        WHEN l.LinkType = 'Map' THEN 'Directions'
+        WHEN l.LinkType = 'Reservations' THEN 'Reservations'
+        ELSE l.LinkType
+    END as type,
+    COALESCE(l.Title, l.Description, '') as description
+FROM ridb.Links_API_v1 l
+WHERE l.EntityType = 'Asset' AND l.EntityID IS NOT NULL AND NOT isnan(l.EntityID) AND l.URL IS NOT NULL AND l.URL != '';
 
 
 -- Start Transaction
@@ -192,7 +235,16 @@ SELECT
 FROM ridb.v_location_types
 WHERE location_type NOT IN (SELECT name FROM normalized.LocationTypes);
 
--- 2. RecAreas (Level 1)
+-- 2. WebsiteTypes
+INSERT INTO normalized.WebsiteTypes (website_type_key, name, description)
+SELECT
+    (SELECT COALESCE(MAX(website_type_key), 0) FROM normalized.WebsiteTypes) + row_number() OVER (),
+    type,
+    'RIDB Link Type'
+FROM (SELECT DISTINCT type FROM ridb.v_websites)
+WHERE type NOT IN (SELECT name FROM normalized.WebsiteTypes);
+
+-- 3. RecAreas (Level 1)
 INSERT INTO normalized.Locations (
     location_key, name, latitude, longitude, directions_info, description, data_source_key, location_type_key, orig_data_source_key, attributes
 )
@@ -295,13 +347,13 @@ SELECT
     (SELECT COALESCE(MAX(media_key), 0) FROM normalized.Media) + row_number() OVER (),
     COALESCE(mt.media_type_key, 0),
     l.location_key,
-    v.Title,
-    v.Subtitle,
-    v.Description,
-    v.URL,
-    v.Height,
-    v.Width,
-    v.Credits
+    COALESCE(v.Title, ''),
+    COALESCE(v.Subtitle, ''),
+    COALESCE(v.Description, ''),
+    COALESCE(v.URL, ''),
+    COALESCE(v.Height, 0),
+    COALESCE(v.Width, 0),
+    COALESCE(v.Credits, '')
 FROM ridb.Media_API_v1 v
 JOIN normalized.Locations l ON CAST(v.EntityID AS VARCHAR) = l.orig_data_source_key AND l.data_source_key = 3
 LEFT JOIN normalized.MediaTypes mt ON mt.name = CASE
