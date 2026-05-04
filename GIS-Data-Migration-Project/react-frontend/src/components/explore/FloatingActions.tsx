@@ -1,78 +1,6 @@
 "use client";
 
-import { useLeafletMap } from "../core/ClusteredMap";
-
-function ZoomInIcon() {
-  return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="#5f6368"
-      strokeWidth="2.5"
-      strokeLinecap="round"
-      aria-hidden="true"
-    >
-      <line x1="12" y1="5" x2="12" y2="19" />
-      <line x1="5" y1="12" x2="19" y2="12" />
-    </svg>
-  );
-}
-
-function ZoomOutIcon() {
-  return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="#5f6368"
-      strokeWidth="2.5"
-      strokeLinecap="round"
-      aria-hidden="true"
-    >
-      <line x1="5" y1="12" x2="19" y2="12" />
-    </svg>
-  );
-}
-
-function LocationIcon() {
-  return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="#4285f4"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
-      <circle cx="12" cy="12" r="3" />
-      <line x1="12" y1="2" x2="12" y2="6" />
-      <line x1="12" y1="18" x2="12" y2="22" />
-      <line x1="2" y1="12" x2="6" y2="12" />
-      <line x1="18" y1="12" x2="22" y2="12" />
-    </svg>
-  );
-}
-
-const fabButtonStyle: React.CSSProperties = {
-  width: 40,
-  height: 40,
-  borderRadius: "50%",
-  border: "none",
-  background: "#ffffff",
-  boxShadow: "0 2px 8px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.1)",
-  cursor: "pointer",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  transition: "box-shadow 0.15s ease, background 0.15s ease",
-  padding: 0,
-};
+import { useLeafletMap } from "../core/MapContext";
 
 export function FloatingActions() {
   const map = useLeafletMap();
@@ -85,86 +13,103 @@ export function FloatingActions() {
     map.zoomOut();
   }
 
-  function handleMyLocation() {
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        map.flyTo([pos.coords.latitude, pos.coords.longitude], 14, {
-          animate: true,
-          duration: 1,
-        });
-      },
-      () => {
-        // Silently fail if user denies or blocks geolocation
-      },
-    );
+  function handleLocate() {
+    map.locate({ setView: true, maxZoom: 16 });
   }
 
   return (
     <div
       style={{
         position: "absolute",
-        bottom: 32,
+        bottom: 24,
         right: 16,
         zIndex: 1000,
         display: "flex",
         flexDirection: "column",
         gap: 8,
       }}
-      role="group"
-      aria-label="Map controls"
     >
-      <button
-        type="button"
-        style={fabButtonStyle}
-        onClick={handleZoomIn}
-        aria-label="Zoom in"
-        title="Zoom in"
-        onMouseEnter={(e) => {
-          (e.currentTarget as HTMLButtonElement).style.boxShadow =
-            "0 4px 12px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12)";
-        }}
-        onMouseLeave={(e) => {
-          (e.currentTarget as HTMLButtonElement).style.boxShadow =
-            "0 2px 8px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.1)";
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          background: "#ffffff",
+          borderRadius: 8,
+          boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
+          overflow: "hidden",
         }}
       >
-        <ZoomInIcon />
-      </button>
+        <button
+          type="button"
+          onClick={handleZoomIn}
+          aria-label="Zoom in"
+          style={{
+            width: 40,
+            height: 40,
+            border: "none",
+            background: "none",
+            borderBottom: "1px solid #f0f0f0",
+            cursor: "pointer",
+            fontSize: 20,
+            color: "#666",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          +
+        </button>
+        <button
+          type="button"
+          onClick={handleZoomOut}
+          aria-label="Zoom out"
+          style={{
+            width: 40,
+            height: 40,
+            border: "none",
+            background: "none",
+            cursor: "pointer",
+            fontSize: 24,
+            color: "#666",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          −
+        </button>
+      </div>
 
       <button
         type="button"
-        style={fabButtonStyle}
-        onClick={handleZoomOut}
-        aria-label="Zoom out"
-        title="Zoom out"
-        onMouseEnter={(e) => {
-          (e.currentTarget as HTMLButtonElement).style.boxShadow =
-            "0 4px 12px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12)";
-        }}
-        onMouseLeave={(e) => {
-          (e.currentTarget as HTMLButtonElement).style.boxShadow =
-            "0 2px 8px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.1)";
-        }}
-      >
-        <ZoomOutIcon />
-      </button>
-
-      <button
-        type="button"
-        style={fabButtonStyle}
-        onClick={handleMyLocation}
-        aria-label="Go to my location"
-        title="My location"
-        onMouseEnter={(e) => {
-          (e.currentTarget as HTMLButtonElement).style.boxShadow =
-            "0 4px 12px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12)";
-        }}
-        onMouseLeave={(e) => {
-          (e.currentTarget as HTMLButtonElement).style.boxShadow =
-            "0 2px 8px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.1)";
+        onClick={handleLocate}
+        aria-label="My location"
+        style={{
+          width: 40,
+          height: 40,
+          background: "#ffffff",
+          borderRadius: "50%",
+          border: "none",
+          boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
+          cursor: "pointer",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
         }}
       >
-        <LocationIcon />
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#666"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+          <circle cx="12" cy="10" r="3" />
+        </svg>
       </button>
     </div>
   );

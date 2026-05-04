@@ -1,8 +1,6 @@
 "use client";
 
 import {
-  createContext,
-  useContext,
   useEffect,
   useRef,
   useState,
@@ -10,8 +8,9 @@ import {
 } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import { LeafletMapContext, ClusterGroupContext, type MarkerClusterGroup } from "./MapContext";
 
-// Fix Leaflet default marker icons in Next.js
+// Fix Leaflet default marker icons
 delete (L.Icon.Default.prototype as unknown as Record<string, unknown>)
   ._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -21,26 +20,15 @@ L.Icon.Default.mergeOptions({
   shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
 });
 
-/**
- * Load leaflet.markercluster plugin via CDN script tag.
- * This bypasses pnpm's strict module resolution and Turbopack's CSS issues.
- * The plugin extends the global L object with L.markerClusterGroup().
- */
-// Local type declarations for the leaflet.markercluster CDN plugin.
-// @types/leaflet does not include these — the plugin extends L at runtime.
 interface MarkerClusterGroupOptions {
   chunkedLoading?: boolean;
   spiderfyOnMaxZoom?: boolean;
   showCoverageOnHover?: boolean;
   maxClusterRadius?: number;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  iconCreateFunction?: (cluster: any) => L.Icon | L.DivIcon;
+  iconCreateFunction?: (cluster: unknown) => L.Icon | L.DivIcon;
   [key: string]: unknown;
 }
-interface MarkerClusterGroup extends L.FeatureGroup {
-  addLayer(layer: L.Layer): this;
-  removeLayer(layer: L.Layer): this;
-}
+
 const LWithCluster = L as unknown as typeof L & {
   markerClusterGroup: (
     options?: MarkerClusterGroupOptions,
@@ -66,7 +54,6 @@ function ensureMarkerCluster(): Promise<void> {
   return _clusterReady;
 }
 
-// Minimal MarkerCluster CSS (avoids importing from react-leaflet-cluster which breaks Turbopack)
 const CLUSTER_CSS = `
 .marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{background-clip:padding-box;border-radius:20px}
 .marker-cluster-small{background-color:rgba(181,226,140,.6)}
@@ -82,16 +69,6 @@ const CLUSTER_CSS = `
 .leaflet-cluster-spider-leg{transition:stroke-dashoffset .3s ease-out,stroke-opacity .3s ease-in}
 `;
 
-// Context to share the map instance with child components (like MapPanHandler, FloatingActions)
-const LeafletMapContext = createContext<L.Map | null>(null);
-
-// eslint-disable-next-line react-refresh/only-export-components
-export function useLeafletMap(): L.Map {
-  const map = useContext(LeafletMapContext);
-  if (!map) throw new Error("useLeafletMap must be used inside ClusteredMap");
-  return map;
-}
-
 export interface ClusteredMapProps {
   center?: [number, number];
   zoom?: number;
@@ -101,9 +78,7 @@ export interface ClusteredMapProps {
   tileAttribution?: string;
   className?: string;
   style?: React.CSSProperties;
-  /** Provide a custom iconCreateFunction for clusters */
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  iconCreateFunction?: (cluster: any) => L.Icon | L.DivIcon;
+  iconCreateFunction?: (cluster: unknown) => L.Icon | L.DivIcon;
 }
 
 export default function ClusteredMap({
@@ -119,10 +94,9 @@ export default function ClusteredMap({
 }: ClusteredMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
-  const clusterRef = useRef<MarkerClusterGroup | null>(null);
   const [map, setMap] = useState<L.Map | null>(null);
+  const [clusterGroup, setClusterGroup] = useState<MarkerClusterGroup | null>(null);
 
-  // Inject cluster CSS once
   useEffect(() => {
     const id = "leaflet-markercluster-css";
     if (!document.getElementById(id)) {
@@ -133,7 +107,6 @@ export default function ClusteredMap({
     }
   }, []);
 
-  // Create the map imperatively — immune to Strict Mode double-mount
   useEffect(() => {
     const el = containerRef.current;
     if (!el || mapRef.current) return;
@@ -152,7 +125,7 @@ export default function ClusteredMap({
 
       L.tileLayer(tileUrl, { attribution: tileAttribution }).addTo(m);
 
-      const clusterGroup = LWithCluster.markerClusterGroup({
+      const cg = LWithCluster.markerClusterGroup({
         chunkedLoading: true,
         spiderfyOnMaxZoom: true,
         showCoverageOnHover: false,
@@ -160,13 +133,12 @@ export default function ClusteredMap({
         ...clusterOptions,
         ...(iconCreateFunction ? { iconCreateFunction } : {}),
       });
-      m.addLayer(clusterGroup);
+      m.addLayer(cg);
 
       mapRef.current = m;
-      clusterRef.current = clusterGroup;
       setMap(m);
+      setClusterGroup(cg);
 
-      // Fix size after container is rendered
       setTimeout(() => m.invalidateSize(), 100);
     });
 
@@ -175,10 +147,8 @@ export default function ClusteredMap({
       if (mapRef.current) {
         mapRef.current.remove();
         mapRef.current = null;
-        clusterRef.current = null;
       }
     };
-    // Only run on mount
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -189,40 +159,13 @@ export default function ClusteredMap({
         className={className}
         style={{ width: "100%", height: "100%", ...style }}
       />
-      {map && clusterRef.current && (
+      {map && clusterGroup && (
         <LeafletMapContext.Provider value={map}>
-          <ClusterPortal clusterGroup={clusterRef.current}>
+          <ClusterGroupContext.Provider value={clusterGroup}>
             {children}
-          </ClusterPortal>
+          </ClusterGroupContext.Provider>
         </LeafletMapContext.Provider>
       )}
     </>
-  );
-}
-
-/**
- * ClusterPortal — renders nothing to the DOM, but passes the clusterGroup
- * to children via context so they can add markers to it.
- */
-const ClusterGroupContext = createContext<MarkerClusterGroup | null>(null);
-
-// eslint-disable-next-line react-refresh/only-export-components
-export function useClusterGroup(): MarkerClusterGroup {
-  const cg = useContext(ClusterGroupContext);
-  if (!cg) throw new Error("useClusterGroup must be used inside ClusteredMap");
-  return cg;
-}
-
-function ClusterPortal({
-  clusterGroup,
-  children,
-}: {
-  clusterGroup: MarkerClusterGroup;
-  children: ReactNode;
-}) {
-  return (
-    <ClusterGroupContext.Provider value={clusterGroup}>
-      {children}
-    </ClusterGroupContext.Provider>
   );
 }

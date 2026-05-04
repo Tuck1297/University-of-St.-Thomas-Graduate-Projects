@@ -1,0 +1,13 @@
+{
+  "name": "gis-data-migration-project",
+  "version": "1.0.0",
+  "description": "GIS Data Migration Project - Full Stack",
+  "scripts": {
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"blue,green\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && venv\\Scripts\\python.exe main.py",
+    "dev:frontend": "cd react-frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { Suspense, lazy } from "react";
+import { Suspense, lazy } from "react";
 import type { ComponentProps } from "react";
 import type { default as ClusteredMapType } from "./ClusteredMap";
 

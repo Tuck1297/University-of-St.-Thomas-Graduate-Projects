@@ -6,7 +6,7 @@ This project demonstrates a data pipeline from various sources into DuckDB, migr
 
 - `duckdb-ingestion/`: Python scripts for downloading data, importing into DuckDB, and organizing the data into a normalized schema.
 - `migration-scripts/`: Scripts to migrate normalized data from DuckDB to PostgreSQL (PostGIS).
-- `django-backend/`: API built with Django REST Framework connecting to PostgreSQL.
+- `backend/`: API built with FastAPI REST Framework connecting to PostgreSQL.
 - `react-frontend/`: React application with a map interface to display spatial data.
 
 ## Workflow Overview

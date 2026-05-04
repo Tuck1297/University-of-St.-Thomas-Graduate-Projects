@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { BaseMarker, FilterState, PanelState } from "../types/map.types";
+import type { BaseMarker, FilterState, PanelState } from "../../types/map.types";
 
 interface MapStore {
   selectedMarker: BaseMarker | null;
@@ -15,8 +15,7 @@ interface MapStore {
 
 const defaultFilters: FilterState = {
   search: "",
-  categories: [],
-  statuses: [],
+  locationTypes: [],
 };
 
 export const useMapStore = create<MapStore>((set) => ({

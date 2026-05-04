@@ -1,40 +1,27 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import MapWrapper from "../core/MapWrapper";
 import CustomMarker from "../core/CustomMarker";
 import MapPanHandler from "../core/MapPanHandler";
+import MapBoundsHandler from "../core/MapBoundsHandler";
 import { useResponsiveMode } from "../hooks/useResponsiveMode";
 import { useMapStore } from "../hooks/useMapStore";
-import { poiData } from "../data/pois";
 import { LocationCard } from "./LocationCard";
 import { FloatingSearch } from "./FloatingSearch";
 import { FloatingActions } from "./FloatingActions";
-import type { PoiMarker } from "../types/map.types";
+import { useLocations, useSearch, type BBox, type LocationFeature } from "../../hooks/useApi";
+import { useDebouncedValue } from "@mantine/hooks";
+import type { PoiMarker } from "../../types/map.types";
+import { getStyleForType } from "../../types/locationTypeMapping";
+import type { MarkerClusterLike } from "../core/MapContext";
 import L from "leaflet";
 
 // Minneapolis center
 const MINNEAPOLIS_CENTER: [number, number] = [44.96, -93.27];
 const DEFAULT_ZOOM = 12;
 
-const CATEGORY_COLORS: Record<PoiMarker["category"], string> = {
-  restaurant: "#ea4335",
-  hotel: "#4285f4",
-  gas: "#34a853",
-  park: "#8ab34f",
-  shop: "#9334e6",
-};
-
-const CATEGORY_EMOJIS: Record<PoiMarker["category"], string> = {
-  restaurant: "🍽",
-  hotel: "🏨",
-  gas: "⛽",
-  park: "🌳",
-  shop: "🛍",
-};
-
 // Teardrop / pin shape: rounded top, pointed bottom
-// Built as a self-contained HTML string for renderToString inside CustomMarker
 function PinIcon({ color, emoji }: { color: string; emoji: string }) {
   return (
     <div
@@ -48,7 +35,6 @@ function PinIcon({ color, emoji }: { color: string; emoji: string }) {
       }}
       aria-hidden="true"
     >
-      {/* Pin body — circle */}
       <div
         style={{
           width: 32,
@@ -65,7 +51,6 @@ function PinIcon({ color, emoji }: { color: string; emoji: string }) {
       >
         <span style={{ fontSize: 14, lineHeight: 1 }}>{emoji}</span>
       </div>
-      {/* Pin tail — triangle pointing down */}
       <div
         style={{
           position: "absolute",
@@ -84,16 +69,9 @@ function PinIcon({ color, emoji }: { color: string; emoji: string }) {
   );
 }
 
-// Minimal interface matching the subset of L.MarkerCluster that we use,
-// since L.MarkerCluster is not exported by @types/leaflet (it comes from
-// leaflet.markercluster which augments the L namespace at runtime only).
-interface MarkerClusterLike {
-  getChildCount(): number;
-}
-
-// Cluster icon factory for react-leaflet-cluster
-function createClusterIcon(cluster: MarkerClusterLike) {
-  const count = cluster.getChildCount();
+// Cluster icon factory
+function createClusterIcon(cluster: unknown) {
+  const count = (cluster as MarkerClusterLike).getChildCount();
   return L.divIcon({
     html: `
       <div style="
@@ -118,26 +96,47 @@ function createClusterIcon(cluster: MarkerClusterLike) {
   });
 }
 
+function mapFeatureToPoi(feature: LocationFeature): PoiMarker {
+  const { properties } = feature;
+
+  return {
+    id: String(properties.location_key),
+    lat: properties.latitude,
+    lng: properties.longitude,
+    name: properties.name,
+    locationTypeKey: properties.location_type_key,
+    description: properties.description || "",
+  };
+}
+
 export function ExploreLayout() {
   const selectedMarker = useMapStore((s) => s.selectedMarker);
   const setSelectedMarker = useMapStore((s) => s.setSelectedMarker);
   const filters = useMapStore((s) => s.filters);
   const mode = useResponsiveMode();
 
-  // Apply filters: search by name, filter by category
+  const [bounds, setBounds] = useState<BBox | null>(null);
+  const [debouncedBounds] = useDebouncedValue(bounds, 2000);
+
+  // Queries
+  const { data: bboxData, isLoading: isBboxLoading } = useLocations(debouncedBounds);
+  const { data: searchData, isLoading: isSearchLoading } = useSearch(filters.search);
+
+  // Apply filters and merge results
   const filteredPois = useMemo(() => {
-    return poiData.filter((poi) => {
-      const matchesSearch =
-        filters.search.trim() === "" ||
-        poi.name.toLowerCase().includes(filters.search.toLowerCase());
+    const isSearching = filters.search.trim() !== "";
+    const rawFeatures = isSearching 
+      ? searchData?.features || [] 
+      : bboxData?.features || [];
 
-      const matchesCategory =
-        filters.categories.length === 0 ||
-        filters.categories.includes(poi.category);
+    return rawFeatures.map(mapFeatureToPoi).filter((poi) => {
+      const matchesType =
+        filters.locationTypes.length === 0 ||
+        filters.locationTypes.includes(poi.locationTypeKey);
 
-      return matchesSearch && matchesCategory;
+      return matchesType;
     });
-  }, [filters.search, filters.categories]);
+  }, [filters.search, filters.locationTypes, bboxData, searchData]);
 
   const clusterOptions = useMemo(
     () => ({
@@ -174,25 +173,49 @@ export function ExploreLayout() {
             drawerHeight={320}
           />
 
+          {/* Track map bounds */}
+          <MapBoundsHandler onBoundsChange={setBounds} />
+
           {/* POI markers */}
-          {filteredPois.map((poi) => (
-            <CustomMarker
-              key={poi.id}
-              position={[poi.lat, poi.lng]}
-              icon={
-                <PinIcon
-                  color={CATEGORY_COLORS[poi.category]}
-                  emoji={CATEGORY_EMOJIS[poi.category]}
-                />
-              }
-              iconSize={[32, 40]}
-              iconAnchor={[16, 40]}
-              popupAnchor={[0, -44]}
-              onClick={() => setSelectedMarker(poi)}
-            />
-          ))}
+          {filteredPois.map((poi) => {
+            const style = getStyleForType(poi.locationTypeKey);
+            return (
+              <CustomMarker
+                key={poi.id}
+                position={[poi.lat, poi.lng]}
+                icon={
+                  <PinIcon
+                    color={style.color}
+                    emoji={style.emoji}
+                  />
+                }
+                iconSize={[32, 40]}
+                iconAnchor={[16, 40]}
+                popupAnchor={[0, -44]}
+                onClick={() => setSelectedMarker(poi)}
+              />
+            );
+          })}
         </MapWrapper>
       </div>
+
+      {/* Loading indicator */}
+      {(isBboxLoading || isSearchLoading) && (
+        <div style={{
+          position: "absolute",
+          top: 70,
+          left: "50%",
+          transform: "translateX(-50%)",
+          zIndex: 1001,
+          background: "rgba(255,255,255,0.8)",
+          padding: "4px 12px",
+          borderRadius: 16,
+          fontSize: 12,
+          boxShadow: "0 2px 4px rgba(0,0,0,0.1)"
+        }}>
+          Loading results...
+        </div>
+      )}
 
       {/* Floating search bar — overlaid on the map */}
       <FloatingSearch />

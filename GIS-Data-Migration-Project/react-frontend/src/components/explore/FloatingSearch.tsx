@@ -3,27 +3,25 @@
 import { useState } from "react";
 import { useMapStore } from "../hooks/useMapStore";
 
-type Category = "all" | "restaurant" | "hotel" | "gas" | "park" | "shop";
-
-interface CategoryOption {
-  value: Category;
+interface TypeOption {
+  value: number;
   label: string;
   color: string;
 }
 
-const CATEGORIES: CategoryOption[] = [
-  { value: "all", label: "All", color: "#4285f4" },
-  { value: "restaurant", label: "Restaurants", color: "#ea4335" },
-  { value: "hotel", label: "Hotels", color: "#4285f4" },
-  { value: "gas", label: "Gas", color: "#34a853" },
-  { value: "park", label: "Parks", color: "#8ab34f" },
-  { value: "shop", label: "Shops", color: "#9334e6" },
+const COMMON_TYPES: TypeOption[] = [
+  { value: 1, label: "National Park", color: "#34a853" },
+  { value: 2, label: "State Park", color: "#34a853" },
+  { value: 6, label: "Campground", color: "#fbbc04" },
+  { value: 126, label: "Restaurant", color: "#ea4335" },
+  { value: 80, label: "Attraction", color: "#f4b400" },
+  { value: 91, label: "Historical", color: "#9334e6" },
 ];
 
 export function FloatingSearch() {
   const [showFilters, setShowFilters] = useState(false);
   const [searchValue, setSearchValue] = useState("");
-  const [activeCategory, setActiveCategory] = useState<Category>("all");
+  const locationTypes = useMapStore((s) => s.filters.locationTypes);
   const setFilters = useMapStore((s) => s.setFilters);
 
   function handleSearchChange(e: React.ChangeEvent<HTMLInputElement>) {
@@ -32,12 +30,12 @@ export function FloatingSearch() {
     setFilters({ search: value });
   }
 
-  function handleCategoryClick(category: Category) {
-    setActiveCategory(category);
-    if (category === "all") {
-      setFilters({ categories: [] });
+  function handleTypeClick(typeKey: number) {
+    const isSelected = locationTypes.includes(typeKey);
+    if (isSelected) {
+      setFilters({ locationTypes: locationTypes.filter(t => t !== typeKey) });
     } else {
-      setFilters({ categories: [category] });
+      setFilters({ locationTypes: [...locationTypes, typeKey] });
     }
   }
 
@@ -108,7 +106,7 @@ export function FloatingSearch() {
           type="button"
           onClick={() => setShowFilters((prev) => !prev)}
           aria-label={
-            showFilters ? "Hide category filters" : "Show category filters"
+            showFilters ? "Hide type filters" : "Show type filters"
           }
           aria-pressed={showFilters}
           style={{
@@ -144,7 +142,7 @@ export function FloatingSearch() {
         </button>
       </div>
 
-      {/* Category chips row */}
+      {/* Type chips row */}
       {showFilters && (
         <div
           style={{
@@ -158,15 +156,15 @@ export function FloatingSearch() {
             scrollbarWidth: "none",
           }}
           role="group"
-          aria-label="Filter by category"
+          aria-label="Filter by location type"
         >
-          {CATEGORIES.map((cat) => {
-            const isActive = activeCategory === cat.value;
+          {COMMON_TYPES.map((type) => {
+            const isActive = locationTypes.includes(type.value);
             return (
               <button
-                key={cat.value}
+                key={type.value}
                 type="button"
-                onClick={() => handleCategoryClick(cat.value)}
+                onClick={() => handleTypeClick(type.value)}
                 aria-pressed={isActive}
                 style={{
                   display: "flex",
@@ -174,9 +172,9 @@ export function FloatingSearch() {
                   gap: 6,
                   padding: "5px 12px",
                   borderRadius: 16,
-                  border: `1.5px solid ${isActive ? cat.color : "#e0e0e0"}`,
-                  background: isActive ? cat.color + "18" : "#ffffff",
-                  color: isActive ? cat.color : "#5f6368",
+                  border: `1.5px solid ${isActive ? type.color : "#e0e0e0"}`,
+                  background: isActive ? type.color + "18" : "#ffffff",
+                  color: isActive ? type.color : "#5f6368",
                   fontSize: 13,
                   fontWeight: isActive ? 600 : 400,
                   cursor: "pointer",
@@ -185,20 +183,18 @@ export function FloatingSearch() {
                   transition: "all 0.15s ease",
                 }}
               >
-                {cat.value !== "all" && (
-                  <span
-                    style={{
-                      width: 8,
-                      height: 8,
-                      borderRadius: "50%",
-                      background: cat.color,
-                      display: "inline-block",
-                      flexShrink: 0,
-                    }}
-                    aria-hidden="true"
-                  />
-                )}
-                {cat.label}
+                <span
+                  style={{
+                    width: 8,
+                    height: 8,
+                    borderRadius: "50%",
+                    background: type.color,
+                    display: "inline-block",
+                    flexShrink: 0,
+                  }}
+                  aria-hidden="true"
+                />
+                {type.label}
               </button>
             );
           })}

@@ -15,17 +15,24 @@ import { MapPage } from "./pages/Map.tsx";
 // Register gesture handling
 // L.Map.addInitHook("addHandler", "gestureHandling", GestureHandling);
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+    },
+  },
+});
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <MantineProvider>
-      <QueryClientProvider client={queryClient}></QueryClientProvider>
-      <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/map" component={MapPage} />
-        <Route>404 Not Found</Route>
-      </Switch>
+      <QueryClientProvider client={queryClient}>
+        <Switch>
+          <Route path="/" component={Home} />
+          <Route path="/map" component={MapPage} />
+          <Route>404 Not Found</Route>
+        </Switch>
+      </QueryClientProvider>
     </MantineProvider>
   </StrictMode>,
 );

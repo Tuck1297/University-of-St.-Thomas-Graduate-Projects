@@ -1,92 +1,63 @@
 "use client";
 
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useRef } from "react";
 import L from "leaflet";
 import { renderToString } from "react-dom/server";
-import { useClusterGroup } from "./ClusteredMap";
+import { useClusterGroup } from "./MapContext";
 
-interface CustomMarkerProps {
+export interface CustomMarkerProps {
   position: [number, number];
-  popupContent?: React.ReactNode;
-  children?: React.ReactNode;
   icon: React.ReactNode;
   iconSize?: [number, number];
   iconAnchor?: [number, number];
   popupAnchor?: [number, number];
   onClick?: () => void;
-  /** Extra options spread into the Leaflet marker (e.g. { accountId }) */
-  markerOptions?: Record<string, unknown>;
+  children?: React.ReactNode;
 }
 
 export default function CustomMarker({
   position,
-  popupContent,
-  children,
   icon,
-  iconSize = [36, 36],
-  iconAnchor,
-  popupAnchor = [0, -18],
+  iconSize = [32, 32],
+  iconAnchor = [16, 16],
+  popupAnchor = [0, -16],
   onClick,
-  markerOptions,
+  children,
 }: CustomMarkerProps) {
-  const resolvedPopup = children ?? popupContent;
   const clusterGroup = useClusterGroup();
   const markerRef = useRef<L.Marker | null>(null);
 
-  // Stabilize markerOptions to avoid unnecessary effect re-runs
-  const serializedOptions = markerOptions
-    ? JSON.stringify(markerOptions)
-    : undefined;
-  const stableOptions = useMemo(
-    () =>
-      serializedOptions
-        ? (JSON.parse(serializedOptions) as Record<string, unknown>)
-        : undefined,
-    [serializedOptions],
-  );
-
   useEffect(() => {
-    const html = renderToString(icon as React.ReactElement);
-    const divIcon = L.divIcon({
-      html,
+    const customIcon = L.divIcon({
+      html: renderToString(<>{icon}</>),
       className: "custom-marker-icon",
       iconSize,
-      iconAnchor: iconAnchor ?? [iconSize[0] / 2, iconSize[1] / 2],
+      iconAnchor,
       popupAnchor,
     });
 
-    const marker = L.marker(position, {
-      icon: divIcon,
-      ...(stableOptions as L.MarkerOptions),
-    });
+    const marker = L.marker(position, { icon: customIcon });
 
     if (onClick) {
-      marker.on("click", onClick);
+      marker.on("click", (e) => {
+        L.DomEvent.stopPropagation(e);
+        onClick();
+      });
     }
 
-    if (resolvedPopup) {
-      const popupHtml = renderToString(resolvedPopup as React.ReactElement);
-      marker.bindPopup(popupHtml);
+    if (children) {
+      marker.bindPopup(renderToString(<>{children}</>));
     }
 
     clusterGroup.addLayer(marker);
     markerRef.current = marker;
 
     return () => {
-      clusterGroup.removeLayer(marker);
-      markerRef.current = null;
+      if (markerRef.current) {
+        clusterGroup.removeLayer(markerRef.current);
+      }
     };
-  }, [
-    position,
-    icon,
-    iconSize,
-    iconAnchor,
-    popupAnchor,
-    onClick,
-    resolvedPopup,
-    clusterGroup,
-    stableOptions,
-  ]);
+  }, [position, icon, iconSize, iconAnchor, popupAnchor, onClick, children, clusterGroup]);
 
   return null;
 }

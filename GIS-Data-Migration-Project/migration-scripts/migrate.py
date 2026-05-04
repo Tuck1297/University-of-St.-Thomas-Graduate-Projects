@@ -2,17 +2,19 @@ import os
 import sys
 import duckdb
 import pandas as pd
+import numpy as np
+import json
 from sqlalchemy import create_engine, text, inspect
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
 
 # Configuration
 DUCKDB_PATH = os.getenv('DUCKDB_PATH', '../duckdb-ingestion/project_data.duckdb')
-POSTGRES_DB = os.getenv('POSTGRES_DB', 'gis_migration')
+POSTGRES_DB = os.getenv('POSTGRES_DB', 'explore_more')
 POSTGRES_USER = os.getenv('POSTGRES_USER', 'postgres')
-POSTGRES_PASSWORD = os.getenv('POSTGRES_PASSWORD', 'password')
+POSTGRES_PASSWORD = os.getenv('POSTGRES_PASSWORD', '')
 POSTGRES_HOST = os.getenv('POSTGRES_HOST', 'localhost')
 POSTGRES_PORT = os.getenv('POSTGRES_PORT', '5432')
 POSTGRES_SCHEMA = os.getenv('POSTGRES_SCHEMA', 'normalized')
@@ -94,6 +96,14 @@ def migrate():
         try:
             # Read ALL data from DuckDB
             df = duck_conn.execute(f"SELECT * FROM normalized.{obj_name}").df()
+
+            # Data cleaning: Convert list-like objects (numpy arrays, lists) to JSON strings
+            # to avoid psycopg2 "can't adapt type" errors during migration.
+            for col in df.columns:
+                # Check if any element in the column is a list or numpy array
+                if df[col].apply(lambda x: isinstance(x, (list, np.ndarray))).any():
+                    print(f"  Cleaning column '{col}': converting list/array to JSON string.")
+                    df[col] = df[col].apply(lambda x: json.dumps(x.tolist() if isinstance(x, np.ndarray) else x) if isinstance(x, (list, np.ndarray)) else x)
 
             # Write to PostgreSQL
             # If it's a view in DuckDB, it becomes a table in PostgreSQL to preserve the calculated data.
