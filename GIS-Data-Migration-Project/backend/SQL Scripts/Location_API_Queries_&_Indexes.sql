@@ -78,6 +78,38 @@ WHERE relevance_score > 0.3
 ORDER BY relevance_score DESC
 LIMIT 30;
 
+
+
+SELECT
+    location_key,
+    name,
+    description,
+    latitude,
+    longitude,
+    ATTRIBUTES,
+    relevance_score
+FROM (
+    SELECT
+        location_key,
+        name,
+        description,
+        latitude,
+        longitude,
+        ATTRIBUTES,
+        GREATEST(
+            word_similarity('gooseberry falls'::text, name),
+            word_similarity('gooseberry falls'::text, description)
+        ) AS relevance_score
+    FROM normalized."Locations"
+    WHERE active_flag = TRUE
+    AND (
+        name ILIKE '%gooseberry falls%'
+        OR description ILIKE '%gooseberry falls%'
+    )
+) scored
+ORDER BY relevance_score DESC
+LIMIT 30;
+
 -- Location Details view that API can use
 
 CREATE OR REPLACE VIEW normalized.v_location_details AS

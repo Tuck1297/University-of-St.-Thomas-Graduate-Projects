@@ -10,14 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mantine/carousel": "^9.1.1",
     "@mantine/core": "^9.1.1",
     "@mantine/hooks": "^9.1.1",
     "@tanstack/react-query": "^5.100.9",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "ky": "^2.0.2",
     "leaflet": "^1.9.4",
     "leaflet-gesture-handling": "^1.2.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
+    "react-icons": "^5.6.0",
     "react-leaflet": "^5.0.0",
     "react-leaflet-cluster": "^4.1.3",
     "vaul": "^1.1.2",

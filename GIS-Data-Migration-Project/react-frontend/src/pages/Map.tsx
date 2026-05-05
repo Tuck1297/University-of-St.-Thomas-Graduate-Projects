@@ -1,4 +1,4 @@
-import { ExploreLayout } from "../components/explore/ExploreLayout";
+import { ExploreLayout } from "../components/ExploreLayout";
 
 export function MapPage() {
   return <ExploreLayout />;

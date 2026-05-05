@@ -11,6 +11,7 @@ export interface CustomMarkerProps {
   iconSize?: [number, number];
   iconAnchor?: [number, number];
   popupAnchor?: [number, number];
+  tooltip?: string;
   onClick?: () => void;
   children?: React.ReactNode;
 }
@@ -21,6 +22,7 @@ export default function CustomMarker({
   iconSize = [32, 32],
   iconAnchor = [16, 16],
   popupAnchor = [0, -16],
+  tooltip,
   onClick,
   children,
 }: CustomMarkerProps) {
@@ -45,6 +47,14 @@ export default function CustomMarker({
       });
     }
 
+    if (tooltip) {
+      marker.bindTooltip(tooltip, {
+        direction: "top",
+        offset: [0, -iconSize[1] + iconAnchor[1] - 30],
+        opacity: 0.8,
+      });
+    }
+
     if (children) {
       marker.bindPopup(renderToString(<>{children}</>));
     }
@@ -57,7 +67,7 @@ export default function CustomMarker({
         clusterGroup.removeLayer(markerRef.current);
       }
     };
-  }, [position, icon, iconSize, iconAnchor, popupAnchor, onClick, children, clusterGroup]);
+  }, [position, icon, iconSize, iconAnchor, popupAnchor, tooltip, onClick, children, clusterGroup]);
 
   return null;
 }

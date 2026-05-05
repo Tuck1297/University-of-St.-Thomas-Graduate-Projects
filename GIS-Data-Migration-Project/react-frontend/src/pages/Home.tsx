@@ -1,121 +1,65 @@
-import { useState } from "react";
-import reactLogo from "../assets/react.svg";
-import viteLogo from "../assets/vite.svg";
-import heroImg from "../assets/hero.png";
+import { Container, Title, Text, Button, Stack, Box } from "@mantine/core";
+import { Link } from "wouter";
 import "../App.css";
 
 function Home() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/Home.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <Box className="home-container">
+      <Container size="md">
+        <Stack className="hero-section">
+          <Title className="home-title" order={1}>
+            Explore More
+          </Title>
 
-      <div className="ticks"></div>
+          <Stack gap="md" className="home-description">
+            <Text>
+              Through studies, attending tech-focused conferences, and
+              professional experience as a front-end developer, I have
+              recognized that those who work closely with data and retain domain
+              knowledge are indispensable. This mindset drove this project,
+              focusing on managing, transforming, and organizing data into a
+              clear, flexible, and easy-to-manage data layer that can be
+              utilized by any application.
+            </Text>
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+            <Text>
+              "Explore More" is a web application focused on collecting and
+              sharing information about state, county, and national parks. The
+              goal is to provide a source more reliable than Google Maps for
+              those who simply want to explore their state.
+            </Text>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+            <Text>
+              Finding information about parks often requires visiting multiple
+              disparate sources like the MN DNR website, national forest pages,
+              or county park sites. This project centralizes that information,
+              solving the problem of sub-par collection from sources like Google
+              and providing a single, reliable hub for outdoor enthusiasts.
+            </Text>
+
+            <Text>
+              This project is a work in progress, so for the purposes of this
+              course the frontend is minimal in nature and likely to have bugs.
+              If you identify any bugs, please let me know via GitHub Issues or
+              email. Additionally, if you have any feedback or suggestions for
+              improvement, I would love to hear them!
+            </Text>
+          </Stack>
+
+          <Link href="/map">
+            <Button
+              className="explore-button"
+              variant="filled"
+              color="blue"
+              radius="xl"
+              size="lg"
+            >
+              Explore the Map
+            </Button>
+          </Link>
+        </Stack>
+      </Container>
+    </Box>
   );
 }
 

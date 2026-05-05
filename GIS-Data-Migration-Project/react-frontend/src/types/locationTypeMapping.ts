@@ -14,7 +14,7 @@ const DEFAULT_STYLE: MarkerStyle = {
  * Mapping of location_type_key to visual styles.
  * Grouped for maintainability.
  */
-const TYPE_MAPPING: Record<number, MarkerStyle> = {
+export const TYPE_MAPPING: Record<number, MarkerStyle> = {
   // Parks & Outdoors (Green/Brown)
   1: { color: "#34a853", emoji: "🏞️", label: "National Park" },
   2: { color: "#34a853", emoji: "🌳", label: "State Park" },

@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import L from "leaflet";
 import { useLeafletMap } from "./MapContext";
-import type { BaseMarker } from "../../types/map.types";
+import type { BaseMarker } from "./../types/map.types";
 
 interface MapPanHandlerProps {
   marker: BaseMarker | null;

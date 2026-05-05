@@ -43,6 +43,18 @@ function ensureMarkerCluster(): Promise<void> {
     return _clusterReady;
   }
   _clusterReady = new Promise<void>((resolve, reject) => {
+    // Load CSS
+    const linkBase = document.createElement("link");
+    linkBase.rel = "stylesheet";
+    linkBase.href = "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css";
+    document.head.appendChild(linkBase);
+
+    const linkDefault = document.createElement("link");
+    linkDefault.rel = "stylesheet";
+    linkDefault.href = "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css";
+    document.head.appendChild(linkDefault);
+
+    // Load Script
     const script = document.createElement("script");
     script.src =
       "https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js";
@@ -54,24 +66,11 @@ function ensureMarkerCluster(): Promise<void> {
   return _clusterReady;
 }
 
-const CLUSTER_CSS = `
-.marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{background-clip:padding-box;border-radius:20px}
-.marker-cluster-small{background-color:rgba(181,226,140,.6)}
-.marker-cluster-small div{background-color:rgba(110,204,57,.6)}
-.marker-cluster-medium{background-color:rgba(241,211,87,.6)}
-.marker-cluster-medium div{background-color:rgba(240,194,12,.6)}
-.marker-cluster-large{background-color:rgba(253,156,115,.6)}
-.marker-cluster-large div{background-color:rgba(241,128,23,.6)}
-.marker-cluster{background-clip:padding-box;border-radius:20px}
-.marker-cluster div{width:30px;height:30px;margin-left:5px;margin-top:5px;text-align:center;border-radius:15px;font:12px "Helvetica Neue",Arial,Helvetica,sans-serif}
-.marker-cluster span{line-height:30px}
-.leaflet-cluster-anim .leaflet-marker-icon,.leaflet-cluster-anim .leaflet-marker-shadow{transition:transform .3s ease-out,opacity .3s ease-in}
-.leaflet-cluster-spider-leg{transition:stroke-dashoffset .3s ease-out,stroke-opacity .3s ease-in}
-`;
-
 export interface ClusteredMapProps {
   center?: [number, number];
   zoom?: number;
+  minZoom?: number;
+  maxZoom?: number;
   children?: ReactNode;
   clusterOptions?: MarkerClusterGroupOptions;
   tileUrl?: string;
@@ -84,29 +83,23 @@ export interface ClusteredMapProps {
 export default function ClusteredMap({
   center = [44.9778, -93.265],
   zoom = 6,
+  minZoom = 2,
+  maxZoom = 21,
   children,
   clusterOptions = {},
-  tileUrl = "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
-  tileAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+  tileUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+  tileAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   className,
   style,
   iconCreateFunction,
 }: ClusteredMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
+  const tileLayerRef = useRef<L.TileLayer | null>(null);
   const [map, setMap] = useState<L.Map | null>(null);
   const [clusterGroup, setClusterGroup] = useState<MarkerClusterGroup | null>(null);
 
-  useEffect(() => {
-    const id = "leaflet-markercluster-css";
-    if (!document.getElementById(id)) {
-      const styleEl = document.createElement("style");
-      styleEl.id = id;
-      styleEl.textContent = CLUSTER_CSS;
-      document.head.appendChild(styleEl);
-    }
-  }, []);
-
+  // Initialize Map
   useEffect(() => {
     const el = containerRef.current;
     if (!el || mapRef.current) return;
@@ -119,11 +112,14 @@ export default function ClusteredMap({
       const m = L.map(el, {
         center,
         zoom,
+        minZoom,
+        maxZoom,
         scrollWheelZoom: true,
         zoomControl: false,
       });
 
-      L.tileLayer(tileUrl, { attribution: tileAttribution }).addTo(m);
+      mapRef.current = m;
+      setMap(m);
 
       const cg = LWithCluster.markerClusterGroup({
         chunkedLoading: true,
@@ -134,9 +130,6 @@ export default function ClusteredMap({
         ...(iconCreateFunction ? { iconCreateFunction } : {}),
       });
       m.addLayer(cg);
-
-      mapRef.current = m;
-      setMap(m);
       setClusterGroup(cg);
 
       setTimeout(() => m.invalidateSize(), 100);
@@ -151,6 +144,27 @@ export default function ClusteredMap({
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Handle Tile Layer Updates
+  useEffect(() => {
+    if (!map) return;
+
+    if (tileLayerRef.current) {
+      tileLayerRef.current.remove();
+    }
+
+    tileLayerRef.current = L.tileLayer(tileUrl, {
+      attribution: tileAttribution,
+      maxZoom,
+    }).addTo(map);
+
+    return () => {
+      if (tileLayerRef.current) {
+        tileLayerRef.current.remove();
+        tileLayerRef.current = null;
+      }
+    };
+  }, [map, tileUrl, tileAttribution, maxZoom]);
 
   return (
     <>

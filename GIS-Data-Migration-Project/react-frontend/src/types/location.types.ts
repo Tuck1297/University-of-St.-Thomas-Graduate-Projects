@@ -53,6 +53,8 @@ export interface MnDnrAttributes {
   site_accessible_drive_in?: boolean;
   max_rv_length?: string;
   rv_pull_through_sites?: boolean;
+  "30_amp_hookup_sites"?: boolean;
+  "50_amp_hookup_sites"?: boolean;
   horse_campsites?: boolean;
   backpack_sites?: boolean;
   group_campsites?: boolean;
@@ -79,6 +81,10 @@ export interface MnDnrAttributes {
   district?: string;
   region?: string;
   county?: string;
+  gis_acres?: number;
+  legislative_id?: string;
+  program_project?: string;
+  guid?: string;
 }
 
 /**

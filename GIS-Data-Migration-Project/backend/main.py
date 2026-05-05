@@ -28,12 +28,10 @@ def read_root():
 
 def parse_attributes(df):
     """Helper to ensure the attributes column is a real JSON object/dict."""
-    if "attributes" in df.columns:
-        df["attributes"] = df["attributes"].apply(
-            lambda x: json.loads(x) if isinstance(x, str) else x
-        )
-    elif "ATTRIBUTES" in df.columns:
-        df["ATTRIBUTES"] = df["ATTRIBUTES"].apply(
+    # Look for both cases as they might vary by DB/Pandas version
+    col_name = "ATTRIBUTES" if "ATTRIBUTES" in df.columns else "attributes"
+    if col_name in df.columns:
+        df[col_name] = df[col_name].apply(
             lambda x: json.loads(x) if isinstance(x, str) else x
         )
     return df
@@ -59,9 +57,8 @@ def get_locations_in_bbox(
                 description,
                 latitude,
                 longitude,
-                ATTRIBUTES,
-                location_type_key,
-                ST_SetSRID(ST_MakePoint(longitude, latitude), 4326) AS geom
+                ATTRIBUTES::text,
+                location_type_key
             FROM normalized."Locations"
             WHERE active_flag = TRUE
             AND ST_Within(
@@ -69,20 +66,28 @@ def get_locations_in_bbox(
                 ST_MakeEnvelope(:min_lon, :min_lat, :max_lon, :max_lat, 4326)
             );
         """)
-
+        
         params = {
             "min_lon": min_lon,
             "min_lat": min_lat,
             "max_lon": max_lon,
             "max_lat": max_lat
         }
-
+        
         with engine.connect() as conn:
-            gdf = gpd.read_postgis(query, conn, geom_col="geom", params=params)
+            df = pd.read_sql(query, conn, params=params)
+        
+        if df.empty:
+            return Response(content=json.dumps({"type": "FeatureCollection", "features": []}), media_type="application/json")
 
-        # Ensure attributes are nested objects, not strings
+        # Manually create GeoDataFrame from lat/lon
+        gdf = gpd.GeoDataFrame(
+            df, 
+            geometry=gpd.points_from_xy(df.longitude, df.latitude),
+            crs="EPSG:4326"
+        )
+        
         gdf = parse_attributes(gdf)
-
         return Response(content=gdf.to_json(), media_type="application/json")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -106,10 +111,9 @@ def search_locations(
                 description,
                 latitude,
                 longitude,
-                ATTRIBUTES,
+                ATTRIBUTES::text,
                 location_type_key,
-                relevance_score,
-                ST_SetSRID(ST_MakePoint(longitude, latitude), 4326) AS geom
+                relevance_score
             FROM (
                 SELECT
                     location_key,
@@ -118,6 +122,7 @@ def search_locations(
                     latitude,
                     longitude,
                     ATTRIBUTES,
+                    location_type_key,
                     GREATEST(
                         word_similarity(:q, lower(name)),
                         word_similarity(:q, lower(description))
@@ -125,21 +130,28 @@ def search_locations(
                 FROM normalized."Locations"
                 WHERE active_flag = TRUE
                 AND (
-                    :q <% lower(name)
-                    OR :q <% lower(description)
+                    name ILIKE :q_pattern
+                    OR description ILIKE :q_pattern
                 )
             ) scored
-            WHERE relevance_score > 0.3
             ORDER BY relevance_score DESC
             LIMIT 30;
         """)
-
+        
         with engine.connect() as conn:
-            gdf = gpd.read_postgis(query, conn, geom_col="geom", params={"q": lower_q})
+            df = pd.read_sql(query, conn, params={"q": lower_q, "q_pattern": f"%{q}%"})
+        
+        if df.empty:
+            return Response(content=json.dumps({"type": "FeatureCollection", "features": []}), media_type="application/json")
 
-        # Ensure attributes are nested objects, not strings
+        # Manually create GeoDataFrame from lat/lon
+        gdf = gpd.GeoDataFrame(
+            df, 
+            geometry=gpd.points_from_xy(df.longitude, df.latitude),
+            crs="EPSG:4326"
+        )
+        
         gdf = parse_attributes(gdf)
-
         return Response(content=gdf.to_json(), media_type="application/json")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -159,6 +171,7 @@ def get_location_by_key(
             SELECT *
             FROM normalized."v_location_details"
             WHERE location_key = {location_key}
+            AND active_flag = TRUE
         """
         df = pd.read_sql(query, engine)
 

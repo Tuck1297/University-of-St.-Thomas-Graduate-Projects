@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { useLeafletMap } from "./MapContext";
-import type { BBox } from "../../hooks/useApi";
+import type { BBox } from "../hooks/useApi";
 
 interface MapBoundsHandlerProps {
   onBoundsChange: (bounds: BBox) => void;

@@ -1,25 +1,34 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import MapWrapper from "../core/MapWrapper";
-import CustomMarker from "../core/CustomMarker";
-import MapPanHandler from "../core/MapPanHandler";
-import MapBoundsHandler from "../core/MapBoundsHandler";
+import MapWrapper from "./MapWrapper";
+import CustomMarker from "./CustomMarker";
+import MapPanHandler from "./MapPanHandler";
+import MapBoundsHandler from "./MapBoundsHandler";
+import MapSearchHandler from "./MapSearchHandler";
 import { useResponsiveMode } from "../hooks/useResponsiveMode";
 import { useMapStore } from "../hooks/useMapStore";
 import { LocationCard } from "./LocationCard";
 import { FloatingSearch } from "./FloatingSearch";
 import { FloatingActions } from "./FloatingActions";
-import { useLocations, useSearch, type BBox, type LocationFeature } from "../../hooks/useApi";
+import { usePersistentLocations, useSearch, type BBox, type LocationFeature } from "../hooks/useApi";
 import { useDebouncedValue } from "@mantine/hooks";
-import type { PoiMarker } from "../../types/map.types";
-import { getStyleForType } from "../../types/locationTypeMapping";
-import type { MarkerClusterLike } from "../core/MapContext";
-import L from "leaflet";
+import type { PoiMarker } from "../types/map.types";
+import { getStyleForType } from "../types/locationTypeMapping";
 
 // Minneapolis center
 const MINNEAPOLIS_CENTER: [number, number] = [44.96, -93.27];
 const DEFAULT_ZOOM = 12;
+const MAX_ZOOM = 21;
+
+const VOYAGER_TILE_URL = "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png";
+const VOYAGER_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>';
+
+const OSM_TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+const OSM_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+
+const SATELLITE_TILE_URL = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
+const SATELLITE_ATTRIBUTION = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community';
 
 // Teardrop / pin shape: rounded top, pointed bottom
 function PinIcon({ color, emoji }: { color: string; emoji: string }) {
@@ -69,33 +78,6 @@ function PinIcon({ color, emoji }: { color: string; emoji: string }) {
   );
 }
 
-// Cluster icon factory
-function createClusterIcon(cluster: unknown) {
-  const count = (cluster as MarkerClusterLike).getChildCount();
-  return L.divIcon({
-    html: `
-      <div style="
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        background: #ffffff;
-        border: 2px solid #4285f4;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 13px;
-        font-weight: 700;
-        color: #4285f4;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      ">${count}</div>
-    `,
-    className: "explore-cluster-icon",
-    iconSize: [36, 36],
-    iconAnchor: [18, 18],
-  });
-}
-
 function mapFeatureToPoi(feature: LocationFeature): PoiMarker {
   const { properties } = feature;
 
@@ -112,38 +94,66 @@ function mapFeatureToPoi(feature: LocationFeature): PoiMarker {
 export function ExploreLayout() {
   const selectedMarker = useMapStore((s) => s.selectedMarker);
   const setSelectedMarker = useMapStore((s) => s.setSelectedMarker);
+  const userLocation = useMapStore((s) => s.userLocation);
+  const setUserLocation = useMapStore((s) => s.setUserLocation);
   const filters = useMapStore((s) => s.filters);
+  const mapType = useMapStore((s) => s.mapType);
   const mode = useResponsiveMode();
 
-  const [bounds, setBounds] = useState<BBox | null>(null);
-  const [debouncedBounds] = useDebouncedValue(bounds, 2000);
+  const activeMarker = selectedMarker || userLocation;
+const [bounds, setBounds] = useState<BBox | null>(null);
+const [debouncedBounds] = useDebouncedValue(bounds, 2000);
 
-  // Queries
-  const { data: bboxData, isLoading: isBboxLoading } = useLocations(debouncedBounds);
-  const { data: searchData, isLoading: isSearchLoading } = useSearch(filters.search);
+// Queries
+const { data: bboxData, isLoading: isBboxLoading } = usePersistentLocations(debouncedBounds);
+const { data: searchData, isLoading: isSearchLoading } = useSearch(filters.search);
 
-  // Apply filters and merge results
-  const filteredPois = useMemo(() => {
-    const isSearching = filters.search.trim() !== "";
-    const rawFeatures = isSearching 
-      ? searchData?.features || [] 
-      : bboxData?.features || [];
+// Apply filters and merge results
+const isSearching = filters.search.trim() !== "";
 
-    return rawFeatures.map(mapFeatureToPoi).filter((poi) => {
-      const matchesType =
-        filters.locationTypes.length === 0 ||
-        filters.locationTypes.includes(poi.locationTypeKey);
+const filteredPois = useMemo(() => {
+  const rawFeatures = isSearching 
+    ? searchData?.features || [] 
+    : bboxData?.features || [];
 
-      return matchesType;
-    });
-  }, [filters.search, filters.locationTypes, bboxData, searchData]);
+  return rawFeatures.map(mapFeatureToPoi).filter((poi: PoiMarker) => {
+    const matchesType =
+      filters.locationTypes.length === 0 ||
+      filters.locationTypes.includes(poi.locationTypeKey);
+
+    return matchesType;
+  });
+}, [isSearching, filters.locationTypes, bboxData, searchData]);
+
+
 
   const clusterOptions = useMemo(
     () => ({
-      iconCreateFunction: createClusterIcon,
+      // Use default Leaflet.markercluster styles
     }),
     [],
   );
+
+  const tileProps = useMemo(() => {
+    switch (mapType) {
+      case "satellite":
+        return {
+          tileUrl: SATELLITE_TILE_URL,
+          tileAttribution: SATELLITE_ATTRIBUTION,
+        };
+      case "osm":
+        return {
+          tileUrl: OSM_TILE_URL,
+          tileAttribution: OSM_ATTRIBUTION,
+        };
+      case "voyager":
+      default:
+        return {
+          tileUrl: VOYAGER_TILE_URL,
+          tileAttribution: VOYAGER_ATTRIBUTION,
+        };
+    }
+  }, [mapType]);
 
   return (
     <div
@@ -159,15 +169,17 @@ export function ExploreLayout() {
         <MapWrapper
           center={MINNEAPOLIS_CENTER}
           zoom={DEFAULT_ZOOM}
+          maxZoom={MAX_ZOOM}
           clusterOptions={clusterOptions}
           style={{ width: "100%", height: "100%" }}
+          {...tileProps}
         >
           {/* FloatingActions must be INSIDE MapContainer to use useMap() */}
           <FloatingActions />
 
           {/* MapPanHandler pans/flies to selected marker */}
           <MapPanHandler
-            marker={selectedMarker}
+            marker={activeMarker}
             mode={mode}
             sidebarWidth={366}
             drawerHeight={320}
@@ -176,13 +188,38 @@ export function ExploreLayout() {
           {/* Track map bounds */}
           <MapBoundsHandler onBoundsChange={setBounds} />
 
+          {/* Fit map to search results */}
+          <MapSearchHandler 
+            results={filteredPois} 
+            isSearching={isSearching} 
+          />
+
+          {/* User location marker */}
+          {userLocation && (
+            <CustomMarker
+              position={[userLocation.lat, userLocation.lng]}
+              tooltip={userLocation.name}
+              icon={
+                <PinIcon
+                  color="#4285f4"
+                  emoji="👤"
+                />
+              }
+              iconSize={[32, 40]}
+              iconAnchor={[16, 40]}
+              popupAnchor={[0, -44]}
+              onClick={() => setUserLocation(userLocation)}
+            />
+          )}
+
           {/* POI markers */}
-          {filteredPois.map((poi) => {
+          {filteredPois.map((poi: PoiMarker) => {
             const style = getStyleForType(poi.locationTypeKey);
             return (
               <CustomMarker
                 key={poi.id}
                 position={[poi.lat, poi.lng]}
+                tooltip={poi.name}
                 icon={
                   <PinIcon
                     color={style.color}
@@ -221,6 +258,7 @@ export function ExploreLayout() {
       <FloatingSearch />
 
       {/* Location detail card — overlaid on the map */}
+
       <LocationCard />
     </div>
   );

@@ -1,39 +1,51 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { useMapStore } from "../hooks/useMapStore";
-
-interface TypeOption {
-  value: number;
-  label: string;
-  color: string;
-}
-
-const COMMON_TYPES: TypeOption[] = [
-  { value: 1, label: "National Park", color: "#34a853" },
-  { value: 2, label: "State Park", color: "#34a853" },
-  { value: 6, label: "Campground", color: "#fbbc04" },
-  { value: 126, label: "Restaurant", color: "#ea4335" },
-  { value: 80, label: "Attraction", color: "#f4b400" },
-  { value: 91, label: "Historical", color: "#9334e6" },
-];
+import { TYPE_MAPPING } from "../types/locationTypeMapping";
+import { useDebouncedCallback } from "@mantine/hooks";
 
 export function FloatingSearch() {
   const [showFilters, setShowFilters] = useState(false);
-  const [searchValue, setSearchValue] = useState("");
+  const search = useMapStore((s) => s.filters.search);
+  const [searchValue, setSearchValue] = useState(search);
+  const [prevSearch, setPrevSearch] = useState(search);
   const locationTypes = useMapStore((s) => s.filters.locationTypes);
   const setFilters = useMapStore((s) => s.setFilters);
+
+  // Sync local value with store during render (recommended over useEffect)
+  if (search !== prevSearch) {
+    setPrevSearch(search);
+    setSearchValue(search);
+  }
+
+  const debouncedSetFilters = useDebouncedCallback((value: string) => {
+    setFilters({ search: value });
+  }, 300);
+
+  // Group unique types for cleaner filtering
+  const filterOptions = useMemo(() => {
+    const seen = new Set<string>();
+    return Object.entries(TYPE_MAPPING)
+      .map(([key, style]) => ({ value: Number(key), ...style }))
+      .filter((opt) => {
+        if (seen.has(opt.label)) return false;
+        seen.add(opt.label);
+        return true;
+      })
+      .slice(0, 12); // Limit to top/representative types for the UI
+  }, []);
 
   function handleSearchChange(e: React.ChangeEvent<HTMLInputElement>) {
     const value = e.target.value;
     setSearchValue(value);
-    setFilters({ search: value });
+    debouncedSetFilters(value);
   }
 
   function handleTypeClick(typeKey: number) {
     const isSelected = locationTypes.includes(typeKey);
     if (isSelected) {
-      setFilters({ locationTypes: locationTypes.filter(t => t !== typeKey) });
+      setFilters({ locationTypes: locationTypes.filter((t) => t !== typeKey) });
     } else {
       setFilters({ locationTypes: [...locationTypes, typeKey] });
     }
@@ -105,9 +117,7 @@ export function FloatingSearch() {
         <button
           type="button"
           onClick={() => setShowFilters((prev) => !prev)}
-          aria-label={
-            showFilters ? "Hide type filters" : "Show type filters"
-          }
+          aria-label={showFilters ? "Hide type filters" : "Show type filters"}
           aria-pressed={showFilters}
           style={{
             display: "flex",
@@ -153,12 +163,11 @@ export function FloatingSearch() {
             display: "flex",
             gap: 6,
             overflowX: "auto",
-            scrollbarWidth: "none",
           }}
           role="group"
           aria-label="Filter by location type"
         >
-          {COMMON_TYPES.map((type) => {
+          {filterOptions.map((type) => {
             const isActive = locationTypes.includes(type.value);
             return (
               <button
@@ -183,17 +192,9 @@ export function FloatingSearch() {
                   transition: "all 0.15s ease",
                 }}
               >
-                <span
-                  style={{
-                    width: 8,
-                    height: 8,
-                    borderRadius: "50%",
-                    background: type.color,
-                    display: "inline-block",
-                    flexShrink: 0,
-                  }}
-                  aria-hidden="true"
-                />
+                <span style={{ fontSize: "14px" }} aria-hidden="true">
+                  {type.emoji}
+                </span>
                 {type.label}
               </button>
             );
