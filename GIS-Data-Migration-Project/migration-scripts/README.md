@@ -49,7 +49,7 @@ This project contains scripts to migrate data from a DuckDB database (specifical
 To execute the migration, run:
 
 ```bash
-python migrate.py
+python migrate_duckdb.py
 ```
 
 The script will:

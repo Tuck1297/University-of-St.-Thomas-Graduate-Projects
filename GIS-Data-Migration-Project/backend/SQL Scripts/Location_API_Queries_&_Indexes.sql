@@ -21,7 +21,7 @@ SELECT
 FROM pg_catalog.pg_statio_user_tables
 ORDER BY pg_total_relation_size(relid) DESC;
 
--- Geospatial View based on Map bounds that will return either top level locations with each of their children location keys
+-- Geospatial query based on Map bounds that will return either top level locations with each of their children location keys
 
 SELECT
     location_key,
@@ -36,6 +36,46 @@ AND ST_Within(
     ST_SetSRID(ST_MakePoint(longitude, latitude), 4326),
     ST_MakeEnvelope(-93.68649898905576, 44.988737408669515, -93.42591613314968, 45.07522451764426, 4326) -- min_lon, min_lat, max_lon, max_lat
 );
+
+-- Geospatial query calculates milage distance from a given point and returns locations
+SELECT
+    location_key,
+    name,
+    latitude,
+    longitude,
+    ROUND(
+        ST_Distance(
+            ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)::geography,
+            ST_SetSRID(ST_MakePoint(-93.19142236787896, 44.943666282936604), 4326)::geography
+        )::numeric / 1609.344, -- convert meters to miles
+        2
+    ) AS distance_miles
+FROM normalized."Locations"
+WHERE active_flag = TRUE
+ORDER BY distance_miles ASC;
+
+-- Geospatial query that returns locations with a calculated bounding box of 10 miles around them
+SELECT
+    location_key,
+    name,
+    latitude,
+    longitude,
+    ROUND(
+        ST_Distance(
+            ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)::geography,
+            ST_SetSRID(ST_MakePoint(-93.19142236787896, 44.943666282936604), 4326)::geography
+        )::numeric / 1609.344,
+        2
+    ) AS distance_miles
+FROM normalized."Locations"
+WHERE active_flag = TRUE
+AND ST_Distance(
+    ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)::geography,
+    ST_SetSRID(ST_MakePoint(-93.19142236787896, 44.943666282936604), 4326)::geography
+) <= 32186.9  -- 20 miles in meters (20 * 1609.344)
+ORDER BY distance_miles ASC;
+
+
 
 -- Search Endpoint based on Location name and/or description that API can use
 
